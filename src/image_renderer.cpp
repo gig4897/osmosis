@@ -4,7 +4,7 @@
 #include <FS.h>
 #include <SPIFFS.h>
 
-// Static heap-allocated buffer for decompressed 120x120 RGB565 image
+// Static heap-allocated buffer for decompressed RGB565 image (72x72 = 10368 bytes)
 static uint16_t* imageBuffer = nullptr;
 static bool imageLoaded = false;
 

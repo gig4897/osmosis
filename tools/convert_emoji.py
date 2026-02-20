@@ -7,7 +7,7 @@ import struct
 from pathlib import Path
 from PIL import Image
 
-IMG_SIZE = 120
+IMG_SIZE = 72
 
 def rgb888_to_rgb565(r, g, b):
     return ((r & 0xF8) << 8) | ((g & 0xFC) << 3) | (b >> 3)

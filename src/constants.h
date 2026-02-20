@@ -23,14 +23,14 @@ constexpr int NUM_STRIPS = SCREEN_H / STRIP_H;  // 32
 // Header bar
 constexpr int HEADER_H = 30;
 
-// Image area
-constexpr int IMG_W = 120;
-constexpr int IMG_H = 120;
-constexpr int IMG_X = (SCREEN_W - IMG_W) / 2;  // 60
-constexpr int IMG_Y = HEADER_H + 15;            // 45
+// Image area (72x72 native Twemoji size for optimal SPIFFS budget)
+constexpr int IMG_W = 72;
+constexpr int IMG_H = 72;
+constexpr int IMG_X = (SCREEN_W - IMG_W) / 2;  // 84
+constexpr int IMG_Y = HEADER_H + 30;            // 60
 
 // Word box
-constexpr int WORD_BOX_Y = IMG_Y + IMG_H + 15;  // 180
+constexpr int WORD_BOX_Y = IMG_Y + IMG_H + 20;  // 152
 constexpr int WORD_BOX_W = 200;
 constexpr int WORD_BOX_H = 70;
 constexpr int WORD_BOX_X = (SCREEN_W - WORD_BOX_W) / 2;  // 20
