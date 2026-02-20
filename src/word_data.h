@@ -88,7 +88,7 @@ const WordEntry WORD_LIST[] PROGMEM = {
     {"queso", "cheese", "queso", "\xF0\x9F\xA7\x80", "food"},                   // 62 U+1F9C0
     {"sal", "salt", "sal", "\xF0\x9F\xA7\x82", "food"},                         // 63 U+1F9C2
     {"naranja", "orange", "naranja", "\xF0\x9F\x8D\x8A", "food"},               // 64 U+1F34A
-    {"lim\xC3\xB3n", "lemon", "limon", "\xF0\x9F\x8B", "food"},                // 65 U+1F34B
+    {"lim\xC3\xB3n", "lemon", "limon", "\xF0\x9F\x8D\x8B", "food"},            // 65 U+1F34B
     {"pl\xC3\xA1tano", "banana", "platano", "\xF0\x9F\x8D\x8C", "food"},       // 66 U+1F34C
     {"uva", "grape", "uva", "\xF0\x9F\x8D\x87", "food"},                        // 67 U+1F347
     {"fresa", "strawberry", "fresa", "\xF0\x9F\x8D\x93", "food"},               // 68 U+1F353
