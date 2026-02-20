@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include <SPIFFS.h>
 #include "constants.h"
 #include "display_manager.h"
 #include "splash_screen.h"
@@ -12,6 +13,11 @@ void setup() {
     Serial.println("Osmosis v1.0.0 booting...");
 
     display.init();
+
+    if (!SPIFFS.begin(true)) {
+        Serial.println("SPIFFS mount failed!");
+    }
+
     splash::show();
     touch.init();
 
