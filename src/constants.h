@@ -68,7 +68,7 @@ constexpr uint16_t CLR_BTN_INACTIVE  = 0x2104;
 
 // === Settings Defaults ===
 constexpr uint8_t DEFAULT_WORDS_PER_DAY  = 15;
-constexpr uint8_t DEFAULT_DISPLAY_SECS   = 60;
+constexpr uint16_t DEFAULT_DISPLAY_SECS  = 60;
 constexpr uint8_t DEFAULT_BRIGHTNESS     = 1;
 
 // === Timing ===

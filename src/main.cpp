@@ -3,6 +3,7 @@
 #include "display_manager.h"
 #include "splash_screen.h"
 #include "touch_handler.h"
+#include "settings_manager.h"
 
 static uint32_t lastTouchPoll = 0;
 
@@ -13,6 +14,9 @@ void setup() {
     display.init();
     splash::show();
     touch.init();
+
+    settingsMgr.init();
+    display.setBrightnessLevel(settingsMgr.settings().brightness);
 }
 
 void loop() {
