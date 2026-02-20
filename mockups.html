@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Osmosis - Emoji Size Comparison</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: #1a1a2e;
+    color: #e0e0e0;
+    padding: 40px 20px;
+  }
+  h1 { text-align: center; color: #00d4aa; font-size: 2em; margin-bottom: 10px; }
+  .subtitle { text-align: center; color: #888; margin-bottom: 40px; font-size: 0.95em; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .option {
+    background: #16213e;
+    border-radius: 16px;
+    padding: 24px;
+    border: 2px solid #0f3460;
+    transition: border-color 0.3s;
+  }
+  .option:hover { border-color: #00d4aa; }
+  .option h2 { color: #00d4aa; font-size: 1.1em; margin-bottom: 4px; }
+  .option .stats { color: #888; font-size: 0.85em; margin-bottom: 16px; }
+
+  /* Actual ESP32 screen: 240x320 */
+  .screen {
+    width: 240px;
+    height: 320px;
+    margin: 0 auto;
+    border: 3px solid #333;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header {
+    width: 100%;
+    background: linear-gradient(135deg, #1a4a6b, #0a3a5a);
+    padding: 6px 0;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .header .title {
+    font-family: monospace;
+    font-size: 14px;
+    color: #4fc3f7;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+  .header .lang {
+    font-size: 9px;
+    color: #80b0cc;
+    font-style: italic;
+  }
+  .card-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: linear-gradient(180deg, #0a1628, #0d1f3c);
+    width: 100%;
+  }
+  .word-box {
+    background: rgba(79, 195, 247, 0.1);
+    border: 1px solid #4fc3f7;
+    border-radius: 8px;
+    padding: 10px 24px;
+    text-align: center;
+  }
+  .spanish-word {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 4px;
+    margin-bottom: 4px;
+  }
+  .english-word {
+    font-size: 14px;
+    color: #80b0cc;
+    font-style: italic;
+  }
+  .card-counter {
+    font-size: 10px;
+    color: #555;
+    margin-top: 10px;
+  }
+
+  /* Splash screen */
+  .splash-section {
+    max-width: 1400px;
+    margin: 60px auto 0;
+    text-align: center;
+  }
+  .splash-section h2 { color: #00d4aa; margin-bottom: 20px; }
+  .splash-screen {
+    width: 240px;
+    height: 320px;
+    margin: 0 auto;
+    border: 3px solid #333;
+    border-radius: 4px;
+    background: radial-gradient(ellipse at center, #1a3a5a 0%, #0a0a1a 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .splash-logo {
+    font-size: 10px;
+    color: #00d4aa;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    margin-bottom: 20px;
+  }
+  .splash-title {
+    font-size: 32px;
+    font-weight: 900;
+    color: #00d4aa;
+    letter-spacing: 6px;
+    margin-bottom: 6px;
+    text-shadow: 0 0 30px rgba(0, 212, 170, 0.4);
+  }
+  .splash-tagline {
+    font-size: 11px;
+    color: #5a9a8a;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+  }
+  .splash-dots {
+    display: flex;
+    gap: 8px;
+  }
+  .splash-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #00d4aa;
+    animation: pulse 1.5s infinite;
+  }
+  .splash-dot:nth-child(2) { animation-delay: 0.3s; }
+  .splash-dot:nth-child(3) { animation-delay: 0.6s; }
+  @keyframes pulse {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+  }
+  .splash-version {
+    font-size: 9px;
+    color: #334;
+    margin-top: 30px;
+  }
+
+  /* Multiple example cards section */
+  .examples-section {
+    max-width: 1400px;
+    margin: 60px auto 0;
+    text-align: center;
+  }
+  .examples-section h2 { color: #00d4aa; margin-bottom: 8px; }
+  .examples-section .subtitle { margin-bottom: 20px; }
+  .examples-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .mini-screen {
+    width: 240px;
+    height: 320px;
+    margin: 0 auto;
+    border: 2px solid #333;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+</style>
+</head>
+<body>
+
+<h1>OSMOSIS - Emoji Icon Size Comparison</h1>
+<p class="subtitle">Same 240x320 screen, different emoji sizes. Which feels right?</p>
+
+<div class="grid">
+
+  <!-- SIZE 1: 80px emoji -->
+  <div class="option">
+    <h2>Size 1: 80px Emoji</h2>
+    <p class="stats">Moderate - icon is visible but text stays prominent</p>
+    <div class="screen">
+      <div class="header">
+        <div class="title">OSMOSIS</div>
+        <div class="lang">~ Spanish ~</div>
+      </div>
+      <div class="card-area">
+        <div style="font-size: 80px; line-height: 1; margin-bottom: 16px;">🏠</div>
+        <div class="word-box">
+          <div class="spanish-word">CASA</div>
+          <div class="english-word">house</div>
+        </div>
+        <div class="card-counter">Card 42 / 800</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIZE 2: 100px emoji -->
+  <div class="option">
+    <h2>Size 2: 100px Emoji</h2>
+    <p class="stats">Large - emoji dominates upper area, text clear below</p>
+    <div class="screen">
+      <div class="header">
+        <div class="title">OSMOSIS</div>
+        <div class="lang">~ Spanish ~</div>
+      </div>
+      <div class="card-area">
+        <div style="font-size: 100px; line-height: 1; margin-bottom: 14px;">🏠</div>
+        <div class="word-box">
+          <div class="spanish-word">CASA</div>
+          <div class="english-word">house</div>
+        </div>
+        <div class="card-counter">Card 42 / 800</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIZE 3: 120px emoji -->
+  <div class="option">
+    <h2>Size 3: 120px Emoji</h2>
+    <p class="stats">Extra large - emoji fills most of the screen, bold visual</p>
+    <div class="screen">
+      <div class="header">
+        <div class="title">OSMOSIS</div>
+        <div class="lang">~ Spanish ~</div>
+      </div>
+      <div class="card-area">
+        <div style="font-size: 120px; line-height: 1; margin-bottom: 10px;">🏠</div>
+        <div class="word-box">
+          <div class="spanish-word">CASA</div>
+          <div class="english-word">house</div>
+        </div>
+        <div class="card-counter">Card 42 / 800</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIZE 4: 140px emoji, compact text -->
+  <div class="option">
+    <h2>Size 4: 140px Emoji</h2>
+    <p class="stats">Maximum - emoji hero, compact text at bottom</p>
+    <div class="screen">
+      <div class="header">
+        <div class="title">OSMOSIS</div>
+        <div class="lang">~ Spanish ~</div>
+      </div>
+      <div class="card-area">
+        <div style="font-size: 140px; line-height: 1; margin-bottom: 6px;">🏠</div>
+        <div class="word-box" style="padding: 8px 20px;">
+          <div class="spanish-word" style="font-size: 24px;">CASA</div>
+          <div class="english-word" style="font-size: 12px;">house</div>
+        </div>
+        <div class="card-counter">Card 42 / 800</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Example cards with different words at the chosen-ish 120px size -->
+<div class="examples-section">
+  <h2>Sample Cards at 120px</h2>
+  <p class="subtitle">Here's how different word categories would look at the 120px size</p>
+  <div class="examples-grid">
+
+    <div class="mini-screen">
+      <div class="header">
+        <div class="title">OSMOSIS</div>
+        <div class="lang">~ Spanish ~</div>
+      </div>
+      <div class="card-area">
+        <div style="font-size: 120px; line-height: 1; margin-bottom: 10px;">🐕</div>
+        <div class="word-box">
+          <div class="spanish-word">PERRO</div>
+          <div class="english-word">dog</div>
+        </div>
+        <div class="card-counter">Card 5 / 800</div>
+      </div>
+    </div>
+
+    <div class="mini-screen">
+      <div class="header">
+        <div class="title">OSMOSIS</div>
+        <div class="lang">~ Spanish ~</div>
+      </div>
+      <div class="card-area">
+        <div style="font-size: 120px; line-height: 1; margin-bottom: 10px;">💧</div>
+        <div class="word-box">
+          <div class="spanish-word">AGUA</div>
+          <div class="english-word">water</div>
+        </div>
+        <div class="card-counter">Card 12 / 800</div>
+      </div>
+    </div>
+
+    <div class="mini-screen">
+      <div class="header">
+        <div class="title">OSMOSIS</div>
+        <div class="lang">~ Spanish ~</div>
+      </div>
+      <div class="card-area">
+        <div style="font-size: 120px; line-height: 1; margin-bottom: 10px;">📖</div>
+        <div class="word-box">
+          <div class="spanish-word">LIBRO</div>
+          <div class="english-word">book</div>
+        </div>
+        <div class="card-counter">Card 31 / 800</div>
+      </div>
+    </div>
+
+    <div class="mini-screen">
+      <div class="header">
+        <div class="title">OSMOSIS</div>
+        <div class="lang">~ Spanish ~</div>
+      </div>
+      <div class="card-area">
+        <div style="font-size: 120px; line-height: 1; margin-bottom: 10px;">☀️</div>
+        <div class="word-box">
+          <div class="spanish-word">SOL</div>
+          <div class="english-word">sun</div>
+        </div>
+        <div class="card-counter">Card 67 / 800</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Splash Screen Preview -->
+<div class="splash-section">
+  <h2>Splash Screen</h2>
+  <p class="subtitle">Shown on boot while the device initializes</p>
+  <div class="splash-screen">
+    <div class="splash-logo">▽ ▽ ▽</div>
+    <div class="splash-title">OSMOSIS</div>
+    <div class="splash-tagline">LEARN BY IMMERSION</div>
+    <div class="splash-dots">
+      <div class="splash-dot"></div>
+      <div class="splash-dot"></div>
+      <div class="splash-dot"></div>
+    </div>
+    <div class="splash-version">v1.0 — Spanish</div>
+    <div style="font-size: 9px; color: #5a9a8a; margin-top: 8px; letter-spacing: 1px;">by VCodeworks LLC</div>
+  </div>
+</div>
+
+</body>
+</html>
