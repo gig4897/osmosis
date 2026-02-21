@@ -1,0 +1,151 @@
+{
+  "language": "portuguese",
+  "languageDisplay": "Portuguese",
+  "tier": "beginner",
+  "tierDisplay": "Beginner",
+  "version": 1,
+  "wordCount": 20,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "água",
+      "english": "water",
+      "phonetic": "AH-gwah",
+      "emoji": "1f4a7",
+      "category": "nature"
+    },
+    {
+      "word": "casa",
+      "english": "house",
+      "phonetic": "KAH-zah",
+      "emoji": "1f3e0",
+      "category": "home"
+    },
+    {
+      "word": "homem",
+      "english": "man",
+      "phonetic": "OH-mehn",
+      "emoji": "1f468",
+      "category": "people"
+    },
+    {
+      "word": "mulher",
+      "english": "woman",
+      "phonetic": "mool-YEHR",
+      "emoji": "1f469",
+      "category": "people"
+    },
+    {
+      "word": "menino",
+      "english": "boy",
+      "phonetic": "meh-NEE-noo",
+      "emoji": "1f466",
+      "category": "people"
+    },
+    {
+      "word": "mão",
+      "english": "hand",
+      "phonetic": "mowng",
+      "emoji": "270b",
+      "category": "body"
+    },
+    {
+      "word": "olho",
+      "english": "eye",
+      "phonetic": "OH-lyoo",
+      "emoji": "1f441",
+      "category": "body"
+    },
+    {
+      "word": "sol",
+      "english": "sun",
+      "phonetic": "sohl",
+      "emoji": "2600",
+      "category": "weather"
+    },
+    {
+      "word": "cachorro",
+      "english": "dog",
+      "phonetic": "kah-SHOH-hoo",
+      "emoji": "1f415",
+      "category": "animals"
+    },
+    {
+      "word": "gato",
+      "english": "cat",
+      "phonetic": "GAH-too",
+      "emoji": "1f408",
+      "category": "animals"
+    },
+    {
+      "word": "livro",
+      "english": "book",
+      "phonetic": "LEE-vroo",
+      "emoji": "1f4d6",
+      "category": "objects"
+    },
+    {
+      "word": "terra",
+      "english": "earth",
+      "phonetic": "TEH-hah",
+      "emoji": "1f30d",
+      "category": "nature"
+    },
+    {
+      "word": "fogo",
+      "english": "fire",
+      "phonetic": "FOH-goo",
+      "emoji": "1f525",
+      "category": "nature"
+    },
+    {
+      "word": "coração",
+      "english": "heart",
+      "phonetic": "koh-rah-SOWNG",
+      "emoji": "2764",
+      "category": "body"
+    },
+    {
+      "word": "flor",
+      "english": "flower",
+      "phonetic": "flohr",
+      "emoji": "1f338",
+      "category": "nature"
+    },
+    {
+      "word": "menina",
+      "english": "girl",
+      "phonetic": "meh-NEE-nah",
+      "emoji": "1f467",
+      "category": "people"
+    },
+    {
+      "word": "lua",
+      "english": "moon",
+      "phonetic": "LOO-ah",
+      "emoji": "1f319",
+      "category": "weather"
+    },
+    {
+      "word": "estrela",
+      "english": "star",
+      "phonetic": "ehs-TREH-lah",
+      "emoji": "2b50",
+      "category": "weather"
+    },
+    {
+      "word": "pão",
+      "english": "bread",
+      "phonetic": "powng",
+      "emoji": "1f35e",
+      "category": "food"
+    },
+    {
+      "word": "leite",
+      "english": "milk",
+      "phonetic": "LAY-chee",
+      "emoji": "1f95b",
+      "category": "food"
+    }
+  ]
+}

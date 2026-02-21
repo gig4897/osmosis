@@ -7,7 +7,7 @@ void splash::show() {
     tft.fillScreen(CLR_BG_DARK);
 
     // Background gradient: vertical bands blending from dark blue (center) to black (edges)
-    uint16_t darkBlue = 0x0011;  // Very dark navy
+    uint16_t darkBlue = 0x0849;  // Dark teal, visible gradient
     for (int x = 0; x < SCREEN_W; x++) {
         // Distance from center (0.0 at center, 1.0 at edges)
         float dist = fabs((float)(x - SCREEN_W / 2)) / (float)(SCREEN_W / 2);
@@ -38,8 +38,8 @@ void splash::show() {
     }
 
     // "v1.0 - Spanish" at y=260, Font 2
-    tft.setTextColor(CLR_TEXT_DIM);
-    tft.drawString("v1.0 - Spanish", SCREEN_W / 2, 260, 2);
+    tft.setTextColor(CLR_TEXT_SECONDARY);
+    tft.drawString("v2.0", SCREEN_W / 2, 260, 2);
 
     // "by VCodeworks LLC" at y=280, Font 2, dimmed green (50%)
     tft.setTextColor(dimGreen);

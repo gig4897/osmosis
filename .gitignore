@@ -1,2 +1,6 @@
 .pio
 tools/emoji_png/
+tools/emoji_apple_png/
+tools/__pycache__/
+data/SpanishFont16.vlw
+data/SpanishFont26.vlw

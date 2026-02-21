@@ -2,5 +2,7 @@
 #include <TFT_eSPI.h>
 
 namespace cardScreen {
-    void render();  // Full strip-based render of the flashcard screen
+    void init();        // Load smooth font data from SPIFFS (call after SPIFFS.begin + vocab load)
+    void reloadFont();  // Reload font after pack switch
+    void render();      // Full strip-based render of the flashcard screen
 }

@@ -150,30 +150,35 @@ void drawPreloaded(int x, int y, int stripY) {
 
     TFT_eSprite& strip = display.getStrip();
 
-    // Determine which rows of the image overlap with the current strip
-    // Strip covers screen rows [stripY .. stripY + STRIP_H - 1]
-    // Image occupies screen rows [y .. y + IMG_H - 1]
-    int imgRowStart = stripY - y;        // First image row that falls in this strip
-    int imgRowEnd = imgRowStart + STRIP_H;  // One past last image row
+    // Display size from constants (e.g. 120x120, scaled from 72x72 source)
+    int displayW = IMG_DISPLAY_W;
+    int displayH = IMG_DISPLAY_H;
 
-    // Clamp to valid image row range
-    if (imgRowStart < 0) imgRowStart = 0;
-    if (imgRowEnd > IMG_H) imgRowEnd = IMG_H;
+    // Determine which display rows overlap with the current strip
+    int dispRowStart = stripY - y;
+    int dispRowEnd = dispRowStart + STRIP_H;
 
-    // Nothing to draw if no overlap
-    if (imgRowStart >= imgRowEnd || imgRowStart >= IMG_H || imgRowEnd <= 0) return;
+    if (dispRowStart < 0) dispRowStart = 0;
+    if (dispRowEnd > displayH) dispRowEnd = displayH;
+    if (dispRowStart >= dispRowEnd || dispRowStart >= displayH || dispRowEnd <= 0) return;
 
-    for (int imgRow = imgRowStart; imgRow < imgRowEnd; imgRow++) {
-        int screenY = y + imgRow;           // Screen Y of this image row
-        int spriteRow = screenY - stripY;   // Row within the strip sprite
-
+    for (int dispRow = dispRowStart; dispRow < dispRowEnd; dispRow++) {
+        int screenY = y + dispRow;
+        int spriteRow = screenY - stripY;
         if (spriteRow < 0 || spriteRow >= STRIP_H) continue;
 
+        // Map display row back to source image row (nearest-neighbor)
+        int imgRow = dispRow * IMG_H / displayH;
+        if (imgRow >= IMG_H) continue;
+
         const uint16_t* srcRow = &imageBuffer[imgRow * IMG_W];
-        for (int col = 0; col < IMG_W; col++) {
-            uint16_t pixel = srcRow[col];
-            if (pixel != 0x0000) {  // Skip black pixels (transparent)
-                strip.drawPixel(x + col, spriteRow, pixel);
+
+        // Draw each display column, mapping back to source column
+        for (int dispCol = 0; dispCol < displayW; dispCol++) {
+            int imgCol = dispCol * IMG_W / displayW;
+            uint16_t pixel = srcRow[imgCol];
+            if (pixel != 0x0000) {  // Skip transparent
+                strip.drawPixel(x + dispCol, spriteRow, pixel);
             }
         }
     }

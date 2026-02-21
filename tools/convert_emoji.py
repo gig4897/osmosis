@@ -7,7 +7,7 @@ import struct
 from pathlib import Path
 from PIL import Image
 
-IMG_SIZE = 72
+IMG_SIZE = 96
 
 def rgb888_to_rgb565(r, g, b):
     return ((r & 0xF8) << 8) | ((g & 0xFC) << 3) | (b >> 3)
@@ -40,7 +40,12 @@ def rle_compress(pixels):
     return bytes(result)
 
 def convert_image(input_path, output_path):
-    img = Image.open(input_path).convert('RGB')
+    # Open as RGBA to preserve transparency, composite onto BLACK background
+    # so transparent pixels become 0x0000 (RGB565 black = transparent in firmware)
+    img = Image.open(input_path).convert('RGBA')
+    background = Image.new('RGBA', img.size, (0, 0, 0, 255))
+    background.paste(img, mask=img.split()[3])  # paste using alpha channel as mask
+    img = background.convert('RGB')
     img = img.resize((IMG_SIZE, IMG_SIZE), Image.LANCZOS)
     pixels = []
     for y in range(IMG_SIZE):
@@ -76,8 +81,8 @@ def main():
         count += 1
     print(f"\n{count} images converted")
     print(f"Total: {total_raw/1024:.1f}KB raw -> {total_compressed/1024:.1f}KB compressed")
-    print(f"SPIFFS usage: {total_compressed/1024:.1f}KB of ~1500KB available")
-    if total_compressed > 1500 * 1024:
+    print(f"SPIFFS usage: {total_compressed/1024:.1f}KB of ~1400KB available")
+    if total_compressed > 1400 * 1024:
         print("WARNING: Total exceeds SPIFFS capacity!")
         sys.exit(1)
 

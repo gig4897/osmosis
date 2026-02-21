@@ -1,11 +1,12 @@
 #pragma once
-#include "word_data.h"
+#include "vocab_loader.h"
 #include <cstdint>
 
 class CardManager {
 public:
     void init();
-    bool update();              // Returns true if card changed
+    bool update();              // Returns true if card changed (timer)
+    void nextCard();            // Manually advance to next card
     void checkDayChange();
 
     const WordEntry& currentWord() const;

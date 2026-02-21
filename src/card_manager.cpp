@@ -1,4 +1,5 @@
 #include "card_manager.h"
+#include "word_data.h"
 #include "settings_manager.h"
 #include "image_renderer.h"
 #include <Arduino.h>
@@ -50,6 +51,15 @@ bool CardManager::update() {
     return false;
 }
 
+void CardManager::nextCard() {
+    _currentPos++;
+    if (_currentPos >= _batchSize) {
+        _currentPos = 0;
+    }
+    loadCurrentImage();
+    _lastCardChangeMs = millis();  // Reset timer so it doesn't immediately advance again
+}
+
 void CardManager::checkDayChange() {
     time_t now = time(nullptr);
 
@@ -91,8 +101,9 @@ int CardManager::totalCardsToday() const {
 
 void CardManager::loadCurrentImage() {
     const WordEntry& word = currentWord();
-    imageRenderer::preloadImage(word.imageFile);
+    // v2.0: load by emoji codepoint (e.g. "1f4a7") instead of word-based filename
+    imageRenderer::preloadImage(word.emoji);
     Serial.printf("[card] Card %d/%d: %s (%s)\n",
                   currentCardIndex(), totalCardsToday(),
-                  word.spanish, word.english);
+                  word.word, word.english);
 }

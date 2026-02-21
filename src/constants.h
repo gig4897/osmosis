@@ -3,7 +3,7 @@
 
 // === Firmware ===
 constexpr const char* FW_NAME    = "Osmosis";
-constexpr const char* FW_VERSION = "1.0.0";
+constexpr const char* FW_VERSION = "2.0.0";
 
 // === Pin Definitions ===
 constexpr int PIN_TFT_BL = 21;
@@ -21,22 +21,25 @@ constexpr int STRIP_H  = 10;
 constexpr int NUM_STRIPS = SCREEN_H / STRIP_H;  // 32
 
 // Header bar
-constexpr int HEADER_H = 30;
+constexpr int HEADER_H = 36;
 
-// Image area (72x72 native Twemoji size for optimal SPIFFS budget)
-constexpr int IMG_W = 72;
-constexpr int IMG_H = 72;
-constexpr int IMG_X = (SCREEN_W - IMG_W) / 2;  // 84
-constexpr int IMG_Y = HEADER_H + 30;            // 60
+// Image area (96x96 stored, displayed at ~1.25x = 120x120 via nearest-neighbor)
+constexpr int IMG_W = 96;
+constexpr int IMG_H = 96;
+constexpr int IMG_DISPLAY_W = 120;
+constexpr int IMG_DISPLAY_H = 120;
+constexpr int IMG_X = (SCREEN_W - IMG_DISPLAY_W) / 2;   // 60
+constexpr int IMG_Y = (SCREEN_H - IMG_DISPLAY_H) / 2;   // 100 (centered vertically)
 
-// Word box
-constexpr int WORD_BOX_Y = IMG_Y + IMG_H + 20;  // 152
-constexpr int WORD_BOX_W = 200;
-constexpr int WORD_BOX_H = 70;
-constexpr int WORD_BOX_X = (SCREEN_W - WORD_BOX_W) / 2;  // 20
+// Word box (near bottom, above counter)
+constexpr int WORD_BOX_W = 210;
+constexpr int WORD_BOX_H = 54;
+constexpr int WORD_BOX_X = (SCREEN_W - WORD_BOX_W) / 2;  // 15
+constexpr int WORD_BOX_Y = 238;
+constexpr int WORD_BOX_R = 6;  // corner radius
 
 // Card counter
-constexpr int COUNTER_Y = SCREEN_H - 20;  // 300
+constexpr int COUNTER_Y = SCREEN_H - 22;  // 298
 
 // === Backlight PWM ===
 constexpr int BL_PWM_CHANNEL = 0;
@@ -59,7 +62,7 @@ constexpr uint16_t CLR_HEADER_BG     = 0x1269;
 constexpr uint16_t CLR_ACCENT        = 0x4E1F;
 constexpr uint16_t CLR_TEXT_PRIMARY   = 0xFFFF;
 constexpr uint16_t CLR_TEXT_SECONDARY = 0x8C51;
-constexpr uint16_t CLR_TEXT_DIM       = 0x4208;
+constexpr uint16_t CLR_TEXT_DIM       = 0x6B4D;
 constexpr uint16_t CLR_WORD_BOX_BG   = 0x0882;
 constexpr uint16_t CLR_WORD_BOX_BORDER = 0x4E1F;
 constexpr uint16_t CLR_SPLASH_GREEN  = 0x06D5;

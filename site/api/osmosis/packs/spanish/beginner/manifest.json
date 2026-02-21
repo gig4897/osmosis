@@ -1,0 +1,151 @@
+{
+  "language": "spanish",
+  "languageDisplay": "Spanish",
+  "tier": "beginner",
+  "tierDisplay": "Beginner",
+  "version": 1,
+  "wordCount": 20,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "agua",
+      "english": "water",
+      "phonetic": "AH-gwah",
+      "emoji": "1f4a7",
+      "category": "nature"
+    },
+    {
+      "word": "casa",
+      "english": "house",
+      "phonetic": "KAH-sah",
+      "emoji": "1f3e0",
+      "category": "home"
+    },
+    {
+      "word": "hombre",
+      "english": "man",
+      "phonetic": "OHM-breh",
+      "emoji": "1f468",
+      "category": "people"
+    },
+    {
+      "word": "mujer",
+      "english": "woman",
+      "phonetic": "moo-HEHR",
+      "emoji": "1f469",
+      "category": "people"
+    },
+    {
+      "word": "niño",
+      "english": "boy",
+      "phonetic": "NEEN-yoh",
+      "emoji": "1f466",
+      "category": "people"
+    },
+    {
+      "word": "mano",
+      "english": "hand",
+      "phonetic": "MAH-noh",
+      "emoji": "270b",
+      "category": "body"
+    },
+    {
+      "word": "ojo",
+      "english": "eye",
+      "phonetic": "OH-hoh",
+      "emoji": "1f441",
+      "category": "body"
+    },
+    {
+      "word": "sol",
+      "english": "sun",
+      "phonetic": "sohl",
+      "emoji": "2600",
+      "category": "weather"
+    },
+    {
+      "word": "perro",
+      "english": "dog",
+      "phonetic": "PEH-rroh",
+      "emoji": "1f415",
+      "category": "animals"
+    },
+    {
+      "word": "gato",
+      "english": "cat",
+      "phonetic": "GAH-toh",
+      "emoji": "1f408",
+      "category": "animals"
+    },
+    {
+      "word": "libro",
+      "english": "book",
+      "phonetic": "LEE-broh",
+      "emoji": "1f4d6",
+      "category": "objects"
+    },
+    {
+      "word": "tierra",
+      "english": "earth",
+      "phonetic": "tee-EH-rrah",
+      "emoji": "1f30d",
+      "category": "nature"
+    },
+    {
+      "word": "fuego",
+      "english": "fire",
+      "phonetic": "FWEH-goh",
+      "emoji": "1f525",
+      "category": "nature"
+    },
+    {
+      "word": "corazón",
+      "english": "heart",
+      "phonetic": "koh-rah-SOHN",
+      "emoji": "2764",
+      "category": "body"
+    },
+    {
+      "word": "flor",
+      "english": "flower",
+      "phonetic": "flohr",
+      "emoji": "1f338",
+      "category": "nature"
+    },
+    {
+      "word": "niña",
+      "english": "girl",
+      "phonetic": "NEEN-yah",
+      "emoji": "1f467",
+      "category": "people"
+    },
+    {
+      "word": "luna",
+      "english": "moon",
+      "phonetic": "LOO-nah",
+      "emoji": "1f319",
+      "category": "weather"
+    },
+    {
+      "word": "estrella",
+      "english": "star",
+      "phonetic": "ehs-TREH-yah",
+      "emoji": "2b50",
+      "category": "weather"
+    },
+    {
+      "word": "pan",
+      "english": "bread",
+      "phonetic": "pahn",
+      "emoji": "1f35e",
+      "category": "food"
+    },
+    {
+      "word": "leche",
+      "english": "milk",
+      "phonetic": "LEH-cheh",
+      "emoji": "1f95b",
+      "category": "food"
+    }
+  ]
+}

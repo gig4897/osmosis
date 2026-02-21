@@ -1,0 +1,106 @@
+{
+  "apiVersion": 1,
+  "baseUrl": "https://vcodeworks.dev/api/osmosis/packs",
+  "emojiVersion": 1,
+  "emojiCount": 284,
+  "languages": [
+    {
+      "id": "spanish",
+      "name": "Spanish",
+      "flag": "ES",
+      "tiers": [
+        {
+          "id": "beginner",
+          "name": "Beginner",
+          "words": 100,
+          "version": 1,
+          "manifestSize": 12000,
+          "fontFile": "font.vlw",
+          "fontSize": 30000
+        },
+        {
+          "id": "intermediate",
+          "name": "Intermediate",
+          "words": 100,
+          "version": 1,
+          "manifestSize": 12000,
+          "fontFile": "font.vlw",
+          "fontSize": 30000
+        },
+        {
+          "id": "advanced",
+          "name": "Advanced",
+          "words": 84,
+          "version": 1,
+          "manifestSize": 10000,
+          "fontFile": "font.vlw",
+          "fontSize": 30000
+        }
+      ]
+    },
+    {
+      "id": "french",
+      "name": "French",
+      "flag": "FR",
+      "tiers": [
+        {
+          "id": "beginner",
+          "name": "Beginner",
+          "words": 20,
+          "version": 1,
+          "manifestSize": 2800,
+          "fontFile": "font.vlw",
+          "fontSize": 30000
+        }
+      ]
+    },
+    {
+      "id": "portuguese",
+      "name": "Portuguese",
+      "flag": "PT",
+      "tiers": [
+        {
+          "id": "beginner",
+          "name": "Beginner",
+          "words": 20,
+          "version": 1,
+          "manifestSize": 2800,
+          "fontFile": "font.vlw",
+          "fontSize": 30000
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "name": "Chinese",
+      "flag": "CN",
+      "tiers": [
+        {
+          "id": "beginner",
+          "name": "Beginner",
+          "words": 20,
+          "version": 1,
+          "manifestSize": 2800,
+          "fontFile": "font.vlw",
+          "fontSize": 30000
+        }
+      ]
+    },
+    {
+      "id": "dutch",
+      "name": "Dutch",
+      "flag": "NL",
+      "tiers": [
+        {
+          "id": "beginner",
+          "name": "Beginner",
+          "words": 20,
+          "version": 1,
+          "manifestSize": 2800,
+          "fontFile": "font.vlw",
+          "fontSize": 30000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "language": "dutch",
+  "languageDisplay": "Dutch",
+  "tier": "beginner",
+  "tierDisplay": "Beginner",
+  "version": 1,
+  "wordCount": 20,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "water",
+      "english": "water",
+      "phonetic": "WAH-ter",
+      "emoji": "1f4a7",
+      "category": "nature"
+    },
+    {
+      "word": "huis",
+      "english": "house",
+      "phonetic": "house",
+      "emoji": "1f3e0",
+      "category": "home"
+    },
+    {
+      "word": "man",
+      "english": "man",
+      "phonetic": "mahn",
+      "emoji": "1f468",
+      "category": "people"
+    },
+    {
+      "word": "vrouw",
+      "english": "woman",
+      "phonetic": "frow",
+      "emoji": "1f469",
+      "category": "people"
+    },
+    {
+      "word": "jongen",
+      "english": "boy",
+      "phonetic": "YOHNG-en",
+      "emoji": "1f466",
+      "category": "people"
+    },
+    {
+      "word": "hand",
+      "english": "hand",
+      "phonetic": "hahnt",
+      "emoji": "270b",
+      "category": "body"
+    },
+    {
+      "word": "oog",
+      "english": "eye",
+      "phonetic": "ohg",
+      "emoji": "1f441",
+      "category": "body"
+    },
+    {
+      "word": "zon",
+      "english": "sun",
+      "phonetic": "zohn",
+      "emoji": "2600",
+      "category": "weather"
+    },
+    {
+      "word": "hond",
+      "english": "dog",
+      "phonetic": "hohnt",
+      "emoji": "1f415",
+      "category": "animals"
+    },
+    {
+      "word": "kat",
+      "english": "cat",
+      "phonetic": "kaht",
+      "emoji": "1f408",
+      "category": "animals"
+    },
+    {
+      "word": "boek",
+      "english": "book",
+      "phonetic": "book",
+      "emoji": "1f4d6",
+      "category": "objects"
+    },
+    {
+      "word": "aarde",
+      "english": "earth",
+      "phonetic": "AHR-deh",
+      "emoji": "1f30d",
+      "category": "nature"
+    },
+    {
+      "word": "vuur",
+      "english": "fire",
+      "phonetic": "foor",
+      "emoji": "1f525",
+      "category": "nature"
+    },
+    {
+      "word": "hart",
+      "english": "heart",
+      "phonetic": "hahrt",
+      "emoji": "2764",
+      "category": "body"
+    },
+    {
+      "word": "bloem",
+      "english": "flower",
+      "phonetic": "bloom",
+      "emoji": "1f338",
+      "category": "nature"
+    },
+    {
+      "word": "meisje",
+      "english": "girl",
+      "phonetic": "MAY-sheh",
+      "emoji": "1f467",
+      "category": "people"
+    },
+    {
+      "word": "maan",
+      "english": "moon",
+      "phonetic": "mahn",
+      "emoji": "1f319",
+      "category": "weather"
+    },
+    {
+      "word": "ster",
+      "english": "star",
+      "phonetic": "stehr",
+      "emoji": "2b50",
+      "category": "weather"
+    },
+    {
+      "word": "brood",
+      "english": "bread",
+      "phonetic": "broht",
+      "emoji": "1f35e",
+      "category": "food"
+    },
+    {
+      "word": "melk",
+      "english": "milk",
+      "phonetic": "mehlk",
+      "emoji": "1f95b",
+      "category": "food"
+    }
+  ]
+}

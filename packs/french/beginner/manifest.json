@@ -1,0 +1,151 @@
+{
+  "language": "french",
+  "languageDisplay": "French",
+  "tier": "beginner",
+  "tierDisplay": "Beginner",
+  "version": 1,
+  "wordCount": 20,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "eau",
+      "english": "water",
+      "phonetic": "oh",
+      "emoji": "1f4a7",
+      "category": "nature"
+    },
+    {
+      "word": "maison",
+      "english": "house",
+      "phonetic": "meh-ZOHN",
+      "emoji": "1f3e0",
+      "category": "home"
+    },
+    {
+      "word": "homme",
+      "english": "man",
+      "phonetic": "ohm",
+      "emoji": "1f468",
+      "category": "people"
+    },
+    {
+      "word": "femme",
+      "english": "woman",
+      "phonetic": "fahm",
+      "emoji": "1f469",
+      "category": "people"
+    },
+    {
+      "word": "garçon",
+      "english": "boy",
+      "phonetic": "gar-SOHN",
+      "emoji": "1f466",
+      "category": "people"
+    },
+    {
+      "word": "main",
+      "english": "hand",
+      "phonetic": "mahn",
+      "emoji": "270b",
+      "category": "body"
+    },
+    {
+      "word": "oeil",
+      "english": "eye",
+      "phonetic": "uh-yuh",
+      "emoji": "1f441",
+      "category": "body"
+    },
+    {
+      "word": "soleil",
+      "english": "sun",
+      "phonetic": "soh-LAY",
+      "emoji": "2600",
+      "category": "weather"
+    },
+    {
+      "word": "chien",
+      "english": "dog",
+      "phonetic": "shee-EHN",
+      "emoji": "1f415",
+      "category": "animals"
+    },
+    {
+      "word": "chat",
+      "english": "cat",
+      "phonetic": "shah",
+      "emoji": "1f408",
+      "category": "animals"
+    },
+    {
+      "word": "livre",
+      "english": "book",
+      "phonetic": "LEE-vruh",
+      "emoji": "1f4d6",
+      "category": "objects"
+    },
+    {
+      "word": "terre",
+      "english": "earth",
+      "phonetic": "tehr",
+      "emoji": "1f30d",
+      "category": "nature"
+    },
+    {
+      "word": "feu",
+      "english": "fire",
+      "phonetic": "fuh",
+      "emoji": "1f525",
+      "category": "nature"
+    },
+    {
+      "word": "coeur",
+      "english": "heart",
+      "phonetic": "kuhr",
+      "emoji": "2764",
+      "category": "body"
+    },
+    {
+      "word": "fleur",
+      "english": "flower",
+      "phonetic": "fluhr",
+      "emoji": "1f338",
+      "category": "nature"
+    },
+    {
+      "word": "fille",
+      "english": "girl",
+      "phonetic": "fee-yuh",
+      "emoji": "1f467",
+      "category": "people"
+    },
+    {
+      "word": "lune",
+      "english": "moon",
+      "phonetic": "loon",
+      "emoji": "1f319",
+      "category": "weather"
+    },
+    {
+      "word": "étoile",
+      "english": "star",
+      "phonetic": "eh-TWAHL",
+      "emoji": "2b50",
+      "category": "weather"
+    },
+    {
+      "word": "pain",
+      "english": "bread",
+      "phonetic": "pahn",
+      "emoji": "1f35e",
+      "category": "food"
+    },
+    {
+      "word": "lait",
+      "english": "milk",
+      "phonetic": "leh",
+      "emoji": "1f95b",
+      "category": "food"
+    }
+  ]
+}

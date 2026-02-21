@@ -1,0 +1,151 @@
+{
+  "language": "chinese",
+  "languageDisplay": "Chinese",
+  "tier": "beginner",
+  "tierDisplay": "Beginner",
+  "version": 1,
+  "wordCount": 20,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "shuǐ",
+      "english": "water",
+      "phonetic": "shway (3)",
+      "emoji": "1f4a7",
+      "category": "nature"
+    },
+    {
+      "word": "fáng zi",
+      "english": "house",
+      "phonetic": "fahng dzuh (2-0)",
+      "emoji": "1f3e0",
+      "category": "home"
+    },
+    {
+      "word": "nán rén",
+      "english": "man",
+      "phonetic": "nahn rehn (2-2)",
+      "emoji": "1f468",
+      "category": "people"
+    },
+    {
+      "word": "nǚ rén",
+      "english": "woman",
+      "phonetic": "noo rehn (3-2)",
+      "emoji": "1f469",
+      "category": "people"
+    },
+    {
+      "word": "nán hái",
+      "english": "boy",
+      "phonetic": "nahn hai (2-2)",
+      "emoji": "1f466",
+      "category": "people"
+    },
+    {
+      "word": "shǒu",
+      "english": "hand",
+      "phonetic": "show (3)",
+      "emoji": "270b",
+      "category": "body"
+    },
+    {
+      "word": "yǎn jing",
+      "english": "eye",
+      "phonetic": "yahn jing (3-0)",
+      "emoji": "1f441",
+      "category": "body"
+    },
+    {
+      "word": "tài yáng",
+      "english": "sun",
+      "phonetic": "tai yahng (4-2)",
+      "emoji": "2600",
+      "category": "weather"
+    },
+    {
+      "word": "gǒu",
+      "english": "dog",
+      "phonetic": "go (3)",
+      "emoji": "1f415",
+      "category": "animals"
+    },
+    {
+      "word": "māo",
+      "english": "cat",
+      "phonetic": "mao (1)",
+      "emoji": "1f408",
+      "category": "animals"
+    },
+    {
+      "word": "shū",
+      "english": "book",
+      "phonetic": "shoo (1)",
+      "emoji": "1f4d6",
+      "category": "objects"
+    },
+    {
+      "word": "dì qiú",
+      "english": "earth",
+      "phonetic": "dee chyo (4-2)",
+      "emoji": "1f30d",
+      "category": "nature"
+    },
+    {
+      "word": "huǒ",
+      "english": "fire",
+      "phonetic": "hwoh (3)",
+      "emoji": "1f525",
+      "category": "nature"
+    },
+    {
+      "word": "xīn",
+      "english": "heart",
+      "phonetic": "shin (1)",
+      "emoji": "2764",
+      "category": "body"
+    },
+    {
+      "word": "huā",
+      "english": "flower",
+      "phonetic": "hwah (1)",
+      "emoji": "1f338",
+      "category": "nature"
+    },
+    {
+      "word": "nǚ hái",
+      "english": "girl",
+      "phonetic": "noo hai (3-2)",
+      "emoji": "1f467",
+      "category": "people"
+    },
+    {
+      "word": "yuè liang",
+      "english": "moon",
+      "phonetic": "yweh lyahng (4-0)",
+      "emoji": "1f319",
+      "category": "weather"
+    },
+    {
+      "word": "xīng xing",
+      "english": "star",
+      "phonetic": "shing shing (1-0)",
+      "emoji": "2b50",
+      "category": "weather"
+    },
+    {
+      "word": "miàn bāo",
+      "english": "bread",
+      "phonetic": "myen bao (4-1)",
+      "emoji": "1f35e",
+      "category": "food"
+    },
+    {
+      "word": "niú nǎi",
+      "english": "milk",
+      "phonetic": "nyo nai (2-3)",
+      "emoji": "1f95b",
+      "category": "food"
+    }
+  ]
+}

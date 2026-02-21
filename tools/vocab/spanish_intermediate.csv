@@ -1,0 +1,101 @@
+emoji,english,translation,phonetic,category
+1f4fa,television,televisión,teh-leh-bee-see-OHN,objects
+1f4f7,camera,cámara,KAH-mah-rah,objects
+2602,umbrella,paraguas,pah-RAH-gwahs,objects
+1f56f,candle,vela,BEH-lah,objects
+1f381,gift,regalo,reh-GAH-loh,objects
+1f388,balloon,globo,GLOH-boh,objects
+1f514,bell,campana,kahm-PAH-nah,objects
+1f452,hat,sombrero,sohm-BREH-roh,clothing
+1f45e,shoe,zapato,sah-PAH-toh,clothing
+1f454,shirt,camisa,kah-MEE-sah,clothing
+1f457,dress,vestido,behs-TEE-doh,clothing
+1f456,pants,pantalón,pahn-tah-LOHN,clothing
+1f9e4,glove,guante,GWAHN-teh,clothing
+1f9e3,scarf,bufanda,boo-FAHN-dah,clothing
+1f453,glasses,gafas,GAH-fahs,clothing
+1f48d,ring,anillo,ah-NEE-yoh,clothing
+1f451,crown,corona,koh-ROH-nah,clothing
+1f327,rain,lluvia,YOO-bee-ah,weather
+2744,snow,nieve,nee-EH-beh,weather
+2601,cloud,nube,NOO-beh,weather
+1f4a8,wind,viento,bee-EHN-toh,weather
+26a1,lightning,rayo,RAH-yoh,weather
+1f308,rainbow,arcoíris,ar-koh-EE-rees,weather
+1f3de,river,río,REE-oh,nature
+1f30a,sea,mar,mahr,nature
+1f332,forest,bosque,BOHS-keh,nature
+1f33f,grass,hierba,ee-EHR-bah,nature
+1f343,leaf,hoja,OH-hah,nature
+1f339,rose,rosa,ROH-sah,nature
+1f33b,sunflower,girasol,hee-rah-SOHL,nature
+1f335,cactus,cactus,KAHK-toos,nature
+1f344,mushroom,hongo,OHN-goh,nature
+1faa8,rock,piedra,pee-EH-drah,nature
+1f3d6,sand,arena,ah-REH-nah,nature
+1f3dd,island,isla,EES-lah,nature
+1f30b,volcano,volcán,bohl-KAHN,nature
+1f68c,bus,autobús,ow-toh-BOOS,transport
+1f682,train,tren,trehn,transport
+1f680,rocket,cohete,koh-EH-teh,transport
+1f681,helicopter,helicóptero,eh-lee-KOHP-teh-roh,transport
+1f3cd,motorcycle,motocicleta,moh-toh-see-KLEH-tah,transport
+1f695,taxi,taxi,TAHK-see,transport
+1f691,ambulance,ambulancia,ahm-boo-LAHN-see-ah,transport
+1f69a,truck,camión,kah-mee-OHN,transport
+2693,anchor,ancla,AHN-klah,transport
+2699,wheel,rueda,RWEH-dah,transport
+1f3eb,school,escuela,ehs-KWEH-lah,places
+1f3e5,hospital,hospital,ohs-pee-TAHL,places
+26ea,church,iglesia,ee-GLEH-see-ah,places
+1f3f0,castle,castillo,kahs-TEE-yoh,places
+1f3ea,store,tienda,tee-EHN-dah,places
+1f3e6,bank,banco,BAHN-koh,places
+1f3aa,circus,circo,SEER-koh,places
+1f3df,stadium,estadio,ehs-TAH-dee-oh,places
+1f333,park,parque,PAR-keh,places
+1f476,baby,bebé,beh-BEH,people
+1f934,king,rey,rrey,people
+1f478,queen,reina,RREY-nah,people
+1f46e,police,policía,poh-lee-SEE-ah,people
+1f468_1f692,firefighter,bombero,bohm-BEH-roh,people
+1f46a,family,familia,fah-MEE-lee-ah,people
+1f921,clown,payaso,pah-YAH-soh,people
+1f3c3,to run,correr,koh-RREHR,actions
+1f37d,to eat,comer,koh-MEHR,actions
+1f964,to drink,beber,beh-BEHR,actions
+1f634,to sleep,dormir,dohr-MEER,actions
+1f3ca,to swim,nadar,nah-DAHR,actions
+1f483,to dance,bailar,bah-ee-LAHR,actions
+1f3a4,to sing,cantar,kahn-TAHR,actions
+1f4d6,to read,leer,leh-EHR,actions
+270d,to write,escribir,ehs-kree-BEER,actions
+1f6b6,to walk,caminar,kah-mee-NAHR,actions
+1f54a,to fly,volar,boh-LAHR,actions
+1f622,to cry,llorar,yoh-RAHR,actions
+1f602,to laugh,reír,reh-EER,actions
+1f4ad,to think,pensar,pehn-SAHR,actions
+1f3a3,to fish,pescar,pehs-KAHR,actions
+1f3a8,to paint,pintar,peen-TAHR,actions
+1f3ae,to play,jugar,hoo-GAHR,actions
+1f94a,to fight,luchar,loo-CHAHR,actions
+1f64f,to pray,rezar,reh-SAHR,actions
+1f697,to drive,conducir,kohn-doo-SEER,actions
+1f442,to listen,escuchar,ehs-koo-CHAHR,actions
+1f440,to look,mirar,mee-RAHR,actions
+1f5e3,to talk,hablar,ah-BLAHR,actions
+1f6d2,to buy,comprar,kohm-PRAHR,actions
+2702,to cut,cortar,kohr-TAHR,actions
+1f9f9,to clean,limpiar,leem-pee-AHR,actions
+1f528,to build,construir,kohns-troo-EER,actions
+1f331,to plant,sembrar,sehm-BRAHR,actions
+1f4f8,to photograph,fotografiar,foh-toh-grah-fee-AHR,actions
+1f600,happy,feliz,feh-LEES,emotions
+1f622,sad,triste,TREES-teh,emotions
+1f620,angry,enojado,eh-noh-HAH-doh,emotions
+1f628,scared,asustado,ah-soos-TAH-doh,emotions
+1f632,surprised,sorprendido,sohr-prehn-DEE-doh,emotions
+1f60d,in love,enamorado,eh-nah-moh-RAH-doh,emotions
+1f912,sick,enfermo,ehn-FEHR-moh,emotions
+1f634,tired,cansado,kahn-SAH-doh,emotions
+1f60b,hungry,hambriento,ahm-bree-EHN-toh,emotions

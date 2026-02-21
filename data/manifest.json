@@ -1,0 +1,711 @@
+{
+  "language": "spanish",
+  "languageDisplay": "Spanish",
+  "tier": "beginner",
+  "tierDisplay": "Beginner",
+  "version": 1,
+  "wordCount": 100,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "agua",
+      "english": "water",
+      "phonetic": "AH-gwah",
+      "emoji": "1f4a7",
+      "category": "nature"
+    },
+    {
+      "word": "casa",
+      "english": "house",
+      "phonetic": "KAH-sah",
+      "emoji": "1f3e0",
+      "category": "home"
+    },
+    {
+      "word": "hombre",
+      "english": "man",
+      "phonetic": "OHM-breh",
+      "emoji": "1f468",
+      "category": "people"
+    },
+    {
+      "word": "mujer",
+      "english": "woman",
+      "phonetic": "moo-HEHR",
+      "emoji": "1f469",
+      "category": "people"
+    },
+    {
+      "word": "niño",
+      "english": "boy",
+      "phonetic": "NEEN-yoh",
+      "emoji": "1f466",
+      "category": "people"
+    },
+    {
+      "word": "mano",
+      "english": "hand",
+      "phonetic": "MAH-noh",
+      "emoji": "270b",
+      "category": "body"
+    },
+    {
+      "word": "ojo",
+      "english": "eye",
+      "phonetic": "OH-hoh",
+      "emoji": "1f441",
+      "category": "body"
+    },
+    {
+      "word": "sol",
+      "english": "sun",
+      "phonetic": "sohl",
+      "emoji": "2600",
+      "category": "weather"
+    },
+    {
+      "word": "perro",
+      "english": "dog",
+      "phonetic": "PEH-rroh",
+      "emoji": "1f415",
+      "category": "animals"
+    },
+    {
+      "word": "gato",
+      "english": "cat",
+      "phonetic": "GAH-toh",
+      "emoji": "1f408",
+      "category": "animals"
+    },
+    {
+      "word": "libro",
+      "english": "book",
+      "phonetic": "LEE-broh",
+      "emoji": "1f4d6",
+      "category": "objects"
+    },
+    {
+      "word": "tierra",
+      "english": "earth",
+      "phonetic": "tee-EH-rrah",
+      "emoji": "1f30d",
+      "category": "nature"
+    },
+    {
+      "word": "fuego",
+      "english": "fire",
+      "phonetic": "FWEH-goh",
+      "emoji": "1f525",
+      "category": "nature"
+    },
+    {
+      "word": "corazón",
+      "english": "heart",
+      "phonetic": "koh-rah-SOHN",
+      "emoji": "2764",
+      "category": "body"
+    },
+    {
+      "word": "flor",
+      "english": "flower",
+      "phonetic": "flohr",
+      "emoji": "1f338",
+      "category": "nature"
+    },
+    {
+      "word": "luna",
+      "english": "moon",
+      "phonetic": "LOO-nah",
+      "emoji": "1f319",
+      "category": "weather"
+    },
+    {
+      "word": "estrella",
+      "english": "star",
+      "phonetic": "ehs-TREH-yah",
+      "emoji": "2b50",
+      "category": "weather"
+    },
+    {
+      "word": "pan",
+      "english": "bread",
+      "phonetic": "pahn",
+      "emoji": "1f35e",
+      "category": "food"
+    },
+    {
+      "word": "leche",
+      "english": "milk",
+      "phonetic": "LEH-cheh",
+      "emoji": "1f95b",
+      "category": "food"
+    },
+    {
+      "word": "huevo",
+      "english": "egg",
+      "phonetic": "WEH-boh",
+      "emoji": "1f95a",
+      "category": "food"
+    },
+    {
+      "word": "carne",
+      "english": "meat",
+      "phonetic": "KAR-neh",
+      "emoji": "1f969",
+      "category": "food"
+    },
+    {
+      "word": "pescado",
+      "english": "fish",
+      "phonetic": "pehs-KAH-doh",
+      "emoji": "1f41f",
+      "category": "food"
+    },
+    {
+      "word": "fruta",
+      "english": "fruit",
+      "phonetic": "FROO-tah",
+      "emoji": "1f34e",
+      "category": "food"
+    },
+    {
+      "word": "manzana",
+      "english": "apple",
+      "phonetic": "mahn-SAH-nah",
+      "emoji": "1f34e",
+      "category": "food"
+    },
+    {
+      "word": "árbol",
+      "english": "tree",
+      "phonetic": "AR-bohl",
+      "emoji": "1f333",
+      "category": "nature"
+    },
+    {
+      "word": "carro",
+      "english": "car",
+      "phonetic": "KAH-rroh",
+      "emoji": "1f697",
+      "category": "transport"
+    },
+    {
+      "word": "avión",
+      "english": "airplane",
+      "phonetic": "ah-bee-OHN",
+      "emoji": "2708",
+      "category": "transport"
+    },
+    {
+      "word": "barco",
+      "english": "boat",
+      "phonetic": "BAR-koh",
+      "emoji": "26f5",
+      "category": "transport"
+    },
+    {
+      "word": "bicicleta",
+      "english": "bicycle",
+      "phonetic": "bee-see-KLEH-tah",
+      "emoji": "1f6b2",
+      "category": "transport"
+    },
+    {
+      "word": "caballo",
+      "english": "horse",
+      "phonetic": "kah-BAH-yoh",
+      "emoji": "1f434",
+      "category": "animals"
+    },
+    {
+      "word": "pájaro",
+      "english": "bird",
+      "phonetic": "PAH-hah-roh",
+      "emoji": "1f426",
+      "category": "animals"
+    },
+    {
+      "word": "pez",
+      "english": "fish",
+      "phonetic": "pehs",
+      "emoji": "1f41f",
+      "category": "animals"
+    },
+    {
+      "word": "vaca",
+      "english": "cow",
+      "phonetic": "BAH-kah",
+      "emoji": "1f404",
+      "category": "animals"
+    },
+    {
+      "word": "cerdo",
+      "english": "pig",
+      "phonetic": "SEHR-doh",
+      "emoji": "1f416",
+      "category": "animals"
+    },
+    {
+      "word": "pollo",
+      "english": "chicken",
+      "phonetic": "POH-yoh",
+      "emoji": "1f414",
+      "category": "animals"
+    },
+    {
+      "word": "ratón",
+      "english": "mouse",
+      "phonetic": "rah-TOHN",
+      "emoji": "1f42d",
+      "category": "animals"
+    },
+    {
+      "word": "mariposa",
+      "english": "butterfly",
+      "phonetic": "mah-ree-POH-sah",
+      "emoji": "1f98b",
+      "category": "animals"
+    },
+    {
+      "word": "abeja",
+      "english": "bee",
+      "phonetic": "ah-BEH-hah",
+      "emoji": "1f41d",
+      "category": "animals"
+    },
+    {
+      "word": "hormiga",
+      "english": "ant",
+      "phonetic": "or-MEE-gah",
+      "emoji": "1f41c",
+      "category": "animals"
+    },
+    {
+      "word": "serpiente",
+      "english": "snake",
+      "phonetic": "sehr-pee-EHN-teh",
+      "emoji": "1f40d",
+      "category": "animals"
+    },
+    {
+      "word": "tortuga",
+      "english": "turtle",
+      "phonetic": "tor-TOO-gah",
+      "emoji": "1f422",
+      "category": "animals"
+    },
+    {
+      "word": "rana",
+      "english": "frog",
+      "phonetic": "RAH-nah",
+      "emoji": "1f438",
+      "category": "animals"
+    },
+    {
+      "word": "león",
+      "english": "lion",
+      "phonetic": "leh-OHN",
+      "emoji": "1f981",
+      "category": "animals"
+    },
+    {
+      "word": "oso",
+      "english": "bear",
+      "phonetic": "OH-soh",
+      "emoji": "1f43b",
+      "category": "animals"
+    },
+    {
+      "word": "elefante",
+      "english": "elephant",
+      "phonetic": "eh-leh-FAHN-teh",
+      "emoji": "1f418",
+      "category": "animals"
+    },
+    {
+      "word": "mono",
+      "english": "monkey",
+      "phonetic": "MOH-noh",
+      "emoji": "1f412",
+      "category": "animals"
+    },
+    {
+      "word": "conejo",
+      "english": "rabbit",
+      "phonetic": "koh-NEH-hoh",
+      "emoji": "1f407",
+      "category": "animals"
+    },
+    {
+      "word": "lobo",
+      "english": "wolf",
+      "phonetic": "LOH-boh",
+      "emoji": "1f43a",
+      "category": "animals"
+    },
+    {
+      "word": "ballena",
+      "english": "whale",
+      "phonetic": "bah-YEH-nah",
+      "emoji": "1f40b",
+      "category": "animals"
+    },
+    {
+      "word": "cabeza",
+      "english": "head",
+      "phonetic": "kah-BEH-sah",
+      "emoji": "1f5e3",
+      "category": "body"
+    },
+    {
+      "word": "boca",
+      "english": "mouth",
+      "phonetic": "BOH-kah",
+      "emoji": "1f444",
+      "category": "body"
+    },
+    {
+      "word": "nariz",
+      "english": "nose",
+      "phonetic": "nah-REES",
+      "emoji": "1f443",
+      "category": "body"
+    },
+    {
+      "word": "oreja",
+      "english": "ear",
+      "phonetic": "oh-REH-hah",
+      "emoji": "1f442",
+      "category": "body"
+    },
+    {
+      "word": "diente",
+      "english": "tooth",
+      "phonetic": "dee-EHN-teh",
+      "emoji": "1f9b7",
+      "category": "body"
+    },
+    {
+      "word": "pie",
+      "english": "foot",
+      "phonetic": "pee-EH",
+      "emoji": "1f9b6",
+      "category": "body"
+    },
+    {
+      "word": "pierna",
+      "english": "leg",
+      "phonetic": "pee-EHR-nah",
+      "emoji": "1f9b5",
+      "category": "body"
+    },
+    {
+      "word": "brazo",
+      "english": "arm",
+      "phonetic": "BRAH-soh",
+      "emoji": "1f4aa",
+      "category": "body"
+    },
+    {
+      "word": "dedo",
+      "english": "finger",
+      "phonetic": "DEH-doh",
+      "emoji": "1f446",
+      "category": "body"
+    },
+    {
+      "word": "cerebro",
+      "english": "brain",
+      "phonetic": "seh-REH-broh",
+      "emoji": "1f9e0",
+      "category": "body"
+    },
+    {
+      "word": "arroz",
+      "english": "rice",
+      "phonetic": "ah-ROHS",
+      "emoji": "1f35a",
+      "category": "food"
+    },
+    {
+      "word": "queso",
+      "english": "cheese",
+      "phonetic": "KEH-soh",
+      "emoji": "1f9c0",
+      "category": "food"
+    },
+    {
+      "word": "sal",
+      "english": "salt",
+      "phonetic": "sahl",
+      "emoji": "1f9c2",
+      "category": "food"
+    },
+    {
+      "word": "naranja",
+      "english": "orange",
+      "phonetic": "nah-RAHN-hah",
+      "emoji": "1f34a",
+      "category": "food"
+    },
+    {
+      "word": "limón",
+      "english": "lemon",
+      "phonetic": "lee-MOHN",
+      "emoji": "1f34b",
+      "category": "food"
+    },
+    {
+      "word": "plátano",
+      "english": "banana",
+      "phonetic": "PLAH-tah-noh",
+      "emoji": "1f34c",
+      "category": "food"
+    },
+    {
+      "word": "uva",
+      "english": "grape",
+      "phonetic": "OO-bah",
+      "emoji": "1f347",
+      "category": "food"
+    },
+    {
+      "word": "fresa",
+      "english": "strawberry",
+      "phonetic": "FREH-sah",
+      "emoji": "1f353",
+      "category": "food"
+    },
+    {
+      "word": "sandía",
+      "english": "watermelon",
+      "phonetic": "sahn-DEE-ah",
+      "emoji": "1f349",
+      "category": "food"
+    },
+    {
+      "word": "zanahoria",
+      "english": "carrot",
+      "phonetic": "sah-nah-OH-ree-ah",
+      "emoji": "1f955",
+      "category": "food"
+    },
+    {
+      "word": "maíz",
+      "english": "corn",
+      "phonetic": "mah-EES",
+      "emoji": "1f33d",
+      "category": "food"
+    },
+    {
+      "word": "tomate",
+      "english": "tomato",
+      "phonetic": "toh-MAH-teh",
+      "emoji": "1f345",
+      "category": "food"
+    },
+    {
+      "word": "papa",
+      "english": "potato",
+      "phonetic": "PAH-pah",
+      "emoji": "1f954",
+      "category": "food"
+    },
+    {
+      "word": "cebolla",
+      "english": "onion",
+      "phonetic": "seh-BOH-yah",
+      "emoji": "1f9c5",
+      "category": "food"
+    },
+    {
+      "word": "ajo",
+      "english": "garlic",
+      "phonetic": "AH-hoh",
+      "emoji": "1f9c4",
+      "category": "food"
+    },
+    {
+      "word": "chocolate",
+      "english": "chocolate",
+      "phonetic": "choh-koh-LAH-teh",
+      "emoji": "1f36b",
+      "category": "food"
+    },
+    {
+      "word": "helado",
+      "english": "ice cream",
+      "phonetic": "eh-LAH-doh",
+      "emoji": "1f368",
+      "category": "food"
+    },
+    {
+      "word": "pastel",
+      "english": "cake",
+      "phonetic": "pahs-TEHL",
+      "emoji": "1f382",
+      "category": "food"
+    },
+    {
+      "word": "galleta",
+      "english": "cookie",
+      "phonetic": "gah-YEH-tah",
+      "emoji": "1f36a",
+      "category": "food"
+    },
+    {
+      "word": "pizza",
+      "english": "pizza",
+      "phonetic": "PEE-tsah",
+      "emoji": "1f355",
+      "category": "food"
+    },
+    {
+      "word": "café",
+      "english": "coffee",
+      "phonetic": "kah-FEH",
+      "emoji": "2615",
+      "category": "food"
+    },
+    {
+      "word": "té",
+      "english": "tea",
+      "phonetic": "teh",
+      "emoji": "1f375",
+      "category": "food"
+    },
+    {
+      "word": "vino",
+      "english": "wine",
+      "phonetic": "BEE-noh",
+      "emoji": "1f377",
+      "category": "food"
+    },
+    {
+      "word": "cerveza",
+      "english": "beer",
+      "phonetic": "sehr-BEH-sah",
+      "emoji": "1f37a",
+      "category": "food"
+    },
+    {
+      "word": "sopa",
+      "english": "soup",
+      "phonetic": "SOH-pah",
+      "emoji": "1f372",
+      "category": "food"
+    },
+    {
+      "word": "taco",
+      "english": "taco",
+      "phonetic": "TAH-koh",
+      "emoji": "1f32e",
+      "category": "food"
+    },
+    {
+      "word": "hamburguesa",
+      "english": "hamburger",
+      "phonetic": "ahm-boor-GEH-sah",
+      "emoji": "1f354",
+      "category": "food"
+    },
+    {
+      "word": "palomitas",
+      "english": "popcorn",
+      "phonetic": "pah-loh-MEE-tahs",
+      "emoji": "1f37f",
+      "category": "food"
+    },
+    {
+      "word": "caramelo",
+      "english": "candy",
+      "phonetic": "kah-rah-MEH-loh",
+      "emoji": "1f36c",
+      "category": "food"
+    },
+    {
+      "word": "puerta",
+      "english": "door",
+      "phonetic": "PWEHR-tah",
+      "emoji": "1f6aa",
+      "category": "home"
+    },
+    {
+      "word": "ventana",
+      "english": "window",
+      "phonetic": "behn-TAH-nah",
+      "emoji": "1fa9f",
+      "category": "home"
+    },
+    {
+      "word": "cama",
+      "english": "bed",
+      "phonetic": "KAH-mah",
+      "emoji": "1f6cf",
+      "category": "home"
+    },
+    {
+      "word": "silla",
+      "english": "chair",
+      "phonetic": "SEE-yah",
+      "emoji": "1fa91",
+      "category": "home"
+    },
+    {
+      "word": "mesa",
+      "english": "table",
+      "phonetic": "MEH-sah",
+      "emoji": "1fa91",
+      "category": "home"
+    },
+    {
+      "word": "llave",
+      "english": "key",
+      "phonetic": "YAH-beh",
+      "emoji": "1f511",
+      "category": "objects"
+    },
+    {
+      "word": "reloj",
+      "english": "clock",
+      "phonetic": "reh-LOH",
+      "emoji": "23f0",
+      "category": "objects"
+    },
+    {
+      "word": "lámpara",
+      "english": "lamp",
+      "phonetic": "LAHM-pah-rah",
+      "emoji": "1f4a1",
+      "category": "objects"
+    },
+    {
+      "word": "espejo",
+      "english": "mirror",
+      "phonetic": "ehs-PEH-hoh",
+      "emoji": "1fa9e",
+      "category": "objects"
+    },
+    {
+      "word": "baño",
+      "english": "bathroom",
+      "phonetic": "BAH-nyoh",
+      "emoji": "1f6c1",
+      "category": "home"
+    },
+    {
+      "word": "cocina",
+      "english": "kitchen",
+      "phonetic": "koh-SEE-nah",
+      "emoji": "1f373",
+      "category": "home"
+    },
+    {
+      "word": "computadora",
+      "english": "computer",
+      "phonetic": "kohm-poo-tah-DOH-rah",
+      "emoji": "1f4bb",
+      "category": "objects"
+    }
+  ]
+}
