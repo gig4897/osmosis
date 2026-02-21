@@ -61,6 +61,19 @@ static bool rleDecompress(const uint8_t* compressed, uint32_t compressedSize,
 
 namespace imageRenderer {
 
+void init() {
+    // Pre-allocate image buffer early before heap gets fragmented by JSON parsing
+    if (!imageBuffer) {
+        imageBuffer = (uint16_t*)malloc(IMG_W * IMG_H * sizeof(uint16_t));
+        if (imageBuffer) {
+            Serial.printf("[img] Pre-allocated image buffer (%u bytes)\n",
+                          (uint32_t)(IMG_W * IMG_H * sizeof(uint16_t)));
+        } else {
+            Serial.println("[img] WARNING: Failed to pre-allocate image buffer");
+        }
+    }
+}
+
 bool preloadImage(const char* filename) {
     imageLoaded = false;
 

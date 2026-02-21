@@ -7,7 +7,7 @@ cd "$(dirname "$0")/.."
 
 echo "=== Building all language packs (15 languages x 5 tiers = 75 packs) ==="
 
-LANGUAGES="spanish french portuguese_br portuguese_pt chinese dutch hindi arabic urdu japanese korean qeqchi tsalagi mvskoke"
+LANGUAGES="arabic chinese dutch french german hindi japanese korean mvskoke portuguese_br portuguese_pt qeqchi spanish tsalagi urdu"
 TIERS="beginner intermediate advanced expert numbers"
 
 for lang in $LANGUAGES; do

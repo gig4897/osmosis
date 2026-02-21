@@ -49,18 +49,17 @@ static const int PH_X[]         = {20, 130};
 
 // --- Language button ---
 static const int LANG_X = 20;
-static const int LANG_Y = 256;
+static const int LANG_Y = 252;
 static const int LANG_W = 200;
-static const int LANG_H = 28;
+static const int LANG_H = 24;
 
-// --- WiFi status row ---
-static const int WIFI_Y = 290;
-
-// --- Close button ---
-static const int CLOSE_X = 60;
-static const int CLOSE_Y = 290;
-static const int CLOSE_W = 120;
-static const int CLOSE_H = 26;
+// --- Bottom row: WiFi + Close side by side ---
+static const int BOTTOM_Y = 290;
+static const int BOTTOM_H = 26;
+static const int WIFI_X = 10;
+static const int WIFI_W = 105;
+static const int CLOSE_X = 125;
+static const int CLOSE_W = 105;
 
 // -------------------------------------------------------
 void SettingsScreen::show() {
@@ -226,34 +225,14 @@ void SettingsScreen::drawMainPage(TFT_eSprite& spr, int stripY) {
         drawButton(spr, btn, stripY, label, false);
     }
 
-    // WiFi status line (between language button and close)
+    // Bottom row: WiFi + Close side by side
     {
-        int y = 287 - stripY;
-        if (y >= -16 && y < STRIP_H) {
-            spr.setTextDatum(TC_DATUM);
-            if (wifiMgr::isConnected()) {
-                spr.setTextColor(CLR_ACCENT, CLR_BG_DARK);
-                char wifiBuf[48];
-                snprintf(wifiBuf, sizeof(wifiBuf), "WiFi: %s", wifiMgr::ssid());
-                spr.drawString(wifiBuf, SCREEN_W / 2, y, 1);
-            } else {
-                WiFiState ws = wifiMgr::state();
-                spr.setTextColor(CLR_TEXT_DIM, CLR_BG_DARK);
-                if (ws == WiFiState::Connecting) {
-                    spr.drawString("WiFi: Connecting...", SCREEN_W / 2, y, 1);
-                } else if (ws == WiFiState::CaptivePortalActive) {
-                    spr.drawString("WiFi: Setup mode (AP)", SCREEN_W / 2, y, 1);
-                } else {
-                    spr.drawString("WiFi: Not connected", SCREEN_W / 2, y, 1);
-                }
-            }
-        }
+        Button wifiBtn = {WIFI_X, BOTTOM_Y, WIFI_W, BOTTOM_H};
+        drawButton(spr, wifiBtn, stripY, "WiFi", false);
     }
-
-    // Row 6: Close button
     {
-        Button btn = {CLOSE_X, 298, CLOSE_W, CLOSE_H};
-        drawButton(spr, btn, stripY, "CLOSE", false);
+        Button closeBtn = {CLOSE_X, BOTTOM_Y, CLOSE_W, BOTTOM_H};
+        drawButton(spr, closeBtn, stripY, "CLOSE", false);
     }
 }
 
@@ -334,6 +313,18 @@ void SettingsScreen::drawLanguageBrowser(TFT_eSprite& spr, int stripY) {
             drawButton(spr, btn, stripY, packMgr::language(i).name, false);
         }
 
+        // Page indicator
+        if (totalPages > 1) {
+            int y = 280 - stripY;
+            if (y >= -8 && y < STRIP_H) {
+                char pgBuf[8];
+                snprintf(pgBuf, sizeof(pgBuf), "%d/%d", _scrollOffset + 1, totalPages);
+                spr.setTextColor(CLR_TEXT_DIM, CLR_BG_DARK);
+                spr.setTextDatum(TC_DATUM);
+                spr.drawString(pgBuf, SCREEN_W / 2, y, 1);
+            }
+        }
+
         // Navigation buttons: < BACK and NEXT >
         if (_scrollOffset > 0) {
             Button back = {10, 290, 105, 26};
@@ -346,18 +337,6 @@ void SettingsScreen::drawLanguageBrowser(TFT_eSprite& spr, int stripY) {
         if (_scrollOffset < totalPages - 1) {
             Button next = {125, 290, 105, 26};
             drawButton(spr, next, stripY, "NEXT >", false);
-        }
-
-        // Page indicator
-        if (totalPages > 1) {
-            int y = 280 - stripY;
-            if (y >= -8 && y < STRIP_H) {
-                char pgBuf[8];
-                snprintf(pgBuf, sizeof(pgBuf), "%d/%d", _scrollOffset + 1, totalPages);
-                spr.setTextColor(CLR_TEXT_DIM, CLR_BG_DARK);
-                spr.setTextDatum(TC_DATUM);
-                spr.drawString(pgBuf, SCREEN_W / 2, y, 1);
-            }
         }
     } else {
         // Show tiers for selected language
@@ -534,9 +513,24 @@ bool SettingsScreen::handleMainTap(TouchPoint pt) {
         }
     }
 
+    // WiFi button — launch captive portal (even if already connected)
+    {
+        Button btn = {WIFI_X, BOTTOM_Y, WIFI_W, BOTTOM_H};
+        if (hitTest(btn, pt)) {
+            WiFiState ws = wifiMgr::state();
+            if (ws != WiFiState::CaptivePortalActive) {
+                if (wifiMgr::isConnected() || ws == WiFiState::Connecting) {
+                    wifiMgr::disconnect();
+                }
+                wifiMgr::startCaptivePortal();
+            }
+            return true;
+        }
+    }
+
     // Close button — exit settings
     {
-        Button btn = {CLOSE_X, 298, CLOSE_W, CLOSE_H};
+        Button btn = {CLOSE_X, BOTTOM_Y, CLOSE_W, BOTTOM_H};
         if (hitTest(btn, pt)) {
             settingsMgr.save();
             hide();

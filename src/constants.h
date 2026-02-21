@@ -3,7 +3,7 @@
 
 // === Firmware ===
 constexpr const char* FW_NAME    = "Osmosis";
-constexpr const char* FW_VERSION = "2.0.0";
+constexpr const char* FW_VERSION = "3.0.0";
 
 // === Pin Definitions ===
 constexpr int PIN_TFT_BL = 21;

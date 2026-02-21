@@ -122,22 +122,23 @@ https://www.vcodeworks.dev/api/osmosis/
 ## Current Language Packs
 | Language | Flag | Tiers | Words per Tier |
 |----------|------|-------|---------------|
-| Spanish | ES | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
-| French | FR | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
-| Portuguese (BR) | BR | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
-| Portuguese (PT) | PT | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Arabic | EG | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 | Chinese | CN | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 | Dutch | NL | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| French | FR | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| German | DE | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 | Hindi | IN | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
-| Arabic | EG | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
-| Urdu | PK | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 | Japanese | JP | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 | Korean | KR | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
-| Q'eqchi' | GT | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
-| Tsalagi (Cherokee) | US | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 | Mvskoke (Creek) | US | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Portuguese (BR) | BR | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Portuguese (PT) | PT | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Q'eqchi' | GT | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Spanish | ES | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Tsalagi (Cherokee) | US | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Urdu | PK | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 
-**70 packs total** (14 languages × 5 tiers), **5,250 words**, **343 emoji .bin files** on CDN as of Feb 2026.
+**75 packs total** (15 languages × 5 tiers), **5,625 words**, **343 emoji .bin files** on CDN as of Feb 2026.
 
 **Product website:** https://www.vcodeworks.dev/osmosis/
 **Word lists:** https://www.vcodeworks.dev/osmosis/words.html
@@ -190,7 +191,7 @@ After a successful pack download, the device reboots (`ESP.restart()`) to ensure
 | `src/display_manager.cpp` | TFT_eSprite strip management + backlight |
 | `src/constants.h` | Layout, colors, pins, timing constants |
 | `tools/build_pack.py` | CSV → manifest.json |
-| `tools/build_all_packs.sh` | Build all 70 packs + 14 fonts |
+| `tools/build_all_packs.sh` | Build all 75 packs + 15 fonts |
 | `tools/render_apple_emoji.py` | Apple Color Emoji → PNG (macOS, pyobjc) |
 | `tools/convert_emoji.py` | PNG → ORLE RGB565 .bin |
 | `tools/generate_vlw_font.py` | Create TFT_eSPI VLW font files (supports auto char extraction for non-Latin scripts) |

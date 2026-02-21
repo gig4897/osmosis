@@ -27,6 +27,7 @@ LANGUAGE_CHARS = {
     'portuguese_br': list("àáâãçéêíóôõúÀÁÂÃÇÉÊÍÓÔÕÚ"),
     'portuguese_pt': list("àáâãçéêíóôõúÀÁÂÃÇÉÊÍÓÔÕÚ"),
     'dutch': list("éëïüÉËÏÜ"),
+    'german': list("äöüßÄÖÜ"),
     'chinese': list("āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ"),
     'hindi': "auto",      # Extract Devanagari chars from CSVs
     'arabic': "auto",     # Extract Arabic script chars from CSVs
@@ -44,7 +45,7 @@ def extract_chars_from_csv(language):
     import csv
     vocab_dir = Path(__file__).parent / "vocab"
     chars = set()
-    for tier in ['beginner', 'intermediate', 'advanced', 'expert']:
+    for tier in ['beginner', 'intermediate', 'advanced', 'expert', 'numbers']:
         csv_path = vocab_dir / f"{language}_{tier}.csv"
         if not csv_path.exists():
             continue

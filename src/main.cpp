@@ -30,7 +30,7 @@ static AppState appState = AppState::NoPack;
 
 void setup() {
     Serial.begin(115200);
-    Serial.println("Osmosis v2.0.0 booting...");
+    Serial.println("Osmosis v3.0.0 booting...");
 
     display.init();
     delay(100);
@@ -54,6 +54,9 @@ void setup() {
     Serial.printf("[boot] Free heap: %u\n", ESP.getFreeHeap());
 
     if (hasManifest) {
+        // Pre-allocate image buffer before JSON parsing fragments the heap
+        imageRenderer::init();
+
         bool loaded = vocabLoader::load();
         Serial.printf("[boot] vocabLoader::load() = %s\n", loaded ? "OK" : "FAIL");
 

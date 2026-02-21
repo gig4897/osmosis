@@ -13,20 +13,21 @@ VOCAB_DIR = Path(__file__).parent / "vocab"
 
 # Language display info: (id, display_name, flag_emoji_hex, script_direction)
 LANGUAGES = [
-    ("spanish", "Spanish", "1f1ea_1f1f8", "ltr"),
-    ("french", "French", "1f1eb_1f1f7", "ltr"),
-    ("portuguese_br", "Portuguese (BR)", "1f1e7_1f1f7", "ltr"),
-    ("portuguese_pt", "Portuguese (PT)", "1f1f5_1f1f9", "ltr"),
+    ("arabic", "Arabic", "1f1ea_1f1ec", "rtl"),
     ("chinese", "Chinese", "1f1e8_1f1f3", "ltr"),
     ("dutch", "Dutch", "1f1f3_1f1f1", "ltr"),
+    ("french", "French", "1f1eb_1f1f7", "ltr"),
+    ("german", "German", "1f1e9_1f1ea", "ltr"),
     ("hindi", "Hindi", "1f1ee_1f1f3", "ltr"),
-    ("arabic", "Arabic", "1f1ea_1f1ec", "rtl"),
-    ("urdu", "Urdu", "1f1f5_1f1f0", "rtl"),
     ("japanese", "Japanese", "1f1ef_1f1f5", "ltr"),
     ("korean", "Korean", "1f1f0_1f1f7", "ltr"),
-    ("qeqchi", "Q'eqchi'", "1f1ec_1f1f9", "ltr"),
-    ("tsalagi", "Tsalagi (Cherokee)", "None", "ltr"),
     ("mvskoke", "Mvskoke (Creek)", "None", "ltr"),
+    ("portuguese_br", "Portuguese (BR)", "1f1e7_1f1f7", "ltr"),
+    ("portuguese_pt", "Portuguese (PT)", "1f1f5_1f1f9", "ltr"),
+    ("qeqchi", "Q'eqchi'", "1f1ec_1f1f9", "ltr"),
+    ("spanish", "Spanish", "1f1ea_1f1f8", "ltr"),
+    ("tsalagi", "Tsalagi (Cherokee)", "None", "ltr"),
+    ("urdu", "Urdu", "1f1f5_1f1f0", "rtl"),
 ]
 
 TIERS = ["beginner", "intermediate", "advanced", "expert", "numbers"]
@@ -83,7 +84,7 @@ def generate_html():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Osmosis — Complete Word Lists</title>
-  <meta name="description" content="Browse all vocabulary words available in Osmosis language packs. 375 words per language with emoji, translations, and pronunciation guides.">
+  <meta name="description" content="Browse all 5,625 vocabulary words available in Osmosis language packs. 15 languages, 375 words each, with emoji, translations, and pronunciation guides.">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
