@@ -128,6 +128,15 @@ void reloadFont() {
     }
 }
 
+void freeFont() {
+    if (fontData26) {
+        free(fontData26);
+        fontData26 = nullptr;
+        smoothFontReady = false;
+        Serial.println("[font] Freed font buffer");
+    }
+}
+
 void render() {
     const WordEntry& word = cardMgr.currentWord();
     const bool showPhonetic = settingsMgr.settings().showPhonetic && strlen(word.phonetic) > 0;

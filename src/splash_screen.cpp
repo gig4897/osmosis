@@ -47,7 +47,7 @@ void splash::show() {
 
     // "v1.0 - Spanish" at y=260, Font 2
     tft.setTextColor(CLR_TEXT_SECONDARY);
-    tft.drawString("v2.0", SCREEN_W / 2, 260, 2);
+    tft.drawString("v3.0", SCREEN_W / 2, 260, 2);
 
     // "by VCodeworks LLC" at y=280, Font 2, dimmed green (50%)
     tft.setTextColor(dimGreen);

@@ -74,6 +74,15 @@ void init() {
     }
 }
 
+void freeBuffer() {
+    if (imageBuffer) {
+        free(imageBuffer);
+        imageBuffer = nullptr;
+        imageLoaded = false;
+        Serial.println("[img] Freed image buffer");
+    }
+}
+
 bool preloadImage(const char* filename) {
     imageLoaded = false;
 

@@ -3,6 +3,7 @@
 #include "wifi_manager.h"
 #include <Arduino.h>
 #include <HTTPClient.h>
+#include <WiFiClientSecure.h>
 #include <ArduinoJson.h>
 #include <FS.h>
 #include <SPIFFS.h>
@@ -36,8 +37,10 @@ static char _emojiList[MAX_EMOJI][12];
 static uint16_t _emojiCount = 0;
 
 static bool httpDownloadToSpiffs(const char* url, const char* path) {
+    WiFiClientSecure client;
+    client.setInsecure();  // Skip TLS cert verification
     HTTPClient http;
-    http.begin(url);
+    http.begin(client, url);
     http.setTimeout(15000);
     http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
     int code = http.GET();
@@ -90,11 +93,15 @@ bool fetchCatalog() {
     char url[128];
     snprintf(url, sizeof(url), "%s/catalog.json", BASE_URL);
 
+    WiFiClientSecure client;
+    client.setInsecure();  // Skip TLS cert verification
     HTTPClient http;
-    http.begin(url);
+    http.begin(client, url);
     http.setTimeout(10000);
     http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
+    Serial.printf("[pack] Fetching: %s (heap: %u)\n", url, (uint32_t)ESP.getFreeHeap());
     int code = http.GET();
+    Serial.printf("[pack] HTTP response: %d\n", code);
 
     if (code != 200) {
         Serial.printf("[pack] Catalog fetch failed: HTTP %d\n", code);

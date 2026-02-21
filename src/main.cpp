@@ -187,12 +187,22 @@ void loop() {
                     // Check if settings closed (via close button or back)
                     if (!settingsUI.isActive()) {
                         appState = packInstalled ? AppState::Cards : AppState::NoPack;
+                        // Reload font + image buffer that were freed for TLS
+                        if (appState == AppState::Cards) {
+                            imageRenderer::init();
+                            cardScreen::reloadFont();
+                        }
                         needsRender = true;
                     }
                 } else if (gesture == GESTURE_LONG_PRESS) {
                     settingsUI.hide();
                     settingsMgr.save();
                     appState = packInstalled ? AppState::Cards : AppState::NoPack;
+                    // Reload font + image buffer that were freed for TLS
+                    if (appState == AppState::Cards) {
+                        imageRenderer::init();
+                        cardScreen::reloadFont();
+                    }
                     needsRender = true;
                 }
                 break;

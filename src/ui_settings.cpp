@@ -3,6 +3,8 @@
 #include "settings_manager.h"
 #include "wifi_manager.h"
 #include "pack_manager.h"
+#include "card_screen.h"
+#include "image_renderer.h"
 #include "constants.h"
 #include <Esp.h>
 
@@ -14,7 +16,7 @@ static const char* WPD_LABELS[] = {"10", "15", "20"};
 static const int WPD_COUNT      = 3;
 static const int WPD_LABEL_Y    = 30;
 static const int WPD_Y          = 44;
-static const int WPD_H          = 36;
+static const int WPD_H          = 30;
 static const int WPD_W          = 68;
 static const int WPD_X[]        = {10, 86, 162};
 
@@ -22,9 +24,9 @@ static const int WPD_X[]        = {10, 86, 162};
 static const int DT_VALUES[]    = {30, 60, 120, 300};
 static const char* DT_LABELS[]  = {"30s", "1m", "2m", "5m"};
 static const int DT_COUNT       = 4;
-static const int DT_LABEL_Y     = 86;
-static const int DT_Y           = 100;
-static const int DT_H           = 36;
+static const int DT_LABEL_Y     = 80;
+static const int DT_Y           = 94;
+static const int DT_H           = 30;
 static const int DT_W           = 52;
 static const int DT_X[]         = {8, 66, 124, 182};
 
@@ -32,29 +34,29 @@ static const int DT_X[]         = {8, 66, 124, 182};
 static const int BR_VALUES[]    = {0, 1, 2};
 static const char* BR_LABELS[]  = {"Low", "Med", "High"};
 static const int BR_COUNT       = 3;
-static const int BR_LABEL_Y     = 142;
-static const int BR_Y           = 156;
-static const int BR_H           = 36;
+static const int BR_LABEL_Y     = 130;
+static const int BR_Y           = 144;
+static const int BR_H           = 30;
 static const int BR_W           = 68;
 static const int BR_X[]         = {10, 86, 162};
 
 // --- Phonetic toggle row ---
 static const char* PH_LABELS[]  = {"OFF", "ON"};
 static const int PH_COUNT       = 2;
-static const int PH_LABEL_Y     = 198;
-static const int PH_Y           = 212;
+static const int PH_LABEL_Y     = 180;
+static const int PH_Y           = 194;
 static const int PH_H           = 36;
 static const int PH_W           = 100;
 static const int PH_X[]         = {20, 130};
 
 // --- Language button ---
 static const int LANG_X = 20;
-static const int LANG_Y = 252;
+static const int LANG_Y = 234;
 static const int LANG_W = 200;
-static const int LANG_H = 24;
+static const int LANG_H = 36;
 
 // --- Bottom row: WiFi + Close side by side ---
-static const int BOTTOM_Y = 290;
+static const int BOTTOM_Y = 286;
 static const int BOTTOM_H = 26;
 static const int WIFI_X = 10;
 static const int WIFI_W = 105;
@@ -223,6 +225,30 @@ void SettingsScreen::drawMainPage(TFT_eSprite& spr, int stripY) {
             strlcpy(label, "Browse Languages", sizeof(label));
         }
         drawButton(spr, btn, stripY, label, false);
+    }
+
+    // WiFi status line
+    {
+        int y = 274 - stripY;
+        if (y >= -8 && y < STRIP_H) {
+            spr.setTextDatum(TC_DATUM);
+            WiFiState ws = wifiMgr::state();
+            if (wifiMgr::isConnected()) {
+                spr.setTextColor(CLR_ACCENT, CLR_BG_DARK);
+                char buf[40];
+                snprintf(buf, sizeof(buf), "WiFi: %s", wifiMgr::ssid());
+                spr.drawString(buf, SCREEN_W / 2, y, 1);
+            } else if (ws == WiFiState::CaptivePortalActive) {
+                spr.setTextColor(CLR_PHONETIC, CLR_BG_DARK);
+                spr.drawString("WiFi: Setup Portal Active", SCREEN_W / 2, y, 1);
+            } else if (ws == WiFiState::Connecting) {
+                spr.setTextColor(CLR_PHONETIC, CLR_BG_DARK);
+                spr.drawString("WiFi: Connecting...", SCREEN_W / 2, y, 1);
+            } else {
+                spr.setTextColor(CLR_TEXT_DIM, CLR_BG_DARK);
+                spr.drawString("WiFi: No Connection", SCREEN_W / 2, y, 1);
+            }
+        }
     }
 
     // Bottom row: WiFi + Close side by side
@@ -495,6 +521,11 @@ bool SettingsScreen::handleMainTap(TouchPoint pt) {
     {
         Button btn = {LANG_X, LANG_Y, LANG_W, LANG_H};
         if (hitTest(btn, pt)) {
+            // Free font + image buffer to reclaim heap for TLS (~120KB)
+            cardScreen::freeFont();
+            imageRenderer::freeBuffer();
+            Serial.printf("[settings] Freed resources, heap: %u\n", (uint32_t)ESP.getFreeHeap());
+
             _page = SettingsPage::LanguageBrowser;
             _selectedLang = -1;
             _scrollOffset = 0;
