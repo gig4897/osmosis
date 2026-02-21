@@ -1,0 +1,536 @@
+{
+  "language": "korean",
+  "languageDisplay": "Korean",
+  "tier": "advanced",
+  "tierDisplay": "Advanced",
+  "version": 1,
+  "wordCount": 75,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "eolgul",
+      "english": "face",
+      "phonetic": "UHL-GOOL",
+      "emoji": "1f600",
+      "category": "emotions"
+    },
+    {
+      "word": "haengbokan",
+      "english": "happy",
+      "phonetic": "HEHNG-BOHK-HAHN",
+      "emoji": "1f60a",
+      "category": "emotions"
+    },
+    {
+      "word": "seulpeun",
+      "english": "sad",
+      "phonetic": "SEUL-PEUN",
+      "emoji": "1f622",
+      "category": "emotions"
+    },
+    {
+      "word": "hwanan",
+      "english": "angry",
+      "phonetic": "HWAH-NAHN",
+      "emoji": "1f620",
+      "category": "emotions"
+    },
+    {
+      "word": "duryeoun",
+      "english": "afraid",
+      "phonetic": "DOO-RYUH-OON",
+      "emoji": "1f628",
+      "category": "emotions"
+    },
+    {
+      "word": "pigonhan",
+      "english": "tired",
+      "phonetic": "PEE-GOHN-HAHN",
+      "emoji": "1f634",
+      "category": "emotions"
+    },
+    {
+      "word": "nollan",
+      "english": "surprised",
+      "phonetic": "NOHL-LAHN",
+      "emoji": "1f632",
+      "category": "emotions"
+    },
+    {
+      "word": "apeun",
+      "english": "sick",
+      "phonetic": "AH-PEUN",
+      "emoji": "1f912",
+      "category": "emotions"
+    },
+    {
+      "word": "useum",
+      "english": "laugh",
+      "phonetic": "OO-SEUM",
+      "emoji": "1f602",
+      "category": "emotions"
+    },
+    {
+      "word": "ureum",
+      "english": "cry",
+      "phonetic": "OO-REUM",
+      "emoji": "1f62d",
+      "category": "emotions"
+    },
+    {
+      "word": "sarang",
+      "english": "love",
+      "phonetic": "SAH-RAHNG",
+      "emoji": "1f60d",
+      "category": "emotions"
+    },
+    {
+      "word": "malhada",
+      "english": "speak",
+      "phonetic": "MAHL-HAH-DAH",
+      "emoji": "1f5e3",
+      "category": "actions"
+    },
+    {
+      "word": "saenggakhada",
+      "english": "think",
+      "phonetic": "SEHNG-GAHK-HAH-DAH",
+      "emoji": "1f4ad",
+      "category": "actions"
+    },
+    {
+      "word": "dalligi",
+      "english": "running",
+      "phonetic": "DAHL-REE-GEE",
+      "emoji": "1f3c3",
+      "category": "actions"
+    },
+    {
+      "word": "suyeong",
+      "english": "swimming",
+      "phonetic": "SOO-YUHNG",
+      "emoji": "1f3ca",
+      "category": "actions"
+    },
+    {
+      "word": "geotgi",
+      "english": "walking",
+      "phonetic": "GUHT-GEE",
+      "emoji": "1f6b6",
+      "category": "actions"
+    },
+    {
+      "word": "chumchugi",
+      "english": "dancing",
+      "phonetic": "CHOOM-CHOO-GEE",
+      "emoji": "1f483",
+      "category": "actions"
+    },
+    {
+      "word": "sseugi",
+      "english": "writing",
+      "phonetic": "SSEU-GEE",
+      "emoji": "270d",
+      "category": "actions"
+    },
+    {
+      "word": "naksi",
+      "english": "fishing",
+      "phonetic": "NAHK-SHEE",
+      "emoji": "1f3a3",
+      "category": "entertainment"
+    },
+    {
+      "word": "seuki",
+      "english": "skiing",
+      "phonetic": "SEU-KEE",
+      "emoji": "26f7",
+      "category": "entertainment"
+    },
+    {
+      "word": "seoping",
+      "english": "surfing",
+      "phonetic": "SUH-PEENG",
+      "emoji": "1f3c4",
+      "category": "entertainment"
+    },
+    {
+      "word": "achim",
+      "english": "morning",
+      "phonetic": "AH-CHEEM",
+      "emoji": "1f305",
+      "category": "time"
+    },
+    {
+      "word": "jeonyeok",
+      "english": "evening",
+      "phonetic": "JUH-NYUHK",
+      "emoji": "1f307",
+      "category": "time"
+    },
+    {
+      "word": "bam",
+      "english": "night",
+      "phonetic": "BAHM",
+      "emoji": "1f303",
+      "category": "time"
+    },
+    {
+      "word": "saengil",
+      "english": "birthday",
+      "phonetic": "SEHNG-EEL",
+      "emoji": "1f382",
+      "category": "entertainment"
+    },
+    {
+      "word": "pati",
+      "english": "party",
+      "phonetic": "PAH-TEE",
+      "emoji": "1f389",
+      "category": "entertainment"
+    },
+    {
+      "word": "seonmul",
+      "english": "gift",
+      "phonetic": "SUHN-MOOL",
+      "emoji": "1f381",
+      "category": "entertainment"
+    },
+    {
+      "word": "eumak",
+      "english": "music",
+      "phonetic": "EUM-AHK",
+      "emoji": "1f3b5",
+      "category": "entertainment"
+    },
+    {
+      "word": "norae",
+      "english": "song",
+      "phonetic": "NOH-REH",
+      "emoji": "1f3b6",
+      "category": "entertainment"
+    },
+    {
+      "word": "piano",
+      "english": "piano",
+      "phonetic": "PEE-AH-NOH",
+      "emoji": "1f3b9",
+      "category": "entertainment"
+    },
+    {
+      "word": "gita",
+      "english": "guitar",
+      "phonetic": "GEE-TAH",
+      "emoji": "1f3b8",
+      "category": "entertainment"
+    },
+    {
+      "word": "buk",
+      "english": "drum",
+      "phonetic": "BOOK",
+      "emoji": "1f941",
+      "category": "entertainment"
+    },
+    {
+      "word": "yeonghwa",
+      "english": "movie",
+      "phonetic": "YUHNG-HWAH",
+      "emoji": "1f3ac",
+      "category": "entertainment"
+    },
+    {
+      "word": "yesul",
+      "english": "art",
+      "phonetic": "YEH-SOOL",
+      "emoji": "1f3a8",
+      "category": "entertainment"
+    },
+    {
+      "word": "geim",
+      "english": "game",
+      "phonetic": "GEH-EEM",
+      "emoji": "1f3b2",
+      "category": "entertainment"
+    },
+    {
+      "word": "jong",
+      "english": "bell",
+      "phonetic": "JOHNG",
+      "emoji": "1f514",
+      "category": "objects"
+    },
+    {
+      "word": "hotel",
+      "english": "hotel",
+      "phonetic": "HOH-TEHL",
+      "emoji": "1f3e8",
+      "category": "places"
+    },
+    {
+      "word": "dosi",
+      "english": "city",
+      "phonetic": "DOH-SHEE",
+      "emoji": "1f3d9",
+      "category": "places"
+    },
+    {
+      "word": "san",
+      "english": "mountain",
+      "phonetic": "SAHN",
+      "emoji": "1f3d4",
+      "category": "places"
+    },
+    {
+      "word": "haebyeon",
+      "english": "beach",
+      "phonetic": "HEH-BYUHN",
+      "emoji": "1f3d6",
+      "category": "places"
+    },
+    {
+      "word": "gil",
+      "english": "road",
+      "phonetic": "GEEL",
+      "emoji": "1f6e3",
+      "category": "places"
+    },
+    {
+      "word": "eunhaeng",
+      "english": "bank",
+      "phonetic": "EUN-HEHNG",
+      "emoji": "1f3e6",
+      "category": "places"
+    },
+    {
+      "word": "seong",
+      "english": "castle",
+      "phonetic": "SUHNG",
+      "emoji": "1f3f0",
+      "category": "places"
+    },
+    {
+      "word": "seom",
+      "english": "island",
+      "phonetic": "SUHM",
+      "emoji": "1f3dd",
+      "category": "places"
+    },
+    {
+      "word": "gongwon",
+      "english": "park",
+      "phonetic": "GOHNG-WUHN",
+      "emoji": "1f3de",
+      "category": "places"
+    },
+    {
+      "word": "taeksi",
+      "english": "taxi",
+      "phonetic": "TEHK-SHEE",
+      "emoji": "1f695",
+      "category": "transport"
+    },
+    {
+      "word": "hellikopteo",
+      "english": "helicopter",
+      "phonetic": "HEHL-LEE-KOHP-TUH",
+      "emoji": "1f681",
+      "category": "transport"
+    },
+    {
+      "word": "roket",
+      "english": "rocket",
+      "phonetic": "ROH-KEHT",
+      "emoji": "1f680",
+      "category": "transport"
+    },
+    {
+      "word": "gugeupcha",
+      "english": "ambulance",
+      "phonetic": "GOO-GEUP-CHAH",
+      "emoji": "1f691",
+      "category": "transport"
+    },
+    {
+      "word": "otobai",
+      "english": "motorcycle",
+      "phonetic": "OH-TOH-BAH-EE",
+      "emoji": "1f3cd",
+      "category": "transport"
+    },
+    {
+      "word": "bae",
+      "english": "ship",
+      "phonetic": "BEH",
+      "emoji": "1f6a2",
+      "category": "transport"
+    },
+    {
+      "word": "radio",
+      "english": "radio",
+      "phonetic": "RAH-DEE-OH",
+      "emoji": "1f4fb",
+      "category": "objects"
+    },
+    {
+      "word": "sinmun",
+      "english": "newspaper",
+      "phonetic": "SHEEN-MOON",
+      "emoji": "1f4f0",
+      "category": "objects"
+    },
+    {
+      "word": "memo",
+      "english": "note",
+      "phonetic": "MEH-MOH",
+      "emoji": "1f4dd",
+      "category": "objects"
+    },
+    {
+      "word": "pen",
+      "english": "pen",
+      "phonetic": "PEHN",
+      "emoji": "1f58a",
+      "category": "objects"
+    },
+    {
+      "word": "yeonpil",
+      "english": "pencil",
+      "phonetic": "YUHN-PEEL",
+      "emoji": "270f",
+      "category": "objects"
+    },
+    {
+      "word": "gawi",
+      "english": "scissors",
+      "phonetic": "GAH-WEE",
+      "emoji": "2702",
+      "category": "objects"
+    },
+    {
+      "word": "dallyeok",
+      "english": "calendar",
+      "phonetic": "DAHL-LYUHK",
+      "emoji": "1f4c5",
+      "category": "objects"
+    },
+    {
+      "word": "jamulsoe",
+      "english": "lock",
+      "phonetic": "JAH-MOOL-SHWEH",
+      "emoji": "1f512",
+      "category": "objects"
+    },
+    {
+      "word": "mangchi",
+      "english": "hammer",
+      "phonetic": "MAHNG-CHEE",
+      "emoji": "1f528",
+      "category": "tools"
+    },
+    {
+      "word": "kal",
+      "english": "knife",
+      "phonetic": "KAHL",
+      "emoji": "1f52a",
+      "category": "tools"
+    },
+    {
+      "word": "pokeu",
+      "english": "fork",
+      "phonetic": "POH-KEU",
+      "emoji": "1f374",
+      "category": "tools"
+    },
+    {
+      "word": "sutgarak",
+      "english": "spoon",
+      "phonetic": "SOOT-GAH-RAHK",
+      "emoji": "1f944",
+      "category": "tools"
+    },
+    {
+      "word": "jeopsi",
+      "english": "plate",
+      "phonetic": "JUHP-SHEE",
+      "emoji": "1f37d",
+      "category": "tools"
+    },
+    {
+      "word": "jido",
+      "english": "map",
+      "phonetic": "JEE-DOH",
+      "emoji": "1f5fa",
+      "category": "objects"
+    },
+    {
+      "word": "sangja",
+      "english": "box",
+      "phonetic": "SAHNG-JAH",
+      "emoji": "1f4e6",
+      "category": "objects"
+    },
+    {
+      "word": "upyeon",
+      "english": "mail",
+      "phonetic": "OO-PYUHN",
+      "emoji": "1f4e8",
+      "category": "objects"
+    },
+    {
+      "word": "mogyok",
+      "english": "bath",
+      "phonetic": "MOH-GYOHK",
+      "emoji": "1f6c1",
+      "category": "home"
+    },
+    {
+      "word": "binu",
+      "english": "soap",
+      "phonetic": "BEE-NOO",
+      "emoji": "1f9fc",
+      "category": "objects"
+    },
+    {
+      "word": "dongjeon",
+      "english": "coin",
+      "phonetic": "DOHNG-JUHN",
+      "emoji": "1fa99",
+      "category": "objects"
+    },
+    {
+      "word": "sigye",
+      "english": "clock",
+      "phonetic": "SHEE-GYEH",
+      "emoji": "1f570",
+      "category": "objects"
+    },
+    {
+      "word": "sonmoksigye",
+      "english": "watch",
+      "phonetic": "SOHN-MOHK-SHEE-GYEH",
+      "emoji": "231a",
+      "category": "objects"
+    },
+    {
+      "word": "gitbal",
+      "english": "flag",
+      "phonetic": "GEET-BAHL",
+      "emoji": "1f3f3",
+      "category": "objects"
+    },
+    {
+      "word": "geom",
+      "english": "sword",
+      "phonetic": "GUHM",
+      "emoji": "2694",
+      "category": "tools"
+    },
+    {
+      "word": "chong",
+      "english": "gun",
+      "phonetic": "CHOHNG",
+      "emoji": "1f52b",
+      "category": "tools"
+    }
+  ]
+}

@@ -1,76 +1,76 @@
 emoji,english,translation,phonetic,category
-1f600,face,ᎤᎧᏛ,oo-KAH-duh,emotions
-1f60a,happy,ᎠᎵᎮᎵᏍᏗ,ah-lee-HAY-lee-sdee,emotions
-1f622,sad,ᎠᏲᏓᏍᏗ,ah-YOH-dah-sdee,emotions
-1f620,angry,ᎤᎿᎥᏍᎩ,oo-HAH-uh-sgee,emotions
-1f628,afraid,ᎤᏲᏍᎩ,oo-YOH-sgee,emotions
-1f634,tired,ᎤᏲᏍᏗ,oo-YOH-sdee,emotions
-1f632,surprised,ᎤᏍᎩᎾ,oo-SGEE-nah,emotions
-1f912,sick,ᎤᏢᏒ,oo-TLUH-suh,emotions
-1f602,laugh,ᎤᏰᏍᎦ,oo-YAY-sgah,emotions
-1f62d,cry,ᎠᏲ,ah-YOH,emotions
-1f60d,love,ᎠᏓᎨᏳᏂ,ah-dah-GAY-yoo-nee,emotions
-1f5e3,speak,ᎦᏬᏂᎭ,gah-WOH-nee-hah,actions
-1f4ad,think,ᎠᏓᏅᏖᎭ,ah-dah-NUH-tay-hah,actions
-1f3c3,running,ᎠᏎᎭ,ah-SAY-hah,actions
-1f3ca,swimming,ᎠᏓᏬᏍᎦ,ah-dah-WOH-sgah,actions
-1f6b6,walking,ᎠᏗᎭ,ah-DEE-hah,actions
-1f483,dancing,ᎠᎳᏍᎦ,ah-LAHS-gah,actions
-270d,writing,ᎠᏃᏪᎭ,ah-NOH-way-hah,actions
-1f3a3,fishing,ᎠᏍᏓᏩᏗᎭ,ah-sdah-WAH-dee-hah,entertainment
-26f7,skiing,ᎠᏓᎵᎩᎭ,ah-dah-LEE-gee-hah,entertainment
-1f3c4,surfing,ᎠᏬᎩᎭ,ah-WOH-gee-hah,entertainment
-1f305,morning,ᏒᎠᎢ,suh-AH-ee,time
-1f307,evening,ᏒᏃᏱ,suh-NOH-yee,time
-1f303,night,ᏒᎦ,suh-GAH,time
-1f382,birthday,ᏕᎵᏆᎴᏍᏗ ᎢᎦ,day-lee-KWAH-lay-sdee ee-GAH,entertainment
-1f389,party,ᏗᎦᎵᏍᎬ,dee-gah-LEES-guh,entertainment
-1f381,gift,ᎠᏓᏁᏗ,ah-dah-NAY-dee,entertainment
-1f3b5,music,ᏗᎧᏃᎩᏍᏗ,dee-kah-NOH-gee-sdee,entertainment
-1f3b6,song,ᎧᏄᎩ,kah-NOO-gee,entertainment
-1f3b9,piano,ᏈᏰᏃ,KWEE-yay-noh,entertainment
-1f3b8,guitar,ᏗᏃᏍᏗ,dee-NOH-sdee,entertainment
-1f941,drum,ᎠᏢᎳ,ah-TLUH-lah,entertainment
-1f3ac,movie,ᏗᏓᏟᏂᏍᎬ ᎦᏃᎩ,dee-dah-TLEE-nee-SGUH gah-NOH-gee,entertainment
-1f3a8,art,ᏗᏓᏟᏂᏍᏗ,dee-dah-TLEE-nee-sdee,entertainment
-1f3b2,game,ᏗᏁᏍᏗ,dee-NAY-sdee,entertainment
-1f514,bell,ᎦᎾᎾᏍᎩ,gah-NAH-nah-sgee,objects
-1f3e8,hotel,ᏗᏂᏒᏍᏗ,dee-nee-SOO-sdee,places
-1f3d9,city,ᎦᏚᎲᏍᏗ ᎤᏔᎾ,gah-DOO-huh-sdee oo-TAH-nah,places
-1f3d4,mountain,ᎣᏓᎸ,oh-DAH-luh,places
-1f3d6,beach,ᎠᎹ ᎡᎳᏗ,ah-MAH ay-LAH-dee,places
-1f6e3,road,ᏅᏃᎯ,nuh-NOH-hee,places
-1f3e6,bank,ᎠᏕᎳ ᎠᏓᏁᎸ,ah-DAY-lah ah-dah-NAY-luh,places
-1f3f0,castle,ᎤᏔᎾ ᎦᎵᏦᏍᏔᏂ,oo-TAH-nah gah-lee-TSOH-stah-nee,places
-1f3dd,island,ᎠᎹᏰᎵ,ah-mah-YAY-lee,places
-1f3de,park,ᎤᎾᏝᏅᏗ,oo-nah-TLAH-nuh-dee,places
-1f695,taxi,ᎠᏗᏝᏗ ᏓᏰᏟ,ah-dee-TLAH-dee dah-YAY-tslee,transport
-1f681,helicopter,ᎦᏅᎯᏓ ᎤᎩᏍᏗ,gah-NUH-hee-dah oo-GEE-sdee,transport
-1f680,rocket,ᎤᏍᏆᎸᏗ,oo-SKWAH-luh-dee,transport
-1f691,ambulance,ᏗᏂᏅᏪᎵ ᏓᏰᏟ,dee-nee-NUH-way-lee dah-YAY-tslee,transport
-1f3cd,motorcycle,ᏔᎵ ᏓᏰᏟ,TAH-lee dah-YAY-tslee,transport
-1f6a2,ship,ᏥᏳ ᎤᏔᎾ,TSEE-yoo oo-TAH-nah,transport
-1f4fb,radio,ᏗᎧᏃᏗ ᏓᎷᎸᏗ,dee-kah-NOH-dee dah-LOO-luh-dee,objects
-1f4f0,newspaper,ᎪᏪᎵ ᏧᎾᏛᏁᎵ,goh-WAY-lee tsoo-nah-DAHN-ay-lee,objects
-1f4dd,note,ᎪᏪᎵᏍᎬ,goh-WAY-lee-SGUH,objects
-1f58a,pen,ᏗᎪᏪᎳᏅ,dee-goh-WAY-lah-nuh,objects
-270f,pencil,ᏗᎪᏪᎳᏅ ᎠᏓ,dee-goh-WAY-lah-nuh ah-DAH,objects
-2702,scissors,ᏗᎳᎩᏍᏗ,dee-LAH-gee-sdee,objects
-1f4c5,calendar,ᏅᏙ ᎢᏳᏍᏗ,nuh-DOH ee-YOO-sdee,objects
-1f512,lock,ᏗᏯᏍᏚᏗ,dee-yah-SDOO-dee,objects
-1f528,hammer,ᏂᎦᏓ,nee-GAH-dah,tools
-1f52a,knife,ᎭᏰᎳᏗ,hah-YAY-lah-dee,tools
-1f374,fork,ᏖᏚ,TAY-doo,tools
-1f944,spoon,ᎠᏑᏓᎵ,ah-SOO-dah-lee,tools
-1f37d,plate,ᏔᎷᏣ,tah-LOO-tsah,tools
-1f5fa,map,ᎡᎶᎯ ᏗᏓᏟᏂᏍᎬ,ay-LOH-hee dee-dah-TLEE-nee-SGUH,objects
-1f4e6,box,ᎦᏌᏙᏯ,gah-SAH-doh-yah,objects
-1f4e8,mail,ᎪᏪᎵ ᎠᏓᏅᏖᏗ,goh-WAY-lee ah-dah-NUH-tay-dee,objects
-1f6c1,bath,ᎠᏩᏍᎬ,ah-WAHS-guh,home
-1f9fc,soap,ᎪᎵᏏ,goh-LEE-see,objects
-1fa99,coin,ᎠᏕᎳ ᏅᏯ,ah-DAY-lah nuh-YAH,objects
-1f570,clock,ᏩᏥ,WAH-tsee,objects
-231a,watch,ᏩᏥ ᎤᏍᏗ,WAH-tsee oos-DEE,objects
-1f3f3,flag,ᎦᏓᏢᎢ,gah-dah-TLUH-ee,objects
-2694,sword,ᎭᏰᎳᏗ ᎤᏔᎾ,hah-YAY-lah-dee oo-TAH-nah,tools
-1f52b,gun,ᎦᏅᏍᎦ,gah-NUHS-gah,tools
+1f600,face,ukadv,oo-KAH-duh,emotions
+1f60a,happy,alihelisdi,ah-lee-HAY-lee-sdee,emotions
+1f622,sad,ayodasdi,ah-YOH-dah-sdee,emotions
+1f620,angry,uhahvsgi,oo-HAH-uh-sgee,emotions
+1f628,afraid,uyosgi,oo-YOH-sgee,emotions
+1f634,tired,uyosdi,oo-YOH-sdee,emotions
+1f632,surprised,usginah,oo-SGEE-nah,emotions
+1f912,sick,utlvsv,oo-TLUH-suh,emotions
+1f602,laugh,uyesgah,oo-YAY-sgah,emotions
+1f62d,cry,ayo,ah-YOH,emotions
+1f60d,love,adageyuni,ah-dah-GAY-yoo-nee,emotions
+1f5e3,speak,gawonihah,gah-WOH-nee-hah,actions
+1f4ad,think,adanvtehah,ah-dah-NUH-tay-hah,actions
+1f3c3,running,asehah,ah-SAY-hah,actions
+1f3ca,swimming,adawosgah,ah-dah-WOH-sgah,actions
+1f6b6,walking,adihah,ah-DEE-hah,actions
+1f483,dancing,alasgah,ah-LAHS-gah,actions
+270d,writing,anowehah,ah-NOH-way-hah,actions
+1f3a3,fishing,asdawadihah,ah-sdah-WAH-dee-hah,entertainment
+26f7,skiing,adaligihah,ah-dah-LEE-gee-hah,entertainment
+1f3c4,surfing,awogihah,ah-WOH-gee-hah,entertainment
+1f305,morning,svai,suh-AH-ee,time
+1f307,evening,svnoyi,suh-NOH-yee,time
+1f303,night,svga,suh-GAH,time
+1f382,birthday,delikwalesdi igah,day-lee-KWAH-lay-sdee ee-GAH,entertainment
+1f389,party,digalisgv,dee-gah-LEES-guh,entertainment
+1f381,gift,adanedi,ah-dah-NAY-dee,entertainment
+1f3b5,music,dikanogisdi,dee-kah-NOH-gee-sdee,entertainment
+1f3b6,song,kanugi,kah-NOO-gee,entertainment
+1f3b9,piano,kwiyenoh,KWEE-yay-noh,entertainment
+1f3b8,guitar,dinosdi,dee-NOH-sdee,entertainment
+1f941,drum,atlulah,ah-TLUH-lah,entertainment
+1f3ac,movie,didatlinisgv ganogi,dee-dah-TLEE-nee-SGUH gah-NOH-gee,entertainment
+1f3a8,art,didatlinisdi,dee-dah-TLEE-nee-sdee,entertainment
+1f3b2,game,dinesdi,dee-NAY-sdee,entertainment
+1f514,bell,gananasgah,gah-NAH-nah-sgee,objects
+1f3e8,hotel,dinisvrsdi,dee-nee-SOO-sdee,places
+1f3d9,city,gaduhvsdi utana,gah-DOO-huh-sdee oo-TAH-nah,places
+1f3d4,mountain,odalv,oh-DAH-luh,places
+1f3d6,beach,ama eladi,ah-MAH ay-LAH-dee,places
+1f6e3,road,nvnohi,nuh-NOH-hee,places
+1f3e6,bank,adela adanelv,ah-DAY-lah ah-dah-NAY-luh,places
+1f3f0,castle,utana galitsostani,oo-TAH-nah gah-lee-TSOH-stah-nee,places
+1f3dd,island,amayeli,ah-mah-YAY-lee,places
+1f3de,park,unatlanuudi,oo-nah-TLAH-nuh-dee,places
+1f695,taxi,aditladi dayetsli,ah-dee-TLAH-dee dah-YAY-tslee,transport
+1f681,helicopter,ganvhida ugisdi,gah-NUH-hee-dah oo-GEE-sdee,transport
+1f680,rocket,uskwalvdi,oo-SKWAH-luh-dee,transport
+1f691,ambulance,dininvweli dayetsli,dee-nee-NUH-way-lee dah-YAY-tslee,transport
+1f3cd,motorcycle,tali dayetsli,TAH-lee dah-YAY-tslee,transport
+1f6a2,ship,tsiyu utana,TSEE-yoo oo-TAH-nah,transport
+1f4fb,radio,dikanodi dalulvdi,dee-kah-NOH-dee dah-LOO-luh-dee,objects
+1f4f0,newspaper,goweli tsunadvneli,goh-WAY-lee tsoo-nah-DAHN-ay-lee,objects
+1f4dd,note,goweligsv,goh-WAY-lee-SGUH,objects
+1f58a,pen,digowelanv,dee-goh-WAY-lah-nuh,objects
+270f,pencil,digowelanv ada,dee-goh-WAY-lah-nuh ah-DAH,objects
+2702,scissors,dilagisdi,dee-LAH-gee-sdee,objects
+1f4c5,calendar,nvdo iyusdi,nuh-DOH ee-YOO-sdee,objects
+1f512,lock,diyasdudi,dee-yah-SDOO-dee,objects
+1f528,hammer,nigada,nee-GAH-dah,tools
+1f52a,knife,hayeladi,hah-YAY-lah-dee,tools
+1f374,fork,tedu,TAY-doo,tools
+1f944,spoon,asudali,ah-SOO-dah-lee,tools
+1f37d,plate,talutsa,tah-LOO-tsah,tools
+1f5fa,map,elohi didatlinisgv,ay-LOH-hee dee-dah-TLEE-nee-SGUH,objects
+1f4e6,box,gasadoya,gah-SAH-doh-yah,objects
+1f4e8,mail,goweli adanvtedi,goh-WAY-lee ah-dah-NUH-tay-dee,objects
+1f6c1,bath,awasgv,ah-WAHS-guh,home
+1f9fc,soap,golisi,goh-LEE-see,objects
+1fa99,coin,adela nvya,ah-DAY-lah nuh-YAH,objects
+1f570,clock,watsi,WAH-tsee,objects
+231a,watch,watsi usdi,WAH-tsee oos-DEE,objects
+1f3f3,flag,gadatlvhi,gah-dah-TLUH-ee,objects
+2694,sword,hayeladi utana,hah-YAY-lah-dee oo-TAH-nah,tools
+1f52b,gun,ganvsgah,gah-NUHS-gah,tools

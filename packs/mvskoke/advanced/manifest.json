@@ -1,0 +1,536 @@
+{
+  "language": "mvskoke",
+  "languageDisplay": "Mvskoke (Creek)",
+  "tier": "advanced",
+  "tierDisplay": "Advanced",
+  "version": 1,
+  "wordCount": 75,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "turofv",
+      "english": "face",
+      "phonetic": "too-ROH-fuh",
+      "emoji": "1f600",
+      "category": "emotions"
+    },
+    {
+      "word": "afvcketv",
+      "english": "happy",
+      "phonetic": "ah-FUHCH-kee-tuh",
+      "emoji": "1f60a",
+      "category": "emotions"
+    },
+    {
+      "word": "feknokke",
+      "english": "sad",
+      "phonetic": "fik-NOHK-kee",
+      "emoji": "1f622",
+      "category": "emotions"
+    },
+    {
+      "word": "cvpvkke",
+      "english": "angry",
+      "phonetic": "chuh-PUHK-kee",
+      "emoji": "1f620",
+      "category": "emotions"
+    },
+    {
+      "word": "penkvle",
+      "english": "afraid",
+      "phonetic": "pin-KUH-lee",
+      "emoji": "1f628",
+      "category": "emotions"
+    },
+    {
+      "word": "hotose",
+      "english": "tired",
+      "phonetic": "hoh-TOH-see",
+      "emoji": "1f634",
+      "category": "emotions"
+    },
+    {
+      "word": "estomahe",
+      "english": "surprised",
+      "phonetic": "is-toh-MAH-hee",
+      "emoji": "1f632",
+      "category": "emotions"
+    },
+    {
+      "word": "enokke",
+      "english": "sick",
+      "phonetic": "in-OHK-kee",
+      "emoji": "1f912",
+      "category": "emotions"
+    },
+    {
+      "word": "vpelke",
+      "english": "laugh",
+      "phonetic": "uh-PIL-kee",
+      "emoji": "1f602",
+      "category": "emotions"
+    },
+    {
+      "word": "hvkihke",
+      "english": "cry",
+      "phonetic": "huh-KEEH-kee",
+      "emoji": "1f62d",
+      "category": "emotions"
+    },
+    {
+      "word": "vnokecke",
+      "english": "love",
+      "phonetic": "uh-noh-KICH-kee",
+      "emoji": "1f60d",
+      "category": "emotions"
+    },
+    {
+      "word": "opunvyetv",
+      "english": "speak",
+      "phonetic": "oh-poo-nuh-YEE-tuh",
+      "emoji": "1f5e3",
+      "category": "actions"
+    },
+    {
+      "word": "vkerricetv",
+      "english": "think",
+      "phonetic": "uh-kihr-REE-chee-tuh",
+      "emoji": "1f4ad",
+      "category": "actions"
+    },
+    {
+      "word": "letketv",
+      "english": "running",
+      "phonetic": "LIT-kee-tuh",
+      "emoji": "1f3c3",
+      "category": "actions"
+    },
+    {
+      "word": "akwvyecetv",
+      "english": "swimming",
+      "phonetic": "ahk-wuh-yee-CHEE-tuh",
+      "emoji": "1f3ca",
+      "category": "actions"
+    },
+    {
+      "word": "yvhiketv",
+      "english": "walking",
+      "phonetic": "yuh-hee-KEE-tuh",
+      "emoji": "1f6b6",
+      "category": "actions"
+    },
+    {
+      "word": "opvnketv",
+      "english": "dancing",
+      "phonetic": "oh-PUHN-kee-tuh",
+      "emoji": "1f483",
+      "category": "actions"
+    },
+    {
+      "word": "coyvketv",
+      "english": "writing",
+      "phonetic": "choh-yuh-KEE-tuh",
+      "emoji": "270d",
+      "category": "actions"
+    },
+    {
+      "word": "akhoyvnetv",
+      "english": "fishing",
+      "phonetic": "ahk-hoh-yuh-NEE-tuh",
+      "emoji": "1f3a3",
+      "category": "entertainment"
+    },
+    {
+      "word": "hetote oh pvlatketv",
+      "english": "skiing",
+      "phonetic": "hee-TOH-tee oh puh-LAHT-kee-tuh",
+      "emoji": "26f7",
+      "category": "entertainment"
+    },
+    {
+      "word": "uehvtkv oh pvlatketv",
+      "english": "surfing",
+      "phonetic": "oo-ee-HUHT-kuh oh puh-LAHT-kee-tuh",
+      "emoji": "1f3c4",
+      "category": "entertainment"
+    },
+    {
+      "word": "hvyvtke",
+      "english": "morning",
+      "phonetic": "huh-YUHT-kee",
+      "emoji": "1f305",
+      "category": "time"
+    },
+    {
+      "word": "yafke",
+      "english": "evening",
+      "phonetic": "YAHF-kee",
+      "emoji": "1f307",
+      "category": "time"
+    },
+    {
+      "word": "nere",
+      "english": "night",
+      "phonetic": "NEE-ree",
+      "emoji": "1f303",
+      "category": "time"
+    },
+    {
+      "word": "honvpsecv nettv",
+      "english": "birthday",
+      "phonetic": "hoh-nuhp-SEE-chuh NIT-tuh",
+      "emoji": "1f382",
+      "category": "entertainment"
+    },
+    {
+      "word": "eshakv",
+      "english": "party",
+      "phonetic": "is-HAH-kuh",
+      "emoji": "1f389",
+      "category": "entertainment"
+    },
+    {
+      "word": "emekv",
+      "english": "gift",
+      "phonetic": "ee-MEE-kuh",
+      "emoji": "1f381",
+      "category": "entertainment"
+    },
+    {
+      "word": "yvhiketv",
+      "english": "music",
+      "phonetic": "yuh-hee-KEE-tuh",
+      "emoji": "1f3b5",
+      "category": "entertainment"
+    },
+    {
+      "word": "yvhiketv em punvkv",
+      "english": "song",
+      "phonetic": "yuh-hee-KEE-tuh im-poo-NUH-kuh",
+      "emoji": "1f3b6",
+      "category": "entertainment"
+    },
+    {
+      "word": "ecvnwv esketv",
+      "english": "piano",
+      "phonetic": "ee-CHUHN-wuh is-KEE-tuh",
+      "emoji": "1f3b9",
+      "category": "entertainment"
+    },
+    {
+      "word": "ecvnwv esketv cate",
+      "english": "guitar",
+      "phonetic": "ee-CHUHN-wuh is-KEE-tuh CHAH-tee",
+      "emoji": "1f3b8",
+      "category": "entertainment"
+    },
+    {
+      "word": "tavhake",
+      "english": "drum",
+      "phonetic": "tah-uh-HAH-kee",
+      "emoji": "1f941",
+      "category": "entertainment"
+    },
+    {
+      "word": "vheckv nakcokv",
+      "english": "movie",
+      "phonetic": "uh-HICH-kuh nahk-CHOH-kuh",
+      "emoji": "1f3ac",
+      "category": "entertainment"
+    },
+    {
+      "word": "esvhakv",
+      "english": "art",
+      "phonetic": "is-uh-HAH-kuh",
+      "emoji": "1f3a8",
+      "category": "entertainment"
+    },
+    {
+      "word": "eshaketv",
+      "english": "game",
+      "phonetic": "is-hah-KEE-tuh",
+      "emoji": "1f3b2",
+      "category": "entertainment"
+    },
+    {
+      "word": "cvneckv",
+      "english": "bell",
+      "phonetic": "chuh-NICH-kuh",
+      "emoji": "1f514",
+      "category": "objects"
+    },
+    {
+      "word": "fekhonnv coko",
+      "english": "hotel",
+      "phonetic": "fik-HOHN-nuh CHOH-koh",
+      "emoji": "1f3e8",
+      "category": "places"
+    },
+    {
+      "word": "tvlofv rakko",
+      "english": "city",
+      "phonetic": "tuh-LOH-fuh RAHK-koh",
+      "emoji": "1f3d9",
+      "category": "places"
+    },
+    {
+      "word": "ekvnhvlwe",
+      "english": "mountain",
+      "phonetic": "ee-kuhn-HUHL-wee",
+      "emoji": "1f3d4",
+      "category": "places"
+    },
+    {
+      "word": "oktahv",
+      "english": "beach",
+      "phonetic": "ohk-TAH-huh",
+      "emoji": "1f3d6",
+      "category": "places"
+    },
+    {
+      "word": "nene",
+      "english": "road",
+      "phonetic": "NEE-nee",
+      "emoji": "1f6e3",
+      "category": "places"
+    },
+    {
+      "word": "cvtokunawv coko",
+      "english": "bank",
+      "phonetic": "chuh-toh-koo-NAH-wuh CHOH-koh",
+      "emoji": "1f3e6",
+      "category": "places"
+    },
+    {
+      "word": "mekko em coko",
+      "english": "castle",
+      "phonetic": "MIK-koh im-CHOH-koh",
+      "emoji": "1f3f0",
+      "category": "places"
+    },
+    {
+      "word": "okvte",
+      "english": "island",
+      "phonetic": "oh-KUH-tee",
+      "emoji": "1f3dd",
+      "category": "places"
+    },
+    {
+      "word": "pvhe tvlofv",
+      "english": "park",
+      "phonetic": "PUH-hee tuh-LOH-fuh",
+      "emoji": "1f3de",
+      "category": "places"
+    },
+    {
+      "word": "vpeyetv awtomopel",
+      "english": "taxi",
+      "phonetic": "uh-pee-YEE-tuh aw-toh-MOH-pil",
+      "emoji": "1f695",
+      "category": "transport"
+    },
+    {
+      "word": "tvhopvyetv cvcvke",
+      "english": "helicopter",
+      "phonetic": "tuh-hoh-puh-YEE-tuh chuh-CHUH-kee",
+      "emoji": "1f681",
+      "category": "transport"
+    },
+    {
+      "word": "kvlvphe tvhopvyetv",
+      "english": "rocket",
+      "phonetic": "kuh-LUH-pee tuh-hoh-puh-YEE-tuh",
+      "emoji": "1f680",
+      "category": "transport"
+    },
+    {
+      "word": "cvfeckv awtomopel",
+      "english": "ambulance",
+      "phonetic": "chuh-FICH-kuh aw-toh-MOH-pil",
+      "emoji": "1f691",
+      "category": "transport"
+    },
+    {
+      "word": "kvlesketv cvcvke",
+      "english": "motorcycle",
+      "phonetic": "kuh-LIS-kee-tuh chuh-CHUH-kee",
+      "emoji": "1f3cd",
+      "category": "transport"
+    },
+    {
+      "word": "perro rakko",
+      "english": "ship",
+      "phonetic": "PIH-roh RAHK-koh",
+      "emoji": "1f6a2",
+      "category": "transport"
+    },
+    {
+      "word": "estemerv es pohicetv",
+      "english": "radio",
+      "phonetic": "is-tee-MEE-ruh is-poh-HEE-chee-tuh",
+      "emoji": "1f4fb",
+      "category": "objects"
+    },
+    {
+      "word": "nakcokv nettv",
+      "english": "newspaper",
+      "phonetic": "nahk-CHOH-kuh NIT-tuh",
+      "emoji": "1f4f0",
+      "category": "objects"
+    },
+    {
+      "word": "nakcokv cvcvke",
+      "english": "note",
+      "phonetic": "nahk-CHOH-kuh chuh-CHUH-kee",
+      "emoji": "1f4dd",
+      "category": "objects"
+    },
+    {
+      "word": "escoyvketv",
+      "english": "pen",
+      "phonetic": "is-choh-yuh-KEE-tuh",
+      "emoji": "1f58a",
+      "category": "objects"
+    },
+    {
+      "word": "escoyvketv eto",
+      "english": "pencil",
+      "phonetic": "is-choh-yuh-KEE-tuh EE-toh",
+      "emoji": "270f",
+      "category": "objects"
+    },
+    {
+      "word": "eswackv",
+      "english": "scissors",
+      "phonetic": "is-WAHCH-kuh",
+      "emoji": "2702",
+      "category": "objects"
+    },
+    {
+      "word": "nettv vhonkvtkv",
+      "english": "calendar",
+      "phonetic": "NIT-tuh uh-HOHN-kuht-kuh",
+      "emoji": "1f4c5",
+      "category": "objects"
+    },
+    {
+      "word": "eshvlvtketv",
+      "english": "lock",
+      "phonetic": "is-hluh-LUHT-kee-tuh",
+      "emoji": "1f512",
+      "category": "objects"
+    },
+    {
+      "word": "esvnvfketv",
+      "english": "hammer",
+      "phonetic": "is-uh-NUHF-kee-tuh",
+      "emoji": "1f528",
+      "category": "tools"
+    },
+    {
+      "word": "eslafkv",
+      "english": "knife",
+      "phonetic": "is-LAHF-kuh",
+      "emoji": "1f52a",
+      "category": "tools"
+    },
+    {
+      "word": "escvkwv",
+      "english": "fork",
+      "phonetic": "is-CHUHK-wuh",
+      "emoji": "1f374",
+      "category": "tools"
+    },
+    {
+      "word": "eshvckucketv",
+      "english": "spoon",
+      "phonetic": "is-huhch-KOOCH-kee-tuh",
+      "emoji": "1f944",
+      "category": "tools"
+    },
+    {
+      "word": "pvlvknv",
+      "english": "plate",
+      "phonetic": "puh-LUHK-nuh",
+      "emoji": "1f37d",
+      "category": "tools"
+    },
+    {
+      "word": "ekvnv nakcokv",
+      "english": "map",
+      "phonetic": "ee-KUH-nuh nahk-CHOH-kuh",
+      "emoji": "1f5fa",
+      "category": "objects"
+    },
+    {
+      "word": "tohahwv",
+      "english": "box",
+      "phonetic": "toh-HAH-wuh",
+      "emoji": "1f4e6",
+      "category": "objects"
+    },
+    {
+      "word": "nakcokv vpeyetv",
+      "english": "mail",
+      "phonetic": "nahk-CHOH-kuh uh-pee-YEE-tuh",
+      "emoji": "1f4e8",
+      "category": "objects"
+    },
+    {
+      "word": "okkvsetv",
+      "english": "bath",
+      "phonetic": "ohk-kuh-SEE-tuh",
+      "emoji": "1f6c1",
+      "category": "home"
+    },
+    {
+      "word": "oksete",
+      "english": "soap",
+      "phonetic": "ohk-SEE-tee",
+      "emoji": "1f9fc",
+      "category": "objects"
+    },
+    {
+      "word": "cvtokunawv cvcvke",
+      "english": "coin",
+      "phonetic": "chuh-toh-koo-NAH-wuh chuh-CHUH-kee",
+      "emoji": "1fa99",
+      "category": "objects"
+    },
+    {
+      "word": "hvse-vkerrickv",
+      "english": "clock",
+      "phonetic": "huh-see-uh-KIHR-ees-kuh",
+      "emoji": "1f570",
+      "category": "objects"
+    },
+    {
+      "word": "enke hvse-vkerrickv",
+      "english": "watch",
+      "phonetic": "IN-kee huh-see-uh-KIHR-ees-kuh",
+      "emoji": "231a",
+      "category": "objects"
+    },
+    {
+      "word": "tvlen",
+      "english": "flag",
+      "phonetic": "tuh-LIN",
+      "emoji": "1f3f3",
+      "category": "objects"
+    },
+    {
+      "word": "eslafkv cvpko",
+      "english": "sword",
+      "phonetic": "is-LAHF-kuh CHUHP-koh",
+      "emoji": "2694",
+      "category": "tools"
+    },
+    {
+      "word": "tvccekv",
+      "english": "gun",
+      "phonetic": "tuhch-CHEE-kuh",
+      "emoji": "1f52b",
+      "category": "tools"
+    }
+  ]
+}

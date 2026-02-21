@@ -15,7 +15,7 @@ static uint8_t _progress = 0;
 static char _statusBuf[48] = "";
 
 // Catalog data
-static const uint8_t MAX_LANGUAGES = 10;
+static const uint8_t MAX_LANGUAGES = 16;
 static const uint8_t MAX_TIERS = 4;
 static CatalogLanguage _languages[MAX_LANGUAGES];
 static CatalogTier _tiers[MAX_LANGUAGES][MAX_TIERS];
@@ -60,12 +60,14 @@ static bool httpDownloadToSpiffs(const char* url, const char* path) {
     }
 
     // Use writeToStream which properly handles chunked transfer encoding
+    Serial.printf("[pack] Free heap before write: %u\n", (uint32_t)ESP.getFreeHeap());
     int written = http.writeToStream(&f);
     f.close();
     http.end();
 
     if (written < 0) {
-        Serial.printf("[pack] writeToStream failed: %d for %s\n", written, path);
+        Serial.printf("[pack] writeToStream failed: %d for %s (heap: %u)\n",
+                      written, path, (uint32_t)ESP.getFreeHeap());
         SPIFFS.remove(path);
         return false;
     }
@@ -168,6 +170,54 @@ bool startDownload(uint8_t langIdx, uint8_t tierIdx) {
     snprintf(_statusBuf, sizeof(_statusBuf), "Downloading %s...", _languages[langIdx].name);
     _progress = 5;
 
+    Serial.printf("[pack] SPIFFS: %u used / %u total, free heap: %u\n",
+                  (uint32_t)SPIFFS.usedBytes(), (uint32_t)SPIFFS.totalBytes(),
+                  (uint32_t)ESP.getFreeHeap());
+
+    // Step 0: Wipe ALL old pack files to free SPIFFS space
+    // (SPIFFS becomes unreliable above ~75% usage due to GC issues)
+    {
+        strlcpy(_statusBuf, "Preparing storage...", sizeof(_statusBuf));
+        if (_progressCb) _progressCb();
+
+        // Delete files in small batches to avoid stack overflow
+        int totalDeleted = 0;
+        bool moreFiles = true;
+        while (moreFiles) {
+            moreFiles = false;
+            fs::File root = SPIFFS.open("/");
+            fs::File file = root.openNextFile();
+            // Collect a small batch
+            char batch[10][32];
+            int batchCount = 0;
+            while (file && batchCount < 10) {
+                const char* name = file.name();
+                if (name[0] == '/') {
+                    strlcpy(batch[batchCount], name, 32);
+                } else {
+                    batch[batchCount][0] = '/';
+                    strlcpy(batch[batchCount] + 1, name, 31);
+                }
+                batchCount++;
+                file.close();
+                file = root.openNextFile();
+            }
+            if (file) { file.close(); moreFiles = true; }
+            // Delete this batch
+            for (int i = 0; i < batchCount; i++) {
+                SPIFFS.remove(batch[i]);
+                totalDeleted++;
+            }
+            if (batchCount > 0) moreFiles = true;  // Check for more
+            if (batchCount == 0) moreFiles = false;
+            yield();
+        }
+        Serial.printf("[pack] Cleared %d files, SPIFFS now: %u used / %u total\n",
+                      totalDeleted, (uint32_t)SPIFFS.usedBytes(), (uint32_t)SPIFFS.totalBytes());
+    }
+    _progress = 3;
+    if (_progressCb) _progressCb();
+
     char url[128];
     snprintf(url, sizeof(url), "%s/packs/%s/%s/manifest.json", BASE_URL, lang, tr);
     if (!httpDownloadToSpiffs(url, "/manifest.json")) {
@@ -177,12 +227,14 @@ bool startDownload(uint8_t langIdx, uint8_t tierIdx) {
     }
     _progress = 15;
     if (_progressCb) _progressCb();
+    yield();
+    delay(100);
 
     // Step 2: Download font.vlw
     _state = PackDownloadState::FetchingFont;
     strlcpy(_statusBuf, "Downloading font...", sizeof(_statusBuf));
 
-    snprintf(url, sizeof(url), "%s/packs/%s/%s/font.vlw", BASE_URL, lang, tr);
+    snprintf(url, sizeof(url), "%s/packs/%s/font.vlw", BASE_URL, lang);
     if (!httpDownloadToSpiffs(url, "/font.vlw")) {
         _state = PackDownloadState::Error;
         strlcpy(_statusBuf, "Font download failed", sizeof(_statusBuf));
@@ -261,41 +313,7 @@ bool startDownload(uint8_t langIdx, uint8_t tierIdx) {
         yield();  // Let WiFi stack breathe
     }
 
-    // Step 5: Clean orphaned emoji files
-    _state = PackDownloadState::CleaningOrphans;
-    strlcpy(_statusBuf, "Cleaning up...", sizeof(_statusBuf));
-    _progress = 92;
-    if (_progressCb) _progressCb();
-
-    // Build set of needed files
-    fs::File root = SPIFFS.open("/");
-    fs::File file = root.openNextFile();
-    while (file) {
-        String name = file.name();
-        file.close();
-
-        // Only consider .bin files (emoji), skip manifest.json and font.vlw
-        if (name.endsWith(".bin")) {
-            // Extract codepoint from filename (remove leading / and .bin)
-            String cp = name;
-            if (cp.startsWith("/")) cp = cp.substring(1);
-            cp = cp.substring(0, cp.length() - 4);
-
-            bool needed = false;
-            for (uint16_t i = 0; i < _emojiCount; i++) {
-                if (cp == _emojiList[i]) {
-                    needed = true;
-                    break;
-                }
-            }
-
-            if (!needed) {
-                Serial.printf("[pack] Removing orphan: %s\n", name.c_str());
-                SPIFFS.remove(name);
-            }
-        }
-        file = root.openNextFile();
-    }
+    // Step 5: No orphan cleanup needed — we wiped all files at start
 
     // Step 6: Update settings
     _progress = 98;

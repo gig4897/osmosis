@@ -1,0 +1,536 @@
+{
+  "language": "hindi",
+  "languageDisplay": "Hindi",
+  "tier": "expert",
+  "tierDisplay": "Expert",
+  "version": 1,
+  "wordCount": 75,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "bakree",
+      "english": "goat",
+      "phonetic": "BAHK-ree",
+      "emoji": "1f410",
+      "category": "animals"
+    },
+    {
+      "word": "penguin",
+      "english": "penguin",
+      "phonetic": "PEN-goo-in",
+      "emoji": "1f427",
+      "category": "animals"
+    },
+    {
+      "word": "shaark",
+      "english": "shark",
+      "phonetic": "SHAARK",
+      "emoji": "1f988",
+      "category": "animals"
+    },
+    {
+      "word": "jiraaf",
+      "english": "giraffe",
+      "phonetic": "jee-RAAF",
+      "emoji": "1f992",
+      "category": "animals"
+    },
+    {
+      "word": "zebraa",
+      "english": "zebra",
+      "phonetic": "ZEB-rah",
+      "emoji": "1f993",
+      "category": "animals"
+    },
+    {
+      "word": "kangaaroo",
+      "english": "kangaroo",
+      "phonetic": "kahn-GAA-roo",
+      "emoji": "1f998",
+      "category": "animals"
+    },
+    {
+      "word": "ghonghaa",
+      "english": "snail",
+      "phonetic": "GHON-ghah",
+      "emoji": "1f40c",
+      "category": "animals"
+    },
+    {
+      "word": "aaktopas",
+      "english": "octopus",
+      "phonetic": "AAK-toh-puhs",
+      "emoji": "1f419",
+      "category": "animals"
+    },
+    {
+      "word": "kekdaa",
+      "english": "crab",
+      "phonetic": "KEK-rah",
+      "emoji": "1f980",
+      "category": "animals"
+    },
+    {
+      "word": "magarmachh",
+      "english": "crocodile",
+      "phonetic": "MAH-gahr-MAHCH-chh",
+      "emoji": "1f40a",
+      "category": "animals"
+    },
+    {
+      "word": "gorillaa",
+      "english": "gorilla",
+      "phonetic": "go-RIL-lah",
+      "emoji": "1f98d",
+      "category": "animals"
+    },
+    {
+      "word": "yoonikorn",
+      "english": "unicorn",
+      "phonetic": "YOO-nee-kaarn",
+      "emoji": "1f984",
+      "category": "animals"
+    },
+    {
+      "word": "makdee",
+      "english": "spider",
+      "phonetic": "mah-KAR-ee",
+      "emoji": "1f577",
+      "category": "animals"
+    },
+    {
+      "word": "pulis",
+      "english": "police",
+      "phonetic": "poo-LIS",
+      "emoji": "1f46e",
+      "category": "people"
+    },
+    {
+      "word": "raajkumaar",
+      "english": "prince",
+      "phonetic": "RAAJ-koo-maar",
+      "emoji": "1f934",
+      "category": "people"
+    },
+    {
+      "word": "raajkumaaree",
+      "english": "princess",
+      "phonetic": "RAAJ-koo-maa-ree",
+      "emoji": "1f478",
+      "category": "people"
+    },
+    {
+      "word": "baasketbaal",
+      "english": "basketball",
+      "phonetic": "BAAS-ket-baal",
+      "emoji": "1f3c0",
+      "category": "entertainment"
+    },
+    {
+      "word": "tenis",
+      "english": "tennis",
+      "phonetic": "TEN-is",
+      "emoji": "1f3be",
+      "category": "entertainment"
+    },
+    {
+      "word": "besbaal",
+      "english": "baseball",
+      "phonetic": "BES-baal",
+      "emoji": "26be",
+      "category": "entertainment"
+    },
+    {
+      "word": "mukkebaazee",
+      "english": "boxing",
+      "phonetic": "MUK-ke-baa-zee",
+      "emoji": "1f94a",
+      "category": "entertainment"
+    },
+    {
+      "word": "bargar",
+      "english": "hamburger",
+      "phonetic": "BAHR-gahr",
+      "emoji": "1f354",
+      "category": "food"
+    },
+    {
+      "word": "aaiskreem",
+      "english": "ice cream",
+      "phonetic": "AA-is-KREEM",
+      "emoji": "1f368",
+      "category": "food"
+    },
+    {
+      "word": "biskut",
+      "english": "cookie",
+      "phonetic": "BIS-kut",
+      "emoji": "1f36a",
+      "category": "food"
+    },
+    {
+      "word": "khaanaa banaanaa",
+      "english": "cooking",
+      "phonetic": "KHAA-nah bah-NAA-nah",
+      "emoji": "1f373",
+      "category": "food"
+    },
+    {
+      "word": "stek",
+      "english": "steak",
+      "phonetic": "STEK",
+      "emoji": "1f969",
+      "category": "food"
+    },
+    {
+      "word": "lahsun",
+      "english": "garlic",
+      "phonetic": "LAH-soon",
+      "emoji": "1f9c4",
+      "category": "vegetables"
+    },
+    {
+      "word": "naariyaL",
+      "english": "coconut",
+      "phonetic": "NAA-ree-yahl",
+      "emoji": "1f965",
+      "category": "fruit"
+    },
+    {
+      "word": "mirch",
+      "english": "pepper",
+      "phonetic": "MIRCH",
+      "emoji": "1f336",
+      "category": "vegetables"
+    },
+    {
+      "word": "strau",
+      "english": "straw",
+      "phonetic": "STRAW",
+      "emoji": "1f964",
+      "category": "drink"
+    },
+    {
+      "word": "katoraa",
+      "english": "bowl",
+      "phonetic": "kah-TO-rah",
+      "emoji": "1f35a",
+      "category": "food"
+    },
+    {
+      "word": "sheeshaa",
+      "english": "mirror",
+      "phonetic": "SHEE-shah",
+      "emoji": "1fa9e",
+      "category": "objects"
+    },
+    {
+      "word": "mukut",
+      "english": "crown",
+      "phonetic": "moo-KUT",
+      "emoji": "1f451",
+      "category": "clothing"
+    },
+    {
+      "word": "gaadee",
+      "english": "cart",
+      "phonetic": "GAA-ree",
+      "emoji": "1f6d2",
+      "category": "transport"
+    },
+    {
+      "word": "bijlee",
+      "english": "lightning",
+      "phonetic": "BIJ-lee",
+      "emoji": "26a1",
+      "category": "nature"
+    },
+    {
+      "word": "dupattaa",
+      "english": "scarf",
+      "phonetic": "doo-PAHT-tah",
+      "emoji": "1f9e3",
+      "category": "clothing"
+    },
+    {
+      "word": "dastaane",
+      "english": "gloves",
+      "phonetic": "DAHS-taa-ne",
+      "emoji": "1f9e4",
+      "category": "clothing"
+    },
+    {
+      "word": "haddee",
+      "english": "bone",
+      "phonetic": "HAHD-dee",
+      "emoji": "1f9b4",
+      "category": "body"
+    },
+    {
+      "word": "gubbaaraa",
+      "english": "balloon",
+      "phonetic": "goob-BAA-rah",
+      "emoji": "1f388",
+      "category": "objects"
+    },
+    {
+      "word": "aatishbaazee",
+      "english": "fireworks",
+      "phonetic": "AA-tish-baa-zee",
+      "emoji": "1f386",
+      "category": "tools"
+    },
+    {
+      "word": "baitaree",
+      "english": "battery",
+      "phonetic": "BAI-tah-ree",
+      "emoji": "1f50b",
+      "category": "objects"
+    },
+    {
+      "word": "jhaadoo",
+      "english": "broom",
+      "phonetic": "JHAA-roo",
+      "emoji": "1f9f9",
+      "category": "objects"
+    },
+    {
+      "word": "kabootar",
+      "english": "dove",
+      "phonetic": "kah-BOO-tahr",
+      "emoji": "1f54a",
+      "category": "animals"
+    },
+    {
+      "word": "maaikrofon",
+      "english": "microphone",
+      "phonetic": "MAA-ee-kro-fon",
+      "emoji": "1f3a4",
+      "category": "objects"
+    },
+    {
+      "word": "alaarm",
+      "english": "alarm",
+      "phonetic": "ah-LAARM",
+      "emoji": "23f0",
+      "category": "objects"
+    },
+    {
+      "word": "jangal",
+      "english": "forest",
+      "phonetic": "JAHN-gahl",
+      "emoji": "1f333",
+      "category": "places"
+    },
+    {
+      "word": "registaan",
+      "english": "desert",
+      "phonetic": "RE-gis-taan",
+      "emoji": "1f3dc",
+      "category": "places"
+    },
+    {
+      "word": "pul",
+      "english": "bridge",
+      "phonetic": "PUL",
+      "emoji": "1f309",
+      "category": "places"
+    },
+    {
+      "word": "khilnaa",
+      "english": "blossom",
+      "phonetic": "KHIL-nah",
+      "emoji": "1f338",
+      "category": "nature"
+    },
+    {
+      "word": "soorajmukhee",
+      "english": "sunflower",
+      "phonetic": "SOO-rahj-moo-khee",
+      "emoji": "1f33b",
+      "category": "nature"
+    },
+    {
+      "word": "patjhad",
+      "english": "autumn",
+      "phonetic": "PAHT-jhahr",
+      "emoji": "1f343",
+      "category": "nature"
+    },
+    {
+      "word": "naagfanee",
+      "english": "cactus",
+      "phonetic": "NAAG-fah-nee",
+      "emoji": "1f335",
+      "category": "nature"
+    },
+    {
+      "word": "zanjeer",
+      "english": "chain",
+      "phonetic": "ZAHN-jeer",
+      "emoji": "26d3",
+      "category": "tools"
+    },
+    {
+      "word": "kulhaadee",
+      "english": "axe",
+      "phonetic": "kul-HAA-ree",
+      "emoji": "1fa93",
+      "category": "tools"
+    },
+    {
+      "word": "tokaree",
+      "english": "basket",
+      "phonetic": "TO-kah-ree",
+      "emoji": "1f9fa",
+      "category": "objects"
+    },
+    {
+      "word": "pahiyaa",
+      "english": "wheel",
+      "phonetic": "pah-HEE-yah",
+      "emoji": "1f6de",
+      "category": "objects"
+    },
+    {
+      "word": "pankh",
+      "english": "feather",
+      "phonetic": "PAHNKH",
+      "emoji": "1fab6",
+      "category": "nature"
+    },
+    {
+      "word": "suee",
+      "english": "needle",
+      "phonetic": "SOO-ee",
+      "emoji": "1faa1",
+      "category": "objects"
+    },
+    {
+      "word": "dhaagaa",
+      "english": "thread",
+      "phonetic": "DHAA-gah",
+      "emoji": "1f9f5",
+      "category": "objects"
+    },
+    {
+      "word": "chumbak",
+      "english": "magnet",
+      "phonetic": "CHUM-bahk",
+      "emoji": "1f9f2",
+      "category": "objects"
+    },
+    {
+      "word": "phuljhadee",
+      "english": "sparkler",
+      "phonetic": "phool-JHAH-ree",
+      "emoji": "1f387",
+      "category": "tools"
+    },
+    {
+      "word": "sarkas",
+      "english": "circus",
+      "phonetic": "SAHR-kahs",
+      "emoji": "1f3aa",
+      "category": "entertainment"
+    },
+    {
+      "word": "teer",
+      "english": "arrow",
+      "phonetic": "TEER",
+      "emoji": "1f3f9",
+      "category": "tools"
+    },
+    {
+      "word": "ghantaa",
+      "english": "hour",
+      "phonetic": "GHAHN-tah",
+      "emoji": "1f550",
+      "category": "time"
+    },
+    {
+      "word": "laal",
+      "english": "red",
+      "phonetic": "LAAL",
+      "emoji": "1f7e5",
+      "category": "colors"
+    },
+    {
+      "word": "neelaa",
+      "english": "blue",
+      "phonetic": "NEE-lah",
+      "emoji": "1f7e6",
+      "category": "colors"
+    },
+    {
+      "word": "haraa",
+      "english": "green",
+      "phonetic": "HAH-rah",
+      "emoji": "1f7e9",
+      "category": "colors"
+    },
+    {
+      "word": "peelaa",
+      "english": "yellow",
+      "phonetic": "PEE-lah",
+      "emoji": "1f7e8",
+      "category": "colors"
+    },
+    {
+      "word": "bainganee",
+      "english": "purple",
+      "phonetic": "BAIN-gah-nee",
+      "emoji": "1f7ea",
+      "category": "colors"
+    },
+    {
+      "word": "kaalaa",
+      "english": "black",
+      "phonetic": "KAA-lah",
+      "emoji": "2b1b",
+      "category": "colors"
+    },
+    {
+      "word": "safed",
+      "english": "white",
+      "phonetic": "sah-FED",
+      "emoji": "2b1c",
+      "category": "colors"
+    },
+    {
+      "word": "deevaar",
+      "english": "wall",
+      "phonetic": "DEE-vaar",
+      "emoji": "1f9f1",
+      "category": "home"
+    },
+    {
+      "word": "teleefon",
+      "english": "telephone",
+      "phonetic": "TEL-ee-fon",
+      "emoji": "1f4de",
+      "category": "objects"
+    },
+    {
+      "word": "kaard",
+      "english": "card",
+      "phonetic": "KAARD",
+      "emoji": "1f4b3",
+      "category": "objects"
+    },
+    {
+      "word": "kaupee",
+      "english": "notebook",
+      "phonetic": "KAW-pee",
+      "emoji": "1f4d3",
+      "category": "objects"
+    },
+    {
+      "word": "traufee",
+      "english": "trophy",
+      "phonetic": "TRAW-fee",
+      "emoji": "1f3c6",
+      "category": "objects"
+    }
+  ]
+}

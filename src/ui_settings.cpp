@@ -320,16 +320,45 @@ void SettingsScreen::drawLanguageBrowser(TFT_eSprite& spr, int stripY) {
     }
 
     if (_selectedLang < 0) {
-        // Show language list
-        for (uint8_t i = 0; i < count && i < 6; i++) {
-            int btnY = 40 + i * 40;
+        // Show language list with pagination (6 per page)
+        const int LANGS_PER_PAGE = 6;
+        int startIdx = _scrollOffset * LANGS_PER_PAGE;
+        int endIdx = startIdx + LANGS_PER_PAGE;
+        if (endIdx > count) endIdx = count;
+        int totalPages = (count + LANGS_PER_PAGE - 1) / LANGS_PER_PAGE;
+
+        for (int i = startIdx; i < endIdx; i++) {
+            int row = i - startIdx;
+            int btnY = 40 + row * 40;
             Button btn = {20, btnY, 200, 34};
             drawButton(spr, btn, stripY, packMgr::language(i).name, false);
         }
 
-        // Back button
-        Button back = {60, 290, 120, 26};
-        drawButton(spr, back, stripY, "< BACK", false);
+        // Navigation buttons: < BACK and NEXT >
+        if (_scrollOffset > 0) {
+            Button back = {10, 290, 105, 26};
+            drawButton(spr, back, stripY, "< BACK", false);
+        } else {
+            Button back = {10, 290, 105, 26};
+            drawButton(spr, back, stripY, "< BACK", false);
+        }
+
+        if (_scrollOffset < totalPages - 1) {
+            Button next = {125, 290, 105, 26};
+            drawButton(spr, next, stripY, "NEXT >", false);
+        }
+
+        // Page indicator
+        if (totalPages > 1) {
+            int y = 280 - stripY;
+            if (y >= -8 && y < STRIP_H) {
+                char pgBuf[8];
+                snprintf(pgBuf, sizeof(pgBuf), "%d/%d", _scrollOffset + 1, totalPages);
+                spr.setTextColor(CLR_TEXT_DIM, CLR_BG_DARK);
+                spr.setTextDatum(TC_DATUM);
+                spr.drawString(pgBuf, SCREEN_W / 2, y, 1);
+            }
+        }
     } else {
         // Show tiers for selected language
         {
@@ -489,6 +518,7 @@ bool SettingsScreen::handleMainTap(TouchPoint pt) {
         if (hitTest(btn, pt)) {
             _page = SettingsPage::LanguageBrowser;
             _selectedLang = -1;
+            _scrollOffset = 0;
             if (wifiMgr::isConnected()) {
                 // Fetch catalog if not already loaded
                 if (packMgr::languageCount() == 0) {
@@ -539,9 +569,16 @@ bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
     }
 
     if (_selectedLang < 0) {
-        // Language list
-        for (uint8_t i = 0; i < count && i < 6; i++) {
-            int btnY = 40 + i * 40;
+        // Language list with pagination
+        const int LANGS_PER_PAGE = 6;
+        int startIdx = _scrollOffset * LANGS_PER_PAGE;
+        int endIdx = startIdx + LANGS_PER_PAGE;
+        if (endIdx > count) endIdx = count;
+        int totalPages = (count + LANGS_PER_PAGE - 1) / LANGS_PER_PAGE;
+
+        for (int i = startIdx; i < endIdx; i++) {
+            int row = i - startIdx;
+            int btnY = 40 + row * 40;
             Button btn = {20, btnY, 200, 34};
             if (hitTest(btn, pt)) {
                 _selectedLang = i;
@@ -550,10 +587,23 @@ bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
         }
 
         // Back button
-        Button back = {60, 290, 120, 26};
+        Button back = {10, 290, 105, 26};
         if (hitTest(back, pt)) {
-            _page = SettingsPage::Main;
+            if (_scrollOffset > 0) {
+                _scrollOffset--;
+            } else {
+                _page = SettingsPage::Main;
+            }
             return true;
+        }
+
+        // Next button
+        if (_scrollOffset < totalPages - 1) {
+            Button next = {125, 290, 105, 26};
+            if (hitTest(next, pt)) {
+                _scrollOffset++;
+                return true;
+            }
         }
     } else {
         // Tier list
@@ -618,6 +668,7 @@ bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
                     delay(3000);
                     packMgr::resetState();
                     _selectedLang = -1;
+                    _scrollOffset = 0;
                     _page = SettingsPage::LanguageBrowser;
                 }
                 return true;

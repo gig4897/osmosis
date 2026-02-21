@@ -8,525 +8,525 @@
   "fontFile": "font.vlw",
   "words": [
     {
-      "word": "宝宝",
+      "word": "bǎobao",
       "english": "baby",
       "phonetic": "BAO-BAO",
       "emoji": "1f476",
       "category": "people"
     },
     {
-      "word": "男孩",
+      "word": "nánhái",
       "english": "boy",
       "phonetic": "NAHN-HYE",
       "emoji": "1f466",
       "category": "people"
     },
     {
-      "word": "女孩",
+      "word": "nǚhái",
       "english": "girl",
       "phonetic": "NOO-HYE",
       "emoji": "1f467",
       "category": "people"
     },
     {
-      "word": "男人",
+      "word": "nánrén",
       "english": "man",
       "phonetic": "NAHN-REHN",
       "emoji": "1f468",
       "category": "people"
     },
     {
-      "word": "女人",
+      "word": "nǚrén",
       "english": "woman",
       "phonetic": "NOO-REHN",
       "emoji": "1f469",
       "category": "people"
     },
     {
-      "word": "人",
+      "word": "rén",
       "english": "person",
       "phonetic": "REHN",
       "emoji": "1f9d1",
       "category": "people"
     },
     {
-      "word": "孩子",
+      "word": "háizi",
       "english": "child",
       "phonetic": "HYE-ZUH",
       "emoji": "1f9d2",
       "category": "people"
     },
     {
-      "word": "家庭",
+      "word": "jiātíng",
       "english": "family",
       "phonetic": "JEE-AH-TING",
       "emoji": "1f46a",
       "category": "people"
     },
     {
-      "word": "手",
+      "word": "shǒu",
       "english": "hand",
       "phonetic": "SHOH",
       "emoji": "270b",
       "category": "body"
     },
     {
-      "word": "手臂",
+      "word": "shǒubì",
       "english": "arm",
       "phonetic": "SHOH-BEE",
       "emoji": "1f4aa",
       "category": "body"
     },
     {
-      "word": "腿",
+      "word": "tuǐ",
       "english": "leg",
       "phonetic": "TWAY",
       "emoji": "1f9b5",
       "category": "body"
     },
     {
-      "word": "脚",
+      "word": "jiǎo",
       "english": "foot",
       "phonetic": "JEE-OW",
       "emoji": "1f9b6",
       "category": "body"
     },
     {
-      "word": "耳朵",
+      "word": "ěrduo",
       "english": "ear",
       "phonetic": "ARE-DWOH",
       "emoji": "1f442",
       "category": "body"
     },
     {
-      "word": "鼻子",
+      "word": "bízi",
       "english": "nose",
       "phonetic": "BEE-ZUH",
       "emoji": "1f443",
       "category": "body"
     },
     {
-      "word": "眼睛",
+      "word": "yǎnjing",
       "english": "eye",
       "phonetic": "YENN-JING",
       "emoji": "1f440",
       "category": "body"
     },
     {
-      "word": "嘴巴",
+      "word": "zuǐba",
       "english": "mouth",
       "phonetic": "ZWAY-BAH",
       "emoji": "1f444",
       "category": "body"
     },
     {
-      "word": "舌头",
+      "word": "shétou",
       "english": "tongue",
       "phonetic": "SHUH-TOH",
       "emoji": "1f445",
       "category": "body"
     },
     {
-      "word": "牙齿",
+      "word": "yáchǐ",
       "english": "tooth",
       "phonetic": "YAH-CHUH",
       "emoji": "1f9b7",
       "category": "body"
     },
     {
-      "word": "心",
+      "word": "xīn",
       "english": "heart",
       "phonetic": "SHEEN",
       "emoji": "2764",
       "category": "emotions"
     },
     {
-      "word": "水",
+      "word": "shuǐ",
       "english": "water",
       "phonetic": "SHWAY",
       "emoji": "1f4a7",
       "category": "nature"
     },
     {
-      "word": "火",
+      "word": "huǒ",
       "english": "fire",
       "phonetic": "HWOH",
       "emoji": "1f525",
       "category": "nature"
     },
     {
-      "word": "星星",
+      "word": "xīngxing",
       "english": "star",
       "phonetic": "SHING-SHING",
       "emoji": "2b50",
       "category": "nature"
     },
     {
-      "word": "太阳",
+      "word": "tàiyáng",
       "english": "sun",
       "phonetic": "TYE-YAHNG",
       "emoji": "2600",
       "category": "nature"
     },
     {
-      "word": "月亮",
+      "word": "yuèliang",
       "english": "moon",
       "phonetic": "YWEH-LYAHNG",
       "emoji": "1f319",
       "category": "nature"
     },
     {
-      "word": "地球",
+      "word": "dìqiú",
       "english": "earth",
       "phonetic": "DEE-CHYOH",
       "emoji": "1f30d",
       "category": "nature"
     },
     {
-      "word": "雨",
+      "word": "yǔ",
       "english": "rain",
       "phonetic": "YOO",
       "emoji": "1f327",
       "category": "nature"
     },
     {
-      "word": "雪",
+      "word": "xuě",
       "english": "snow",
       "phonetic": "SHWEH",
       "emoji": "2744",
       "category": "nature"
     },
     {
-      "word": "狗",
+      "word": "gǒu",
       "english": "dog",
       "phonetic": "GOH",
       "emoji": "1f436",
       "category": "animals"
     },
     {
-      "word": "猫",
+      "word": "māo",
       "english": "cat",
       "phonetic": "MAO",
       "emoji": "1f431",
       "category": "animals"
     },
     {
-      "word": "老鼠",
+      "word": "lǎoshǔ",
       "english": "mouse",
       "phonetic": "LAO-SHOO",
       "emoji": "1f42d",
       "category": "animals"
     },
     {
-      "word": "兔子",
+      "word": "tùzi",
       "english": "rabbit",
       "phonetic": "TOO-ZUH",
       "emoji": "1f430",
       "category": "animals"
     },
     {
-      "word": "熊",
+      "word": "xióng",
       "english": "bear",
       "phonetic": "SHYOHNG",
       "emoji": "1f43b",
       "category": "animals"
     },
     {
-      "word": "猪",
+      "word": "zhū",
       "english": "pig",
       "phonetic": "JOO",
       "emoji": "1f437",
       "category": "animals"
     },
     {
-      "word": "牛",
+      "word": "niú",
       "english": "cow",
       "phonetic": "NYOH",
       "emoji": "1f42e",
       "category": "animals"
     },
     {
-      "word": "马",
+      "word": "mǎ",
       "english": "horse",
       "phonetic": "MAH",
       "emoji": "1f434",
       "category": "animals"
     },
     {
-      "word": "羊",
+      "word": "yáng",
       "english": "sheep",
       "phonetic": "YAHNG",
       "emoji": "1f411",
       "category": "animals"
     },
     {
-      "word": "猴子",
+      "word": "hóuzi",
       "english": "monkey",
       "phonetic": "HOH-ZUH",
       "emoji": "1f412",
       "category": "animals"
     },
     {
-      "word": "大象",
+      "word": "dàxiàng",
       "english": "elephant",
       "phonetic": "DAH-SHYAHNG",
       "emoji": "1f418",
       "category": "animals"
     },
     {
-      "word": "狮子",
+      "word": "shīzi",
       "english": "lion",
       "phonetic": "SHUH-ZUH",
       "emoji": "1f981",
       "category": "animals"
     },
     {
-      "word": "鸟",
+      "word": "niǎo",
       "english": "bird",
       "phonetic": "NYAO",
       "emoji": "1f426",
       "category": "animals"
     },
     {
-      "word": "鸡",
+      "word": "jī",
       "english": "chicken",
       "phonetic": "JEE",
       "emoji": "1f414",
       "category": "animals"
     },
     {
-      "word": "鱼",
+      "word": "yú",
       "english": "fish",
       "phonetic": "YOO",
       "emoji": "1f420",
       "category": "animals"
     },
     {
-      "word": "蛇",
+      "word": "shé",
       "english": "snake",
       "phonetic": "SHUH",
       "emoji": "1f40d",
       "category": "animals"
     },
     {
-      "word": "青蛙",
+      "word": "qīngwā",
       "english": "frog",
       "phonetic": "CHING-WAH",
       "emoji": "1f438",
       "category": "animals"
     },
     {
-      "word": "蜜蜂",
+      "word": "mìfēng",
       "english": "bee",
       "phonetic": "MEE-FUHNG",
       "emoji": "1f41d",
       "category": "animals"
     },
     {
-      "word": "蚂蚁",
+      "word": "mǎyǐ",
       "english": "ant",
       "phonetic": "MAH-YEE",
       "emoji": "1f41c",
       "category": "animals"
     },
     {
-      "word": "树",
+      "word": "shù",
       "english": "tree",
       "phonetic": "SHOO",
       "emoji": "1f332",
       "category": "plants"
     },
     {
-      "word": "花",
+      "word": "huā",
       "english": "flower",
       "phonetic": "HWAH",
       "emoji": "1f33a",
       "category": "plants"
     },
     {
-      "word": "植物",
+      "word": "zhíwù",
       "english": "plant",
       "phonetic": "JUH-WOO",
       "emoji": "1f33f",
       "category": "plants"
     },
     {
-      "word": "叶子",
+      "word": "yèzi",
       "english": "leaf",
       "phonetic": "YEH-ZUH",
       "emoji": "1f340",
       "category": "plants"
     },
     {
-      "word": "玫瑰",
+      "word": "méigui",
       "english": "rose",
       "phonetic": "MAY-GWAY",
       "emoji": "1f339",
       "category": "plants"
     },
     {
-      "word": "苹果",
+      "word": "píngguǒ",
       "english": "apple",
       "phonetic": "PING-GWOH",
       "emoji": "1f34e",
       "category": "fruit"
     },
     {
-      "word": "香蕉",
+      "word": "xiāngjiāo",
       "english": "banana",
       "phonetic": "SHYAHNG-JYAO",
       "emoji": "1f34c",
       "category": "fruit"
     },
     {
-      "word": "橙子",
+      "word": "chéngzi",
       "english": "orange",
       "phonetic": "CHUHNG-ZUH",
       "emoji": "1f34a",
       "category": "fruit"
     },
     {
-      "word": "柠檬",
+      "word": "níngméng",
       "english": "lemon",
       "phonetic": "NING-MUHNG",
       "emoji": "1f34b",
       "category": "fruit"
     },
     {
-      "word": "葡萄",
+      "word": "pútao",
       "english": "grape",
       "phonetic": "POO-TAO",
       "emoji": "1f347",
       "category": "fruit"
     },
     {
-      "word": "草莓",
+      "word": "cǎoméi",
       "english": "strawberry",
       "phonetic": "TSAO-MAY",
       "emoji": "1f353",
       "category": "fruit"
     },
     {
-      "word": "番茄",
+      "word": "fānqié",
       "english": "tomato",
       "phonetic": "FAHN-CHYEH",
       "emoji": "1f345",
       "category": "vegetables"
     },
     {
-      "word": "土豆",
+      "word": "tǔdòu",
       "english": "potato",
       "phonetic": "TOO-DOH",
       "emoji": "1f954",
       "category": "vegetables"
     },
     {
-      "word": "胡萝卜",
+      "word": "húluóbo",
       "english": "carrot",
       "phonetic": "HOO-LWOH-BOH",
       "emoji": "1f955",
       "category": "vegetables"
     },
     {
-      "word": "玉米",
+      "word": "yùmǐ",
       "english": "corn",
       "phonetic": "YOO-MEE",
       "emoji": "1f33d",
       "category": "vegetables"
     },
     {
-      "word": "面包",
+      "word": "miànbāo",
       "english": "bread",
       "phonetic": "MYEN-BAO",
       "emoji": "1f35e",
       "category": "food"
     },
     {
-      "word": "奶酪",
+      "word": "nǎilào",
       "english": "cheese",
       "phonetic": "NYE-LWOH",
       "emoji": "1f9c0",
       "category": "food"
     },
     {
-      "word": "鸡蛋",
+      "word": "jīdàn",
       "english": "egg",
       "phonetic": "JEE-DAHN",
       "emoji": "1f95a",
       "category": "food"
     },
     {
-      "word": "牛奶",
+      "word": "niúnǎi",
       "english": "milk",
       "phonetic": "NYOH-NYE",
       "emoji": "1f95b",
       "category": "drink"
     },
     {
-      "word": "米饭",
+      "word": "mǐfàn",
       "english": "rice",
       "phonetic": "MEE-FAHN",
       "emoji": "1f33e",
       "category": "food"
     },
     {
-      "word": "茶",
+      "word": "chá",
       "english": "tea",
       "phonetic": "CHAH",
       "emoji": "1f375",
       "category": "drink"
     },
     {
-      "word": "咖啡",
+      "word": "kāfēi",
       "english": "coffee",
       "phonetic": "KAH-FAY",
       "emoji": "2615",
       "category": "drink"
     },
     {
-      "word": "房子",
+      "word": "fángzi",
       "english": "house",
       "phonetic": "FAHNG-ZUH",
       "emoji": "1f3e0",
       "category": "places"
     },
     {
-      "word": "门",
+      "word": "mén",
       "english": "door",
       "phonetic": "MUHN",
       "emoji": "1f6aa",
       "category": "home"
     },
     {
-      "word": "床",
+      "word": "chuáng",
       "english": "bed",
       "phonetic": "CHWAHNG",
       "emoji": "1f6cf",
       "category": "home"
     },
     {
-      "word": "灯",
+      "word": "dēng",
       "english": "light",
       "phonetic": "DUHNG",
       "emoji": "1f4a1",
       "category": "home"
     },
     {
-      "word": "书",
+      "word": "shū",
       "english": "book",
       "phonetic": "SHOO",
       "emoji": "1f4d6",
       "category": "objects"
     },
     {
-      "word": "钥匙",
+      "word": "yàoshi",
       "english": "key",
       "phonetic": "YAO-SHUH",
       "emoji": "1f511",
       "category": "objects"
     },
     {
-      "word": "球",
+      "word": "qiú",
       "english": "ball",
       "phonetic": "CHYOH",
       "emoji": "26bd",
