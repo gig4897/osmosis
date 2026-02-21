@@ -127,10 +127,19 @@ https://www.vcodeworks.dev/api/osmosis/
 | Portuguese | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
 | Chinese | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
 | Dutch | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
+| Hindi | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
+| Arabic | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
+| Urdu | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
+| Japanese | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
+| Korean | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
+| Q'eqchi' | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
+| Tsalagi (Cherokee) | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
+| Mvskoke (Creek) | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
 
-**20 packs total** (5 languages × 4 tiers), **300 unique emoji** shared across all packs (343 .bin files on CDN as of Feb 2026).
+**52 packs total** (13 languages × 4 tiers), **3,900 words**, **343 emoji .bin files** on CDN as of Feb 2026.
 
 **Product website:** https://www.vcodeworks.dev/osmosis/
+**Word lists:** https://www.vcodeworks.dev/osmosis/words.html
 
 ## Architecture Notes
 
@@ -183,7 +192,8 @@ After a successful pack download, the device reboots (`ESP.restart()`) to ensure
 | `tools/build_all_packs.sh` | Build all 7 packs + fonts |
 | `tools/render_apple_emoji.py` | Apple Color Emoji → PNG (macOS, pyobjc) |
 | `tools/convert_emoji.py` | PNG → ORLE RGB565 .bin |
-| `tools/generate_vlw_font.py` | Create TFT_eSPI VLW font files |
+| `tools/generate_vlw_font.py` | Create TFT_eSPI VLW font files (supports auto char extraction for non-Latin scripts) |
+| `tools/generate_wordlist_html.py` | Generate browsable word list HTML page from all vocab CSVs |
 
 ## Known Issues / History
 - Cloudflare Pages serves with `Transfer-Encoding: chunked` — must use `writeToStream()` not `getStreamPtr()` or files get corrupted with chunk headers
