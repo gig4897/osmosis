@@ -42,6 +42,13 @@ namespace packMgr {
     uint8_t progressPercent();                  // 0-100
     const char* statusText();                   // Human-readable status
 
+    // State management
+    void resetState();                          // Reset to Idle (after handling Complete/Error)
+
     // Installed pack
     bool hasInstalledPack();
+
+    // Progress callback — called during download to allow UI redraw
+    typedef void (*ProgressCallback)();
+    void setProgressCallback(ProgressCallback cb);
 }

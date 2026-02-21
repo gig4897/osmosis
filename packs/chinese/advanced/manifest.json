@@ -1,0 +1,536 @@
+{
+  "language": "chinese",
+  "languageDisplay": "Chinese",
+  "tier": "advanced",
+  "tierDisplay": "Advanced",
+  "version": 1,
+  "wordCount": 75,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "脸",
+      "english": "face",
+      "phonetic": "LYENN",
+      "emoji": "1f600",
+      "category": "emotions"
+    },
+    {
+      "word": "开心",
+      "english": "happy",
+      "phonetic": "KYE-SHEEN",
+      "emoji": "1f60a",
+      "category": "emotions"
+    },
+    {
+      "word": "难过",
+      "english": "sad",
+      "phonetic": "NAHN-GWOH",
+      "emoji": "1f622",
+      "category": "emotions"
+    },
+    {
+      "word": "生气",
+      "english": "angry",
+      "phonetic": "SHUHNG-CHEE",
+      "emoji": "1f620",
+      "category": "emotions"
+    },
+    {
+      "word": "害怕",
+      "english": "afraid",
+      "phonetic": "HYE-PAH",
+      "emoji": "1f628",
+      "category": "emotions"
+    },
+    {
+      "word": "累",
+      "english": "tired",
+      "phonetic": "LAY",
+      "emoji": "1f634",
+      "category": "emotions"
+    },
+    {
+      "word": "惊讶",
+      "english": "surprised",
+      "phonetic": "JING-YAH",
+      "emoji": "1f632",
+      "category": "emotions"
+    },
+    {
+      "word": "生病",
+      "english": "sick",
+      "phonetic": "SHUHNG-BING",
+      "emoji": "1f912",
+      "category": "emotions"
+    },
+    {
+      "word": "笑",
+      "english": "laugh",
+      "phonetic": "SHYAO",
+      "emoji": "1f602",
+      "category": "emotions"
+    },
+    {
+      "word": "哭",
+      "english": "cry",
+      "phonetic": "KOO",
+      "emoji": "1f62d",
+      "category": "emotions"
+    },
+    {
+      "word": "爱",
+      "english": "love",
+      "phonetic": "EYE",
+      "emoji": "1f60d",
+      "category": "emotions"
+    },
+    {
+      "word": "说话",
+      "english": "speak",
+      "phonetic": "SHWOH-HWAH",
+      "emoji": "1f5e3",
+      "category": "actions"
+    },
+    {
+      "word": "思考",
+      "english": "think",
+      "phonetic": "SUH-KAO",
+      "emoji": "1f4ad",
+      "category": "actions"
+    },
+    {
+      "word": "跑步",
+      "english": "running",
+      "phonetic": "PAO-BOO",
+      "emoji": "1f3c3",
+      "category": "actions"
+    },
+    {
+      "word": "游泳",
+      "english": "swimming",
+      "phonetic": "YOH-YOHNG",
+      "emoji": "1f3ca",
+      "category": "actions"
+    },
+    {
+      "word": "走路",
+      "english": "walking",
+      "phonetic": "ZOH-LOO",
+      "emoji": "1f6b6",
+      "category": "actions"
+    },
+    {
+      "word": "跳舞",
+      "english": "dancing",
+      "phonetic": "TYAO-WOO",
+      "emoji": "1f483",
+      "category": "actions"
+    },
+    {
+      "word": "写字",
+      "english": "writing",
+      "phonetic": "SHYEH-ZUH",
+      "emoji": "270d",
+      "category": "actions"
+    },
+    {
+      "word": "钓鱼",
+      "english": "fishing",
+      "phonetic": "DYAO-YOO",
+      "emoji": "1f3a3",
+      "category": "entertainment"
+    },
+    {
+      "word": "滑雪",
+      "english": "skiing",
+      "phonetic": "HWAH-SHWEH",
+      "emoji": "26f7",
+      "category": "entertainment"
+    },
+    {
+      "word": "冲浪",
+      "english": "surfing",
+      "phonetic": "CHOHNG-LAHNG",
+      "emoji": "1f3c4",
+      "category": "entertainment"
+    },
+    {
+      "word": "早晨",
+      "english": "morning",
+      "phonetic": "ZAO-CHUHN",
+      "emoji": "1f305",
+      "category": "time"
+    },
+    {
+      "word": "傍晚",
+      "english": "evening",
+      "phonetic": "BAHNG-WAHN",
+      "emoji": "1f307",
+      "category": "time"
+    },
+    {
+      "word": "夜晚",
+      "english": "night",
+      "phonetic": "YEH-WAHN",
+      "emoji": "1f303",
+      "category": "time"
+    },
+    {
+      "word": "生日",
+      "english": "birthday",
+      "phonetic": "SHUHNG-RUH",
+      "emoji": "1f382",
+      "category": "entertainment"
+    },
+    {
+      "word": "派对",
+      "english": "party",
+      "phonetic": "PYE-DWAY",
+      "emoji": "1f389",
+      "category": "entertainment"
+    },
+    {
+      "word": "礼物",
+      "english": "gift",
+      "phonetic": "LEE-WOO",
+      "emoji": "1f381",
+      "category": "entertainment"
+    },
+    {
+      "word": "音乐",
+      "english": "music",
+      "phonetic": "YEEN-YWEH",
+      "emoji": "1f3b5",
+      "category": "entertainment"
+    },
+    {
+      "word": "歌曲",
+      "english": "song",
+      "phonetic": "GUH-CHOO",
+      "emoji": "1f3b6",
+      "category": "entertainment"
+    },
+    {
+      "word": "钢琴",
+      "english": "piano",
+      "phonetic": "GAHNG-CHEEN",
+      "emoji": "1f3b9",
+      "category": "entertainment"
+    },
+    {
+      "word": "吉他",
+      "english": "guitar",
+      "phonetic": "JEE-TAH",
+      "emoji": "1f3b8",
+      "category": "entertainment"
+    },
+    {
+      "word": "鼓",
+      "english": "drum",
+      "phonetic": "GOO",
+      "emoji": "1f941",
+      "category": "entertainment"
+    },
+    {
+      "word": "电影",
+      "english": "movie",
+      "phonetic": "DYEN-YING",
+      "emoji": "1f3ac",
+      "category": "entertainment"
+    },
+    {
+      "word": "艺术",
+      "english": "art",
+      "phonetic": "YEE-SHOO",
+      "emoji": "1f3a8",
+      "category": "entertainment"
+    },
+    {
+      "word": "游戏",
+      "english": "game",
+      "phonetic": "YOH-SHEE",
+      "emoji": "1f3b2",
+      "category": "entertainment"
+    },
+    {
+      "word": "铃铛",
+      "english": "bell",
+      "phonetic": "LING-DAHNG",
+      "emoji": "1f514",
+      "category": "objects"
+    },
+    {
+      "word": "酒店",
+      "english": "hotel",
+      "phonetic": "JYOH-DYEN",
+      "emoji": "1f3e8",
+      "category": "places"
+    },
+    {
+      "word": "城市",
+      "english": "city",
+      "phonetic": "CHUHNG-SHUH",
+      "emoji": "1f3d9",
+      "category": "places"
+    },
+    {
+      "word": "山",
+      "english": "mountain",
+      "phonetic": "SHAHN",
+      "emoji": "1f3d4",
+      "category": "places"
+    },
+    {
+      "word": "海滩",
+      "english": "beach",
+      "phonetic": "HYE-TAHN",
+      "emoji": "1f3d6",
+      "category": "places"
+    },
+    {
+      "word": "路",
+      "english": "road",
+      "phonetic": "LOO",
+      "emoji": "1f6e3",
+      "category": "places"
+    },
+    {
+      "word": "银行",
+      "english": "bank",
+      "phonetic": "YEEN-HAHNG",
+      "emoji": "1f3e6",
+      "category": "places"
+    },
+    {
+      "word": "城堡",
+      "english": "castle",
+      "phonetic": "CHUHNG-BAO",
+      "emoji": "1f3f0",
+      "category": "places"
+    },
+    {
+      "word": "岛屿",
+      "english": "island",
+      "phonetic": "DAO-YOO",
+      "emoji": "1f3dd",
+      "category": "places"
+    },
+    {
+      "word": "公园",
+      "english": "park",
+      "phonetic": "GOHNG-YWENN",
+      "emoji": "1f3de",
+      "category": "places"
+    },
+    {
+      "word": "出租车",
+      "english": "taxi",
+      "phonetic": "CHOO-ZOO-CHUH",
+      "emoji": "1f695",
+      "category": "transport"
+    },
+    {
+      "word": "直升机",
+      "english": "helicopter",
+      "phonetic": "JUH-SHUHNG-JEE",
+      "emoji": "1f681",
+      "category": "transport"
+    },
+    {
+      "word": "火箭",
+      "english": "rocket",
+      "phonetic": "HWOH-JYEN",
+      "emoji": "1f680",
+      "category": "transport"
+    },
+    {
+      "word": "救护车",
+      "english": "ambulance",
+      "phonetic": "JYOH-HOO-CHUH",
+      "emoji": "1f691",
+      "category": "transport"
+    },
+    {
+      "word": "摩托车",
+      "english": "motorcycle",
+      "phonetic": "MWOH-TWOH-CHUH",
+      "emoji": "1f3cd",
+      "category": "transport"
+    },
+    {
+      "word": "船",
+      "english": "ship",
+      "phonetic": "CHWAHN",
+      "emoji": "1f6a2",
+      "category": "transport"
+    },
+    {
+      "word": "收音机",
+      "english": "radio",
+      "phonetic": "SHOH-YEEN-JEE",
+      "emoji": "1f4fb",
+      "category": "objects"
+    },
+    {
+      "word": "报纸",
+      "english": "newspaper",
+      "phonetic": "BAO-JUH",
+      "emoji": "1f4f0",
+      "category": "objects"
+    },
+    {
+      "word": "笔记",
+      "english": "note",
+      "phonetic": "BEE-JEE",
+      "emoji": "1f4dd",
+      "category": "objects"
+    },
+    {
+      "word": "笔",
+      "english": "pen",
+      "phonetic": "BEE",
+      "emoji": "1f58a",
+      "category": "objects"
+    },
+    {
+      "word": "铅笔",
+      "english": "pencil",
+      "phonetic": "CHYEN-BEE",
+      "emoji": "270f",
+      "category": "objects"
+    },
+    {
+      "word": "剪刀",
+      "english": "scissors",
+      "phonetic": "JYEN-DAO",
+      "emoji": "2702",
+      "category": "objects"
+    },
+    {
+      "word": "日历",
+      "english": "calendar",
+      "phonetic": "RUH-LEE",
+      "emoji": "1f4c5",
+      "category": "objects"
+    },
+    {
+      "word": "锁",
+      "english": "lock",
+      "phonetic": "SWOH",
+      "emoji": "1f512",
+      "category": "objects"
+    },
+    {
+      "word": "锤子",
+      "english": "hammer",
+      "phonetic": "CHWAY-ZUH",
+      "emoji": "1f528",
+      "category": "tools"
+    },
+    {
+      "word": "刀",
+      "english": "knife",
+      "phonetic": "DAO",
+      "emoji": "1f52a",
+      "category": "tools"
+    },
+    {
+      "word": "叉子",
+      "english": "fork",
+      "phonetic": "CHAH-ZUH",
+      "emoji": "1f374",
+      "category": "tools"
+    },
+    {
+      "word": "勺子",
+      "english": "spoon",
+      "phonetic": "SHAO-ZUH",
+      "emoji": "1f944",
+      "category": "tools"
+    },
+    {
+      "word": "盘子",
+      "english": "plate",
+      "phonetic": "PAHN-ZUH",
+      "emoji": "1f37d",
+      "category": "tools"
+    },
+    {
+      "word": "地图",
+      "english": "map",
+      "phonetic": "DEE-TOO",
+      "emoji": "1f5fa",
+      "category": "objects"
+    },
+    {
+      "word": "箱子",
+      "english": "box",
+      "phonetic": "SHYAHNG-ZUH",
+      "emoji": "1f4e6",
+      "category": "objects"
+    },
+    {
+      "word": "邮件",
+      "english": "mail",
+      "phonetic": "YOH-JYEN",
+      "emoji": "1f4e8",
+      "category": "objects"
+    },
+    {
+      "word": "浴缸",
+      "english": "bath",
+      "phonetic": "YOO-GAHNG",
+      "emoji": "1f6c1",
+      "category": "home"
+    },
+    {
+      "word": "肥皂",
+      "english": "soap",
+      "phonetic": "FAY-ZAO",
+      "emoji": "1f9fc",
+      "category": "objects"
+    },
+    {
+      "word": "硬币",
+      "english": "coin",
+      "phonetic": "YING-BEE",
+      "emoji": "1fa99",
+      "category": "objects"
+    },
+    {
+      "word": "时钟",
+      "english": "clock",
+      "phonetic": "SHUH-JOHNG",
+      "emoji": "1f570",
+      "category": "objects"
+    },
+    {
+      "word": "手表",
+      "english": "watch",
+      "phonetic": "SHOH-BYAO",
+      "emoji": "231a",
+      "category": "objects"
+    },
+    {
+      "word": "旗帜",
+      "english": "flag",
+      "phonetic": "CHEE-JUH",
+      "emoji": "1f3f3",
+      "category": "objects"
+    },
+    {
+      "word": "剑",
+      "english": "sword",
+      "phonetic": "JYEN",
+      "emoji": "2694",
+      "category": "tools"
+    },
+    {
+      "word": "枪",
+      "english": "gun",
+      "phonetic": "CHYAHNG",
+      "emoji": "1f52b",
+      "category": "tools"
+    }
+  ]
+}

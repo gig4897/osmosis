@@ -8,7 +8,7 @@
 #include <SPIFFS.h>
 #include <cstring>
 
-static const char* BASE_URL = "https://vcodeworks.dev/api/osmosis";
+static const char* BASE_URL = "https://www.vcodeworks.dev/api/osmosis";
 
 static PackDownloadState _state = PackDownloadState::Idle;
 static uint8_t _progress = 0;
@@ -28,6 +28,7 @@ static uint8_t _dlLangIdx = 0;
 static uint8_t _dlTierIdx = 0;
 static uint16_t _emojiTotal = 0;
 static uint16_t _emojiDone = 0;
+static packMgr::ProgressCallback _progressCb = nullptr;
 
 // List of emoji codepoints from the downloaded manifest
 static const uint16_t MAX_EMOJI = 350;
@@ -38,6 +39,7 @@ static bool httpDownloadToSpiffs(const char* url, const char* path) {
     HTTPClient http;
     http.begin(url);
     http.setTimeout(15000);
+    http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
     int code = http.GET();
 
     if (code != 200) {
@@ -46,6 +48,10 @@ static bool httpDownloadToSpiffs(const char* url, const char* path) {
         return false;
     }
 
+    int contentLen = http.getSize();  // -1 if chunked
+    Serial.printf("[pack] Downloading %s (%d bytes, chunked=%s)\n",
+                  path, contentLen, (contentLen < 0) ? "yes" : "no");
+
     fs::File f = SPIFFS.open(path, "w");
     if (!f) {
         Serial.printf("[pack] Failed to open %s for writing\n", path);
@@ -53,20 +59,18 @@ static bool httpDownloadToSpiffs(const char* url, const char* path) {
         return false;
     }
 
-    WiFiClient* stream = http.getStreamPtr();
-    uint8_t buf[512];
-    int total = 0;
-    while (http.connected() && stream->available()) {
-        int len = stream->readBytes(buf, sizeof(buf));
-        if (len > 0) {
-            f.write(buf, len);
-            total += len;
-        }
-    }
-
+    // Use writeToStream which properly handles chunked transfer encoding
+    int written = http.writeToStream(&f);
     f.close();
     http.end();
-    Serial.printf("[pack] Downloaded %s (%d bytes)\n", path, total);
+
+    if (written < 0) {
+        Serial.printf("[pack] writeToStream failed: %d for %s\n", written, path);
+        SPIFFS.remove(path);
+        return false;
+    }
+
+    Serial.printf("[pack] Downloaded %s (%d bytes)\n", path, written);
     return true;
 }
 
@@ -87,6 +91,7 @@ bool fetchCatalog() {
     HTTPClient http;
     http.begin(url);
     http.setTimeout(10000);
+    http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
     int code = http.GET();
 
     if (code != 200) {
@@ -171,6 +176,7 @@ bool startDownload(uint8_t langIdx, uint8_t tierIdx) {
         return false;
     }
     _progress = 15;
+    if (_progressCb) _progressCb();
 
     // Step 2: Download font.vlw
     _state = PackDownloadState::FetchingFont;
@@ -183,6 +189,7 @@ bool startDownload(uint8_t langIdx, uint8_t tierIdx) {
         return false;
     }
     _progress = 25;
+    if (_progressCb) _progressCb();
 
     // Step 3: Parse manifest to get emoji list
     fs::File f = SPIFFS.open("/manifest.json", "r");
@@ -250,6 +257,7 @@ bool startDownload(uint8_t langIdx, uint8_t tierIdx) {
 
         _emojiDone++;
         _progress = 25 + (_emojiDone * 65 / _emojiTotal);
+        if (_progressCb) _progressCb();
         yield();  // Let WiFi stack breathe
     }
 
@@ -257,6 +265,7 @@ bool startDownload(uint8_t langIdx, uint8_t tierIdx) {
     _state = PackDownloadState::CleaningOrphans;
     strlcpy(_statusBuf, "Cleaning up...", sizeof(_statusBuf));
     _progress = 92;
+    if (_progressCb) _progressCb();
 
     // Build set of needed files
     fs::File root = SPIFFS.open("/");
@@ -313,6 +322,14 @@ void update() {
 PackDownloadState state() { return _state; }
 uint8_t progressPercent() { return _progress; }
 const char* statusText() { return _statusBuf; }
+
+void resetState() {
+    _state = PackDownloadState::Idle;
+    _progress = 0;
+    _statusBuf[0] = '\0';
+}
+
+void setProgressCallback(ProgressCallback cb) { _progressCb = cb; }
 
 bool hasInstalledPack() {
     return SPIFFS.exists("/manifest.json");

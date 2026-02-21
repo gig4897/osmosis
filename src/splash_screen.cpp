@@ -15,19 +15,27 @@ void splash::show() {
         tft.drawFastVLine(x, 0, SCREEN_H, col);
     }
 
-    // "OSMOSIS" centered at y=110, Font 6
+    // "OSMOSIS" centered at y=120, Font 4 (26px) with glow effect
     tft.setTextDatum(TC_DATUM);
+    // Glow: draw offset copies in dimmed green
+    uint16_t glowGreen = DisplayManager::dimColor(CLR_SPLASH_GREEN, 0.3f);
+    tft.setTextColor(glowGreen);
+    tft.drawString("OSMOSIS", SCREEN_W / 2 - 1, 120, 4);
+    tft.drawString("OSMOSIS", SCREEN_W / 2 + 1, 120, 4);
+    tft.drawString("OSMOSIS", SCREEN_W / 2, 119, 4);
+    tft.drawString("OSMOSIS", SCREEN_W / 2, 121, 4);
+    // Main text on top
     tft.setTextColor(CLR_SPLASH_GREEN);
-    tft.drawString("OSMOSIS", SCREEN_W / 2, 110, 6);
+    tft.drawString("OSMOSIS", SCREEN_W / 2, 120, 4);
 
-    // "LEARN BY IMMERSION" at y=155, Font 2, dimmed green (50%)
+    // "LEARN BY IMMERSION" at y=150, Font 2, dimmed green (50%)
     uint16_t dimGreen = DisplayManager::dimColor(CLR_SPLASH_GREEN, 0.5f);
     tft.setTextColor(dimGreen);
-    tft.drawString("LEARN BY IMMERSION", SCREEN_W / 2, 155, 2);
+    tft.drawString("LEARN BY IMMERSION", SCREEN_W / 2, 150, 2);
 
-    // Three animated dots at y=200 with 400ms delay between each
+    // Three animated dots at y=190 with 400ms delay between each
     tft.setTextColor(CLR_SPLASH_GREEN);
-    const int dotY = 200;
+    const int dotY = 190;
     const int dotSpacing = 20;
     const int dotStartX = SCREEN_W / 2 - dotSpacing;
 

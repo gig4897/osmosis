@@ -16,6 +16,7 @@ public:
     void draw(TFT_eSprite& spr, int stripY);
     bool handleTap(TouchPoint pt);
     SettingsPage currentPage() const { return _page; }
+    void drawDownloadProgress(TFT_eSprite& spr, int stripY);
 
 private:
     bool _active = false;
@@ -25,13 +26,17 @@ private:
 
     struct Button { int x, y, w, h; };
 
+    // Pressed button visual feedback
+    Button _pressedBtn = {0, 0, 0, 0};
+    uint32_t _pressedMs = 0;
+    static const uint32_t PRESS_FLASH_MS = 200;
+
     bool hitTest(const Button& btn, TouchPoint pt);
     void drawButton(TFT_eSprite& spr, const Button& btn, int stripY,
                     const char* label, bool selected);
 
     void drawMainPage(TFT_eSprite& spr, int stripY);
     void drawLanguageBrowser(TFT_eSprite& spr, int stripY);
-    void drawDownloadProgress(TFT_eSprite& spr, int stripY);
 
     bool handleMainTap(TouchPoint pt);
     bool handleBrowserTap(TouchPoint pt);

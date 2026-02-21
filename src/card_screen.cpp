@@ -130,11 +130,18 @@ void reloadFont() {
 
 void render() {
     const WordEntry& word = cardMgr.currentWord();
+    const bool showPhonetic = settingsMgr.settings().showPhonetic && strlen(word.phonetic) > 0;
 
     // Build the "Card X / Y" string once
     char counterBuf[24];
     snprintf(counterBuf, sizeof(counterBuf), "Card %d / %d",
              cardMgr.currentCardIndex(), cardMgr.totalCardsToday());
+
+    // Dynamic layout: when phonetic is on, make box taller and shift image + box up
+    const int phoneticShift = showPhonetic ? 16 : 0;
+    const int imgY   = IMG_Y - phoneticShift;
+    const int boxY   = WORD_BOX_Y - phoneticShift;
+    const int boxH   = showPhonetic ? (WORD_BOX_H + 16) : WORD_BOX_H;  // 70 vs 54
 
     for (int strip = 0; strip < NUM_STRIPS; strip++) {
         int stripY = strip * STRIP_H;
@@ -157,7 +164,7 @@ void render() {
             }
         }
 
-        // "OSMOSIS" title at y=4, Font 2 (16px), with glow effect — matches mockup style
+        // "OSMOSIS" title at y=4, Font 2 (16px), with glow effect
         {
             int textScreenY = 4;
             int y = textScreenY - stripY;
@@ -190,18 +197,18 @@ void render() {
             }
         }
 
-        // 3. Image area (120x120 display, centered on screen)
-        if (stripY + STRIP_H > IMG_Y && stripY < IMG_Y + IMG_DISPLAY_H) {
-            imageRenderer::drawPreloaded(IMG_X, IMG_Y, stripY);
+        // 3. Image area (shifts up when phonetic is on)
+        if (stripY + STRIP_H > imgY && stripY < imgY + IMG_DISPLAY_H) {
+            imageRenderer::drawPreloaded(IMG_X, imgY, stripY);
         }
 
-        // 4. Word box with rounded corners
-        drawRoundedRect(spr, WORD_BOX_X, WORD_BOX_Y, WORD_BOX_W, WORD_BOX_H,
+        // 4. Word box with rounded corners (taller when phonetic is on)
+        drawRoundedRect(spr, WORD_BOX_X, boxY, WORD_BOX_W, boxH,
                         WORD_BOX_R, stripY, CLR_WORD_BOX_BG, CLR_WORD_BOX_BORDER);
 
         // 5. Foreign word — use smooth font for proper accented character support
         {
-            int textScreenY = WORD_BOX_Y + 6;
+            int textScreenY = boxY + 6;
             int y = textScreenY - stripY;
             if (y >= -28 && y < STRIP_H) {
                 if (smoothFontReady) {
@@ -218,29 +225,29 @@ void render() {
             }
         }
 
-        // 6. English word in secondary color, Font 2 (16px), below foreign word
-        {
-            int textScreenY = WORD_BOX_Y + 34;
+        // 6. Phonetic pronunciation (between foreign and english when enabled)
+        if (showPhonetic) {
+            int textScreenY = boxY + 32;
             int y = textScreenY - stripY;
             if (y >= -16 && y < STRIP_H) {
                 spr.setTextDatum(TC_DATUM);
-                spr.setTextColor(CLR_TEXT_SECONDARY, CLR_WORD_BOX_BG);
+                spr.setTextColor(CLR_PHONETIC, CLR_WORD_BOX_BG);
+                spr.drawString(word.phonetic, SCREEN_W / 2, y, 2);
+            }
+        }
+
+        // 7. English word — Font 2 (16px), high contrast
+        {
+            int textScreenY = showPhonetic ? (boxY + 50) : (boxY + 34);
+            int y = textScreenY - stripY;
+            if (y >= -16 && y < STRIP_H) {
+                spr.setTextDatum(TC_DATUM);
+                spr.setTextColor(CLR_ENGLISH, CLR_WORD_BOX_BG);
                 spr.drawString(word.english, SCREEN_W / 2, y, 2);
             }
         }
 
-        // 6b. Phonetic pronunciation (optional, below English)
-        if (settingsMgr.settings().showPhonetic && strlen(word.phonetic) > 0) {
-            int textScreenY = WORD_BOX_Y + 46;
-            int y = textScreenY - stripY;
-            if (y >= -12 && y < STRIP_H) {
-                spr.setTextDatum(TC_DATUM);
-                spr.setTextColor(CLR_TEXT_DIM, CLR_BG_DARK);
-                spr.drawString(word.phonetic, SCREEN_W / 2, y, 1);
-            }
-        }
-
-        // 7. Card counter
+        // 8. Card counter
         {
             int y = COUNTER_Y - stripY;
             if (y >= -16 && y < STRIP_H) {

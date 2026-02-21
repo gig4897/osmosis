@@ -1,0 +1,536 @@
+{
+  "language": "portuguese",
+  "languageDisplay": "Portuguese",
+  "tier": "advanced",
+  "tierDisplay": "Advanced",
+  "version": 1,
+  "wordCount": 75,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "rosto",
+      "english": "face",
+      "phonetic": "HOHS-too",
+      "emoji": "1f600",
+      "category": "emotions"
+    },
+    {
+      "word": "feliz",
+      "english": "happy",
+      "phonetic": "feh-LEES",
+      "emoji": "1f60a",
+      "category": "emotions"
+    },
+    {
+      "word": "triste",
+      "english": "sad",
+      "phonetic": "TREES-chee",
+      "emoji": "1f622",
+      "category": "emotions"
+    },
+    {
+      "word": "bravo",
+      "english": "angry",
+      "phonetic": "BRAH-voo",
+      "emoji": "1f620",
+      "category": "emotions"
+    },
+    {
+      "word": "com medo",
+      "english": "afraid",
+      "phonetic": "kohm-MEH-doo",
+      "emoji": "1f628",
+      "category": "emotions"
+    },
+    {
+      "word": "cansado",
+      "english": "tired",
+      "phonetic": "kahn-SAH-doo",
+      "emoji": "1f634",
+      "category": "emotions"
+    },
+    {
+      "word": "surpreso",
+      "english": "surprised",
+      "phonetic": "soor-PREH-zoo",
+      "emoji": "1f632",
+      "category": "emotions"
+    },
+    {
+      "word": "doente",
+      "english": "sick",
+      "phonetic": "doo-EHN-chee",
+      "emoji": "1f912",
+      "category": "emotions"
+    },
+    {
+      "word": "rir",
+      "english": "laugh",
+      "phonetic": "HEER",
+      "emoji": "1f602",
+      "category": "emotions"
+    },
+    {
+      "word": "chorar",
+      "english": "cry",
+      "phonetic": "shoh-RAHR",
+      "emoji": "1f62d",
+      "category": "emotions"
+    },
+    {
+      "word": "amor",
+      "english": "love",
+      "phonetic": "ah-MOHR",
+      "emoji": "1f60d",
+      "category": "emotions"
+    },
+    {
+      "word": "falar",
+      "english": "speak",
+      "phonetic": "fah-LAHR",
+      "emoji": "1f5e3",
+      "category": "actions"
+    },
+    {
+      "word": "pensar",
+      "english": "think",
+      "phonetic": "pehn-SAHR",
+      "emoji": "1f4ad",
+      "category": "actions"
+    },
+    {
+      "word": "correndo",
+      "english": "running",
+      "phonetic": "koh-HEHN-doo",
+      "emoji": "1f3c3",
+      "category": "actions"
+    },
+    {
+      "word": "nadando",
+      "english": "swimming",
+      "phonetic": "nah-DAHN-doo",
+      "emoji": "1f3ca",
+      "category": "actions"
+    },
+    {
+      "word": "andando",
+      "english": "walking",
+      "phonetic": "ahn-DAHN-doo",
+      "emoji": "1f6b6",
+      "category": "actions"
+    },
+    {
+      "word": "dançando",
+      "english": "dancing",
+      "phonetic": "dahn-SAHN-doo",
+      "emoji": "1f483",
+      "category": "actions"
+    },
+    {
+      "word": "escrevendo",
+      "english": "writing",
+      "phonetic": "eh-skreh-VEHN-doo",
+      "emoji": "270d",
+      "category": "actions"
+    },
+    {
+      "word": "pescando",
+      "english": "fishing",
+      "phonetic": "peh-SKAHN-doo",
+      "emoji": "1f3a3",
+      "category": "entertainment"
+    },
+    {
+      "word": "esquiando",
+      "english": "skiing",
+      "phonetic": "eh-skee-AHN-doo",
+      "emoji": "26f7",
+      "category": "entertainment"
+    },
+    {
+      "word": "surfando",
+      "english": "surfing",
+      "phonetic": "soor-FAHN-doo",
+      "emoji": "1f3c4",
+      "category": "entertainment"
+    },
+    {
+      "word": "manhã",
+      "english": "morning",
+      "phonetic": "mahn-YAHW",
+      "emoji": "1f305",
+      "category": "time"
+    },
+    {
+      "word": "tarde",
+      "english": "evening",
+      "phonetic": "TAHR-jee",
+      "emoji": "1f307",
+      "category": "time"
+    },
+    {
+      "word": "noite",
+      "english": "night",
+      "phonetic": "NOY-chee",
+      "emoji": "1f303",
+      "category": "time"
+    },
+    {
+      "word": "aniversário",
+      "english": "birthday",
+      "phonetic": "ah-nee-vehr-SAH-ree-oo",
+      "emoji": "1f382",
+      "category": "entertainment"
+    },
+    {
+      "word": "festa",
+      "english": "party",
+      "phonetic": "FEH-stah",
+      "emoji": "1f389",
+      "category": "entertainment"
+    },
+    {
+      "word": "presente",
+      "english": "gift",
+      "phonetic": "preh-ZEHN-chee",
+      "emoji": "1f381",
+      "category": "entertainment"
+    },
+    {
+      "word": "música",
+      "english": "music",
+      "phonetic": "MOO-zee-kah",
+      "emoji": "1f3b5",
+      "category": "entertainment"
+    },
+    {
+      "word": "canção",
+      "english": "song",
+      "phonetic": "kahn-SAHW",
+      "emoji": "1f3b6",
+      "category": "entertainment"
+    },
+    {
+      "word": "piano",
+      "english": "piano",
+      "phonetic": "pee-AH-noo",
+      "emoji": "1f3b9",
+      "category": "entertainment"
+    },
+    {
+      "word": "violão",
+      "english": "guitar",
+      "phonetic": "vee-oh-LAHW",
+      "emoji": "1f3b8",
+      "category": "entertainment"
+    },
+    {
+      "word": "tambor",
+      "english": "drum",
+      "phonetic": "tahm-BOHR",
+      "emoji": "1f941",
+      "category": "entertainment"
+    },
+    {
+      "word": "filme",
+      "english": "movie",
+      "phonetic": "FEEW-mee",
+      "emoji": "1f3ac",
+      "category": "entertainment"
+    },
+    {
+      "word": "arte",
+      "english": "art",
+      "phonetic": "AHR-chee",
+      "emoji": "1f3a8",
+      "category": "entertainment"
+    },
+    {
+      "word": "jogo",
+      "english": "game",
+      "phonetic": "ZHOH-goo",
+      "emoji": "1f3b2",
+      "category": "entertainment"
+    },
+    {
+      "word": "sino",
+      "english": "bell",
+      "phonetic": "SEE-noo",
+      "emoji": "1f514",
+      "category": "objects"
+    },
+    {
+      "word": "hotel",
+      "english": "hotel",
+      "phonetic": "oh-TEHW",
+      "emoji": "1f3e8",
+      "category": "places"
+    },
+    {
+      "word": "cidade",
+      "english": "city",
+      "phonetic": "see-DAH-jee",
+      "emoji": "1f3d9",
+      "category": "places"
+    },
+    {
+      "word": "montanha",
+      "english": "mountain",
+      "phonetic": "mohn-TAHN-yah",
+      "emoji": "1f3d4",
+      "category": "places"
+    },
+    {
+      "word": "praia",
+      "english": "beach",
+      "phonetic": "PRAH-yah",
+      "emoji": "1f3d6",
+      "category": "places"
+    },
+    {
+      "word": "estrada",
+      "english": "road",
+      "phonetic": "eh-STRAH-dah",
+      "emoji": "1f6e3",
+      "category": "places"
+    },
+    {
+      "word": "banco",
+      "english": "bank",
+      "phonetic": "BAHN-koo",
+      "emoji": "1f3e6",
+      "category": "places"
+    },
+    {
+      "word": "castelo",
+      "english": "castle",
+      "phonetic": "kah-STEH-loo",
+      "emoji": "1f3f0",
+      "category": "places"
+    },
+    {
+      "word": "ilha",
+      "english": "island",
+      "phonetic": "EE-lyah",
+      "emoji": "1f3dd",
+      "category": "places"
+    },
+    {
+      "word": "parque",
+      "english": "park",
+      "phonetic": "PAHR-kee",
+      "emoji": "1f3de",
+      "category": "places"
+    },
+    {
+      "word": "táxi",
+      "english": "taxi",
+      "phonetic": "TAH-ksee",
+      "emoji": "1f695",
+      "category": "transport"
+    },
+    {
+      "word": "helicóptero",
+      "english": "helicopter",
+      "phonetic": "eh-lee-KOH-pteh-roo",
+      "emoji": "1f681",
+      "category": "transport"
+    },
+    {
+      "word": "foguete",
+      "english": "rocket",
+      "phonetic": "foh-GEH-chee",
+      "emoji": "1f680",
+      "category": "transport"
+    },
+    {
+      "word": "ambulância",
+      "english": "ambulance",
+      "phonetic": "ahm-boo-LAHN-see-ah",
+      "emoji": "1f691",
+      "category": "transport"
+    },
+    {
+      "word": "moto",
+      "english": "motorcycle",
+      "phonetic": "MOH-too",
+      "emoji": "1f3cd",
+      "category": "transport"
+    },
+    {
+      "word": "navio",
+      "english": "ship",
+      "phonetic": "nah-VEE-oo",
+      "emoji": "1f6a2",
+      "category": "transport"
+    },
+    {
+      "word": "rádio",
+      "english": "radio",
+      "phonetic": "HAH-jee-oo",
+      "emoji": "1f4fb",
+      "category": "objects"
+    },
+    {
+      "word": "jornal",
+      "english": "newspaper",
+      "phonetic": "zhohr-NAHW",
+      "emoji": "1f4f0",
+      "category": "objects"
+    },
+    {
+      "word": "nota",
+      "english": "note",
+      "phonetic": "NOH-tah",
+      "emoji": "1f4dd",
+      "category": "objects"
+    },
+    {
+      "word": "caneta",
+      "english": "pen",
+      "phonetic": "kah-NEH-tah",
+      "emoji": "1f58a",
+      "category": "objects"
+    },
+    {
+      "word": "lápis",
+      "english": "pencil",
+      "phonetic": "LAH-pees",
+      "emoji": "270f",
+      "category": "objects"
+    },
+    {
+      "word": "tesoura",
+      "english": "scissors",
+      "phonetic": "teh-ZOH-rah",
+      "emoji": "2702",
+      "category": "objects"
+    },
+    {
+      "word": "calendário",
+      "english": "calendar",
+      "phonetic": "kah-lehn-DAH-ree-oo",
+      "emoji": "1f4c5",
+      "category": "objects"
+    },
+    {
+      "word": "cadeado",
+      "english": "lock",
+      "phonetic": "kah-dee-AH-doo",
+      "emoji": "1f512",
+      "category": "objects"
+    },
+    {
+      "word": "martelo",
+      "english": "hammer",
+      "phonetic": "mahr-TEH-loo",
+      "emoji": "1f528",
+      "category": "tools"
+    },
+    {
+      "word": "faca",
+      "english": "knife",
+      "phonetic": "FAH-kah",
+      "emoji": "1f52a",
+      "category": "tools"
+    },
+    {
+      "word": "garfo",
+      "english": "fork",
+      "phonetic": "GAHR-foo",
+      "emoji": "1f374",
+      "category": "tools"
+    },
+    {
+      "word": "colher",
+      "english": "spoon",
+      "phonetic": "koo-LYEHR",
+      "emoji": "1f944",
+      "category": "tools"
+    },
+    {
+      "word": "prato",
+      "english": "plate",
+      "phonetic": "PRAH-too",
+      "emoji": "1f37d",
+      "category": "tools"
+    },
+    {
+      "word": "mapa",
+      "english": "map",
+      "phonetic": "MAH-pah",
+      "emoji": "1f5fa",
+      "category": "objects"
+    },
+    {
+      "word": "caixa",
+      "english": "box",
+      "phonetic": "KAY-shah",
+      "emoji": "1f4e6",
+      "category": "objects"
+    },
+    {
+      "word": "correio",
+      "english": "mail",
+      "phonetic": "koh-HAY-oo",
+      "emoji": "1f4e8",
+      "category": "objects"
+    },
+    {
+      "word": "banho",
+      "english": "bath",
+      "phonetic": "BAHN-yoo",
+      "emoji": "1f6c1",
+      "category": "home"
+    },
+    {
+      "word": "sabão",
+      "english": "soap",
+      "phonetic": "sah-BAHW",
+      "emoji": "1f9fc",
+      "category": "objects"
+    },
+    {
+      "word": "moeda",
+      "english": "coin",
+      "phonetic": "moo-EH-dah",
+      "emoji": "1fa99",
+      "category": "objects"
+    },
+    {
+      "word": "relógio",
+      "english": "clock",
+      "phonetic": "heh-LOH-zhee-oo",
+      "emoji": "1f570",
+      "category": "objects"
+    },
+    {
+      "word": "relógio",
+      "english": "watch",
+      "phonetic": "heh-LOH-zhee-oo",
+      "emoji": "231a",
+      "category": "objects"
+    },
+    {
+      "word": "bandeira",
+      "english": "flag",
+      "phonetic": "bahn-DAY-rah",
+      "emoji": "1f3f3",
+      "category": "objects"
+    },
+    {
+      "word": "espada",
+      "english": "sword",
+      "phonetic": "eh-SPAH-dah",
+      "emoji": "2694",
+      "category": "tools"
+    },
+    {
+      "word": "arma",
+      "english": "gun",
+      "phonetic": "AHR-mah",
+      "emoji": "1f52b",
+      "category": "tools"
+    }
+  ]
+}

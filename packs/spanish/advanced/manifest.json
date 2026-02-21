@@ -4,308 +4,175 @@
   "tier": "advanced",
   "tierDisplay": "Advanced",
   "version": 1,
-  "wordCount": 84,
+  "wordCount": 75,
   "fontFile": "font.vlw",
   "words": [
     {
-      "word": "fuerte",
-      "english": "strong",
-      "phonetic": "FWEHR-teh",
-      "emoji": "1f4aa",
+      "word": "cara",
+      "english": "face",
+      "phonetic": "KAH-rah",
+      "emoji": "1f600",
       "category": "emotions"
     },
     {
-      "word": "rojo",
-      "english": "red",
-      "phonetic": "ROH-hoh",
-      "emoji": "1f7e5",
-      "category": "objects"
+      "word": "feliz",
+      "english": "happy",
+      "phonetic": "feh-LEES",
+      "emoji": "1f60a",
+      "category": "emotions"
     },
     {
-      "word": "azul",
-      "english": "blue",
-      "phonetic": "ah-SOOL",
-      "emoji": "1f7e6",
-      "category": "objects"
+      "word": "triste",
+      "english": "sad",
+      "phonetic": "TREES-teh",
+      "emoji": "1f622",
+      "category": "emotions"
     },
     {
-      "word": "verde",
-      "english": "green",
-      "phonetic": "BEHR-deh",
-      "emoji": "1f7e9",
-      "category": "objects"
+      "word": "enojado",
+      "english": "angry",
+      "phonetic": "eh-noh-HAH-doh",
+      "emoji": "1f620",
+      "category": "emotions"
     },
     {
-      "word": "amarillo",
-      "english": "yellow",
-      "phonetic": "ah-mah-REE-yoh",
-      "emoji": "1f7e8",
-      "category": "objects"
+      "word": "asustado",
+      "english": "afraid",
+      "phonetic": "ah-soos-TAH-doh",
+      "emoji": "1f628",
+      "category": "emotions"
     },
     {
-      "word": "blanco",
-      "english": "white",
-      "phonetic": "BLAHN-koh",
-      "emoji": "2b1c",
-      "category": "objects"
+      "word": "cansado",
+      "english": "tired",
+      "phonetic": "kahn-SAH-doh",
+      "emoji": "1f634",
+      "category": "emotions"
     },
     {
-      "word": "negro",
-      "english": "black",
-      "phonetic": "NEH-groh",
-      "emoji": "2b1b",
-      "category": "objects"
+      "word": "sorprendido",
+      "english": "surprised",
+      "phonetic": "sohr-prehn-DEE-doh",
+      "emoji": "1f632",
+      "category": "emotions"
     },
     {
-      "word": "morado",
-      "english": "purple",
-      "phonetic": "moh-RAH-doh",
-      "emoji": "1f7ea",
-      "category": "objects"
+      "word": "enfermo",
+      "english": "sick",
+      "phonetic": "ehn-FEHR-moh",
+      "emoji": "1f912",
+      "category": "emotions"
     },
     {
-      "word": "anaranjado",
-      "english": "orange",
-      "phonetic": "ah-nah-rahn-HAH-doh",
-      "emoji": "1f7e7",
-      "category": "objects"
+      "word": "risa",
+      "english": "laugh",
+      "phonetic": "RREE-sah",
+      "emoji": "1f602",
+      "category": "emotions"
     },
     {
-      "word": "pequeño",
-      "english": "small",
-      "phonetic": "peh-KEH-nyoh",
-      "emoji": "1f41c",
-      "category": "objects"
+      "word": "llanto",
+      "english": "cry",
+      "phonetic": "YAHN-toh",
+      "emoji": "1f62d",
+      "category": "emotions"
     },
     {
-      "word": "baloncesto",
-      "english": "basketball",
-      "phonetic": "bah-lohn-SEHS-toh",
-      "emoji": "1f3c0",
-      "category": "sports"
+      "word": "amor",
+      "english": "love",
+      "phonetic": "ah-MOHR",
+      "emoji": "1f60d",
+      "category": "emotions"
     },
     {
-      "word": "béisbol",
-      "english": "baseball",
-      "phonetic": "BAYS-bohl",
-      "emoji": "26be",
-      "category": "sports"
+      "word": "hablar",
+      "english": "speak",
+      "phonetic": "ah-BLAHR",
+      "emoji": "1f5e3",
+      "category": "actions"
     },
     {
-      "word": "tenis",
-      "english": "tennis",
-      "phonetic": "TEH-nees",
-      "emoji": "1f3be",
-      "category": "sports"
+      "word": "pensar",
+      "english": "think",
+      "phonetic": "pehn-SAHR",
+      "emoji": "1f4ad",
+      "category": "actions"
     },
     {
-      "word": "golf",
-      "english": "golf",
-      "phonetic": "gohlf",
-      "emoji": "26f3",
-      "category": "sports"
+      "word": "correr",
+      "english": "running",
+      "phonetic": "koh-RREHR",
+      "emoji": "1f3c3",
+      "category": "actions"
     },
     {
-      "word": "boxeo",
-      "english": "boxing",
-      "phonetic": "bohk-SEH-oh",
-      "emoji": "1f94a",
-      "category": "sports"
+      "word": "nadar",
+      "english": "swimming",
+      "phonetic": "nah-DAHR",
+      "emoji": "1f3ca",
+      "category": "actions"
     },
     {
-      "word": "esquí",
-      "english": "ski",
-      "phonetic": "ehs-KEE",
-      "emoji": "26f7",
-      "category": "sports"
+      "word": "caminar",
+      "english": "walking",
+      "phonetic": "kah-mee-NAHR",
+      "emoji": "1f6b6",
+      "category": "actions"
     },
     {
-      "word": "surf",
-      "english": "surf",
-      "phonetic": "soorf",
-      "emoji": "1f3c4",
-      "category": "sports"
+      "word": "bailar",
+      "english": "dancing",
+      "phonetic": "bah-ee-LAHR",
+      "emoji": "1f483",
+      "category": "actions"
     },
     {
-      "word": "pesca",
+      "word": "escribir",
+      "english": "writing",
+      "phonetic": "ehs-kree-BEER",
+      "emoji": "270d",
+      "category": "actions"
+    },
+    {
+      "word": "pescar",
       "english": "fishing",
-      "phonetic": "PEHS-kah",
+      "phonetic": "pehs-KAHR",
       "emoji": "1f3a3",
-      "category": "sports"
+      "category": "entertainment"
     },
     {
-      "word": "arco",
-      "english": "bow",
-      "phonetic": "AHR-koh",
-      "emoji": "1f3f9",
-      "category": "sports"
+      "word": "esquiar",
+      "english": "skiing",
+      "phonetic": "ehs-kee-AHR",
+      "emoji": "26f7",
+      "category": "entertainment"
     },
     {
-      "word": "martillo",
-      "english": "hammer",
-      "phonetic": "mahr-TEE-yoh",
-      "emoji": "1f528",
-      "category": "tools"
+      "word": "surfear",
+      "english": "surfing",
+      "phonetic": "soor-feh-AHR",
+      "emoji": "1f3c4",
+      "category": "entertainment"
     },
     {
-      "word": "tijeras",
-      "english": "scissors",
-      "phonetic": "tee-HEH-rahs",
-      "emoji": "2702",
-      "category": "tools"
+      "word": "mañana",
+      "english": "morning",
+      "phonetic": "mah-NYAH-nah",
+      "emoji": "1f305",
+      "category": "time"
     },
     {
-      "word": "cuchillo",
-      "english": "knife",
-      "phonetic": "koo-CHEE-yoh",
-      "emoji": "1f52a",
-      "category": "tools"
-    },
-    {
-      "word": "aguja",
-      "english": "needle",
-      "phonetic": "ah-GOO-hah",
-      "emoji": "1faa1",
-      "category": "tools"
-    },
-    {
-      "word": "escoba",
-      "english": "broom",
-      "phonetic": "ehs-KOH-bah",
-      "emoji": "1f9f9",
-      "category": "tools"
-    },
-    {
-      "word": "cadena",
-      "english": "chain",
-      "phonetic": "kah-DEH-nah",
-      "emoji": "26d3",
-      "category": "tools"
-    },
-    {
-      "word": "hacha",
-      "english": "axe",
-      "phonetic": "AH-chah",
-      "emoji": "1fa93",
-      "category": "tools"
-    },
-    {
-      "word": "tornillo",
-      "english": "screw",
-      "phonetic": "tohr-NEE-yoh",
-      "emoji": "1f529",
-      "category": "tools"
-    },
-    {
-      "word": "imán",
-      "english": "magnet",
-      "phonetic": "ee-MAHN",
-      "emoji": "1f9f2",
-      "category": "tools"
-    },
-    {
-      "word": "escudo",
-      "english": "shield",
-      "phonetic": "ehs-KOO-doh",
-      "emoji": "1f6e1",
-      "category": "tools"
-    },
-    {
-      "word": "carta",
-      "english": "letter",
-      "phonetic": "KAR-tah",
-      "emoji": "2709",
-      "category": "objects"
-    },
-    {
-      "word": "dinero",
-      "english": "money",
-      "phonetic": "dee-NEH-roh",
-      "emoji": "1f4b5",
-      "category": "objects"
-    },
-    {
-      "word": "mapa",
-      "english": "map",
-      "phonetic": "MAH-pah",
-      "emoji": "1f5fa",
-      "category": "objects"
-    },
-    {
-      "word": "bandera",
-      "english": "flag",
-      "phonetic": "bahn-DEH-rah",
-      "emoji": "1f6a9",
-      "category": "objects"
-    },
-    {
-      "word": "dado",
-      "english": "dice",
-      "phonetic": "DAH-doh",
-      "emoji": "1f3b2",
-      "category": "objects"
-    },
-    {
-      "word": "guitarra",
-      "english": "guitar",
-      "phonetic": "gee-TAH-rrah",
-      "emoji": "1f3b8",
-      "category": "objects"
-    },
-    {
-      "word": "trompeta",
-      "english": "trumpet",
-      "phonetic": "trohm-PEH-tah",
-      "emoji": "1f3ba",
-      "category": "objects"
-    },
-    {
-      "word": "tambor",
-      "english": "drum",
-      "phonetic": "tahm-BOHR",
-      "emoji": "1f941",
-      "category": "objects"
-    },
-    {
-      "word": "piano",
-      "english": "piano",
-      "phonetic": "pee-AH-noh",
-      "emoji": "1f3b9",
-      "category": "objects"
-    },
-    {
-      "word": "hora",
-      "english": "hour",
-      "phonetic": "OH-rah",
-      "emoji": "1f550",
+      "word": "tarde",
+      "english": "evening",
+      "phonetic": "TAR-deh",
+      "emoji": "1f307",
       "category": "time"
     },
     {
       "word": "noche",
       "english": "night",
       "phonetic": "NOH-cheh",
-      "emoji": "1f319",
-      "category": "time"
-    },
-    {
-      "word": "tarde",
-      "english": "afternoon",
-      "phonetic": "TAR-deh",
-      "emoji": "1f307",
-      "category": "time"
-    },
-    {
-      "word": "reloj",
-      "english": "watch",
-      "phonetic": "reh-LOH",
-      "emoji": "231a",
-      "category": "time"
-    },
-    {
-      "word": "calendario",
-      "english": "calendar",
-      "phonetic": "kah-lehn-DAH-ree-oh",
-      "emoji": "1f4c5",
+      "emoji": "1f303",
       "category": "time"
     },
     {
@@ -313,118 +180,237 @@
       "english": "birthday",
       "phonetic": "koom-pleh-AH-nyohs",
       "emoji": "1f382",
-      "category": "time"
+      "category": "entertainment"
     },
     {
-      "word": "fuegos",
-      "english": "fireworks",
-      "phonetic": "FWEH-gohs",
-      "emoji": "1f386",
-      "category": "time"
+      "word": "fiesta",
+      "english": "party",
+      "phonetic": "fee-EHS-tah",
+      "emoji": "1f389",
+      "category": "entertainment"
     },
     {
-      "word": "medianoche",
-      "english": "midnight",
-      "phonetic": "meh-dee-ah-NOH-cheh",
-      "emoji": "1f311",
-      "category": "time"
+      "word": "regalo",
+      "english": "gift",
+      "phonetic": "reh-GAH-loh",
+      "emoji": "1f381",
+      "category": "entertainment"
     },
     {
-      "word": "amanecer",
-      "english": "sunrise",
-      "phonetic": "ah-mah-neh-SEHR",
-      "emoji": "1f304",
-      "category": "time"
+      "word": "música",
+      "english": "music",
+      "phonetic": "MOO-see-kah",
+      "emoji": "1f3b5",
+      "category": "entertainment"
     },
     {
-      "word": "delfín",
-      "english": "dolphin",
-      "phonetic": "dehl-FEEN",
-      "emoji": "1f42c",
-      "category": "animals"
+      "word": "canción",
+      "english": "song",
+      "phonetic": "kahn-see-OHN",
+      "emoji": "1f3b6",
+      "category": "entertainment"
     },
     {
-      "word": "tiburón",
-      "english": "shark",
-      "phonetic": "tee-boo-ROHN",
-      "emoji": "1f988",
-      "category": "animals"
+      "word": "piano",
+      "english": "piano",
+      "phonetic": "pee-AH-noh",
+      "emoji": "1f3b9",
+      "category": "entertainment"
     },
     {
-      "word": "pulpo",
-      "english": "octopus",
-      "phonetic": "POOL-poh",
-      "emoji": "1f419",
-      "category": "animals"
+      "word": "guitarra",
+      "english": "guitar",
+      "phonetic": "gee-TAH-rrah",
+      "emoji": "1f3b8",
+      "category": "entertainment"
     },
     {
-      "word": "cangrejo",
-      "english": "crab",
-      "phonetic": "kahn-GREH-hoh",
-      "emoji": "1f980",
-      "category": "animals"
+      "word": "tambor",
+      "english": "drum",
+      "phonetic": "tahm-BOHR",
+      "emoji": "1f941",
+      "category": "entertainment"
     },
     {
-      "word": "caracol",
-      "english": "snail",
-      "phonetic": "kah-rah-KOHL",
-      "emoji": "1f40c",
-      "category": "animals"
+      "word": "película",
+      "english": "movie",
+      "phonetic": "peh-LEE-koo-lah",
+      "emoji": "1f3ac",
+      "category": "entertainment"
     },
     {
-      "word": "gorila",
-      "english": "gorilla",
-      "phonetic": "goh-REE-lah",
-      "emoji": "1f98d",
-      "category": "animals"
+      "word": "arte",
+      "english": "art",
+      "phonetic": "AHR-teh",
+      "emoji": "1f3a8",
+      "category": "entertainment"
     },
     {
-      "word": "cebra",
-      "english": "zebra",
-      "phonetic": "SEH-brah",
-      "emoji": "1f993",
-      "category": "animals"
+      "word": "juego",
+      "english": "game",
+      "phonetic": "HWEH-goh",
+      "emoji": "1f3b2",
+      "category": "entertainment"
     },
     {
-      "word": "jirafa",
-      "english": "giraffe",
-      "phonetic": "hee-RAH-fah",
-      "emoji": "1f992",
-      "category": "animals"
-    },
-    {
-      "word": "águila",
-      "english": "eagle",
-      "phonetic": "AH-gee-lah",
-      "emoji": "1f985",
-      "category": "animals"
-    },
-    {
-      "word": "bomba",
-      "english": "bomb",
-      "phonetic": "BOHM-bah",
-      "emoji": "1f4a3",
+      "word": "campana",
+      "english": "bell",
+      "phonetic": "kahm-PAH-nah",
+      "emoji": "1f514",
       "category": "objects"
+    },
+    {
+      "word": "hotel",
+      "english": "hotel",
+      "phonetic": "oh-TEHL",
+      "emoji": "1f3e8",
+      "category": "places"
+    },
+    {
+      "word": "ciudad",
+      "english": "city",
+      "phonetic": "see-oo-DAHD",
+      "emoji": "1f3d9",
+      "category": "places"
+    },
+    {
+      "word": "montaña",
+      "english": "mountain",
+      "phonetic": "mohn-TAH-nyah",
+      "emoji": "1f3d4",
+      "category": "places"
+    },
+    {
+      "word": "playa",
+      "english": "beach",
+      "phonetic": "PLAH-yah",
+      "emoji": "1f3d6",
+      "category": "places"
+    },
+    {
+      "word": "camino",
+      "english": "road",
+      "phonetic": "kah-MEE-noh",
+      "emoji": "1f6e3",
+      "category": "places"
+    },
+    {
+      "word": "banco",
+      "english": "bank",
+      "phonetic": "BAHN-koh",
+      "emoji": "1f3e6",
+      "category": "places"
+    },
+    {
+      "word": "castillo",
+      "english": "castle",
+      "phonetic": "kahs-TEE-yoh",
+      "emoji": "1f3f0",
+      "category": "places"
+    },
+    {
+      "word": "isla",
+      "english": "island",
+      "phonetic": "EES-lah",
+      "emoji": "1f3dd",
+      "category": "places"
+    },
+    {
+      "word": "parque",
+      "english": "park",
+      "phonetic": "PAR-keh",
+      "emoji": "1f3de",
+      "category": "places"
+    },
+    {
+      "word": "taxi",
+      "english": "taxi",
+      "phonetic": "TAHK-see",
+      "emoji": "1f695",
+      "category": "transport"
+    },
+    {
+      "word": "helicóptero",
+      "english": "helicopter",
+      "phonetic": "eh-lee-KOHP-teh-roh",
+      "emoji": "1f681",
+      "category": "transport"
     },
     {
       "word": "cohete",
-      "english": "firework",
+      "english": "rocket",
       "phonetic": "koh-EH-teh",
-      "emoji": "1f387",
+      "emoji": "1f680",
+      "category": "transport"
+    },
+    {
+      "word": "ambulancia",
+      "english": "ambulance",
+      "phonetic": "ahm-boo-LAHN-see-ah",
+      "emoji": "1f691",
+      "category": "transport"
+    },
+    {
+      "word": "motocicleta",
+      "english": "motorcycle",
+      "phonetic": "moh-toh-see-KLEH-tah",
+      "emoji": "1f3cd",
+      "category": "transport"
+    },
+    {
+      "word": "barco",
+      "english": "ship",
+      "phonetic": "BAR-koh",
+      "emoji": "1f6a2",
+      "category": "transport"
+    },
+    {
+      "word": "radio",
+      "english": "radio",
+      "phonetic": "RRAH-dee-oh",
+      "emoji": "1f4fb",
       "category": "objects"
     },
     {
-      "word": "linterna",
-      "english": "flashlight",
-      "phonetic": "leen-TEHR-nah",
-      "emoji": "1f526",
+      "word": "periódico",
+      "english": "newspaper",
+      "phonetic": "peh-ree-OH-dee-koh",
+      "emoji": "1f4f0",
       "category": "objects"
     },
     {
-      "word": "pila",
-      "english": "battery",
-      "phonetic": "PEE-lah",
-      "emoji": "1f50b",
+      "word": "nota",
+      "english": "note",
+      "phonetic": "NOH-tah",
+      "emoji": "1f4dd",
+      "category": "objects"
+    },
+    {
+      "word": "bolígrafo",
+      "english": "pen",
+      "phonetic": "boh-LEE-grah-foh",
+      "emoji": "1f58a",
+      "category": "objects"
+    },
+    {
+      "word": "lápiz",
+      "english": "pencil",
+      "phonetic": "LAH-pees",
+      "emoji": "270f",
+      "category": "objects"
+    },
+    {
+      "word": "tijeras",
+      "english": "scissors",
+      "phonetic": "tee-HEH-rahs",
+      "emoji": "2702",
+      "category": "objects"
+    },
+    {
+      "word": "calendario",
+      "english": "calendar",
+      "phonetic": "kah-lehn-DAH-ree-oh",
+      "emoji": "1f4c5",
       "category": "objects"
     },
     {
@@ -435,165 +421,116 @@
       "category": "objects"
     },
     {
-      "word": "cuchara",
-      "english": "spoon",
-      "phonetic": "koo-CHAH-rah",
-      "emoji": "1f944",
-      "category": "objects"
+      "word": "martillo",
+      "english": "hammer",
+      "phonetic": "mahr-TEE-yoh",
+      "emoji": "1f528",
+      "category": "tools"
+    },
+    {
+      "word": "cuchillo",
+      "english": "knife",
+      "phonetic": "koo-CHEE-yoh",
+      "emoji": "1f52a",
+      "category": "tools"
     },
     {
       "word": "tenedor",
       "english": "fork",
       "phonetic": "teh-neh-DOHR",
       "emoji": "1f374",
-      "category": "objects"
+      "category": "tools"
+    },
+    {
+      "word": "cuchara",
+      "english": "spoon",
+      "phonetic": "koo-CHAH-rah",
+      "emoji": "1f944",
+      "category": "tools"
     },
     {
       "word": "plato",
       "english": "plate",
       "phonetic": "PLAH-toh",
-      "emoji": "1f94f",
+      "emoji": "1f37d",
+      "category": "tools"
+    },
+    {
+      "word": "mapa",
+      "english": "map",
+      "phonetic": "MAH-pah",
+      "emoji": "1f5fa",
       "category": "objects"
     },
     {
-      "word": "taza",
-      "english": "cup",
-      "phonetic": "TAH-sah",
-      "emoji": "2615",
+      "word": "caja",
+      "english": "box",
+      "phonetic": "KAH-hah",
+      "emoji": "1f4e6",
       "category": "objects"
     },
     {
-      "word": "botella",
-      "english": "bottle",
-      "phonetic": "boh-TEH-yah",
-      "emoji": "1f37c",
+      "word": "correo",
+      "english": "mail",
+      "phonetic": "koh-RREH-oh",
+      "emoji": "1f4e8",
       "category": "objects"
     },
     {
-      "word": "saltar",
-      "english": "to jump",
-      "phonetic": "sahl-TAHR",
-      "emoji": "1f998",
-      "category": "actions"
+      "word": "baño",
+      "english": "bath",
+      "phonetic": "BAH-nyoh",
+      "emoji": "1f6c1",
+      "category": "home"
     },
     {
-      "word": "gritar",
-      "english": "to shout",
-      "phonetic": "gree-TAHR",
-      "emoji": "1f5e3",
-      "category": "actions"
+      "word": "jabón",
+      "english": "soap",
+      "phonetic": "hah-BOHN",
+      "emoji": "1f9fc",
+      "category": "objects"
     },
     {
-      "word": "aplaudir",
-      "english": "to clap",
-      "phonetic": "ah-plow-DEER",
-      "emoji": "1f44f",
-      "category": "actions"
+      "word": "moneda",
+      "english": "coin",
+      "phonetic": "moh-NEH-dah",
+      "emoji": "1fa99",
+      "category": "objects"
     },
     {
-      "word": "abrazar",
-      "english": "to hug",
-      "phonetic": "ah-brah-SAHR",
-      "emoji": "1f917",
-      "category": "actions"
+      "word": "reloj",
+      "english": "clock",
+      "phonetic": "reh-LOHH",
+      "emoji": "1f570",
+      "category": "objects"
     },
     {
-      "word": "besar",
-      "english": "to kiss",
-      "phonetic": "beh-SAHR",
-      "emoji": "1f48b",
-      "category": "actions"
+      "word": "reloj",
+      "english": "watch",
+      "phonetic": "reh-LOHH",
+      "emoji": "231a",
+      "category": "objects"
     },
     {
-      "word": "empujar",
-      "english": "to push",
-      "phonetic": "ehm-poo-HAHR",
-      "emoji": "1faf8",
-      "category": "actions"
+      "word": "bandera",
+      "english": "flag",
+      "phonetic": "bahn-DEH-rah",
+      "emoji": "1f3f3",
+      "category": "objects"
     },
     {
-      "word": "lanzar",
-      "english": "to throw",
-      "phonetic": "lahn-SAHR",
-      "emoji": "1f93e",
-      "category": "actions"
+      "word": "espada",
+      "english": "sword",
+      "phonetic": "ehs-PAH-dah",
+      "emoji": "2694",
+      "category": "tools"
     },
     {
-      "word": "escalar",
-      "english": "to climb",
-      "phonetic": "ehs-kah-LAHR",
-      "emoji": "1f9d7",
-      "category": "actions"
-    },
-    {
-      "word": "bucear",
-      "english": "to dive",
-      "phonetic": "boo-seh-AHR",
-      "emoji": "1f93f",
-      "category": "actions"
-    },
-    {
-      "word": "nido",
-      "english": "nest",
-      "phonetic": "NEE-doh",
-      "emoji": "1faba",
-      "category": "nature"
-    },
-    {
-      "word": "hueso",
-      "english": "bone",
-      "phonetic": "WEH-soh",
-      "emoji": "1f9b4",
-      "category": "body"
-    },
-    {
-      "word": "coco",
-      "english": "coconut",
-      "phonetic": "KOH-koh",
-      "emoji": "1f965",
-      "category": "food"
-    },
-    {
-      "word": "cereza",
-      "english": "cherry",
-      "phonetic": "seh-REH-sah",
-      "emoji": "1f352",
-      "category": "food"
-    },
-    {
-      "word": "melocotón",
-      "english": "peach",
-      "phonetic": "meh-loh-koh-TOHN",
-      "emoji": "1f351",
-      "category": "food"
-    },
-    {
-      "word": "chile",
-      "english": "chili pepper",
-      "phonetic": "CHEE-leh",
-      "emoji": "1f336",
-      "category": "food"
-    },
-    {
-      "word": "cocodrilo",
-      "english": "crocodile",
-      "phonetic": "koh-koh-DREE-loh",
-      "emoji": "1f40a",
-      "category": "animals"
-    },
-    {
-      "word": "pingüíno",
-      "english": "penguin",
-      "phonetic": "",
-      "emoji": "1f427",
-      "category": "animals"
-    },
-    {
-      "word": "unicornio",
-      "english": "unicorn",
-      "phonetic": "oo-nee-KOR-nee-oh",
-      "emoji": "1f984",
-      "category": "animals"
+      "word": "pistola",
+      "english": "gun",
+      "phonetic": "pees-TOH-lah",
+      "emoji": "1f52b",
+      "category": "tools"
     }
   ]
 }

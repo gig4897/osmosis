@@ -3,10 +3,8 @@
 #include "settings_manager.h"
 #include "wifi_manager.h"
 #include "pack_manager.h"
-#include "vocab_loader.h"
-#include "card_manager.h"
-#include "card_screen.h"
 #include "constants.h"
+#include <Esp.h>
 
 SettingsScreen settingsUI;
 
@@ -58,6 +56,12 @@ static const int LANG_H = 28;
 // --- WiFi status row ---
 static const int WIFI_Y = 290;
 
+// --- Close button ---
+static const int CLOSE_X = 60;
+static const int CLOSE_Y = 290;
+static const int CLOSE_W = 120;
+static const int CLOSE_H = 26;
+
 // -------------------------------------------------------
 void SettingsScreen::show() {
     _active = true;
@@ -72,8 +76,13 @@ void SettingsScreen::hide() {
 
 // -------------------------------------------------------
 bool SettingsScreen::hitTest(const Button& btn, TouchPoint pt) {
-    return pt.x >= btn.x && pt.x < btn.x + btn.w &&
-           pt.y >= btn.y && pt.y < btn.y + btn.h;
+    bool hit = pt.x >= btn.x && pt.x < btn.x + btn.w &&
+               pt.y >= btn.y && pt.y < btn.y + btn.h;
+    if (hit) {
+        _pressedBtn = btn;
+        _pressedMs = millis();
+    }
+    return hit;
 }
 
 // -------------------------------------------------------
@@ -91,8 +100,13 @@ void SettingsScreen::drawButton(TFT_eSprite& spr, const Button& btn,
     if (drawY < 0) { drawH += drawY; drawY = 0; }
     if (drawY + drawH > STRIP_H) { drawH = STRIP_H - drawY; }
 
-    uint16_t fillClr  = selected ? CLR_BTN_ACTIVE : CLR_BTN_INACTIVE;
-    uint16_t textClr  = selected ? CLR_TEXT_PRIMARY : CLR_TEXT_SECONDARY;
+    // Check if this button is currently "pressed" (flash feedback)
+    bool pressed = (_pressedMs > 0 && (millis() - _pressedMs < PRESS_FLASH_MS) &&
+                    btn.x == _pressedBtn.x && btn.y == _pressedBtn.y &&
+                    btn.w == _pressedBtn.w && btn.h == _pressedBtn.h);
+
+    uint16_t fillClr  = pressed ? CLR_ACCENT : (selected ? CLR_BTN_ACTIVE : CLR_BTN_INACTIVE);
+    uint16_t textClr  = pressed ? CLR_BG_DARK : (selected ? CLR_TEXT_PRIMARY : CLR_TEXT_SECONDARY);
 
     spr.fillRect(btn.x, drawY, btn.w, drawH, fillClr);
 
@@ -212,22 +226,34 @@ void SettingsScreen::drawMainPage(TFT_eSprite& spr, int stripY) {
         drawButton(spr, btn, stripY, label, false);
     }
 
-    // Row 6: WiFi status text
+    // WiFi status line (between language button and close)
     {
-        int y = WIFI_Y - stripY;
+        int y = 287 - stripY;
         if (y >= -16 && y < STRIP_H) {
             spr.setTextDatum(TC_DATUM);
-            const char* status;
-            switch (wifiMgr::state()) {
-                case WiFiState::Connected:      status = "WiFi: Connected"; break;
-                case WiFiState::Connecting:      status = "WiFi: Connecting..."; break;
-                case WiFiState::CaptivePortalActive: status = "WiFi: Portal Active"; break;
-                case WiFiState::Disconnected:   status = "WiFi: Disconnected"; break;
-                default:                        status = "WiFi: Not Setup"; break;
+            if (wifiMgr::isConnected()) {
+                spr.setTextColor(CLR_ACCENT, CLR_BG_DARK);
+                char wifiBuf[48];
+                snprintf(wifiBuf, sizeof(wifiBuf), "WiFi: %s", wifiMgr::ssid());
+                spr.drawString(wifiBuf, SCREEN_W / 2, y, 1);
+            } else {
+                WiFiState ws = wifiMgr::state();
+                spr.setTextColor(CLR_TEXT_DIM, CLR_BG_DARK);
+                if (ws == WiFiState::Connecting) {
+                    spr.drawString("WiFi: Connecting...", SCREEN_W / 2, y, 1);
+                } else if (ws == WiFiState::CaptivePortalActive) {
+                    spr.drawString("WiFi: Setup mode (AP)", SCREEN_W / 2, y, 1);
+                } else {
+                    spr.drawString("WiFi: Not connected", SCREEN_W / 2, y, 1);
+                }
             }
-            spr.setTextColor(CLR_TEXT_DIM, CLR_BG_DARK);
-            spr.drawString(status, SCREEN_W / 2, y, 1);
         }
+    }
+
+    // Row 6: Close button
+    {
+        Button btn = {CLOSE_X, 298, CLOSE_W, CLOSE_H};
+        drawButton(spr, btn, stripY, "CLOSE", false);
     }
 }
 
@@ -248,13 +274,48 @@ void SettingsScreen::drawLanguageBrowser(TFT_eSprite& spr, int stripY) {
     uint8_t count = packMgr::languageCount();
 
     if (count == 0) {
-        // No catalog loaded
-        int y = 100 - stripY;
-        if (y >= -16 && y < STRIP_H) {
-            spr.setTextColor(CLR_TEXT_SECONDARY, CLR_BG_DARK);
-            spr.setTextDatum(TC_DATUM);
-            spr.drawString("Fetching catalog...", SCREEN_W / 2, y, 2);
+        // No catalog loaded — show status
+        {
+            int y = 80 - stripY;
+            if (y >= -16 && y < STRIP_H) {
+                spr.setTextDatum(TC_DATUM);
+                if (!wifiMgr::isConnected()) {
+                    WiFiState ws = wifiMgr::state();
+                    if (ws == WiFiState::Connecting) {
+                        spr.setTextColor(CLR_TEXT_SECONDARY, CLR_BG_DARK);
+                        spr.drawString("Connecting to WiFi...", SCREEN_W / 2, y, 2);
+                    } else if (ws == WiFiState::CaptivePortalActive) {
+                        spr.setTextColor(CLR_TEXT_SECONDARY, CLR_BG_DARK);
+                        spr.drawString("Join 'Osmosis-Setup' WiFi", SCREEN_W / 2, y, 2);
+                        int y2 = 100 - stripY;
+                        if (y2 >= -16 && y2 < STRIP_H) {
+                            spr.drawString("then open 192.168.4.1", SCREEN_W / 2, y2, 2);
+                        }
+                        int y3 = 120 - stripY;
+                        if (y3 >= -16 && y3 < STRIP_H) {
+                            spr.setTextColor(CLR_ACCENT, CLR_BG_DARK);
+                            spr.drawString("vcodeworks.dev", SCREEN_W / 2, y3, 2);
+                        }
+                    } else {
+                        spr.setTextColor(CLR_TEXT_SECONDARY, CLR_BG_DARK);
+                        spr.drawString("WiFi not connected", SCREEN_W / 2, y, 2);
+                    }
+                } else {
+                    spr.setTextColor(CLR_TEXT_SECONDARY, CLR_BG_DARK);
+                    spr.drawString("Fetching catalog...", SCREEN_W / 2, y, 2);
+                }
+            }
         }
+
+        // Retry button — try fetching catalog again when WiFi is connected
+        if (wifiMgr::isConnected()) {
+            Button retry = {60, 140, 120, 30};
+            drawButton(spr, retry, stripY, "Retry", false);
+        }
+
+        // Back button
+        Button back = {60, 290, 120, 26};
+        drawButton(spr, back, stripY, "< BACK", false);
         return;
     }
 
@@ -426,17 +487,29 @@ bool SettingsScreen::handleMainTap(TouchPoint pt) {
     {
         Button btn = {LANG_X, LANG_Y, LANG_W, LANG_H};
         if (hitTest(btn, pt)) {
+            _page = SettingsPage::LanguageBrowser;
+            _selectedLang = -1;
             if (wifiMgr::isConnected()) {
-                _page = SettingsPage::LanguageBrowser;
-                _selectedLang = -1;
                 // Fetch catalog if not already loaded
                 if (packMgr::languageCount() == 0) {
                     packMgr::fetchCatalog();
                 }
-            } else {
-                // Start captive portal if WiFi not connected
+            } else if (wifiMgr::state() == WiFiState::Disconnected ||
+                       wifiMgr::state() == WiFiState::NotConfigured) {
+                // Start captive portal only if truly disconnected (not still connecting)
                 wifiMgr::startCaptivePortal();
             }
+            // If still Connecting, just navigate — browser will show "Connecting..." status
+            return true;
+        }
+    }
+
+    // Close button — exit settings
+    {
+        Button btn = {CLOSE_X, 298, CLOSE_W, CLOSE_H};
+        if (hitTest(btn, pt)) {
+            settingsMgr.save();
+            hide();
             return true;
         }
     }
@@ -447,6 +520,23 @@ bool SettingsScreen::handleMainTap(TouchPoint pt) {
 // -------------------------------------------------------
 bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
     uint8_t count = packMgr::languageCount();
+
+    if (count == 0) {
+        // No catalog loaded — handle retry and back
+        if (wifiMgr::isConnected()) {
+            Button retry = {60, 140, 120, 30};
+            if (hitTest(retry, pt)) {
+                packMgr::fetchCatalog();
+                return true;
+            }
+        }
+        Button back = {60, 290, 120, 26};
+        if (hitTest(back, pt)) {
+            _page = SettingsPage::Main;
+            return true;
+        }
+        return false;
+    }
 
     if (_selectedLang < 0) {
         // Language list
@@ -472,17 +562,63 @@ bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
             int btnY = 60 + i * 50;
             Button btn = {20, btnY, 200, 40};
             if (hitTest(btn, pt)) {
-                // Start download
+                // Switch to download progress page
                 _page = SettingsPage::DownloadProgress;
-                packMgr::startDownload(_selectedLang, i);
 
-                // After download completes, reload vocab and font
-                if (packMgr::state() == PackDownloadState::Complete) {
-                    vocabLoader::load();
-                    cardScreen::reloadFont();
-                    cardMgr.init();
-                    _page = SettingsPage::Main;
-                    hide();
+                // Set progress callback to redraw screen during download
+                packMgr::setProgressCallback([]() {
+                    TFT_eSprite& spr = display.getStrip();
+                    for (int strip = 0; strip < NUM_STRIPS; strip++) {
+                        int sy = strip * STRIP_H;
+                        spr.fillSprite(CLR_BG_DARK);
+                        settingsUI.drawDownloadProgress(spr, sy);
+                        display.pushStrip(sy);
+                    }
+                });
+
+                // Draw initial progress screen before blocking download
+                {
+                    TFT_eSprite& spr = display.getStrip();
+                    for (int strip = 0; strip < NUM_STRIPS; strip++) {
+                        int sy = strip * STRIP_H;
+                        spr.fillSprite(CLR_BG_DARK);
+                        settingsUI.drawDownloadProgress(spr, sy);
+                        display.pushStrip(sy);
+                    }
+                }
+
+                // Synchronous/blocking download (callback redraws progress during this)
+                bool ok = packMgr::startDownload(_selectedLang, i);
+
+                // Clear callback after download
+                packMgr::setProgressCallback(nullptr);
+
+                if (ok && packMgr::state() == PackDownloadState::Complete) {
+                    // Show "Restarting..." message then reboot.
+                    // Rebooting ensures full heap is available for vocab loading.
+                    // Settings are already saved by startDownload().
+                    TFT_eSPI& tft = display.tft();
+                    tft.fillScreen(CLR_BG_DARK);
+                    tft.setTextDatum(TC_DATUM);
+                    tft.setTextColor(CLR_ACCENT);
+                    tft.drawString("Pack Installed!", SCREEN_W / 2, 100, 4);
+                    tft.setTextColor(CLR_TEXT_SECONDARY);
+                    tft.drawString("Restarting...", SCREEN_W / 2, 150, 2);
+                    delay(1500);
+                    ESP.restart();
+                } else {
+                    // Download failed — show error briefly then return to browser
+                    TFT_eSPI& tft = display.tft();
+                    tft.fillScreen(CLR_BG_DARK);
+                    tft.setTextDatum(TC_DATUM);
+                    tft.setTextColor(0xF800);  // Red
+                    tft.drawString("Download Failed", SCREEN_W / 2, 120, 4);
+                    tft.setTextColor(CLR_TEXT_SECONDARY);
+                    tft.drawString(packMgr::statusText(), SCREEN_W / 2, 160, 2);
+                    delay(3000);
+                    packMgr::resetState();
+                    _selectedLang = -1;
+                    _page = SettingsPage::LanguageBrowser;
                 }
                 return true;
             }

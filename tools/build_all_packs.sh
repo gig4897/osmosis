@@ -5,27 +5,24 @@
 set -e
 cd "$(dirname "$0")/.."
 
-echo "=== Building all language packs ==="
+echo "=== Building all language packs (5 languages x 4 tiers = 20 packs) ==="
 
-# Spanish (3 tiers)
-python3 tools/build_pack.py --csv tools/vocab/spanish_beginner.csv --output packs/spanish/beginner/ --language spanish --tier beginner
-python3 tools/build_pack.py --csv tools/vocab/spanish_intermediate.csv --output packs/spanish/intermediate/ --language spanish --tier intermediate
-python3 tools/build_pack.py --csv tools/vocab/spanish_advanced.csv --output packs/spanish/advanced/ --language spanish --tier advanced
+LANGUAGES="spanish french portuguese chinese dutch"
+TIERS="beginner intermediate advanced expert"
 
-# French
-python3 tools/build_pack.py --csv tools/vocab/french_beginner.csv --output packs/french/beginner/ --language french --tier beginner
-
-# Portuguese
-python3 tools/build_pack.py --csv tools/vocab/portuguese_beginner.csv --output packs/portuguese/beginner/ --language portuguese --tier beginner
-
-# Chinese
-python3 tools/build_pack.py --csv tools/vocab/chinese_beginner.csv --output packs/chinese/beginner/ --language chinese --tier beginner
-
-# Dutch
-python3 tools/build_pack.py --csv tools/vocab/dutch_beginner.csv --output packs/dutch/beginner/ --language dutch --tier beginner
+for lang in $LANGUAGES; do
+    for tier in $TIERS; do
+        csv="tools/vocab/${lang}_${tier}.csv"
+        if [ -f "$csv" ]; then
+            python3 tools/build_pack.py --csv "$csv" --output "packs/$lang/$tier/" --language "$lang" --tier "$tier"
+        else
+            echo "WARNING: $csv not found, skipping"
+        fi
+    done
+done
 
 # Generate fonts for each language
-for lang in spanish french portuguese chinese dutch; do
+for lang in $LANGUAGES; do
     python3 tools/generate_vlw_font.py --language "$lang" --size 26 --output "packs/$lang/font.vlw"
 done
 

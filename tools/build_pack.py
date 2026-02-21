@@ -19,7 +19,7 @@ LANG_DISPLAY = {
 }
 TIER_DISPLAY = {
     "beginner": "Beginner", "intermediate": "Intermediate",
-    "advanced": "Advanced"
+    "advanced": "Advanced", "expert": "Expert"
 }
 
 

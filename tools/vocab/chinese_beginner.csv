@@ -1,21 +1,76 @@
 emoji,english,translation,phonetic,category
-1f4a7,water,shuǐ,shway (3),nature
-1f3e0,house,fáng zi,fahng dzuh (2-0),home
-1f468,man,nán rén,nahn rehn (2-2),people
-1f469,woman,nǚ rén,noo rehn (3-2),people
-1f466,boy,nán hái,nahn hai (2-2),people
-270b,hand,shǒu,show (3),body
-1f441,eye,yǎn jing,yahn jing (3-0),body
-2600,sun,tài yáng,tai yahng (4-2),weather
-1f415,dog,gǒu,go (3),animals
-1f408,cat,māo,mao (1),animals
-1f4d6,book,shū,shoo (1),objects
-1f30d,earth,dì qiú,dee chyo (4-2),nature
-1f525,fire,huǒ,hwoh (3),nature
-2764,heart,xīn,shin (1),body
-1f338,flower,huā,hwah (1),nature
-1f467,girl,nǚ hái,noo hai (3-2),people
-1f319,moon,yuè liang,yweh lyahng (4-0),weather
-2b50,star,xīng xing,shing shing (1-0),weather
-1f35e,bread,miàn bāo,myen bao (4-1),food
-1f95b,milk,niú nǎi,nyo nai (2-3),food
+1f476,baby,宝宝,BAO-BAO,people
+1f466,boy,男孩,NAHN-HYE,people
+1f467,girl,女孩,NOO-HYE,people
+1f468,man,男人,NAHN-REHN,people
+1f469,woman,女人,NOO-REHN,people
+1f9d1,person,人,REHN,people
+1f9d2,child,孩子,HYE-ZUH,people
+1f46a,family,家庭,JEE-AH-TING,people
+270b,hand,手,SHOH,body
+1f4aa,arm,手臂,SHOH-BEE,body
+1f9b5,leg,腿,TWAY,body
+1f9b6,foot,脚,JEE-OW,body
+1f442,ear,耳朵,ARE-DWOH,body
+1f443,nose,鼻子,BEE-ZUH,body
+1f440,eye,眼睛,YENN-JING,body
+1f444,mouth,嘴巴,ZWAY-BAH,body
+1f445,tongue,舌头,SHUH-TOH,body
+1f9b7,tooth,牙齿,YAH-CHUH,body
+2764,heart,心,SHEEN,emotions
+1f4a7,water,水,SHWAY,nature
+1f525,fire,火,HWOH,nature
+2b50,star,星星,SHING-SHING,nature
+2600,sun,太阳,TYE-YAHNG,nature
+1f319,moon,月亮,YWEH-LYAHNG,nature
+1f30d,earth,地球,DEE-CHYOH,nature
+1f327,rain,雨,YOO,nature
+2744,snow,雪,SHWEH,nature
+1f436,dog,狗,GOH,animals
+1f431,cat,猫,MAO,animals
+1f42d,mouse,老鼠,LAO-SHOO,animals
+1f430,rabbit,兔子,TOO-ZUH,animals
+1f43b,bear,熊,SHYOHNG,animals
+1f437,pig,猪,JOO,animals
+1f42e,cow,牛,NYOH,animals
+1f434,horse,马,MAH,animals
+1f411,sheep,羊,YAHNG,animals
+1f412,monkey,猴子,HOH-ZUH,animals
+1f418,elephant,大象,DAH-SHYAHNG,animals
+1f981,lion,狮子,SHUH-ZUH,animals
+1f426,bird,鸟,NYAO,animals
+1f414,chicken,鸡,JEE,animals
+1f420,fish,鱼,YOO,animals
+1f40d,snake,蛇,SHUH,animals
+1f438,frog,青蛙,CHING-WAH,animals
+1f41d,bee,蜜蜂,MEE-FUHNG,animals
+1f41c,ant,蚂蚁,MAH-YEE,animals
+1f332,tree,树,SHOO,plants
+1f33a,flower,花,HWAH,plants
+1f33f,plant,植物,JUH-WOO,plants
+1f340,leaf,叶子,YEH-ZUH,plants
+1f339,rose,玫瑰,MAY-GWAY,plants
+1f34e,apple,苹果,PING-GWOH,fruit
+1f34c,banana,香蕉,SHYAHNG-JYAO,fruit
+1f34a,orange,橙子,CHUHNG-ZUH,fruit
+1f34b,lemon,柠檬,NING-MUHNG,fruit
+1f347,grape,葡萄,POO-TAO,fruit
+1f353,strawberry,草莓,TSAO-MAY,fruit
+1f345,tomato,番茄,FAHN-CHYEH,vegetables
+1f954,potato,土豆,TOO-DOH,vegetables
+1f955,carrot,胡萝卜,HOO-LWOH-BOH,vegetables
+1f33d,corn,玉米,YOO-MEE,vegetables
+1f35e,bread,面包,MYEN-BAO,food
+1f9c0,cheese,奶酪,NYE-LWOH,food
+1f95a,egg,鸡蛋,JEE-DAHN,food
+1f95b,milk,牛奶,NYOH-NYE,drink
+1f33e,rice,米饭,MEE-FAHN,food
+1f375,tea,茶,CHAH,drink
+2615,coffee,咖啡,KAH-FAY,drink
+1f3e0,house,房子,FAHNG-ZUH,places
+1f6aa,door,门,MUHN,home
+1f6cf,bed,床,CHWAHNG,home
+1f4a1,light,灯,DUHNG,home
+1f4d6,book,书,SHOO,objects
+1f511,key,钥匙,YAO-SHUH,objects
+26bd,ball,球,CHYOH,objects

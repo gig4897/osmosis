@@ -1,0 +1,536 @@
+{
+  "language": "dutch",
+  "languageDisplay": "Dutch",
+  "tier": "intermediate",
+  "tierDisplay": "Intermediate",
+  "version": 1,
+  "wordCount": 75,
+  "fontFile": "font.vlw",
+  "words": [
+    {
+      "word": "hersenen",
+      "english": "brain",
+      "phonetic": "HEHR-suh-nuhn",
+      "emoji": "1f9e0",
+      "category": "body"
+    },
+    {
+      "word": "kus",
+      "english": "kiss",
+      "phonetic": "kuhs",
+      "emoji": "1f48b",
+      "category": "body"
+    },
+    {
+      "word": "bloed",
+      "english": "blood",
+      "phonetic": "bloot",
+      "emoji": "1fa78",
+      "category": "body"
+    },
+    {
+      "word": "wolk",
+      "english": "cloud",
+      "phonetic": "wohlk",
+      "emoji": "2601",
+      "category": "nature"
+    },
+    {
+      "word": "zee",
+      "english": "sea",
+      "phonetic": "zay",
+      "emoji": "1f30a",
+      "category": "nature"
+    },
+    {
+      "word": "wind",
+      "english": "wind",
+      "phonetic": "wint",
+      "emoji": "1f32a",
+      "category": "nature"
+    },
+    {
+      "word": "regenboog",
+      "english": "rainbow",
+      "phonetic": "RAY-khuhn-bohkh",
+      "emoji": "1f308",
+      "category": "nature"
+    },
+    {
+      "word": "rots",
+      "english": "rock",
+      "phonetic": "rohts",
+      "emoji": "1faa8",
+      "category": "nature"
+    },
+    {
+      "word": "ijs",
+      "english": "ice",
+      "phonetic": "ays",
+      "emoji": "1f9ca",
+      "category": "nature"
+    },
+    {
+      "word": "tijger",
+      "english": "tiger",
+      "phonetic": "TAY-khuhr",
+      "emoji": "1f42f",
+      "category": "animals"
+    },
+    {
+      "word": "wolf",
+      "english": "wolf",
+      "phonetic": "wohlf",
+      "emoji": "1f43a",
+      "category": "animals"
+    },
+    {
+      "word": "vos",
+      "english": "fox",
+      "phonetic": "fohs",
+      "emoji": "1f98a",
+      "category": "animals"
+    },
+    {
+      "word": "hert",
+      "english": "deer",
+      "phonetic": "hehrt",
+      "emoji": "1f98c",
+      "category": "animals"
+    },
+    {
+      "word": "eend",
+      "english": "duck",
+      "phonetic": "aynt",
+      "emoji": "1f986",
+      "category": "animals"
+    },
+    {
+      "word": "arend",
+      "english": "eagle",
+      "phonetic": "AH-rehnt",
+      "emoji": "1f985",
+      "category": "animals"
+    },
+    {
+      "word": "uil",
+      "english": "owl",
+      "phonetic": "owl",
+      "emoji": "1f989",
+      "category": "animals"
+    },
+    {
+      "word": "schildpad",
+      "english": "turtle",
+      "phonetic": "SKHILT-paht",
+      "emoji": "1f422",
+      "category": "animals"
+    },
+    {
+      "word": "dolfijn",
+      "english": "dolphin",
+      "phonetic": "dohl-FAYN",
+      "emoji": "1f42c",
+      "category": "animals"
+    },
+    {
+      "word": "walvis",
+      "english": "whale",
+      "phonetic": "WAHL-fis",
+      "emoji": "1f433",
+      "category": "animals"
+    },
+    {
+      "word": "vlinder",
+      "english": "butterfly",
+      "phonetic": "FLIN-duhr",
+      "emoji": "1f98b",
+      "category": "animals"
+    },
+    {
+      "word": "paddenstoel",
+      "english": "mushroom",
+      "phonetic": "PAH-duhn-stool",
+      "emoji": "1f344",
+      "category": "plants"
+    },
+    {
+      "word": "zaad",
+      "english": "seed",
+      "phonetic": "zaht",
+      "emoji": "1f331",
+      "category": "nature"
+    },
+    {
+      "word": "hout",
+      "english": "wood",
+      "phonetic": "howt",
+      "emoji": "1fab5",
+      "category": "nature"
+    },
+    {
+      "word": "peer",
+      "english": "pear",
+      "phonetic": "payr",
+      "emoji": "1f350",
+      "category": "fruit"
+    },
+    {
+      "word": "perzik",
+      "english": "peach",
+      "phonetic": "PEHR-zik",
+      "emoji": "1f351",
+      "category": "fruit"
+    },
+    {
+      "word": "kers",
+      "english": "cherry",
+      "phonetic": "kehrs",
+      "emoji": "1f352",
+      "category": "fruit"
+    },
+    {
+      "word": "watermeloen",
+      "english": "watermelon",
+      "phonetic": "WAH-tuhr-muh-loon",
+      "emoji": "1f349",
+      "category": "fruit"
+    },
+    {
+      "word": "ui",
+      "english": "onion",
+      "phonetic": "ow",
+      "emoji": "1f9c5",
+      "category": "vegetables"
+    },
+    {
+      "word": "vlees",
+      "english": "meat",
+      "phonetic": "flays",
+      "emoji": "1f356",
+      "category": "food"
+    },
+    {
+      "word": "pizza",
+      "english": "pizza",
+      "phonetic": "PEET-sah",
+      "emoji": "1f355",
+      "category": "food"
+    },
+    {
+      "word": "soep",
+      "english": "soup",
+      "phonetic": "soop",
+      "emoji": "1f35c",
+      "category": "food"
+    },
+    {
+      "word": "taart",
+      "english": "cake",
+      "phonetic": "tahrt",
+      "emoji": "1f370",
+      "category": "food"
+    },
+    {
+      "word": "chocolade",
+      "english": "chocolate",
+      "phonetic": "shoh-koh-LAH-duh",
+      "emoji": "1f36b",
+      "category": "food"
+    },
+    {
+      "word": "snoep",
+      "english": "candy",
+      "phonetic": "snoop",
+      "emoji": "1f36c",
+      "category": "food"
+    },
+    {
+      "word": "honing",
+      "english": "honey",
+      "phonetic": "HOH-ning",
+      "emoji": "1f36f",
+      "category": "food"
+    },
+    {
+      "word": "zout",
+      "english": "salt",
+      "phonetic": "zowt",
+      "emoji": "1f9c2",
+      "category": "food"
+    },
+    {
+      "word": "bier",
+      "english": "beer",
+      "phonetic": "beer",
+      "emoji": "1f37a",
+      "category": "drink"
+    },
+    {
+      "word": "wijn",
+      "english": "wine",
+      "phonetic": "wayn",
+      "emoji": "1f377",
+      "category": "drink"
+    },
+    {
+      "word": "fles",
+      "english": "bottle",
+      "phonetic": "flehs",
+      "emoji": "1f37c",
+      "category": "drink"
+    },
+    {
+      "word": "glas",
+      "english": "glass",
+      "phonetic": "khlahs",
+      "emoji": "1f378",
+      "category": "drink"
+    },
+    {
+      "word": "sap",
+      "english": "juice",
+      "phonetic": "sahp",
+      "emoji": "1f9c3",
+      "category": "drink"
+    },
+    {
+      "word": "gebouw",
+      "english": "building",
+      "phonetic": "khuh-BOW",
+      "emoji": "1f3e2",
+      "category": "places"
+    },
+    {
+      "word": "school",
+      "english": "school",
+      "phonetic": "skhohl",
+      "emoji": "1f3eb",
+      "category": "places"
+    },
+    {
+      "word": "ziekenhuis",
+      "english": "hospital",
+      "phonetic": "ZEE-kuhn-hows",
+      "emoji": "1f3e5",
+      "category": "places"
+    },
+    {
+      "word": "winkel",
+      "english": "store",
+      "phonetic": "WIN-kuhl",
+      "emoji": "1f3ea",
+      "category": "places"
+    },
+    {
+      "word": "kerk",
+      "english": "church",
+      "phonetic": "kehrk",
+      "emoji": "26ea",
+      "category": "places"
+    },
+    {
+      "word": "auto",
+      "english": "car",
+      "phonetic": "OW-toh",
+      "emoji": "1f697",
+      "category": "transport"
+    },
+    {
+      "word": "bus",
+      "english": "bus",
+      "phonetic": "buhs",
+      "emoji": "1f68c",
+      "category": "transport"
+    },
+    {
+      "word": "trein",
+      "english": "train",
+      "phonetic": "trayn",
+      "emoji": "1f682",
+      "category": "transport"
+    },
+    {
+      "word": "vliegtuig",
+      "english": "airplane",
+      "phonetic": "FLEEKH-towkh",
+      "emoji": "2708",
+      "category": "transport"
+    },
+    {
+      "word": "boot",
+      "english": "boat",
+      "phonetic": "boht",
+      "emoji": "26f5",
+      "category": "transport"
+    },
+    {
+      "word": "fiets",
+      "english": "bicycle",
+      "phonetic": "feets",
+      "emoji": "1f6b2",
+      "category": "transport"
+    },
+    {
+      "word": "vrachtwagen",
+      "english": "truck",
+      "phonetic": "FRAHKHT-wah-khuhn",
+      "emoji": "1f69a",
+      "category": "transport"
+    },
+    {
+      "word": "raam",
+      "english": "window",
+      "phonetic": "rahm",
+      "emoji": "1fa9f",
+      "category": "home"
+    },
+    {
+      "word": "stoel",
+      "english": "chair",
+      "phonetic": "stool",
+      "emoji": "1fa91",
+      "category": "home"
+    },
+    {
+      "word": "televisie",
+      "english": "television",
+      "phonetic": "tay-luh-FEE-zee",
+      "emoji": "1f4fa",
+      "category": "objects"
+    },
+    {
+      "word": "computer",
+      "english": "computer",
+      "phonetic": "kohm-PYOO-tuhr",
+      "emoji": "1f4bb",
+      "category": "objects"
+    },
+    {
+      "word": "telefoon",
+      "english": "phone",
+      "phonetic": "tay-luh-FOHN",
+      "emoji": "1f4f1",
+      "category": "objects"
+    },
+    {
+      "word": "camera",
+      "english": "camera",
+      "phonetic": "KAH-muh-rah",
+      "emoji": "1f4f7",
+      "category": "objects"
+    },
+    {
+      "word": "kaars",
+      "english": "candle",
+      "phonetic": "kahrs",
+      "emoji": "1f56f",
+      "category": "objects"
+    },
+    {
+      "word": "brief",
+      "english": "letter",
+      "phonetic": "breef",
+      "emoji": "2709",
+      "category": "objects"
+    },
+    {
+      "word": "geld",
+      "english": "money",
+      "phonetic": "khehlt",
+      "emoji": "1f4b0",
+      "category": "objects"
+    },
+    {
+      "word": "papier",
+      "english": "paper",
+      "phonetic": "pah-PEER",
+      "emoji": "1f4c4",
+      "category": "objects"
+    },
+    {
+      "word": "schilderij",
+      "english": "picture",
+      "phonetic": "skhil-duh-RAY",
+      "emoji": "1f5bc",
+      "category": "objects"
+    },
+    {
+      "word": "bril",
+      "english": "glasses",
+      "phonetic": "bril",
+      "emoji": "1f453",
+      "category": "clothing"
+    },
+    {
+      "word": "overhemd",
+      "english": "shirt",
+      "phonetic": "OH-fuhr-hehmt",
+      "emoji": "1f455",
+      "category": "clothing"
+    },
+    {
+      "word": "broek",
+      "english": "pants",
+      "phonetic": "brook",
+      "emoji": "1f456",
+      "category": "clothing"
+    },
+    {
+      "word": "jurk",
+      "english": "dress",
+      "phonetic": "yuhrk",
+      "emoji": "1f457",
+      "category": "clothing"
+    },
+    {
+      "word": "schoen",
+      "english": "shoe",
+      "phonetic": "skhoon",
+      "emoji": "1f45e",
+      "category": "clothing"
+    },
+    {
+      "word": "hoed",
+      "english": "hat",
+      "phonetic": "hoot",
+      "emoji": "1f3a9",
+      "category": "clothing"
+    },
+    {
+      "word": "jas",
+      "english": "coat",
+      "phonetic": "yahs",
+      "emoji": "1f9e5",
+      "category": "clothing"
+    },
+    {
+      "word": "paraplu",
+      "english": "umbrella",
+      "phonetic": "pah-rah-PLOO",
+      "emoji": "2602",
+      "category": "clothing"
+    },
+    {
+      "word": "tas",
+      "english": "bag",
+      "phonetic": "tahs",
+      "emoji": "1f392",
+      "category": "clothing"
+    },
+    {
+      "word": "ring",
+      "english": "ring",
+      "phonetic": "ring",
+      "emoji": "1f48d",
+      "category": "clothing"
+    },
+    {
+      "word": "stropdas",
+      "english": "tie",
+      "phonetic": "STROHP-dahs",
+      "emoji": "1f454",
+      "category": "clothing"
+    }
+  ]
+}

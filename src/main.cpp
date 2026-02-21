@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <SPIFFS.h>
+#include <Esp.h>
 #include "constants.h"
 #include "display_manager.h"
 #include "splash_screen.h"
@@ -47,16 +48,31 @@ void setup() {
     wifiMgr::init();
 
     // Check for installed pack
-    if (packMgr::hasInstalledPack() && vocabLoader::load()) {
-        packInstalled = true;
-        cardMgr.init();
-        cardScreen::init();
-        appState = AppState::Cards;
-        Serial.println("Pack loaded, entering card mode");
+    bool hasManifest = packMgr::hasInstalledPack();
+    Serial.printf("[boot] SPIFFS manifest.json exists: %s\n", hasManifest ? "YES" : "NO");
+    Serial.printf("[boot] Settings installedLang: '%s'\n", settingsMgr.settings().installedLang);
+    Serial.printf("[boot] Free heap: %u\n", ESP.getFreeHeap());
+
+    if (hasManifest) {
+        bool loaded = vocabLoader::load();
+        Serial.printf("[boot] vocabLoader::load() = %s\n", loaded ? "OK" : "FAIL");
+
+        if (loaded) {
+            packInstalled = true;
+            cardMgr.init();
+            cardScreen::init();
+            appState = AppState::Cards;
+            Serial.println("[boot] Pack loaded, entering card mode");
+        } else {
+            packInstalled = false;
+            appState = AppState::NoPack;
+            Serial.println("[boot] Manifest exists but vocab load failed, removing corrupt file");
+            SPIFFS.remove("/manifest.json");
+        }
     } else {
         packInstalled = false;
         appState = AppState::NoPack;
-        Serial.println("No pack installed, entering setup mode");
+        Serial.println("[boot] No pack installed, entering setup mode");
     }
 
     needsRender = true;
@@ -165,13 +181,7 @@ void loop() {
                     bool changed = settingsUI.handleTap(touch.getLastTap());
                     if (changed) needsRender = true;
 
-                    // Check if download started
-                    if (settingsUI.currentPage() == SettingsPage::DownloadProgress) {
-                        appState = AppState::Downloading;
-                        needsRender = true;
-                    }
-
-                    // Check if settings closed
+                    // Check if settings closed (via close button or back)
                     if (!settingsUI.isActive()) {
                         appState = packInstalled ? AppState::Cards : AppState::NoPack;
                         needsRender = true;
@@ -185,26 +195,12 @@ void loop() {
                 break;
 
             case AppState::Downloading:
-                // Check if download completed
-                if (packMgr::state() == PackDownloadState::Complete) {
-                    vocabLoader::load();
-                    cardScreen::reloadFont();
-                    cardMgr.init();
-                    packInstalled = true;
-                    settingsUI.hide();
-                    appState = AppState::Cards;
-                    needsRender = true;
-                    Serial.println("[main] Pack installed, switching to cards");
-                } else if (packMgr::state() == PackDownloadState::Error) {
-                    settingsUI.hide();
-                    appState = packInstalled ? AppState::Cards : AppState::NoPack;
-                    needsRender = true;
-                    Serial.println("[main] Download error");
-                }
                 needsRender = true;  // Keep refreshing progress
                 break;
         }
     }
+
+    // (Download completion is handled by ESP.restart() in ui_settings.cpp)
 
     // Card rotation (only in card mode)
     if (appState == AppState::Cards && !settingsUI.isActive()) {

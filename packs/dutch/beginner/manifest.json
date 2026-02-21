@@ -4,22 +4,29 @@
   "tier": "beginner",
   "tierDisplay": "Beginner",
   "version": 1,
-  "wordCount": 20,
+  "wordCount": 75,
   "fontFile": "font.vlw",
   "words": [
     {
-      "word": "water",
-      "english": "water",
-      "phonetic": "WAH-ter",
-      "emoji": "1f4a7",
-      "category": "nature"
+      "word": "baby",
+      "english": "baby",
+      "phonetic": "BAY-bee",
+      "emoji": "1f476",
+      "category": "people"
     },
     {
-      "word": "huis",
-      "english": "house",
-      "phonetic": "house",
-      "emoji": "1f3e0",
-      "category": "home"
+      "word": "jongen",
+      "english": "boy",
+      "phonetic": "YONG-uhn",
+      "emoji": "1f466",
+      "category": "people"
+    },
+    {
+      "word": "meisje",
+      "english": "girl",
+      "phonetic": "MAY-shuh",
+      "emoji": "1f467",
+      "category": "people"
     },
     {
       "word": "man",
@@ -36,10 +43,24 @@
       "category": "people"
     },
     {
-      "word": "jongen",
-      "english": "boy",
-      "phonetic": "YOHNG-en",
-      "emoji": "1f466",
+      "word": "persoon",
+      "english": "person",
+      "phonetic": "pehr-SOHN",
+      "emoji": "1f9d1",
+      "category": "people"
+    },
+    {
+      "word": "kind",
+      "english": "child",
+      "phonetic": "kint",
+      "emoji": "1f9d2",
+      "category": "people"
+    },
+    {
+      "word": "familie",
+      "english": "family",
+      "phonetic": "fah-MEE-lee",
+      "emoji": "1f46a",
       "category": "people"
     },
     {
@@ -50,88 +71,368 @@
       "category": "body"
     },
     {
-      "word": "oog",
-      "english": "eye",
-      "phonetic": "ohg",
-      "emoji": "1f441",
+      "word": "arm",
+      "english": "arm",
+      "phonetic": "ahrm",
+      "emoji": "1f4aa",
       "category": "body"
     },
     {
-      "word": "zon",
-      "english": "sun",
-      "phonetic": "zohn",
-      "emoji": "2600",
-      "category": "weather"
+      "word": "been",
+      "english": "leg",
+      "phonetic": "bayn",
+      "emoji": "1f9b5",
+      "category": "body"
     },
     {
-      "word": "hond",
-      "english": "dog",
-      "phonetic": "hohnt",
-      "emoji": "1f415",
-      "category": "animals"
+      "word": "voet",
+      "english": "foot",
+      "phonetic": "foot",
+      "emoji": "1f9b6",
+      "category": "body"
     },
     {
-      "word": "kat",
-      "english": "cat",
-      "phonetic": "kaht",
-      "emoji": "1f408",
-      "category": "animals"
+      "word": "oor",
+      "english": "ear",
+      "phonetic": "ohr",
+      "emoji": "1f442",
+      "category": "body"
     },
     {
-      "word": "boek",
-      "english": "book",
-      "phonetic": "book",
-      "emoji": "1f4d6",
-      "category": "objects"
+      "word": "neus",
+      "english": "nose",
+      "phonetic": "nuhs",
+      "emoji": "1f443",
+      "category": "body"
     },
     {
-      "word": "aarde",
-      "english": "earth",
-      "phonetic": "AHR-deh",
-      "emoji": "1f30d",
-      "category": "nature"
+      "word": "oog",
+      "english": "eye",
+      "phonetic": "ohkh",
+      "emoji": "1f440",
+      "category": "body"
     },
     {
-      "word": "vuur",
-      "english": "fire",
-      "phonetic": "foor",
-      "emoji": "1f525",
-      "category": "nature"
+      "word": "mond",
+      "english": "mouth",
+      "phonetic": "mohnt",
+      "emoji": "1f444",
+      "category": "body"
+    },
+    {
+      "word": "tong",
+      "english": "tongue",
+      "phonetic": "tohng",
+      "emoji": "1f445",
+      "category": "body"
+    },
+    {
+      "word": "tand",
+      "english": "tooth",
+      "phonetic": "tahnt",
+      "emoji": "1f9b7",
+      "category": "body"
     },
     {
       "word": "hart",
       "english": "heart",
       "phonetic": "hahrt",
       "emoji": "2764",
-      "category": "body"
+      "category": "emotions"
     },
     {
-      "word": "bloem",
-      "english": "flower",
-      "phonetic": "bloom",
-      "emoji": "1f338",
+      "word": "water",
+      "english": "water",
+      "phonetic": "WAH-tuhr",
+      "emoji": "1f4a7",
       "category": "nature"
     },
     {
-      "word": "meisje",
-      "english": "girl",
-      "phonetic": "MAY-sheh",
-      "emoji": "1f467",
-      "category": "people"
-    },
-    {
-      "word": "maan",
-      "english": "moon",
-      "phonetic": "mahn",
-      "emoji": "1f319",
-      "category": "weather"
+      "word": "vuur",
+      "english": "fire",
+      "phonetic": "fyoor",
+      "emoji": "1f525",
+      "category": "nature"
     },
     {
       "word": "ster",
       "english": "star",
       "phonetic": "stehr",
       "emoji": "2b50",
-      "category": "weather"
+      "category": "nature"
+    },
+    {
+      "word": "zon",
+      "english": "sun",
+      "phonetic": "zohn",
+      "emoji": "2600",
+      "category": "nature"
+    },
+    {
+      "word": "maan",
+      "english": "moon",
+      "phonetic": "mahn",
+      "emoji": "1f319",
+      "category": "nature"
+    },
+    {
+      "word": "aarde",
+      "english": "earth",
+      "phonetic": "AHR-duh",
+      "emoji": "1f30d",
+      "category": "nature"
+    },
+    {
+      "word": "regen",
+      "english": "rain",
+      "phonetic": "RAY-khuhn",
+      "emoji": "1f327",
+      "category": "nature"
+    },
+    {
+      "word": "sneeuw",
+      "english": "snow",
+      "phonetic": "snayw",
+      "emoji": "2744",
+      "category": "nature"
+    },
+    {
+      "word": "hond",
+      "english": "dog",
+      "phonetic": "hohnt",
+      "emoji": "1f436",
+      "category": "animals"
+    },
+    {
+      "word": "kat",
+      "english": "cat",
+      "phonetic": "kaht",
+      "emoji": "1f431",
+      "category": "animals"
+    },
+    {
+      "word": "muis",
+      "english": "mouse",
+      "phonetic": "mows",
+      "emoji": "1f42d",
+      "category": "animals"
+    },
+    {
+      "word": "konijn",
+      "english": "rabbit",
+      "phonetic": "koh-NAYN",
+      "emoji": "1f430",
+      "category": "animals"
+    },
+    {
+      "word": "beer",
+      "english": "bear",
+      "phonetic": "bayr",
+      "emoji": "1f43b",
+      "category": "animals"
+    },
+    {
+      "word": "varken",
+      "english": "pig",
+      "phonetic": "FAHR-kuhn",
+      "emoji": "1f437",
+      "category": "animals"
+    },
+    {
+      "word": "koe",
+      "english": "cow",
+      "phonetic": "koo",
+      "emoji": "1f42e",
+      "category": "animals"
+    },
+    {
+      "word": "paard",
+      "english": "horse",
+      "phonetic": "pahrt",
+      "emoji": "1f434",
+      "category": "animals"
+    },
+    {
+      "word": "schaap",
+      "english": "sheep",
+      "phonetic": "skhahp",
+      "emoji": "1f411",
+      "category": "animals"
+    },
+    {
+      "word": "aap",
+      "english": "monkey",
+      "phonetic": "ahp",
+      "emoji": "1f412",
+      "category": "animals"
+    },
+    {
+      "word": "olifant",
+      "english": "elephant",
+      "phonetic": "OH-lee-fahnt",
+      "emoji": "1f418",
+      "category": "animals"
+    },
+    {
+      "word": "leeuw",
+      "english": "lion",
+      "phonetic": "layw",
+      "emoji": "1f981",
+      "category": "animals"
+    },
+    {
+      "word": "vogel",
+      "english": "bird",
+      "phonetic": "FOH-khuhl",
+      "emoji": "1f426",
+      "category": "animals"
+    },
+    {
+      "word": "kip",
+      "english": "chicken",
+      "phonetic": "kip",
+      "emoji": "1f414",
+      "category": "animals"
+    },
+    {
+      "word": "vis",
+      "english": "fish",
+      "phonetic": "fis",
+      "emoji": "1f420",
+      "category": "animals"
+    },
+    {
+      "word": "slang",
+      "english": "snake",
+      "phonetic": "slahng",
+      "emoji": "1f40d",
+      "category": "animals"
+    },
+    {
+      "word": "kikker",
+      "english": "frog",
+      "phonetic": "KIK-uhr",
+      "emoji": "1f438",
+      "category": "animals"
+    },
+    {
+      "word": "bij",
+      "english": "bee",
+      "phonetic": "bay",
+      "emoji": "1f41d",
+      "category": "animals"
+    },
+    {
+      "word": "mier",
+      "english": "ant",
+      "phonetic": "meer",
+      "emoji": "1f41c",
+      "category": "animals"
+    },
+    {
+      "word": "boom",
+      "english": "tree",
+      "phonetic": "bohm",
+      "emoji": "1f332",
+      "category": "plants"
+    },
+    {
+      "word": "bloem",
+      "english": "flower",
+      "phonetic": "bloom",
+      "emoji": "1f33a",
+      "category": "plants"
+    },
+    {
+      "word": "plant",
+      "english": "plant",
+      "phonetic": "plahnt",
+      "emoji": "1f33f",
+      "category": "plants"
+    },
+    {
+      "word": "blad",
+      "english": "leaf",
+      "phonetic": "blaht",
+      "emoji": "1f340",
+      "category": "plants"
+    },
+    {
+      "word": "roos",
+      "english": "rose",
+      "phonetic": "rohs",
+      "emoji": "1f339",
+      "category": "plants"
+    },
+    {
+      "word": "appel",
+      "english": "apple",
+      "phonetic": "AH-puhl",
+      "emoji": "1f34e",
+      "category": "fruit"
+    },
+    {
+      "word": "banaan",
+      "english": "banana",
+      "phonetic": "bah-NAHN",
+      "emoji": "1f34c",
+      "category": "fruit"
+    },
+    {
+      "word": "sinaasappel",
+      "english": "orange",
+      "phonetic": "SEE-nahs-ah-puhl",
+      "emoji": "1f34a",
+      "category": "fruit"
+    },
+    {
+      "word": "citroen",
+      "english": "lemon",
+      "phonetic": "see-TROON",
+      "emoji": "1f34b",
+      "category": "fruit"
+    },
+    {
+      "word": "druif",
+      "english": "grape",
+      "phonetic": "drowf",
+      "emoji": "1f347",
+      "category": "fruit"
+    },
+    {
+      "word": "aardbei",
+      "english": "strawberry",
+      "phonetic": "AHRT-bay",
+      "emoji": "1f353",
+      "category": "fruit"
+    },
+    {
+      "word": "tomaat",
+      "english": "tomato",
+      "phonetic": "toh-MAHT",
+      "emoji": "1f345",
+      "category": "vegetables"
+    },
+    {
+      "word": "aardappel",
+      "english": "potato",
+      "phonetic": "AHRT-ah-puhl",
+      "emoji": "1f954",
+      "category": "vegetables"
+    },
+    {
+      "word": "wortel",
+      "english": "carrot",
+      "phonetic": "WOR-tuhl",
+      "emoji": "1f955",
+      "category": "vegetables"
+    },
+    {
+      "word": "mais",
+      "english": "corn",
+      "phonetic": "mah-EES",
+      "emoji": "1f33d",
+      "category": "vegetables"
     },
     {
       "word": "brood",
@@ -141,11 +442,95 @@
       "category": "food"
     },
     {
+      "word": "kaas",
+      "english": "cheese",
+      "phonetic": "kahs",
+      "emoji": "1f9c0",
+      "category": "food"
+    },
+    {
+      "word": "ei",
+      "english": "egg",
+      "phonetic": "ay",
+      "emoji": "1f95a",
+      "category": "food"
+    },
+    {
       "word": "melk",
       "english": "milk",
       "phonetic": "mehlk",
       "emoji": "1f95b",
+      "category": "drink"
+    },
+    {
+      "word": "rijst",
+      "english": "rice",
+      "phonetic": "rayst",
+      "emoji": "1f33e",
       "category": "food"
+    },
+    {
+      "word": "thee",
+      "english": "tea",
+      "phonetic": "tay",
+      "emoji": "1f375",
+      "category": "drink"
+    },
+    {
+      "word": "koffie",
+      "english": "coffee",
+      "phonetic": "KOF-fee",
+      "emoji": "2615",
+      "category": "drink"
+    },
+    {
+      "word": "huis",
+      "english": "house",
+      "phonetic": "hows",
+      "emoji": "1f3e0",
+      "category": "places"
+    },
+    {
+      "word": "deur",
+      "english": "door",
+      "phonetic": "duhr",
+      "emoji": "1f6aa",
+      "category": "home"
+    },
+    {
+      "word": "bed",
+      "english": "bed",
+      "phonetic": "beht",
+      "emoji": "1f6cf",
+      "category": "home"
+    },
+    {
+      "word": "licht",
+      "english": "light",
+      "phonetic": "likht",
+      "emoji": "1f4a1",
+      "category": "home"
+    },
+    {
+      "word": "boek",
+      "english": "book",
+      "phonetic": "book",
+      "emoji": "1f4d6",
+      "category": "objects"
+    },
+    {
+      "word": "sleutel",
+      "english": "key",
+      "phonetic": "SLUH-tuhl",
+      "emoji": "1f511",
+      "category": "objects"
+    },
+    {
+      "word": "bal",
+      "english": "ball",
+      "phonetic": "bahl",
+      "emoji": "26bd",
+      "category": "objects"
     }
   ]
 }
