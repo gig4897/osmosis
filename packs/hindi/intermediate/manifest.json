@@ -8,525 +8,525 @@
   "fontFile": "font.vlw",
   "words": [
     {
-      "word": "dimaag",
+      "word": "दिमाग़",
       "english": "brain",
       "phonetic": "dee-MAAG",
       "emoji": "1f9e0",
       "category": "body"
     },
     {
-      "word": "chumban",
+      "word": "चुंबन",
       "english": "kiss",
       "phonetic": "CHUM-bahn",
       "emoji": "1f48b",
       "category": "body"
     },
     {
-      "word": "khoon",
+      "word": "ख़ून",
       "english": "blood",
       "phonetic": "KHOON",
       "emoji": "1fa78",
       "category": "body"
     },
     {
-      "word": "baadal",
+      "word": "बादल",
       "english": "cloud",
       "phonetic": "BAA-dahl",
       "emoji": "2601",
       "category": "nature"
     },
     {
-      "word": "samudra",
+      "word": "समु",
       "english": "sea",
       "phonetic": "sah-MU-drah",
       "emoji": "1f30a",
       "category": "nature"
     },
     {
-      "word": "havaa",
+      "word": "हवा",
       "english": "wind",
       "phonetic": "hah-VAA",
       "emoji": "1f32a",
       "category": "nature"
     },
     {
-      "word": "indradhanush",
+      "word": "इंधनुष",
       "english": "rainbow",
       "phonetic": "IN-drah-dhah-NUSH",
       "emoji": "1f308",
       "category": "nature"
     },
     {
-      "word": "chattaan",
+      "word": "चन",
       "english": "rock",
       "phonetic": "CHAHT-taan",
       "emoji": "1faa8",
       "category": "nature"
     },
     {
-      "word": "barf",
+      "word": "ब",
       "english": "ice",
       "phonetic": "BARF",
       "emoji": "1f9ca",
       "category": "nature"
     },
     {
-      "word": "baagh",
+      "word": "बाघ",
       "english": "tiger",
       "phonetic": "BAAGH",
       "emoji": "1f42f",
       "category": "animals"
     },
     {
-      "word": "bhediyaa",
+      "word": "भेड़िया",
       "english": "wolf",
       "phonetic": "BHER-ee-yah",
       "emoji": "1f43a",
       "category": "animals"
     },
     {
-      "word": "lomadee",
+      "word": "लोमड़ी",
       "english": "fox",
       "phonetic": "LO-mah-ree",
       "emoji": "1f98a",
       "category": "animals"
     },
     {
-      "word": "hiran",
+      "word": "हिरन",
       "english": "deer",
       "phonetic": "HIR-ahn",
       "emoji": "1f98c",
       "category": "animals"
     },
     {
-      "word": "batakh",
+      "word": "बतख़",
       "english": "duck",
       "phonetic": "BAH-tahkh",
       "emoji": "1f986",
       "category": "animals"
     },
     {
-      "word": "cheel",
+      "word": "चील",
       "english": "eagle",
       "phonetic": "CHEEL",
       "emoji": "1f985",
       "category": "animals"
     },
     {
-      "word": "ulloo",
+      "word": "उ",
       "english": "owl",
       "phonetic": "UL-loo",
       "emoji": "1f989",
       "category": "animals"
     },
     {
-      "word": "kachhuaa",
+      "word": "कछुआ",
       "english": "turtle",
       "phonetic": "KAHCH-oo-ah",
       "emoji": "1f422",
       "category": "animals"
     },
     {
-      "word": "daulfin",
+      "word": "डॉन",
       "english": "dolphin",
       "phonetic": "DAAL-fin",
       "emoji": "1f42c",
       "category": "animals"
     },
     {
-      "word": "vhel",
+      "word": "ल",
       "english": "whale",
       "phonetic": "VHEL",
       "emoji": "1f433",
       "category": "animals"
     },
     {
-      "word": "titlee",
+      "word": "तितली",
       "english": "butterfly",
       "phonetic": "TIT-lee",
       "emoji": "1f98b",
       "category": "animals"
     },
     {
-      "word": "masharoom",
+      "word": "मशरूम",
       "english": "mushroom",
       "phonetic": "MAHSH-room",
       "emoji": "1f344",
       "category": "plants"
     },
     {
-      "word": "beej",
+      "word": "बीज",
       "english": "seed",
       "phonetic": "BEEJ",
       "emoji": "1f331",
       "category": "nature"
     },
     {
-      "word": "lakdee",
+      "word": "लकड़ी",
       "english": "wood",
       "phonetic": "lah-KAR-ee",
       "emoji": "1fab5",
       "category": "nature"
     },
     {
-      "word": "naashpaatee",
+      "word": "नाशपाती",
       "english": "pear",
       "phonetic": "NAASH-paa-tee",
       "emoji": "1f350",
       "category": "fruit"
     },
     {
-      "word": "aadoo",
+      "word": "आड़ू",
       "english": "peach",
       "phonetic": "AA-roo",
       "emoji": "1f351",
       "category": "fruit"
     },
     {
-      "word": "cheree",
+      "word": "चेरी",
       "english": "cherry",
       "phonetic": "CHER-ee",
       "emoji": "1f352",
       "category": "fruit"
     },
     {
-      "word": "tarbooz",
+      "word": "तरबूज़",
       "english": "watermelon",
       "phonetic": "tahr-BOOZ",
       "emoji": "1f349",
       "category": "fruit"
     },
     {
-      "word": "pyaaz",
+      "word": "ज़",
       "english": "onion",
       "phonetic": "PYAAZ",
       "emoji": "1f9c5",
       "category": "vegetables"
     },
     {
-      "word": "maans",
+      "word": "मांस",
       "english": "meat",
       "phonetic": "MAANS",
       "emoji": "1f356",
       "category": "food"
     },
     {
-      "word": "pizzaa",
+      "word": "पि",
       "english": "pizza",
       "phonetic": "PIZ-zah",
       "emoji": "1f355",
       "category": "food"
     },
     {
-      "word": "soop",
+      "word": "सूप",
       "english": "soup",
       "phonetic": "SOOP",
       "emoji": "1f35c",
       "category": "food"
     },
     {
-      "word": "kek",
+      "word": "केक",
       "english": "cake",
       "phonetic": "KEK",
       "emoji": "1f370",
       "category": "food"
     },
     {
-      "word": "chauklet",
+      "word": "चॉकलेट",
       "english": "chocolate",
       "phonetic": "CHAAK-let",
       "emoji": "1f36b",
       "category": "food"
     },
     {
-      "word": "taufee",
+      "word": "टॉफ़ी",
       "english": "candy",
       "phonetic": "TAW-fee",
       "emoji": "1f36c",
       "category": "food"
     },
     {
-      "word": "shahad",
+      "word": "शहद",
       "english": "honey",
       "phonetic": "SHAH-hahd",
       "emoji": "1f36f",
       "category": "food"
     },
     {
-      "word": "namak",
+      "word": "नमक",
       "english": "salt",
       "phonetic": "NAH-mahk",
       "emoji": "1f9c2",
       "category": "food"
     },
     {
-      "word": "beeyar",
+      "word": "बीयर",
       "english": "beer",
       "phonetic": "BEER",
       "emoji": "1f37a",
       "category": "drink"
     },
     {
-      "word": "sharaab",
+      "word": "शराब",
       "english": "wine",
       "phonetic": "shah-RAAB",
       "emoji": "1f377",
       "category": "drink"
     },
     {
-      "word": "botal",
+      "word": "बोतल",
       "english": "bottle",
       "phonetic": "BO-tahl",
       "emoji": "1f37c",
       "category": "drink"
     },
     {
-      "word": "gilaas",
+      "word": "गिलास",
       "english": "glass",
       "phonetic": "gee-LAAS",
       "emoji": "1f378",
       "category": "drink"
     },
     {
-      "word": "joos",
+      "word": "जूस",
       "english": "juice",
       "phonetic": "JOOS",
       "emoji": "1f9c3",
       "category": "drink"
     },
     {
-      "word": "imaarat",
+      "word": "इमारत",
       "english": "building",
       "phonetic": "ee-MAA-raht",
       "emoji": "1f3e2",
       "category": "places"
     },
     {
-      "word": "skool",
+      "word": "ल",
       "english": "school",
       "phonetic": "SKOOL",
       "emoji": "1f3eb",
       "category": "places"
     },
     {
-      "word": "aspataal",
+      "word": "अताल",
       "english": "hospital",
       "phonetic": "AHS-pah-taal",
       "emoji": "1f3e5",
       "category": "places"
     },
     {
-      "word": "dukaan",
+      "word": "दुकान",
       "english": "store",
       "phonetic": "doo-KAAN",
       "emoji": "1f3ea",
       "category": "places"
     },
     {
-      "word": "girjaaghar",
+      "word": "गिरजाघर",
       "english": "church",
       "phonetic": "gir-JAA-ghar",
       "emoji": "26ea",
       "category": "places"
     },
     {
-      "word": "gaadee",
+      "word": "गाड़ी",
       "english": "car",
       "phonetic": "GAA-ree",
       "emoji": "1f697",
       "category": "transport"
     },
     {
-      "word": "bas",
+      "word": "बस",
       "english": "bus",
       "phonetic": "BAHS",
       "emoji": "1f68c",
       "category": "transport"
     },
     {
-      "word": "relgaadee",
+      "word": "रेलगाड़ी",
       "english": "train",
       "phonetic": "REL-gaa-ree",
       "emoji": "1f682",
       "category": "transport"
     },
     {
-      "word": "havaee jahaaz",
+      "word": "हवाई जहाज़",
       "english": "airplane",
       "phonetic": "hah-VAA-ee jah-HAAZ",
       "emoji": "2708",
       "category": "transport"
     },
     {
-      "word": "naav",
+      "word": "नाव",
       "english": "boat",
       "phonetic": "NAAV",
       "emoji": "26f5",
       "category": "transport"
     },
     {
-      "word": "saaikiL",
+      "word": "साइकिल",
       "english": "bicycle",
       "phonetic": "SAA-ee-kil",
       "emoji": "1f6b2",
       "category": "transport"
     },
     {
-      "word": "trak",
+      "word": "क",
       "english": "truck",
       "phonetic": "TRAHK",
       "emoji": "1f69a",
       "category": "transport"
     },
     {
-      "word": "khidkee",
+      "word": "खिड़की",
       "english": "window",
       "phonetic": "khir-KEE",
       "emoji": "1fa9f",
       "category": "home"
     },
     {
-      "word": "kursee",
+      "word": "कु",
       "english": "chair",
       "phonetic": "KUR-see",
       "emoji": "1fa91",
       "category": "home"
     },
     {
-      "word": "teleevizhan",
+      "word": "टेलीविज़न",
       "english": "television",
       "phonetic": "TEL-ee-vizh-ahn",
       "emoji": "1f4fa",
       "category": "objects"
     },
     {
-      "word": "kampyootar",
+      "word": "कंटर",
       "english": "computer",
       "phonetic": "kahm-PYOO-tahr",
       "emoji": "1f4bb",
       "category": "objects"
     },
     {
-      "word": "fon",
+      "word": "फ़ोन",
       "english": "phone",
       "phonetic": "FONE",
       "emoji": "1f4f1",
       "category": "objects"
     },
     {
-      "word": "kaimaraa",
+      "word": "कैमरा",
       "english": "camera",
       "phonetic": "KAI-mah-rah",
       "emoji": "1f4f7",
       "category": "objects"
     },
     {
-      "word": "mombattee",
+      "word": "मोमब",
       "english": "candle",
       "phonetic": "MOM-baht-tee",
       "emoji": "1f56f",
       "category": "objects"
     },
     {
-      "word": "patra",
+      "word": "प",
       "english": "letter",
       "phonetic": "PAH-trah",
       "emoji": "2709",
       "category": "objects"
     },
     {
-      "word": "paisaa",
+      "word": "पैसा",
       "english": "money",
       "phonetic": "PAI-sah",
       "emoji": "1f4b0",
       "category": "objects"
     },
     {
-      "word": "kaagaz",
+      "word": "काग़ज़",
       "english": "paper",
       "phonetic": "KAA-gahz",
       "emoji": "1f4c4",
       "category": "objects"
     },
     {
-      "word": "tasveer",
+      "word": "तर",
       "english": "picture",
       "phonetic": "tahs-VEER",
       "emoji": "1f5bc",
       "category": "objects"
     },
     {
-      "word": "chashmaa",
+      "word": "च",
       "english": "glasses",
       "phonetic": "CHAHSH-mah",
       "emoji": "1f453",
       "category": "clothing"
     },
     {
-      "word": "kameez",
+      "word": "कमीज़",
       "english": "shirt",
       "phonetic": "kah-MEEZ",
       "emoji": "1f455",
       "category": "clothing"
     },
     {
-      "word": "pataloon",
+      "word": "पतलून",
       "english": "pants",
       "phonetic": "paht-LOON",
       "emoji": "1f456",
       "category": "clothing"
     },
     {
-      "word": "poshaak",
+      "word": "पोशाक",
       "english": "dress",
       "phonetic": "PO-shaak",
       "emoji": "1f457",
       "category": "clothing"
     },
     {
-      "word": "jootaa",
+      "word": "जूता",
       "english": "shoe",
       "phonetic": "JOO-tah",
       "emoji": "1f45e",
       "category": "clothing"
     },
     {
-      "word": "topee",
+      "word": "टोपी",
       "english": "hat",
       "phonetic": "TO-pee",
       "emoji": "1f3a9",
       "category": "clothing"
     },
     {
-      "word": "kot",
+      "word": "कोट",
       "english": "coat",
       "phonetic": "KOT",
       "emoji": "1f9e5",
       "category": "clothing"
     },
     {
-      "word": "chhaataa",
+      "word": "छाता",
       "english": "umbrella",
       "phonetic": "CHHAA-tah",
       "emoji": "2602",
       "category": "clothing"
     },
     {
-      "word": "bastaa",
+      "word": "ब",
       "english": "bag",
       "phonetic": "BAHS-tah",
       "emoji": "1f392",
       "category": "clothing"
     },
     {
-      "word": "angoothee",
+      "word": "अंगूठी",
       "english": "ring",
       "phonetic": "ahn-GOO-thee",
       "emoji": "1f48d",
       "category": "clothing"
     },
     {
-      "word": "taaee",
+      "word": "टाई",
       "english": "tie",
       "phonetic": "TAA-ee",
       "emoji": "1f454",

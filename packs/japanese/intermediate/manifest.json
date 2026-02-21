@@ -8,525 +8,525 @@
   "fontFile": "font.vlw",
   "words": [
     {
-      "word": "nou",
+      "word": "脳",
       "english": "brain",
       "phonetic": "noh",
       "emoji": "1f9e0",
       "category": "body"
     },
     {
-      "word": "kisu",
+      "word": "キス",
       "english": "kiss",
       "phonetic": "kee-SOO",
       "emoji": "1f48b",
       "category": "body"
     },
     {
-      "word": "chi",
+      "word": "血",
       "english": "blood",
       "phonetic": "chee",
       "emoji": "1fa78",
       "category": "body"
     },
     {
-      "word": "kumo",
+      "word": "雲",
       "english": "cloud",
       "phonetic": "koo-MOH",
       "emoji": "2601",
       "category": "nature"
     },
     {
-      "word": "umi",
+      "word": "海",
       "english": "sea",
       "phonetic": "oo-MEE",
       "emoji": "1f30a",
       "category": "nature"
     },
     {
-      "word": "kaze",
+      "word": "風",
       "english": "wind",
       "phonetic": "kah-ZEH",
       "emoji": "1f32a",
       "category": "nature"
     },
     {
-      "word": "niji",
+      "word": "虹",
       "english": "rainbow",
       "phonetic": "nee-JEE",
       "emoji": "1f308",
       "category": "nature"
     },
     {
-      "word": "iwa",
+      "word": "岩",
       "english": "rock",
       "phonetic": "ee-WAH",
       "emoji": "1faa8",
       "category": "nature"
     },
     {
-      "word": "koori",
+      "word": "氷",
       "english": "ice",
       "phonetic": "koh-OH-ree",
       "emoji": "1f9ca",
       "category": "nature"
     },
     {
-      "word": "tora",
+      "word": "虎",
       "english": "tiger",
       "phonetic": "toh-RAH",
       "emoji": "1f42f",
       "category": "animals"
     },
     {
-      "word": "ookami",
+      "word": "オオカミ",
       "english": "wolf",
       "phonetic": "oh-oh-KAH-mee",
       "emoji": "1f43a",
       "category": "animals"
     },
     {
-      "word": "kitsune",
+      "word": "キツネ",
       "english": "fox",
       "phonetic": "kee-TSOO-neh",
       "emoji": "1f98a",
       "category": "animals"
     },
     {
-      "word": "shika",
+      "word": "鹿",
       "english": "deer",
       "phonetic": "shee-KAH",
       "emoji": "1f98c",
       "category": "animals"
     },
     {
-      "word": "ahiru",
+      "word": "アヒル",
       "english": "duck",
       "phonetic": "ah-HEE-roo",
       "emoji": "1f986",
       "category": "animals"
     },
     {
-      "word": "washi",
+      "word": "鷲",
       "english": "eagle",
       "phonetic": "wah-SHEE",
       "emoji": "1f985",
       "category": "animals"
     },
     {
-      "word": "fukurou",
+      "word": "フクロウ",
       "english": "owl",
       "phonetic": "foo-KOO-roh",
       "emoji": "1f989",
       "category": "animals"
     },
     {
-      "word": "kame",
+      "word": "亀",
       "english": "turtle",
       "phonetic": "kah-MEH",
       "emoji": "1f422",
       "category": "animals"
     },
     {
-      "word": "iruka",
+      "word": "イルカ",
       "english": "dolphin",
       "phonetic": "ee-ROO-kah",
       "emoji": "1f42c",
       "category": "animals"
     },
     {
-      "word": "kujira",
+      "word": "クジラ",
       "english": "whale",
       "phonetic": "koo-JEE-rah",
       "emoji": "1f433",
       "category": "animals"
     },
     {
-      "word": "chou",
+      "word": "蝶",
       "english": "butterfly",
       "phonetic": "choh",
       "emoji": "1f98b",
       "category": "animals"
     },
     {
-      "word": "kinoko",
+      "word": "きのこ",
       "english": "mushroom",
       "phonetic": "kee-NOH-koh",
       "emoji": "1f344",
       "category": "plants"
     },
     {
-      "word": "tane",
+      "word": "種",
       "english": "seed",
       "phonetic": "tah-NEH",
       "emoji": "1f331",
       "category": "nature"
     },
     {
-      "word": "mokuzai",
+      "word": "木材",
       "english": "wood",
       "phonetic": "moh-KOO-zah-ee",
       "emoji": "1fab5",
       "category": "nature"
     },
     {
-      "word": "nashi",
+      "word": "梨",
       "english": "pear",
       "phonetic": "nah-SHEE",
       "emoji": "1f350",
       "category": "fruit"
     },
     {
-      "word": "momo",
+      "word": "桃",
       "english": "peach",
       "phonetic": "moh-MOH",
       "emoji": "1f351",
       "category": "fruit"
     },
     {
-      "word": "sakuranbo",
+      "word": "さくらんぼ",
       "english": "cherry",
       "phonetic": "sah-koo-RAHN-boh",
       "emoji": "1f352",
       "category": "fruit"
     },
     {
-      "word": "suika",
+      "word": "スイカ",
       "english": "watermelon",
       "phonetic": "SOO-ee-kah",
       "emoji": "1f349",
       "category": "fruit"
     },
     {
-      "word": "tamanegi",
+      "word": "玉ねぎ",
       "english": "onion",
       "phonetic": "tah-mah-NEH-gee",
       "emoji": "1f9c5",
       "category": "vegetables"
     },
     {
-      "word": "niku",
+      "word": "肉",
       "english": "meat",
       "phonetic": "nee-KOO",
       "emoji": "1f356",
       "category": "food"
     },
     {
-      "word": "piza",
+      "word": "ピザ",
       "english": "pizza",
       "phonetic": "PEE-zah",
       "emoji": "1f355",
       "category": "food"
     },
     {
-      "word": "suupu",
+      "word": "スープ",
       "english": "soup",
       "phonetic": "SOO-poo",
       "emoji": "1f35c",
       "category": "food"
     },
     {
-      "word": "keeki",
+      "word": "ケーキ",
       "english": "cake",
       "phonetic": "KEH-kee",
       "emoji": "1f370",
       "category": "food"
     },
     {
-      "word": "chokoreeto",
+      "word": "チョコレート",
       "english": "chocolate",
       "phonetic": "choh-koh-REH-toh",
       "emoji": "1f36b",
       "category": "food"
     },
     {
-      "word": "ame",
+      "word": "飴",
       "english": "candy",
       "phonetic": "ah-MEH",
       "emoji": "1f36c",
       "category": "food"
     },
     {
-      "word": "hachimitsu",
+      "word": "はちみつ",
       "english": "honey",
       "phonetic": "hah-chee-MEE-tsoo",
       "emoji": "1f36f",
       "category": "food"
     },
     {
-      "word": "shio",
+      "word": "塩",
       "english": "salt",
       "phonetic": "shee-OH",
       "emoji": "1f9c2",
       "category": "food"
     },
     {
-      "word": "biiru",
+      "word": "ビール",
       "english": "beer",
       "phonetic": "BEE-roo",
       "emoji": "1f37a",
       "category": "drink"
     },
     {
-      "word": "wain",
+      "word": "ワイン",
       "english": "wine",
       "phonetic": "WAH-een",
       "emoji": "1f377",
       "category": "drink"
     },
     {
-      "word": "bin",
+      "word": "瓶",
       "english": "bottle",
       "phonetic": "been",
       "emoji": "1f37c",
       "category": "drink"
     },
     {
-      "word": "gurasu",
+      "word": "グラス",
       "english": "glass",
       "phonetic": "goo-RAH-soo",
       "emoji": "1f378",
       "category": "drink"
     },
     {
-      "word": "juusu",
+      "word": "ジュース",
       "english": "juice",
       "phonetic": "JOO-soo",
       "emoji": "1f9c3",
       "category": "drink"
     },
     {
-      "word": "biru",
+      "word": "ビル",
       "english": "building",
       "phonetic": "bee-ROO",
       "emoji": "1f3e2",
       "category": "places"
     },
     {
-      "word": "gakkou",
+      "word": "学校",
       "english": "school",
       "phonetic": "gahk-KOH",
       "emoji": "1f3eb",
       "category": "places"
     },
     {
-      "word": "byouin",
+      "word": "病院",
       "english": "hospital",
       "phonetic": "byoh-EEN",
       "emoji": "1f3e5",
       "category": "places"
     },
     {
-      "word": "mise",
+      "word": "店",
       "english": "store",
       "phonetic": "mee-SEH",
       "emoji": "1f3ea",
       "category": "places"
     },
     {
-      "word": "kyoukai",
+      "word": "教会",
       "english": "church",
       "phonetic": "kyoh-KAH-ee",
       "emoji": "26ea",
       "category": "places"
     },
     {
-      "word": "kuruma",
+      "word": "車",
       "english": "car",
       "phonetic": "koo-ROO-mah",
       "emoji": "1f697",
       "category": "transport"
     },
     {
-      "word": "basu",
+      "word": "バス",
       "english": "bus",
       "phonetic": "bah-SOO",
       "emoji": "1f68c",
       "category": "transport"
     },
     {
-      "word": "densha",
+      "word": "電車",
       "english": "train",
       "phonetic": "den-SHAH",
       "emoji": "1f682",
       "category": "transport"
     },
     {
-      "word": "hikouki",
+      "word": "飛行機",
       "english": "airplane",
       "phonetic": "hee-KOH-kee",
       "emoji": "2708",
       "category": "transport"
     },
     {
-      "word": "fune",
+      "word": "船",
       "english": "boat",
       "phonetic": "foo-NEH",
       "emoji": "26f5",
       "category": "transport"
     },
     {
-      "word": "jitensha",
+      "word": "自転車",
       "english": "bicycle",
       "phonetic": "jee-TEN-shah",
       "emoji": "1f6b2",
       "category": "transport"
     },
     {
-      "word": "torakku",
+      "word": "トラック",
       "english": "truck",
       "phonetic": "toh-RAHK-koo",
       "emoji": "1f69a",
       "category": "transport"
     },
     {
-      "word": "mado",
+      "word": "窓",
       "english": "window",
       "phonetic": "mah-DOH",
       "emoji": "1fa9f",
       "category": "home"
     },
     {
-      "word": "isu",
+      "word": "椅子",
       "english": "chair",
       "phonetic": "ee-SOO",
       "emoji": "1fa91",
       "category": "home"
     },
     {
-      "word": "terebi",
+      "word": "テレビ",
       "english": "television",
       "phonetic": "teh-REH-bee",
       "emoji": "1f4fa",
       "category": "objects"
     },
     {
-      "word": "pasokon",
+      "word": "パソコン",
       "english": "computer",
       "phonetic": "pah-SOH-kohn",
       "emoji": "1f4bb",
       "category": "objects"
     },
     {
-      "word": "denwa",
+      "word": "電話",
       "english": "phone",
       "phonetic": "den-WAH",
       "emoji": "1f4f1",
       "category": "objects"
     },
     {
-      "word": "kamera",
+      "word": "カメラ",
       "english": "camera",
       "phonetic": "kah-MEH-rah",
       "emoji": "1f4f7",
       "category": "objects"
     },
     {
-      "word": "rousoku",
+      "word": "ろうそく",
       "english": "candle",
       "phonetic": "roh-SOH-koo",
       "emoji": "1f56f",
       "category": "objects"
     },
     {
-      "word": "tegami",
+      "word": "手紙",
       "english": "letter",
       "phonetic": "teh-GAH-mee",
       "emoji": "2709",
       "category": "objects"
     },
     {
-      "word": "okane",
+      "word": "お金",
       "english": "money",
       "phonetic": "oh-KAH-neh",
       "emoji": "1f4b0",
       "category": "objects"
     },
     {
-      "word": "kami",
+      "word": "紙",
       "english": "paper",
       "phonetic": "kah-MEE",
       "emoji": "1f4c4",
       "category": "objects"
     },
     {
-      "word": "e",
+      "word": "絵",
       "english": "picture",
       "phonetic": "eh",
       "emoji": "1f5bc",
       "category": "objects"
     },
     {
-      "word": "megane",
+      "word": "眼鏡",
       "english": "glasses",
       "phonetic": "meh-GAH-neh",
       "emoji": "1f453",
       "category": "clothing"
     },
     {
-      "word": "shatsu",
+      "word": "シャツ",
       "english": "shirt",
       "phonetic": "SHAH-tsoo",
       "emoji": "1f455",
       "category": "clothing"
     },
     {
-      "word": "zubon",
+      "word": "ズボン",
       "english": "pants",
       "phonetic": "zoo-BOHN",
       "emoji": "1f456",
       "category": "clothing"
     },
     {
-      "word": "doresu",
+      "word": "ドレス",
       "english": "dress",
       "phonetic": "doh-REH-soo",
       "emoji": "1f457",
       "category": "clothing"
     },
     {
-      "word": "kutsu",
+      "word": "靴",
       "english": "shoe",
       "phonetic": "koo-TSOO",
       "emoji": "1f45e",
       "category": "clothing"
     },
     {
-      "word": "boushi",
+      "word": "帽子",
       "english": "hat",
       "phonetic": "boh-SHEE",
       "emoji": "1f3a9",
       "category": "clothing"
     },
     {
-      "word": "kooto",
+      "word": "コート",
       "english": "coat",
       "phonetic": "KOH-toh",
       "emoji": "1f9e5",
       "category": "clothing"
     },
     {
-      "word": "kasa",
+      "word": "傘",
       "english": "umbrella",
       "phonetic": "kah-SAH",
       "emoji": "2602",
       "category": "clothing"
     },
     {
-      "word": "kaban",
+      "word": "カバン",
       "english": "bag",
       "phonetic": "kah-BAHN",
       "emoji": "1f392",
       "category": "clothing"
     },
     {
-      "word": "yubiwa",
+      "word": "指輪",
       "english": "ring",
       "phonetic": "yoo-BEE-wah",
       "emoji": "1f48d",
       "category": "clothing"
     },
     {
-      "word": "nekutai",
+      "word": "ネクタイ",
       "english": "tie",
       "phonetic": "neh-koo-TAH-ee",
       "emoji": "1f454",

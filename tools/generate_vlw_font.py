@@ -77,9 +77,47 @@ def get_char_set(language):
     return chars
 
 
-def get_system_font(size):
-    """Try to find a good system font for the given size."""
-    font_paths = [
+def get_system_font(size, language=None):
+    """Try to find a good system font for the given size and language.
+
+    For non-Latin scripts, we need specific fonts that contain those glyphs.
+    On macOS, the system provides fonts for most scripts.
+    """
+    # Script-specific fonts (macOS paths)
+    SCRIPT_FONTS = {
+        'tsalagi': [
+            "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+            "/System/Library/Fonts/Supplemental/Plantagenet Cherokee.ttf",
+        ],
+        'korean': [
+            "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+            "/System/Library/Fonts/Supplemental/AppleMyungjo.ttf",
+            "/Library/Fonts/NanumGothic.ttc",
+        ],
+        'japanese': [
+            "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc",
+            "/System/Library/Fonts/Hiragino Sans GB.ttc",
+            "/System/Library/Fonts/Supplemental/Hiragino Sans W3.ttc",
+            "/Library/Fonts/Yu Gothic.ttf",
+        ],
+        'arabic': [
+            "/System/Library/Fonts/GeezaPro.ttc",
+            "/Library/Fonts/GeezaPro.ttf",
+        ],
+        'urdu': [
+            "/System/Library/Fonts/GeezaPro.ttc",
+            "/Library/Fonts/GeezaPro.ttf",
+        ],
+        'hindi': [
+            "/System/Library/Fonts/Kohinoor.ttc",
+            "/System/Library/Fonts/KohinoorDevanagari.ttc",
+            "/Library/Fonts/Kohinoor.ttc",
+            "/System/Library/Fonts/Supplemental/Devanagari MT.ttf",
+        ],
+    }
+
+    # Default Latin fonts
+    latin_fonts = [
         "/System/Library/Fonts/Helvetica.ttc",
         "/System/Library/Fonts/SFNSText.ttf",
         "/System/Library/Fonts/SFNS.ttf",
@@ -90,7 +128,18 @@ def get_system_font(size):
         "C:\\Windows\\Fonts\\arial.ttf",
     ]
 
-    for path in font_paths:
+    # Try script-specific fonts first
+    if language and language in SCRIPT_FONTS:
+        for path in SCRIPT_FONTS[language]:
+            try:
+                font = ImageFont.truetype(path, size)
+                print(f"  Using font: {path}")
+                return font
+            except (IOError, OSError):
+                continue
+
+    # Fall back to Latin fonts
+    for path in latin_fonts:
         try:
             return ImageFont.truetype(path, size)
         except (IOError, OSError):
@@ -103,16 +152,37 @@ def get_system_font(size):
         return ImageFont.load_default()
 
 
-def render_glyph(font, char, font_size):
-    """Render a single character and extract its metrics and alpha bitmap."""
-    canvas_size = font_size * 3
+def load_pua_map(language):
+    """Load PUA codepoint -> cluster text mapping for a language."""
+    import csv as csv_mod
+    map_path = Path(__file__).parent / "vocab" / f"{language}_pua_map.csv"
+    if not map_path.exists():
+        return {}
+    pua_map = {}
+    with open(map_path, encoding='utf-8') as f:
+        reader = csv_mod.DictReader(f)
+        for row in reader:
+            # Parse "U+E000" -> 0xE000
+            cp = int(row['pua_codepoint'].replace('U+', ''), 16)
+            pua_map[cp] = row['cluster_text']
+    return pua_map
+
+
+def render_glyph(font, char, font_size, render_text=None):
+    """Render a single character (or text string) and extract its metrics and alpha bitmap.
+
+    If render_text is provided, it is rendered visually but stored under the codepoint of char.
+    This is used for PUA glyphs where the display text is a multi-character cluster.
+    """
+    display = render_text if render_text else char
+    canvas_size = font_size * 4  # Extra space for complex clusters
     img = Image.new('L', (canvas_size, canvas_size), 0)
     draw = ImageDraw.Draw(img)
 
     origin_x = canvas_size // 3
     origin_y = canvas_size // 3
 
-    draw.text((origin_x, origin_y), char, fill=255, font=font)
+    draw.text((origin_x, origin_y), display, fill=255, font=font)
 
     bbox = img.getbbox()
     if bbox is None:
@@ -122,7 +192,7 @@ def render_glyph(font, char, font_size):
     width = right - left
     height = bottom - top
 
-    char_bbox = font.getbbox(char)
+    char_bbox = font.getbbox(display)
     advance_width = char_bbox[2] - char_bbox[0]
 
     dx = left - origin_x
@@ -144,21 +214,28 @@ def render_glyph(font, char, font_size):
     }
 
 
-def generate_vlw(chars, font_size, output_path, font_label="Font"):
+def generate_vlw(chars, font_size, output_path, font_label="Font", language=None):
     """Generate a .vlw font file."""
     print(f"Generating {output_path.name} (size {font_size}, {len(chars)} chars)...")
 
-    font = get_system_font(font_size)
+    font = get_system_font(font_size, language=language)
     ascent, descent = font.getmetrics()
+
+    # Load PUA map if available (for pre-shaped conjunct clusters)
+    pua_map = load_pua_map(language) if language else {}
+    if pua_map:
+        print(f"  PUA map loaded: {len(pua_map)} conjunct clusters")
 
     glyphs = []
     for char in chars:
-        glyph = render_glyph(font, char, font_size)
+        cp = ord(char)
+        render_text = pua_map.get(cp)  # None for regular chars, cluster text for PUA
+        glyph = render_glyph(font, char, font_size, render_text=render_text)
         if glyph is not None:
             glyphs.append(glyph)
         else:
             glyphs.append({
-                'unicode': ord(char),
+                'unicode': cp,
                 'width': 0,
                 'height': 0,
                 'xAdvance': font_size // 4,
@@ -239,7 +316,7 @@ def main():
         output_path = project_root / "data" / "font.vlw"
 
     chars = get_char_set(args.language)
-    size = generate_vlw(chars, args.size, output_path, f"{args.language}Font")
+    size = generate_vlw(chars, args.size, output_path, f"{args.language}Font", language=args.language)
     print(f"\nTotal: {size} bytes ({size / 1024:.1f} KB)")
 
 

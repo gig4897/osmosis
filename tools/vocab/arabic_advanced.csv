@@ -1,76 +1,76 @@
 emoji,english,translation,phonetic,category
-1f600,face,wajh,WAJH,emotions
-1f60a,happy,sa'eed,SA-EED,emotions
-1f622,sad,hazeen,HA-ZEEN,emotions
-1f620,angry,ghaadib,GHAA-DIB,emotions
-1f628,afraid,khaa'if,KHAA-IF,emotions
-1f634,tired,mut'ab,MUT-AB,emotions
-1f632,surprised,mundahish,MUN-DA-HISH,emotions
-1f912,sick,mareed,MA-REED,emotions
-1f602,laugh,dahik,DA-HIK,emotions
-1f62d,cry,bukaa',BU-KAA,emotions
-1f60d,love,hubb,HUBB,emotions
-1f5e3,speak,takallam,TA-KAL-LAM,actions
-1f4ad,think,tafkeer,TAF-KEER,actions
-1f3c3,running,jary,JARY,actions
-1f3ca,swimming,sibaaha,SI-BAA-HAH,actions
-1f6b6,walking,mashy,MASHY,actions
-1f483,dancing,raqs,RAQS,actions
-270d,writing,kitaaba,KI-TAA-BAH,actions
-1f3a3,fishing,sayd as-samak,SAYD AS-SA-MAK,entertainment
-26f7,skiing,tazalluj,TA-ZAL-LUJ,entertainment
-1f3c4,surfing,rukoob al-amwaaj,RU-KOOB AL-AM-WAAJ,entertainment
-1f305,morning,sabaah,SA-BAAH,time
-1f307,evening,masaa',MA-SAA,time
-1f303,night,layl,LAYL,time
-1f382,birthday,'eed meelaad,EED MEE-LAAD,entertainment
-1f389,party,hafla,HAF-LAH,entertainment
-1f381,gift,hadiyya,HA-DEE-YAH,entertainment
-1f3b5,music,mooseeqaa,MOO-SEE-QAA,entertainment
-1f3b6,song,ughniya,UGH-NI-YAH,entertainment
-1f3b9,piano,biyaanoo,BEE-YAA-NOO,entertainment
-1f3b8,guitar,gheetaar,GHI-TAAR,entertainment
-1f941,drum,tabl,TABL,entertainment
-1f3ac,movie,film,FILM,entertainment
-1f3a8,art,fann,FANN,entertainment
-1f3b2,game,lu'ba,LU-BAH,entertainment
-1f514,bell,jaras,JA-RAS,objects
-1f3e8,hotel,funduq,FUN-DUQ,places
-1f3d9,city,madeena,MA-DEE-NAH,places
-1f3d4,mountain,jabal,JA-BAL,places
-1f3d6,beach,shaati',SHAA-TI,places
-1f6e3,road,tareeq,TA-REEQ,places
-1f3e6,bank,bank,BANK,places
-1f3f0,castle,qal'a,QAL-AH,places
-1f3dd,island,jazeera,JA-ZEE-RAH,places
-1f3de,park,hadeeqa,HA-DEE-QAH,places
-1f695,taxi,sayyaarat ujra,SAY-YAA-RAT UJ-RAH,transport
-1f681,helicopter,marwahiyya,MAR-WA-HEE-YAH,transport
-1f680,rocket,saarookh,SAA-ROOKH,transport
-1f691,ambulance,is'aaf,IS-AAF,transport
-1f3cd,motorcycle,darraaja naariyya,DAR-RAA-JAH NAA-REE-YAH,transport
-1f6a2,ship,safeena,SA-FEE-NAH,transport
-1f4fb,radio,raadiyoo,RAA-DEE-YOO,objects
-1f4f0,newspaper,jareeda,JA-REE-DAH,objects
-1f4dd,note,mulaahaza,MU-LAA-HA-DHAH,objects
-1f58a,pen,qalam hibr,QA-LAM HIBR,objects
-270f,pencil,qalam rasaas,QA-LAM RA-SAAS,objects
-2702,scissors,miqass,MI-QASS,objects
-1f4c5,calendar,taqweem,TAQ-WEEM,objects
-1f512,lock,qufl,QUFL,objects
-1f528,hammer,mitraqa,MIT-RA-QAH,tools
-1f52a,knife,sikkeen,SIK-KEEN,tools
-1f374,fork,shawka,SHAW-KAH,tools
-1f944,spoon,mil'aqa,MIL-A-QAH,tools
-1f37d,plate,tabaq,TA-BAQ,tools
-1f5fa,map,khareeta,KHA-REE-TAH,objects
-1f4e6,box,sundooq,SUN-DOOQ,objects
-1f4e8,mail,bareed,BA-REED,objects
-1f6c1,bath,hammaam,HAM-MAAM,home
-1f9fc,soap,saaboon,SAA-BOON,objects
-1fa99,coin,'umla,UM-LAH,objects
-1f570,clock,saa'a,SAA-AH,objects
-231a,watch,saa'at yad,SAA-AT YAD,objects
-1f3f3,flag,'alam,A-LAM,objects
-2694,sword,sayf,SAYF,tools
-1f52b,gun,musaddas,MU-SAD-DAS,tools
+1f600,face,ﻪﺟﻭ,WAJH,emotions
+1f60a,happy,ﺪﻴﻌﺳ,SA-EED,emotions
+1f622,sad,ﻦﻳﺰﺣ,HA-ZEEN,emotions
+1f620,angry,ﺐﺿﺎﻏ,GHAA-DIB,emotions
+1f628,afraid,ﻒﺋﺎﺧ,KHAA-IF,emotions
+1f634,tired,ﺐﻌﺘﻣ,MUT-AB,emotions
+1f632,surprised,ﺶﻫﺪﻨﻣ,MUN-DA-HISH,emotions
+1f912,sick,ﺾﻳﺮﻣ,MA-REED,emotions
+1f602,laugh,ﻚﺤﺿ,DA-HIK,emotions
+1f62d,cry,ﺀﺎﻜﺑ,BU-KAA,emotions
+1f60d,love,ﺐﺣ,HUBB,emotions
+1f5e3,speak,ﻢﻠﻜﺗ,TA-KAL-LAM,actions
+1f4ad,think,ﺮﻴﻜﻔﺗ,TAF-KEER,actions
+1f3c3,running,ﻱﺮﺟ,JARY,actions
+1f3ca,swimming,ﺔﺣﺎﺒﺳ,SI-BAA-HAH,actions
+1f6b6,walking,ﻲﺸﻣ,MASHY,actions
+1f483,dancing,ﺺﻗﺭ,RAQS,actions
+270d,writing,ﺔﺑﺎﺘﻛ,KI-TAA-BAH,actions
+1f3a3,fishing,ﻚﻤﺴﻟﺍ ﺪﻴﺻ,SAYD AS-SA-MAK,entertainment
+26f7,skiing,ﺞﻟﺰﺗ,TA-ZAL-LUJ,entertainment
+1f3c4,surfing,ﺝﺍﻮﻣﻷﺍ ﺏﻮﻛﺭ,RU-KOOB AL-AM-WAAJ,entertainment
+1f305,morning,ﺡﺎﺒﺻ,SA-BAAH,time
+1f307,evening,ﺀﺎﺴﻣ,MA-SAA,time
+1f303,night,ﻞﻴﻟ,LAYL,time
+1f382,birthday,ﺩﻼﻴﻣ ﺪﻴﻋ,EED MEE-LAAD,entertainment
+1f389,party,ﺔﻠﻔﺣ,HAF-LAH,entertainment
+1f381,gift,ﺔﻳﺪﻫ,HA-DEE-YAH,entertainment
+1f3b5,music,ﻰﻘﻴﺳﻮﻣ,MOO-SEE-QAA,entertainment
+1f3b6,song,ﺔﻴﻨﻏﺃ,UGH-NI-YAH,entertainment
+1f3b9,piano,ﻮﻧﺎﻴﺑ,BEE-YAA-NOO,entertainment
+1f3b8,guitar,ﺭﺎﺘﻴﻏ,GHI-TAAR,entertainment
+1f941,drum,ﻞﺒﻃ,TABL,entertainment
+1f3ac,movie,ﻢﻠﻴﻓ,FILM,entertainment
+1f3a8,art,ﻦﻓ,FANN,entertainment
+1f3b2,game,ﺔﺒﻌﻟ,LU-BAH,entertainment
+1f514,bell,ﺱﺮﺟ,JA-RAS,objects
+1f3e8,hotel,ﻕﺪﻨﻓ,FUN-DUQ,places
+1f3d9,city,ﺔﻨﻳﺪﻣ,MA-DEE-NAH,places
+1f3d4,mountain,ﻞﺒﺟ,JA-BAL,places
+1f3d6,beach,ﺊﻃﺎﺷ,SHAA-TI,places
+1f6e3,road,ﻖﻳﺮﻃ,TA-REEQ,places
+1f3e6,bank,ﻚﻨﺑ,BANK,places
+1f3f0,castle,ﺔﻌﻠﻗ,QAL-AH,places
+1f3dd,island,ﺓﺮﻳﺰﺟ,JA-ZEE-RAH,places
+1f3de,park,ﺔﻘﻳﺪﺣ,HA-DEE-QAH,places
+1f695,taxi,ﺓﺮﺟﺃ ﺓﺭﺎﻴﺳ,SAY-YAA-RAT UJ-RAH,transport
+1f681,helicopter,ﺔﻴﺣﻭﺮﻣ,MAR-WA-HEE-YAH,transport
+1f680,rocket,ﺥﻭﺭﺎﺻ,SAA-ROOKH,transport
+1f691,ambulance,ﻑﺎﻌﺳﺇ,IS-AAF,transport
+1f3cd,motorcycle,ﺔﻳﺭﺎﻧ ﺔﺟﺍﺭﺩ,DAR-RAA-JAH NAA-REE-YAH,transport
+1f6a2,ship,ﺔﻨﻴﻔﺳ,SA-FEE-NAH,transport
+1f4fb,radio,ﻮﻳﺩﺍﺭ,RAA-DEE-YOO,objects
+1f4f0,newspaper,ﺓﺪﻳﺮﺟ,JA-REE-DAH,objects
+1f4dd,note,ﺔﻈﺣﻼﻣ,MU-LAA-HA-DHAH,objects
+1f58a,pen,ﺮﺒﺣ ﻢﻠﻗ,QA-LAM HIBR,objects
+270f,pencil,ﺹﺎﺻﺭ ﻢﻠﻗ,QA-LAM RA-SAAS,objects
+2702,scissors,ﺺﻘﻣ,MI-QASS,objects
+1f4c5,calendar,ﻢﻳﻮﻘﺗ,TAQ-WEEM,objects
+1f512,lock,ﻞﻔﻗ,QUFL,objects
+1f528,hammer,ﺔﻗﺮﻄﻣ,MIT-RA-QAH,tools
+1f52a,knife,ﻦﻴﻜﺳ,SIK-KEEN,tools
+1f374,fork,ﺔﻛﻮﺷ,SHAW-KAH,tools
+1f944,spoon,ﺔﻘﻌﻠﻣ,MIL-A-QAH,tools
+1f37d,plate,ﻖﺒﻃ,TA-BAQ,tools
+1f5fa,map,ﺔﻄﻳﺮﺧ,KHA-REE-TAH,objects
+1f4e6,box,ﻕﻭﺪﻨﺻ,SUN-DOOQ,objects
+1f4e8,mail,ﺪﻳﺮﺑ,BA-REED,objects
+1f6c1,bath,ﻡﺎﻤﺣ,HAM-MAAM,home
+1f9fc,soap,ﻥﻮﺑﺎﺻ,SAA-BOON,objects
+1fa99,coin,ﺔﻠﻤﻋ,UM-LAH,objects
+1f570,clock,ﺔﻋﺎﺳ,SAA-AH,objects
+231a,watch,ﺪﻳ ﺔﻋﺎﺳ,SAA-AT YAD,objects
+1f3f3,flag,ﻢﻠﻋ,A-LAM,objects
+2694,sword,ﻒﻴﺳ,SAYF,tools
+1f52b,gun,ﺱﺪﺴﻣ,MU-SAD-DAS,tools

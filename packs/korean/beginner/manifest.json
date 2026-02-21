@@ -8,525 +8,525 @@
   "fontFile": "font.vlw",
   "words": [
     {
-      "word": "agi",
+      "word": "아기",
       "english": "baby",
       "phonetic": "AH-GEE",
       "emoji": "1f476",
       "category": "people"
     },
     {
-      "word": "sonyeon",
+      "word": "소년",
       "english": "boy",
       "phonetic": "SOH-NYUHN",
       "emoji": "1f466",
       "category": "people"
     },
     {
-      "word": "sonyeo",
+      "word": "소녀",
       "english": "girl",
       "phonetic": "SOH-NYUH",
       "emoji": "1f467",
       "category": "people"
     },
     {
-      "word": "namja",
+      "word": "남자",
       "english": "man",
       "phonetic": "NAHM-JAH",
       "emoji": "1f468",
       "category": "people"
     },
     {
-      "word": "yeoja",
+      "word": "여자",
       "english": "woman",
       "phonetic": "YUH-JAH",
       "emoji": "1f469",
       "category": "people"
     },
     {
-      "word": "saram",
+      "word": "사람",
       "english": "person",
       "phonetic": "SAH-RAHM",
       "emoji": "1f9d1",
       "category": "people"
     },
     {
-      "word": "ai",
+      "word": "아이",
       "english": "child",
       "phonetic": "AH-EE",
       "emoji": "1f9d2",
       "category": "people"
     },
     {
-      "word": "gajok",
+      "word": "가족",
       "english": "family",
       "phonetic": "GAH-JOHK",
       "emoji": "1f46a",
       "category": "people"
     },
     {
-      "word": "son",
+      "word": "손",
       "english": "hand",
       "phonetic": "SOHN",
       "emoji": "270b",
       "category": "body"
     },
     {
-      "word": "pal",
+      "word": "팔",
       "english": "arm",
       "phonetic": "PAHL",
       "emoji": "1f4aa",
       "category": "body"
     },
     {
-      "word": "dari",
+      "word": "다리",
       "english": "leg",
       "phonetic": "DAH-REE",
       "emoji": "1f9b5",
       "category": "body"
     },
     {
-      "word": "bal",
+      "word": "발",
       "english": "foot",
       "phonetic": "BAHL",
       "emoji": "1f9b6",
       "category": "body"
     },
     {
-      "word": "gwi",
+      "word": "귀",
       "english": "ear",
       "phonetic": "GWEE",
       "emoji": "1f442",
       "category": "body"
     },
     {
-      "word": "ko",
+      "word": "코",
       "english": "nose",
       "phonetic": "KOH",
       "emoji": "1f443",
       "category": "body"
     },
     {
-      "word": "nun",
+      "word": "눈",
       "english": "eye",
       "phonetic": "NOON",
       "emoji": "1f440",
       "category": "body"
     },
     {
-      "word": "ip",
+      "word": "입",
       "english": "mouth",
       "phonetic": "EEP",
       "emoji": "1f444",
       "category": "body"
     },
     {
-      "word": "hyeo",
+      "word": "혀",
       "english": "tongue",
       "phonetic": "HYUH",
       "emoji": "1f445",
       "category": "body"
     },
     {
-      "word": "i",
+      "word": "이",
       "english": "tooth",
       "phonetic": "EE",
       "emoji": "1f9b7",
       "category": "body"
     },
     {
-      "word": "simjang",
+      "word": "심장",
       "english": "heart",
       "phonetic": "SHEEM-JAHNG",
       "emoji": "2764",
       "category": "emotions"
     },
     {
-      "word": "mul",
+      "word": "물",
       "english": "water",
       "phonetic": "MOOL",
       "emoji": "1f4a7",
       "category": "nature"
     },
     {
-      "word": "bul",
+      "word": "불",
       "english": "fire",
       "phonetic": "BOOL",
       "emoji": "1f525",
       "category": "nature"
     },
     {
-      "word": "byeol",
+      "word": "별",
       "english": "star",
       "phonetic": "BYUHL",
       "emoji": "2b50",
       "category": "nature"
     },
     {
-      "word": "hae",
+      "word": "해",
       "english": "sun",
       "phonetic": "HEH",
       "emoji": "2600",
       "category": "nature"
     },
     {
-      "word": "dal",
+      "word": "달",
       "english": "moon",
       "phonetic": "DAHL",
       "emoji": "1f319",
       "category": "nature"
     },
     {
-      "word": "jigu",
+      "word": "지구",
       "english": "earth",
       "phonetic": "JEE-GOO",
       "emoji": "1f30d",
       "category": "nature"
     },
     {
-      "word": "bi",
+      "word": "비",
       "english": "rain",
       "phonetic": "BEE",
       "emoji": "1f327",
       "category": "nature"
     },
     {
-      "word": "nun",
+      "word": "눈",
       "english": "snow",
       "phonetic": "NOON",
       "emoji": "2744",
       "category": "nature"
     },
     {
-      "word": "gae",
+      "word": "개",
       "english": "dog",
       "phonetic": "GEH",
       "emoji": "1f436",
       "category": "animals"
     },
     {
-      "word": "goyangi",
+      "word": "고양이",
       "english": "cat",
       "phonetic": "GOH-YAHNG-EE",
       "emoji": "1f431",
       "category": "animals"
     },
     {
-      "word": "jwi",
+      "word": "쥐",
       "english": "mouse",
       "phonetic": "JWEE",
       "emoji": "1f42d",
       "category": "animals"
     },
     {
-      "word": "tokki",
+      "word": "토끼",
       "english": "rabbit",
       "phonetic": "TOH-KKEE",
       "emoji": "1f430",
       "category": "animals"
     },
     {
-      "word": "gom",
+      "word": "곰",
       "english": "bear",
       "phonetic": "GOHM",
       "emoji": "1f43b",
       "category": "animals"
     },
     {
-      "word": "dwaeji",
+      "word": "돼지",
       "english": "pig",
       "phonetic": "DWEH-JEE",
       "emoji": "1f437",
       "category": "animals"
     },
     {
-      "word": "so",
+      "word": "소",
       "english": "cow",
       "phonetic": "SOH",
       "emoji": "1f42e",
       "category": "animals"
     },
     {
-      "word": "mal",
+      "word": "말",
       "english": "horse",
       "phonetic": "MAHL",
       "emoji": "1f434",
       "category": "animals"
     },
     {
-      "word": "yang",
+      "word": "양",
       "english": "sheep",
       "phonetic": "YAHNG",
       "emoji": "1f411",
       "category": "animals"
     },
     {
-      "word": "wonsungi",
+      "word": "원숭이",
       "english": "monkey",
       "phonetic": "WUHN-SOONG-EE",
       "emoji": "1f412",
       "category": "animals"
     },
     {
-      "word": "kokkiri",
+      "word": "코끼리",
       "english": "elephant",
       "phonetic": "KOH-KKEE-REE",
       "emoji": "1f418",
       "category": "animals"
     },
     {
-      "word": "saja",
+      "word": "사자",
       "english": "lion",
       "phonetic": "SAH-JAH",
       "emoji": "1f981",
       "category": "animals"
     },
     {
-      "word": "sae",
+      "word": "새",
       "english": "bird",
       "phonetic": "SEH",
       "emoji": "1f426",
       "category": "animals"
     },
     {
-      "word": "dak",
+      "word": "닭",
       "english": "chicken",
       "phonetic": "DAHK",
       "emoji": "1f414",
       "category": "animals"
     },
     {
-      "word": "mulgogi",
+      "word": "물고기",
       "english": "fish",
       "phonetic": "MOOL-GOH-GEE",
       "emoji": "1f420",
       "category": "animals"
     },
     {
-      "word": "baem",
+      "word": "뱀",
       "english": "snake",
       "phonetic": "BEHM",
       "emoji": "1f40d",
       "category": "animals"
     },
     {
-      "word": "gaeguri",
+      "word": "개구리",
       "english": "frog",
       "phonetic": "GEH-GOO-REE",
       "emoji": "1f438",
       "category": "animals"
     },
     {
-      "word": "beol",
+      "word": "벌",
       "english": "bee",
       "phonetic": "BUHL",
       "emoji": "1f41d",
       "category": "animals"
     },
     {
-      "word": "gaemi",
+      "word": "개미",
       "english": "ant",
       "phonetic": "GEH-MEE",
       "emoji": "1f41c",
       "category": "animals"
     },
     {
-      "word": "namu",
+      "word": "나무",
       "english": "tree",
       "phonetic": "NAH-MOO",
       "emoji": "1f332",
       "category": "plants"
     },
     {
-      "word": "kkot",
+      "word": "꽃",
       "english": "flower",
       "phonetic": "KKOH",
       "emoji": "1f33a",
       "category": "plants"
     },
     {
-      "word": "singmul",
+      "word": "식물",
       "english": "plant",
       "phonetic": "SHEEK-MOOL",
       "emoji": "1f33f",
       "category": "plants"
     },
     {
-      "word": "ip",
+      "word": "잎",
       "english": "leaf",
       "phonetic": "EEP",
       "emoji": "1f340",
       "category": "plants"
     },
     {
-      "word": "jangmi",
+      "word": "장미",
       "english": "rose",
       "phonetic": "JAHNG-MEE",
       "emoji": "1f339",
       "category": "plants"
     },
     {
-      "word": "sagwa",
+      "word": "사과",
       "english": "apple",
       "phonetic": "SAH-GWAH",
       "emoji": "1f34e",
       "category": "fruit"
     },
     {
-      "word": "banana",
+      "word": "바나나",
       "english": "banana",
       "phonetic": "BAH-NAH-NAH",
       "emoji": "1f34c",
       "category": "fruit"
     },
     {
-      "word": "orenji",
+      "word": "오렌지",
       "english": "orange",
       "phonetic": "OH-REHN-JEE",
       "emoji": "1f34a",
       "category": "fruit"
     },
     {
-      "word": "remon",
+      "word": "레몬",
       "english": "lemon",
       "phonetic": "REH-MOHN",
       "emoji": "1f34b",
       "category": "fruit"
     },
     {
-      "word": "podo",
+      "word": "포도",
       "english": "grape",
       "phonetic": "POH-DOH",
       "emoji": "1f347",
       "category": "fruit"
     },
     {
-      "word": "ttalgi",
+      "word": "딸기",
       "english": "strawberry",
       "phonetic": "TTAHL-GEE",
       "emoji": "1f353",
       "category": "fruit"
     },
     {
-      "word": "tomato",
+      "word": "토마토",
       "english": "tomato",
       "phonetic": "TOH-MAH-TOH",
       "emoji": "1f345",
       "category": "vegetables"
     },
     {
-      "word": "gamja",
+      "word": "감자",
       "english": "potato",
       "phonetic": "GAHM-JAH",
       "emoji": "1f954",
       "category": "vegetables"
     },
     {
-      "word": "danggeun",
+      "word": "당근",
       "english": "carrot",
       "phonetic": "DAHNG-GEUN",
       "emoji": "1f955",
       "category": "vegetables"
     },
     {
-      "word": "oksusu",
+      "word": "옥수수",
       "english": "corn",
       "phonetic": "OHK-SOO-SOO",
       "emoji": "1f33d",
       "category": "vegetables"
     },
     {
-      "word": "ppang",
+      "word": "빵",
       "english": "bread",
       "phonetic": "PPAHNG",
       "emoji": "1f35e",
       "category": "food"
     },
     {
-      "word": "chijeu",
+      "word": "치즈",
       "english": "cheese",
       "phonetic": "CHEE-JEU",
       "emoji": "1f9c0",
       "category": "food"
     },
     {
-      "word": "dalyal",
+      "word": "달걀",
       "english": "egg",
       "phonetic": "DAHL-GYAHL",
       "emoji": "1f95a",
       "category": "food"
     },
     {
-      "word": "uyu",
+      "word": "우유",
       "english": "milk",
       "phonetic": "OO-YOO",
       "emoji": "1f95b",
       "category": "drink"
     },
     {
-      "word": "ssal",
+      "word": "쌀",
       "english": "rice",
       "phonetic": "SSAHL",
       "emoji": "1f33e",
       "category": "food"
     },
     {
-      "word": "cha",
+      "word": "차",
       "english": "tea",
       "phonetic": "CHAH",
       "emoji": "1f375",
       "category": "drink"
     },
     {
-      "word": "keopi",
+      "word": "커피",
       "english": "coffee",
       "phonetic": "KUH-PEE",
       "emoji": "2615",
       "category": "drink"
     },
     {
-      "word": "jip",
+      "word": "집",
       "english": "house",
       "phonetic": "JEEP",
       "emoji": "1f3e0",
       "category": "places"
     },
     {
-      "word": "mun",
+      "word": "문",
       "english": "door",
       "phonetic": "MOON",
       "emoji": "1f6aa",
       "category": "home"
     },
     {
-      "word": "chimdae",
+      "word": "침대",
       "english": "bed",
       "phonetic": "CHEEM-DEH",
       "emoji": "1f6cf",
       "category": "home"
     },
     {
-      "word": "bit",
+      "word": "빛",
       "english": "light",
       "phonetic": "BEET",
       "emoji": "1f4a1",
       "category": "home"
     },
     {
-      "word": "chaek",
+      "word": "책",
       "english": "book",
       "phonetic": "CHEHK",
       "emoji": "1f4d6",
       "category": "objects"
     },
     {
-      "word": "yeolsoe",
+      "word": "열쇠",
       "english": "key",
       "phonetic": "YUHL-SHWEH",
       "emoji": "1f511",
       "category": "objects"
     },
     {
-      "word": "gong",
+      "word": "공",
       "english": "ball",
       "phonetic": "GOHNG",
       "emoji": "26bd",

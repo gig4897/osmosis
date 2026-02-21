@@ -8,525 +8,525 @@
   "fontFile": "font.vlw",
   "words": [
     {
-      "word": "asuwida",
+      "word": "ᎠᏑᏫᏓ",
       "english": "brain",
       "phonetic": "ah-SOO-wee-dah",
       "emoji": "1f9e0",
       "category": "body"
     },
     {
-      "word": "adatsvsgah",
+      "word": "ᎠᏓᏨᏍᎦ",
       "english": "kiss",
       "phonetic": "ah-dah-TSUH-sgah",
       "emoji": "1f48b",
       "category": "body"
     },
     {
-      "word": "giga",
+      "word": "ᎩᎦ",
       "english": "blood",
       "phonetic": "GEE-gah",
       "emoji": "1fa78",
       "category": "body"
     },
     {
-      "word": "ulogilv",
+      "word": "ᎤᎶᎩᎸ",
       "english": "cloud",
       "phonetic": "oo-LOH-gee-luh",
       "emoji": "2601",
       "category": "nature"
     },
     {
-      "word": "ama utana",
+      "word": "ᎠᎹ ᎤᏔᎾ",
       "english": "sea",
       "phonetic": "ah-MAH oo-TAH-nah",
       "emoji": "1f30a",
       "category": "nature"
     },
     {
-      "word": "unolv",
+      "word": "ᎤᏃᎸ",
       "english": "wind",
       "phonetic": "oo-NOH-luh",
       "emoji": "1f32a",
       "category": "nature"
     },
     {
-      "word": "unugotsaye",
+      "word": "ᎤᏄᎪᏤ",
       "english": "rainbow",
       "phonetic": "oo-noo-GOH-tsay",
       "emoji": "1f308",
       "category": "nature"
     },
     {
-      "word": "nvya",
+      "word": "ᏅᏯ",
       "english": "rock",
       "phonetic": "nuh-YAH",
       "emoji": "1faa8",
       "category": "nature"
     },
     {
-      "word": "nvtisi",
+      "word": "ᏅᏘᏏ",
       "english": "ice",
       "phonetic": "nuh-TEE-see",
       "emoji": "1f9ca",
       "category": "nature"
     },
     {
-      "word": "tludasi utslina",
+      "word": "ᏢᏓᏏ ᎤᏟᏅ",
       "english": "tiger",
       "phonetic": "tluh-DAH-see oo-TSLEE-nuh",
       "emoji": "1f42f",
       "category": "animals"
     },
     {
-      "word": "wayah",
+      "word": "ᏩᏯ",
       "english": "wolf",
       "phonetic": "WAH-yah",
       "emoji": "1f43a",
       "category": "animals"
     },
     {
-      "word": "tsula",
+      "word": "ᏧᎳ",
       "english": "fox",
       "phonetic": "TSOO-lah",
       "emoji": "1f98a",
       "category": "animals"
     },
     {
-      "word": "awi ekwa",
+      "word": "ᎠᏫ ᎡᏆ",
       "english": "deer",
       "phonetic": "ah-WEE ay-KWAH",
       "emoji": "1f98c",
       "category": "animals"
     },
     {
-      "word": "kawonu",
+      "word": "ᎧᏬᏄ",
       "english": "duck",
       "phonetic": "kah-WOH-noo",
       "emoji": "1f986",
       "category": "animals"
     },
     {
-      "word": "gwaliei",
+      "word": "ᎩᎩᎠ",
       "english": "eagle",
       "phonetic": "GWAH-lee-ee",
       "emoji": "1f985",
       "category": "animals"
     },
     {
-      "word": "ugugu",
+      "word": "ᎤᎫᎫ",
       "english": "owl",
       "phonetic": "oo-GOO-goo",
       "emoji": "1f989",
       "category": "animals"
     },
     {
-      "word": "dagisi",
+      "word": "ᏓᎩᏏ",
       "english": "turtle",
       "phonetic": "dah-GEE-see",
       "emoji": "1f422",
       "category": "animals"
     },
     {
-      "word": "tsatlina atsadi",
+      "word": "ᏣᏟᏅ ᎠᏣᏗ",
       "english": "dolphin",
       "phonetic": "tsah-TSLEE-nuh ah-TSAH-dee",
       "emoji": "1f42c",
       "category": "animals"
     },
     {
-      "word": "tsatlina atsadi utana",
+      "word": "ᏣᏟᏅ ᎠᏣᏗ ᎤᏔᎾ",
       "english": "whale",
       "phonetic": "tsah-TSLEE-nuh ah-TSAH-dee oo-TAH-nah",
       "emoji": "1f433",
       "category": "animals"
     },
     {
-      "word": "kamama",
+      "word": "ᎧᎹᎹ",
       "english": "butterfly",
       "phonetic": "kah-MAH-mah",
       "emoji": "1f98b",
       "category": "animals"
     },
     {
-      "word": "ugodv",
+      "word": "ᎤᎪᏛ",
       "english": "mushroom",
       "phonetic": "oo-GOH-duh",
       "emoji": "1f344",
       "category": "plants"
     },
     {
-      "word": "unai",
+      "word": "ᎤᎾᎢ",
       "english": "seed",
       "phonetic": "oo-NAH-ee",
       "emoji": "1f331",
       "category": "nature"
     },
     {
-      "word": "ada",
+      "word": "ᎠᏓ",
       "english": "wood",
       "phonetic": "ah-DAH",
       "emoji": "1fab5",
       "category": "nature"
     },
     {
-      "word": "udonvga uwasv",
+      "word": "ᎤᏙᏅᎦ ᎤᏩᏒ",
       "english": "pear",
       "phonetic": "oo-DOH-nuh-gah oo-WAH-suh",
       "emoji": "1f350",
       "category": "fruit"
     },
     {
-      "word": "kwani",
+      "word": "ᏆᏂ",
       "english": "peach",
       "phonetic": "KWAH-nee",
       "emoji": "1f351",
       "category": "fruit"
     },
     {
-      "word": "gitsli uwasv",
+      "word": "ᎩᏟ ᎤᏩᏒ",
       "english": "cherry",
       "phonetic": "GEE-tslee oo-WAH-suh",
       "emoji": "1f352",
       "category": "fruit"
     },
     {
-      "word": "ama uwasv",
+      "word": "ᎠᎹ ᎤᏩᏒ",
       "english": "watermelon",
       "phonetic": "ah-MAH oo-WAH-suh",
       "emoji": "1f349",
       "category": "fruit"
     },
     {
-      "word": "sgaliyu",
+      "word": "ᏍᎦᎵᏳ",
       "english": "onion",
       "phonetic": "SGAH-lee-yoo",
       "emoji": "1f9c5",
       "category": "vegetables"
     },
     {
-      "word": "hawiya",
+      "word": "ᎭᏫᏯ",
       "english": "meat",
       "phonetic": "hah-WEE-yah",
       "emoji": "1f356",
       "category": "food"
     },
     {
-      "word": "kwisa",
+      "word": "ᏈᏌ",
       "english": "pizza",
       "phonetic": "KWEE-sah",
       "emoji": "1f355",
       "category": "food"
     },
     {
-      "word": "ugama",
+      "word": "ᎤᎦᎹ",
       "english": "soup",
       "phonetic": "oo-gah-MAH",
       "emoji": "1f35c",
       "category": "food"
     },
     {
-      "word": "gadu ugisdodi",
+      "word": "ᎦᏚ ᎤᎩᏍᏙᏗ",
       "english": "cake",
       "phonetic": "gah-DOO oo-gee-SDOH-dee",
       "emoji": "1f370",
       "category": "food"
     },
     {
-      "word": "kakaladi",
+      "word": "ᎧᎧᎳᏗ",
       "english": "chocolate",
       "phonetic": "kah-kah-LAH-dee",
       "emoji": "1f36b",
       "category": "food"
     },
     {
-      "word": "kalistadi",
+      "word": "ᎧᎵᏍᏔᏗ",
       "english": "candy",
       "phonetic": "kah-lees-TAH-dee",
       "emoji": "1f36c",
       "category": "food"
     },
     {
-      "word": "wadulisi ugama",
+      "word": "ᏩᏚᎵᏏ ᎤᎦᎹ",
       "english": "honey",
       "phonetic": "wah-DOO-lee-see oo-gah-MAH",
       "emoji": "1f36f",
       "category": "food"
     },
     {
-      "word": "ama",
+      "word": "ᎠᎹ",
       "english": "salt",
       "phonetic": "ah-MAH",
       "emoji": "1f9c2",
       "category": "food"
     },
     {
-      "word": "anesgah",
+      "word": "ᎠᏁᏍᎦ",
       "english": "beer",
       "phonetic": "ah-NAY-sgah",
       "emoji": "1f37a",
       "category": "drink"
     },
     {
-      "word": "anesgah gigagei",
+      "word": "ᎠᏁᏍᎦ ᎩᎦᎨ",
       "english": "wine",
       "phonetic": "ah-NAY-sgah gee-GAH-gay",
       "emoji": "1f377",
       "category": "drink"
     },
     {
-      "word": "svdodi",
+      "word": "ᏒᏙᏗ",
       "english": "bottle",
       "phonetic": "suh-DOH-dee",
       "emoji": "1f37c",
       "category": "drink"
     },
     {
-      "word": "adeyah",
+      "word": "ᎠᏕᏯ",
       "english": "glass",
       "phonetic": "ah-DAY-yah",
       "emoji": "1f378",
       "category": "drink"
     },
     {
-      "word": "uwasv ugama",
+      "word": "ᎤᏩᏒ ᎤᎦᎹ",
       "english": "juice",
       "phonetic": "oo-WAH-suh oo-gah-MAH",
       "emoji": "1f9c3",
       "category": "drink"
     },
     {
-      "word": "adanelv",
+      "word": "ᎠᏓᏁᎸ",
       "english": "building",
       "phonetic": "ah-dah-NAY-luh",
       "emoji": "1f3e2",
       "category": "places"
     },
     {
-      "word": "dideyohvsgi",
+      "word": "ᏗᏕᏲᎲᏍᎩ",
       "english": "school",
       "phonetic": "dee-day-YOH-huh-sgee",
       "emoji": "1f3eb",
       "category": "places"
     },
     {
-      "word": "dinvwelisgi",
+      "word": "ᏗᏅᏪᎵᏍᎩ",
       "english": "hospital",
       "phonetic": "dee-nuh-WAY-lee-sgee",
       "emoji": "1f3e5",
       "category": "places"
     },
     {
-      "word": "adanawosdi",
+      "word": "ᎠᏓᎾᏬᏍᏗ",
       "english": "store",
       "phonetic": "ah-dah-NAH-woh-sdee",
       "emoji": "1f3ea",
       "category": "places"
     },
     {
-      "word": "digalisgvnidasdi",
+      "word": "ᏗᎦᎵᏍᎬᏂᏓᏍᏗ",
       "english": "church",
       "phonetic": "dee-gah-lees-GUH-nee-dah-sdee",
       "emoji": "26ea",
       "category": "places"
     },
     {
-      "word": "dayetsli",
+      "word": "ᏓᏰᏟ",
       "english": "car",
       "phonetic": "dah-YAY-tslee",
       "emoji": "1f697",
       "category": "transport"
     },
     {
-      "word": "dayetsli utana",
+      "word": "ᏓᏰᏟ ᎤᏔᎾ",
       "english": "bus",
       "phonetic": "dah-YAY-tslee oo-TAH-nah",
       "emoji": "1f68c",
       "category": "transport"
     },
     {
-      "word": "tsutsu",
+      "word": "ᏧᏧ",
       "english": "train",
       "phonetic": "TSOO-tsoo",
       "emoji": "1f682",
       "category": "transport"
     },
     {
-      "word": "ganvhida",
+      "word": "ᎦᏅᎯᏓ",
       "english": "airplane",
       "phonetic": "gah-NUH-hee-dah",
       "emoji": "2708",
       "category": "transport"
     },
     {
-      "word": "tsiyu",
+      "word": "ᏥᏳ",
       "english": "boat",
       "phonetic": "TSEE-yoo",
       "emoji": "26f5",
       "category": "transport"
     },
     {
-      "word": "talugisgi",
+      "word": "ᏔᎷᎩᏍᎩ",
       "english": "bicycle",
       "phonetic": "tah-LOO-gee-sgee",
       "emoji": "1f6b2",
       "category": "transport"
     },
     {
-      "word": "unadeni dayetsli",
+      "word": "ᎤᎾᏕᏂ ᏓᏰᏟ",
       "english": "truck",
       "phonetic": "oo-nah-DAY-nee dah-YAY-tslee",
       "emoji": "1f69a",
       "category": "transport"
     },
     {
-      "word": "dinadadigalawidi",
+      "word": "ᏗᎾᏓᏗᎦᎳᏫᏗ",
       "english": "window",
       "phonetic": "dee-nah-dah-dee-gah-LAH-wee-dee",
       "emoji": "1fa9f",
       "category": "home"
     },
     {
-      "word": "gasgilv",
+      "word": "ᎦᏍᎩᎸ",
       "english": "chair",
       "phonetic": "gah-SGEE-luh",
       "emoji": "1fa91",
       "category": "home"
     },
     {
-      "word": "dikanodi",
+      "word": "ᏗᎧᏃᏗ",
       "english": "television",
       "phonetic": "dee-kah-NOH-dee",
       "emoji": "1f4fa",
       "category": "objects"
     },
     {
-      "word": "disesdi",
+      "word": "ᏗᏎᏍᏗ",
       "english": "computer",
       "phonetic": "dee-SAY-sdee",
       "emoji": "1f4bb",
       "category": "objects"
     },
     {
-      "word": "didalehnisgi",
+      "word": "ᏗᏓᎴᏂᏍᎩ",
       "english": "phone",
       "phonetic": "dee-dah-LAY-nee-sgee",
       "emoji": "1f4f1",
       "category": "objects"
     },
     {
-      "word": "didatlinisgi",
+      "word": "ᏗᏓᏟᏂᏍᎩ",
       "english": "camera",
       "phonetic": "dee-dah-TLEE-nee-sgee",
       "emoji": "1f4f7",
       "category": "objects"
     },
     {
-      "word": "galvladi atsila",
+      "word": "ᎦᎸᎳᏗ ᎠᏥᎳ",
       "english": "candle",
       "phonetic": "gah-LUH-lah-dee ah-TSEE-lah",
       "emoji": "1f56f",
       "category": "objects"
     },
     {
-      "word": "goweli utseli",
+      "word": "ᎪᏪᎵ ᎤᏤᎵ",
       "english": "letter",
       "phonetic": "goh-WAY-lee oo-TSAY-lee",
       "emoji": "2709",
       "category": "objects"
     },
     {
-      "word": "adela",
+      "word": "ᎠᏕᎳ",
       "english": "money",
       "phonetic": "ah-DAY-lah",
       "emoji": "1f4b0",
       "category": "objects"
     },
     {
-      "word": "goweli",
+      "word": "ᎪᏪᎵ",
       "english": "paper",
       "phonetic": "goh-WAY-lee",
       "emoji": "1f4c4",
       "category": "objects"
     },
     {
-      "word": "didatlinisgv",
+      "word": "ᏗᏓᏟᏂᏍᎬ",
       "english": "picture",
       "phonetic": "dee-dah-TLEE-nee-SGUH",
       "emoji": "1f5bc",
       "category": "objects"
     },
     {
-      "word": "diniyesdi",
+      "word": "ᏗᏂᏰᏍᏗ",
       "english": "glasses",
       "phonetic": "dee-nee-YAY-sdee",
       "emoji": "1f453",
       "category": "clothing"
     },
     {
-      "word": "anuwo",
+      "word": "ᎠᏄᏬ",
       "english": "shirt",
       "phonetic": "ah-NOO-woh",
       "emoji": "1f455",
       "category": "clothing"
     },
     {
-      "word": "asulah anuwo",
+      "word": "ᎠᏑᎳ ᎠᏄᏬ",
       "english": "pants",
       "phonetic": "ah-SOO-lah ah-NOO-woh",
       "emoji": "1f456",
       "category": "clothing"
     },
     {
-      "word": "anuwo ekwa",
+      "word": "ᎠᏄᏬ ᎡᏆ",
       "english": "dress",
       "phonetic": "ah-NOO-woh ay-KWAH",
       "emoji": "1f457",
       "category": "clothing"
     },
     {
-      "word": "alasula",
+      "word": "ᎠᎳᏑᎳ",
       "english": "shoe",
       "phonetic": "ah-LAH-soo-lah",
       "emoji": "1f45e",
       "category": "clothing"
     },
     {
-      "word": "alisvuhah",
+      "word": "ᎠᎵᏒᎤᎿ",
       "english": "hat",
       "phonetic": "ah-lee-SOO-oo-HAH",
       "emoji": "1f3a9",
       "category": "clothing"
     },
     {
-      "word": "akwisdi",
+      "word": "ᎠᏈᏍᏗ",
       "english": "coat",
       "phonetic": "ah-KWEE-sdee",
       "emoji": "1f9e5",
       "category": "clothing"
     },
     {
-      "word": "agasgvdi",
+      "word": "ᎠᎦᏍᎬᏗ",
       "english": "umbrella",
       "phonetic": "ah-gah-SGUH-dee",
       "emoji": "2602",
       "category": "clothing"
     },
     {
-      "word": "atalesv",
+      "word": "ᎠᏔᎴᏒ",
       "english": "bag",
       "phonetic": "ah-TAH-LAY-suh",
       "emoji": "1f392",
       "category": "clothing"
     },
     {
-      "word": "diyesdi utseli",
+      "word": "ᏗᏰᏍᏗ ᎤᏤᎵ",
       "english": "ring",
       "phonetic": "dee-YAY-sdee oo-TSAY-lee",
       "emoji": "1f48d",
       "category": "clothing"
     },
     {
-      "word": "adanvnedi",
+      "word": "ᎠᏓᏅᏁᏗ",
       "english": "tie",
       "phonetic": "ah-dah-NUH-nay-dee",
       "emoji": "1f454",

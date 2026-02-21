@@ -8,525 +8,525 @@
   "fontFile": "font.vlw",
   "words": [
     {
-      "word": "tifl radee'",
+      "word": "ﻊﻴﺿﺭ ﻞﻔﻃ",
       "english": "baby",
       "phonetic": "TIF-LUN RA-DEE",
       "emoji": "1f476",
       "category": "people"
     },
     {
-      "word": "walad",
+      "word": "ﺪﻟﻭ",
       "english": "boy",
       "phonetic": "WA-LAD",
       "emoji": "1f466",
       "category": "people"
     },
     {
-      "word": "bint",
+      "word": "ﺖﻨﺑ",
       "english": "girl",
       "phonetic": "BINT",
       "emoji": "1f467",
       "category": "people"
     },
     {
-      "word": "rajul",
+      "word": "ﻞﺟﺭ",
       "english": "man",
       "phonetic": "RA-JUL",
       "emoji": "1f468",
       "category": "people"
     },
     {
-      "word": "imra'a",
+      "word": "ﺓﺃﺮﻣﺍ",
       "english": "woman",
       "phonetic": "IM-RA-AH",
       "emoji": "1f469",
       "category": "people"
     },
     {
-      "word": "shakhs",
+      "word": "ﺺﺨﺷ",
       "english": "person",
       "phonetic": "SHAKHS",
       "emoji": "1f9d1",
       "category": "people"
     },
     {
-      "word": "tifl",
+      "word": "ﻞﻔﻃ",
       "english": "child",
       "phonetic": "TI-FUL",
       "emoji": "1f9d2",
       "category": "people"
     },
     {
-      "word": "'aa'ila",
+      "word": "ﺔﻠﺋﺎﻋ",
       "english": "family",
       "phonetic": "AA-EE-LAH",
       "emoji": "1f46a",
       "category": "people"
     },
     {
-      "word": "yad",
+      "word": "ﺪﻳ",
       "english": "hand",
       "phonetic": "YAD",
       "emoji": "270b",
       "category": "body"
     },
     {
-      "word": "dhiraa'",
+      "word": "ﻉﺍﺭﺫ",
       "english": "arm",
       "phonetic": "DHI-RAA",
       "emoji": "1f4aa",
       "category": "body"
     },
     {
-      "word": "saaq",
+      "word": "ﻕﺎﺳ",
       "english": "leg",
       "phonetic": "SAAQ",
       "emoji": "1f9b5",
       "category": "body"
     },
     {
-      "word": "qadam",
+      "word": "ﻡﺪﻗ",
       "english": "foot",
       "phonetic": "QA-DAM",
       "emoji": "1f9b6",
       "category": "body"
     },
     {
-      "word": "udhun",
+      "word": "ﻥﺫﺃ",
       "english": "ear",
       "phonetic": "U-DHUN",
       "emoji": "1f442",
       "category": "body"
     },
     {
-      "word": "anf",
+      "word": "ﻒﻧﺃ",
       "english": "nose",
       "phonetic": "ANF",
       "emoji": "1f443",
       "category": "body"
     },
     {
-      "word": "'ayn",
+      "word": "ﻦﻴﻋ",
       "english": "eye",
       "phonetic": "AYN",
       "emoji": "1f440",
       "category": "body"
     },
     {
-      "word": "fam",
+      "word": "ﻢﻓ",
       "english": "mouth",
       "phonetic": "FAM",
       "emoji": "1f444",
       "category": "body"
     },
     {
-      "word": "lisaan",
+      "word": "ﻥﺎﺴﻟ",
       "english": "tongue",
       "phonetic": "LI-SAAN",
       "emoji": "1f445",
       "category": "body"
     },
     {
-      "word": "sinn",
+      "word": "ﻦﺳ",
       "english": "tooth",
       "phonetic": "SINN",
       "emoji": "1f9b7",
       "category": "body"
     },
     {
-      "word": "qalb",
+      "word": "ﺐﻠﻗ",
       "english": "heart",
       "phonetic": "QALB",
       "emoji": "2764",
       "category": "emotions"
     },
     {
-      "word": "maa'",
+      "word": "ﺀﺎﻣ",
       "english": "water",
       "phonetic": "MAA",
       "emoji": "1f4a7",
       "category": "nature"
     },
     {
-      "word": "naar",
+      "word": "ﺭﺎﻧ",
       "english": "fire",
       "phonetic": "NAAR",
       "emoji": "1f525",
       "category": "nature"
     },
     {
-      "word": "najma",
+      "word": "ﺔﻤﺠﻧ",
       "english": "star",
       "phonetic": "NAJ-MAH",
       "emoji": "2b50",
       "category": "nature"
     },
     {
-      "word": "shams",
+      "word": "ﺲﻤﺷ",
       "english": "sun",
       "phonetic": "SHAMS",
       "emoji": "2600",
       "category": "nature"
     },
     {
-      "word": "qamar",
+      "word": "ﺮﻤﻗ",
       "english": "moon",
       "phonetic": "QA-MAR",
       "emoji": "1f319",
       "category": "nature"
     },
     {
-      "word": "ard",
+      "word": "ﺽﺭﺃ",
       "english": "earth",
       "phonetic": "ARD",
       "emoji": "1f30d",
       "category": "nature"
     },
     {
-      "word": "matar",
+      "word": "ﺮﻄﻣ",
       "english": "rain",
       "phonetic": "MA-TAR",
       "emoji": "1f327",
       "category": "nature"
     },
     {
-      "word": "thalj",
+      "word": "ﺞﻠﺛ",
       "english": "snow",
       "phonetic": "THALJ",
       "emoji": "2744",
       "category": "nature"
     },
     {
-      "word": "kalb",
+      "word": "ﺐﻠﻛ",
       "english": "dog",
       "phonetic": "KALB",
       "emoji": "1f436",
       "category": "animals"
     },
     {
-      "word": "qitta",
+      "word": "ﺔﻄﻗ",
       "english": "cat",
       "phonetic": "QIT-TAH",
       "emoji": "1f431",
       "category": "animals"
     },
     {
-      "word": "fa'r",
+      "word": "ﺭﺄﻓ",
       "english": "mouse",
       "phonetic": "FAAR",
       "emoji": "1f42d",
       "category": "animals"
     },
     {
-      "word": "arnab",
+      "word": "ﺐﻧﺭﺃ",
       "english": "rabbit",
       "phonetic": "AR-NAB",
       "emoji": "1f430",
       "category": "animals"
     },
     {
-      "word": "dubb",
+      "word": "ﺏﺩ",
       "english": "bear",
       "phonetic": "DUBB",
       "emoji": "1f43b",
       "category": "animals"
     },
     {
-      "word": "khinzeer",
+      "word": "ﺮﻳﺰﻨﺧ",
       "english": "pig",
       "phonetic": "KHIN-ZEER",
       "emoji": "1f437",
       "category": "animals"
     },
     {
-      "word": "baqara",
+      "word": "ﺓﺮﻘﺑ",
       "english": "cow",
       "phonetic": "BA-QA-RAH",
       "emoji": "1f42e",
       "category": "animals"
     },
     {
-      "word": "hisaan",
+      "word": "ﻥﺎﺼﺣ",
       "english": "horse",
       "phonetic": "HI-SAAN",
       "emoji": "1f434",
       "category": "animals"
     },
     {
-      "word": "kharoof",
+      "word": "ﻑﻭﺮﺧ",
       "english": "sheep",
       "phonetic": "KHA-ROOF",
       "emoji": "1f411",
       "category": "animals"
     },
     {
-      "word": "qird",
+      "word": "ﺩﺮﻗ",
       "english": "monkey",
       "phonetic": "QIRD",
       "emoji": "1f412",
       "category": "animals"
     },
     {
-      "word": "feel",
+      "word": "ﻞﻴﻓ",
       "english": "elephant",
       "phonetic": "FEEL",
       "emoji": "1f418",
       "category": "animals"
     },
     {
-      "word": "asad",
+      "word": "ﺪﺳﺃ",
       "english": "lion",
       "phonetic": "A-SAD",
       "emoji": "1f981",
       "category": "animals"
     },
     {
-      "word": "taa'ir",
+      "word": "ﺮﺋﺎﻃ",
       "english": "bird",
       "phonetic": "TAA-IR",
       "emoji": "1f426",
       "category": "animals"
     },
     {
-      "word": "dajaaja",
+      "word": "ﺔﺟﺎﺟﺩ",
       "english": "chicken",
       "phonetic": "DA-JAA-JAH",
       "emoji": "1f414",
       "category": "animals"
     },
     {
-      "word": "samaka",
+      "word": "ﺔﻜﻤﺳ",
       "english": "fish",
       "phonetic": "SA-MA-KAH",
       "emoji": "1f420",
       "category": "animals"
     },
     {
-      "word": "thu'baan",
+      "word": "ﻥﺎﺒﻌﺛ",
       "english": "snake",
       "phonetic": "THU-BAAN",
       "emoji": "1f40d",
       "category": "animals"
     },
     {
-      "word": "difda'",
+      "word": "ﻉﺪﻔﺿ",
       "english": "frog",
       "phonetic": "DIF-DA",
       "emoji": "1f438",
       "category": "animals"
     },
     {
-      "word": "nahla",
+      "word": "ﺔﻠﺤﻧ",
       "english": "bee",
       "phonetic": "NAH-LAH",
       "emoji": "1f41d",
       "category": "animals"
     },
     {
-      "word": "namla",
+      "word": "ﺔﻠﻤﻧ",
       "english": "ant",
       "phonetic": "NAM-LAH",
       "emoji": "1f41c",
       "category": "animals"
     },
     {
-      "word": "shajara",
+      "word": "ﺓﺮﺠﺷ",
       "english": "tree",
       "phonetic": "SHA-JA-RAH",
       "emoji": "1f332",
       "category": "plants"
     },
     {
-      "word": "zahra",
+      "word": "ﺓﺮﻫﺯ",
       "english": "flower",
       "phonetic": "ZAH-RAH",
       "emoji": "1f33a",
       "category": "plants"
     },
     {
-      "word": "nabta",
+      "word": "ﺔﺘﺒﻧ",
       "english": "plant",
       "phonetic": "NAB-TAH",
       "emoji": "1f33f",
       "category": "plants"
     },
     {
-      "word": "waraqa",
+      "word": "ﺔﻗﺭﻭ",
       "english": "leaf",
       "phonetic": "WA-RA-QAH",
       "emoji": "1f340",
       "category": "plants"
     },
     {
-      "word": "warda",
+      "word": "ﺓﺩﺭﻭ",
       "english": "rose",
       "phonetic": "WAR-DAH",
       "emoji": "1f339",
       "category": "plants"
     },
     {
-      "word": "tuffaaha",
+      "word": "ﺔﺣﺎﻔﺗ",
       "english": "apple",
       "phonetic": "TUF-FAA-HAH",
       "emoji": "1f34e",
       "category": "fruit"
     },
     {
-      "word": "mawza",
+      "word": "ﺓﺯﻮﻣ",
       "english": "banana",
       "phonetic": "MAW-ZAH",
       "emoji": "1f34c",
       "category": "fruit"
     },
     {
-      "word": "burtuqaala",
+      "word": "ﺔﻟﺎﻘﺗﺮﺑ",
       "english": "orange",
       "phonetic": "BUR-TU-QAA-LAH",
       "emoji": "1f34a",
       "category": "fruit"
     },
     {
-      "word": "laymoon",
+      "word": "ﻥﻮﻤﻴﻟ",
       "english": "lemon",
       "phonetic": "LAY-MOON",
       "emoji": "1f34b",
       "category": "fruit"
     },
     {
-      "word": "'inab",
+      "word": "ﺐﻨﻋ",
       "english": "grape",
       "phonetic": "I-NAB",
       "emoji": "1f347",
       "category": "fruit"
     },
     {
-      "word": "farawla",
+      "word": "ﺔﻟﻭﺍﺮﻓ",
       "english": "strawberry",
       "phonetic": "FA-RAW-LAH",
       "emoji": "1f353",
       "category": "fruit"
     },
     {
-      "word": "tamaatim",
+      "word": "ﻢﻃﺎﻤﻃ",
       "english": "tomato",
       "phonetic": "TA-MAA-TIM",
       "emoji": "1f345",
       "category": "vegetables"
     },
     {
-      "word": "bataataa",
+      "word": "ﺎﻃﺎﻄﺑ",
       "english": "potato",
       "phonetic": "BA-TAA-TAA",
       "emoji": "1f954",
       "category": "vegetables"
     },
     {
-      "word": "jazara",
+      "word": "ﺓﺭﺰﺟ",
       "english": "carrot",
       "phonetic": "JA-ZA-RAH",
       "emoji": "1f955",
       "category": "vegetables"
     },
     {
-      "word": "dhura",
+      "word": "ﺓﺭﺫ",
       "english": "corn",
       "phonetic": "DHU-RAH",
       "emoji": "1f33d",
       "category": "vegetables"
     },
     {
-      "word": "khubz",
+      "word": "ﺰﺒﺧ",
       "english": "bread",
       "phonetic": "KHUBZ",
       "emoji": "1f35e",
       "category": "food"
     },
     {
-      "word": "jubna",
+      "word": "ﺔﻨﺒﺟ",
       "english": "cheese",
       "phonetic": "JUB-NAH",
       "emoji": "1f9c0",
       "category": "food"
     },
     {
-      "word": "bayda",
+      "word": "ﺔﻀﻴﺑ",
       "english": "egg",
       "phonetic": "BAY-DAH",
       "emoji": "1f95a",
       "category": "food"
     },
     {
-      "word": "haleeb",
+      "word": "ﺐﻴﻠﺣ",
       "english": "milk",
       "phonetic": "HA-LEEB",
       "emoji": "1f95b",
       "category": "drink"
     },
     {
-      "word": "arruz",
+      "word": "ﺯﺭﺃ",
       "english": "rice",
       "phonetic": "ARRUZ",
       "emoji": "1f33e",
       "category": "food"
     },
     {
-      "word": "shaay",
+      "word": "ﻱﺎﺷ",
       "english": "tea",
       "phonetic": "SHAAY",
       "emoji": "1f375",
       "category": "drink"
     },
     {
-      "word": "qahwa",
+      "word": "ﺓﻮﻬﻗ",
       "english": "coffee",
       "phonetic": "QAH-WAH",
       "emoji": "2615",
       "category": "drink"
     },
     {
-      "word": "bayt",
+      "word": "ﺖﻴﺑ",
       "english": "house",
       "phonetic": "BAYT",
       "emoji": "1f3e0",
       "category": "places"
     },
     {
-      "word": "baab",
+      "word": "ﺏﺎﺑ",
       "english": "door",
       "phonetic": "BAAB",
       "emoji": "1f6aa",
       "category": "home"
     },
     {
-      "word": "sareer",
+      "word": "ﺮﻳﺮﺳ",
       "english": "bed",
       "phonetic": "SA-REER",
       "emoji": "1f6cf",
       "category": "home"
     },
     {
-      "word": "daw'",
+      "word": "ﺀﻮﺿ",
       "english": "light",
       "phonetic": "DAW",
       "emoji": "1f4a1",
       "category": "home"
     },
     {
-      "word": "kitaab",
+      "word": "ﺏﺎﺘﻛ",
       "english": "book",
       "phonetic": "KI-TAAB",
       "emoji": "1f4d6",
       "category": "objects"
     },
     {
-      "word": "miftaah",
+      "word": "ﺡﺎﺘﻔﻣ",
       "english": "key",
       "phonetic": "MIF-TAAH",
       "emoji": "1f511",
       "category": "objects"
     },
     {
-      "word": "kura",
+      "word": "ﺓﺮﻛ",
       "english": "ball",
       "phonetic": "KU-RAH",
       "emoji": "26bd",
