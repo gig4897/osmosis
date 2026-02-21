@@ -1,0 +1,76 @@
+emoji,english,translation,phonetic,category
+2b50,zero,maajun,mah-ah-HOON,numbers
+1f522,one,jun,HOON,numbers
+1f4dd,two,ka'ib',kah-EEB,numbers
+270f,three,oxib',oh-SHEEB,numbers
+1f3af,four,ka'hab',kah-HAHB,numbers
+1f4ca,five,ho'ob',HOH-ohb,numbers
+1f4c8,six,waqib',wah-KEEB,numbers
+2b50,seven,wuqub',woo-KOOB,numbers
+1f522,eight,waqxaqib',wahk-shah-KEEB,numbers
+1f4dd,nine,b'eleeb',beh-LEHB,numbers
+270f,ten,lajeeb',lah-HEHB,numbers
+1f3af,eleven,junlaju,hoon-LAH-hoo,numbers
+1f4ca,twelve,ka'laju,kah-LAH-hoo,numbers
+1f4c8,thirteen,oxlaju,ohsh-LAH-hoo,numbers
+2b50,fourteen,ka'hlaju,kah-LAH-hoo,numbers
+1f522,fifteen,ho'laju,hoh-LAH-hoo,numbers
+1f4dd,sixteen,waqlaju,wahk-LAH-hoo,numbers
+270f,seventeen,wuqlaju,wook-LAH-hoo,numbers
+1f3af,eighteen,waqxaqlaju,wahk-shahk-LAH-hoo,numbers
+1f4ca,nineteen,b'elejlaju,beh-lehh-LAH-hoo,numbers
+1f4c8,twenty,junwinq,hoon-WEENK,numbers
+2b50,thirty,junwinq lajeb',hoon-WEENK lah-HEHB,numbers
+1f522,forty,ka'winq,kah-WEENK,numbers
+1f4dd,fifty,ka'winq lajeb',kah-WEENK lah-HEHB,numbers
+270f,sixty,oxwinq,ohsh-WEENK,numbers
+1f3af,seventy,oxwinq lajeb',ohsh-WEENK lah-HEHB,numbers
+1f4ca,eighty,ka'hwinq,kah-WEENK,numbers
+1f4c8,ninety,ka'hwinq lajeb',kah-WEENK lah-HEHB,numbers
+1f4af,hundred,ho'winq,hoh-WEENK,numbers
+2b50,two hundred,lajwinq,lahh-WEENK,numbers
+1f522,five hundred,junmay ho'winq,hoon-MY hoh-WEENK,numbers
+1f4dd,thousand,junmay,hoon-MY,numbers
+1f947,first,nab'aal,nah-BAHL,numbers
+1f948,second,xka'ab'aal,shkah-ah-BAHL,numbers
+1f949,third,roxaal,roh-SHAHL,numbers
+1f3c6,fourth,xka'haal,shkah-HAHL,numbers
+2b50,fifth,ro'aal,roh-AHL,numbers
+1f522,sixth,xwaqaal,shwah-KAHL,numbers
+1f4dd,seventh,xwuqaal,shwoo-KAHL,numbers
+270f,eighth,xwaqxaqaal,shwahk-shah-KAHL,numbers
+1f3af,ninth,xb'eleaal,shbeh-leh-AHL,numbers
+1f4ca,tenth,xlajaal,shlah-HAHL,numbers
+1f4c8,pair,ka'ib'al,kah-EE-bahl,numbers
+2b50,dozen,ka'laju,kah-LAH-hoo,numbers
+1f522,half,nik'aj,nee-KAHH,numbers
+1f4dd,quarter,xka'hab'il,shkah-hah-BEEL,numbers
+270f,double,ka'ib' chik,kah-EEB CHEEK,numbers
+1f3af,triple,oxib' chik,oh-SHEEB CHEEK,numbers
+1f4ca,million,milyoon,meel-YOHN,numbers
+1f4c8,billion,mil milyoon,meel meel-YOHN,numbers
+270f,plus,chiru,chee-ROO,numbers
+1f3af,minus,tikib'an,tee-kee-BAHN,numbers
+1f4ca,equals,xjunil,shoo-NEEL,numbers
+1f4c8,percent,chaq'e,chah-KEH,numbers
+1f4b5,price,rajil,rah-HEEL,numbers
+1f4b0,total,xjunil,shoo-NEEL,numbers
+1f522,count,aj ajilanink,ahh ah-hee-lah-NEENK,numbers
+1f4dd,number,ajilab'aal,ah-hee-lah-BAHL,numbers
+270f,amount,jarub',hah-ROOB,numbers
+231a,hour,oora,OH-rah,numbers
+23f0,minute,minut,mee-NOOT,numbers
+1f4c5,second of time,segundo,seh-GOON-doh,numbers
+2b50,once,jun sut,HOON SOOT,numbers
+1f522,twice,ka'ib' sut,kah-EEB SOOT,numbers
+1f4dd,many,nimaq,nee-MAHK,numbers
+270f,few,junjunq,hoon-HOONK,numbers
+1f3af,all,chixjunil,cheesh-hoo-NEEL,numbers
+1f4ca,none,maajun,mah-ah-HOON,numbers
+1f4c8,some,junjunq,hoon-HOONK,numbers
+2b50,every,jujun,hoo-HOON,numbers
+1f522,both,eb' li ka'ib',EHB lee kah-EEB,numbers
+1f4dd,last,xb'een,shBEHN,numbers
+1f3af,next,chalen,chah-LEHN,numbers
+1f4ca,only,choq,CHOHK,numbers
+1f4c8,enough,niman,nee-MAHN,numbers

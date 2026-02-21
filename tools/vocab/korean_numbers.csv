@@ -1,0 +1,76 @@
+emoji,english,translation,phonetic,category
+2b50,zero,영,YUHNG,numbers
+1f522,one,일,EEL,numbers
+1f4dd,two,이,EE,numbers
+270f,three,삼,SAHM,numbers
+1f3af,four,사,SAH,numbers
+1f4ca,five,오,OH,numbers
+1f4c8,six,육,YOOK,numbers
+2b50,seven,칠,CHEEL,numbers
+1f522,eight,팔,PAHL,numbers
+1f4dd,nine,구,GOO,numbers
+270f,ten,십,SHIP,numbers
+1f3af,eleven,십일,SHEE-BEEL,numbers
+1f4ca,twelve,십이,SHEE-BEE,numbers
+1f4c8,thirteen,십삼,SHIP-SAHM,numbers
+2b50,fourteen,십사,SHIP-SAH,numbers
+1f522,fifteen,십오,SHEE-BOH,numbers
+1f4dd,sixteen,십육,SHIM-NYOOK,numbers
+270f,seventeen,십칠,SHIP-CHEEL,numbers
+1f3af,eighteen,십팔,SHIP-PAHL,numbers
+1f4ca,nineteen,십구,SHIP-GOO,numbers
+1f4c8,twenty,이십,EE-SHIP,numbers
+2b50,thirty,삼십,SAHM-SHIP,numbers
+1f522,forty,사십,SAH-SHIP,numbers
+1f4dd,fifty,오십,OH-SHIP,numbers
+270f,sixty,육십,YOOK-SHIP,numbers
+1f3af,seventy,칠십,CHEEL-SHIP,numbers
+1f4ca,eighty,팔십,PAHL-SHIP,numbers
+1f4c8,ninety,구십,GOO-SHIP,numbers
+1f4af,hundred,백,BAEK,numbers
+2b50,two hundred,이백,EE-BAEK,numbers
+1f522,five hundred,오백,OH-BAEK,numbers
+1f4dd,thousand,천,CHUHN,numbers
+1f947,first,첫째,CHUHT-JJAE,numbers
+1f948,second,둘째,DOOL-JJAE,numbers
+1f949,third,셋째,SEHT-JJAE,numbers
+1f3c6,fourth,넷째,NEHT-JJAE,numbers
+2b50,fifth,다섯째,DAH-SUHT-JJAE,numbers
+1f522,sixth,여섯째,YUH-SUHT-JJAE,numbers
+1f4dd,seventh,일곱째,EEL-GOHP-JJAE,numbers
+270f,eighth,여덟째,YUH-DUHL-JJAE,numbers
+1f3af,ninth,아홉째,AH-HOHP-JJAE,numbers
+1f4ca,tenth,열째,YUHL-JJAE,numbers
+1f4c8,pair,쌍,SSAHNG,numbers
+2b50,dozen,다스,DAH-SEU,numbers
+1f522,half,반,BAHN,numbers
+1f4dd,quarter,사분의 일,SAH-BOON-EUE EEL,numbers
+270f,double,이중,EE-JOONG,numbers
+1f3af,triple,삼중,SAHM-JOONG,numbers
+1f4ca,million,백만,BAENG-MAHN,numbers
+1f4c8,billion,십억,SHEE-BUHK,numbers
+270f,plus,더하기,DUH-HAH-GEE,numbers
+1f3af,minus,빼기,BBAE-GEE,numbers
+1f4ca,equals,같다,GAHT-DAH,numbers
+1f4c8,percent,퍼센트,PUH-SEHN-TEU,numbers
+1f4b5,price,가격,GAH-GYUHK,numbers
+1f4b0,total,합계,HAHP-GYEH,numbers
+1f522,count,세다,SEH-DAH,numbers
+1f4dd,number,숫자,SOOT-JAH,numbers
+270f,amount,양,YAHNG,numbers
+231a,hour,시간,SHEE-GAHN,numbers
+23f0,minute,분,BOON,numbers
+1f4c5,second of time,초,CHOH,numbers
+2b50,once,한 번,HAHN BUHN,numbers
+1f522,twice,두 번,DOO BUHN,numbers
+1f4dd,many,많은,MAH-NEUN,numbers
+270f,few,적은,JUH-GEUN,numbers
+1f3af,all,모두,MOH-DOO,numbers
+1f4ca,none,없음,UHP-SEUM,numbers
+1f4c8,some,일부,EEL-BOO,numbers
+2b50,every,매,MAE,numbers
+1f522,both,둘 다,DOOL DAH,numbers
+1f4dd,last,마지막,MAH-JEE-MAHK,numbers
+1f3af,next,다음,DAH-EUM,numbers
+1f4ca,only,유일한,YOO-EEL-HAHN,numbers
+1f4c8,enough,충분한,CHOONG-BOON-HAHN,numbers

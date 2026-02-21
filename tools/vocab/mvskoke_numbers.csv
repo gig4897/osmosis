@@ -1,0 +1,76 @@
+emoji,english,translation,phonetic,category
+2b50,zero,monkos,MOHN-kohs,numbers
+1f522,one,hvmken,HUHM-kin,numbers
+1f4dd,two,hokkolen,hohk-KOH-lin,numbers
+270f,three,tutcenen,tuht-CHEE-nin,numbers
+1f3af,four,osten,OHS-tin,numbers
+1f4ca,five,cahkepen,CHAHK-kee-pin,numbers
+1f4c8,six,epaken,ee-PAH-kin,numbers
+2b50,seven,kolvpaken,kohl-uh-PAH-kin,numbers
+1f522,eight,cenvpaken,chee-nuh-PAH-kin,numbers
+1f4dd,nine,ostvpaken,ohs-tuh-PAH-kin,numbers
+270f,ten,palen,PAH-lin,numbers
+1f3af,eleven,palen hvmkontvlaken,PAH-lin HUHM-kohn-tuh-LAH-kin,numbers
+1f4ca,twelve,palen hokkolohkaken,PAH-lin hohk-koh-LOH-kah-kin,numbers
+1f4c8,thirteen,palen tutcenohkaken,PAH-lin tuht-chee-NOH-kah-kin,numbers
+2b50,fourteen,palen ostohkaken,PAH-lin ohs-TOH-kah-kin,numbers
+1f522,fifteen,palen cahkepohkaken,PAH-lin chahk-kee-POH-kah-kin,numbers
+1f4dd,sixteen,palen epohkaken,PAH-lin ee-POH-kah-kin,numbers
+270f,seventeen,palen kolvpohkaken,PAH-lin kohl-uh-POH-kah-kin,numbers
+1f3af,eighteen,palen cenvpohkaken,PAH-lin chee-nuh-POH-kah-kin,numbers
+1f4ca,nineteen,palen ostvpohkaken,PAH-lin ohs-tuh-POH-kah-kin,numbers
+1f4c8,twenty,pale hokkolen,PAH-lee hohk-KOH-lin,numbers
+2b50,thirty,pale tutcenen,PAH-lee tuht-CHEE-nin,numbers
+1f522,forty,pale osten,PAH-lee OHS-tin,numbers
+1f4dd,fifty,pale cahkepen,PAH-lee CHAHK-kee-pin,numbers
+270f,sixty,pale epaken,PAH-lee ee-PAH-kin,numbers
+1f3af,seventy,pale kolvpaken,PAH-lee kohl-uh-PAH-kin,numbers
+1f4ca,eighty,pale cenvpaken,PAH-lee chee-nuh-PAH-kin,numbers
+1f4c8,ninety,pale ostvpaken,PAH-lee ohs-tuh-PAH-kin,numbers
+1f4af,hundred,cokpe hvmken,CHOHK-pee HUHM-kin,numbers
+2b50,two hundred,cokpe hokkolen,CHOHK-pee hohk-KOH-lin,numbers
+1f522,five hundred,cokpe cahkepen,CHOHK-pee CHAHK-kee-pin,numbers
+1f4dd,thousand,cokpe palen,CHOHK-pee PAH-lin,numbers
+1f947,first,enhvteceskv,in-huh-tee-CHIHS-kuh,numbers
+1f948,second,svhokkolat,suh-hohk-KOH-laht,numbers
+1f949,third,svtutcenat,suh-tuht-CHEE-naht,numbers
+1f3c6,fourth,svostat,suh-OHS-taht,numbers
+2b50,fifth,svcahkepat,suh-CHAHK-kee-paht,numbers
+1f522,sixth,svrepat,suh-REE-paht,numbers
+1f4dd,seventh,svkolvpat,suh-KOHL-uh-paht,numbers
+270f,eighth,svcenvpat,suh-CHEE-nuh-paht,numbers
+1f3af,ninth,svostvpat,suh-OHS-tuh-paht,numbers
+1f4ca,tenth,svpalet,suh-PAH-liht,numbers
+1f4c8,pair,hokkolvke,hohk-KOHL-uh-kee,numbers
+2b50,dozen,palen hokkolen,PAH-lin hohk-KOH-lin,numbers
+1f522,half,ennvrkvpv,in-NUHR-kuh-puh,numbers
+1f4dd,quarter,kvlofv osten,kuh-LOH-fuh OHS-tin,numbers
+270f,double,hokkole mahen,hohk-KOH-lee MAH-hin,numbers
+1f3af,triple,tutcene mahen,tuht-CHEE-nee MAH-hin,numbers
+1f4ca,million,milyonv,meel-YOH-nuh,numbers
+1f4c8,billion,pilyonv,peel-YOH-nuh,numbers
+270f,plus,ohvtvlakat,oh-huh-tuh-LAH-kaht,numbers
+1f3af,minus,vkvnheckv,uh-kuhn-HICH-kuh,numbers
+1f4ca,equals,etenhoyvnet,ee-tin-hoh-YUH-niht,numbers
+1f4c8,percent,cokpe enkvpvke,CHOHK-pee in-KUH-puh-kee,numbers
+1f4b5,price,enrahkv,in-RAHK-kuh,numbers
+1f4b0,total,omvlkv,oh-MUHL-kuh,numbers
+1f522,count,vhonkvtketv,uh-hohn-kuht-KEE-tuh,numbers
+1f4dd,number,nake svhonkvtkv,NAH-kee suh-hohn-KUHT-kuh,numbers
+270f,amount,enhonne,in-HOHN-nee,numbers
+231a,hour,hvse vpakat,huh-SEE uh-PAH-kaht,numbers
+23f0,minute,hvse vpakvce,huh-SEE uh-pah-KUH-chee,numbers
+1f4c5,second of time,vpakvce lopuce,uh-pah-KUH-chee loh-POO-chee,numbers
+2b50,once,hvmkusen,HUHM-koo-sin,numbers
+1f522,twice,hokkolusen,hohk-KOH-loo-sin,numbers
+1f4dd,many,sulke,SUHL-kee,numbers
+270f,few,nvcomuse,nuh-CHOH-moo-see,numbers
+1f3af,all,omvlkv,oh-MUHL-kuh,numbers
+1f4ca,none,monkos,MOHN-kohs,numbers
+1f4c8,some,vpvlwv,uh-PUHL-wuh,numbers
+2b50,every,estat,IS-taht,numbers
+1f522,both,hokkolat,hohk-KOH-laht,numbers
+1f4dd,last,espoke,is-POH-kee,numbers
+1f3af,next,yomat,YOH-maht,numbers
+1f4ca,only,hvmkuse,HUHM-koo-see,numbers
+1f4c8,enough,heren,HEE-rin,numbers

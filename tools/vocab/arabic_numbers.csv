@@ -1,0 +1,76 @@
+emoji,english,translation,phonetic,category
+2b50,zero,ﺮﻔﺻ,SIFR,numbers
+1f522,one,ﺪﺣﺍﻭ,WAA-HID,numbers
+1f4dd,two,ﻥﺎﻨﺛﺍ,ITH-NAAN,numbers
+270f,three,ﺔﺛﻼﺛ,THA-LAA-THAH,numbers
+1f3af,four,ﺔﻌﺑﺭﺃ,AR-BA-AH,numbers
+1f4ca,five,ﺔﺴﻤﺧ,KHAM-SAH,numbers
+1f4c8,six,ﺔﺘﺳ,SIT-TAH,numbers
+2b50,seven,ﺔﻌﺒﺳ,SAB-AH,numbers
+1f522,eight,ﺔﻴﻧﺎﻤﺛ,THA-MAA-NEE-YAH,numbers
+1f4dd,nine,ﺔﻌﺴﺗ,TIS-AH,numbers
+270f,ten,ﺓﺮﺸﻋ,ASH-A-RAH,numbers
+2b50,eleven,ﺮﺸﻋ ﺪﺣﺃ,A-HAD-ASHAR,numbers
+1f319,twelve,ﺮﺸﻋ ﺎﻨﺛﺍ,ITH-NAA-ASHAR,numbers
+1f33a,thirteen,ﺮﺸﻋ ﺔﺛﻼﺛ,THA-LAA-THAT-ASHAR,numbers
+1f340,fourteen,ﺮﺸﻋ ﺔﻌﺑﺭﺃ,AR-BA-AT-ASHAR,numbers
+1f34e,fifteen,ﺮﺸﻋ ﺔﺴﻤﺧ,KHAM-SAT-ASHAR,numbers
+1f34c,sixteen,ﺮﺸﻋ ﺔﺘﺳ,SIT-TAT-ASHAR,numbers
+1f420,seventeen,ﺮﺸﻋ ﺔﻌﺒﺳ,SAB-AT-ASHAR,numbers
+1f41d,eighteen,ﺮﺸﻋ ﺔﻴﻧﺎﻤﺛ,THA-MAA-NEE-AT-ASHAR,numbers
+1f525,nineteen,ﺮﺸﻋ ﺔﻌﺴﺗ,TIS-AT-ASHAR,numbers
+1f4a7,twenty,ﻥﻭﺮﺸﻋ,ISH-ROON,numbers
+1f332,thirty,ﻥﻮﺛﻼﺛ,THA-LAA-THOON,numbers
+1f436,forty,ﻥﻮﻌﺑﺭﺃ,AR-BA-OON,numbers
+1f431,fifty,ﻥﻮﺴﻤﺧ,KHAM-SOON,numbers
+1f42d,sixty,ﻥﻮﺘﺳ,SIT-TOON,numbers
+1f430,seventy,ﻥﻮﻌﺒﺳ,SAB-OON,numbers
+1f437,eighty,ﻥﻮﻧﺎﻤﺛ,THA-MAA-NOON,numbers
+1f42e,ninety,ﻥﻮﻌﺴﺗ,TIS-OON,numbers
+1f4af,hundred,ﺔﺋﺎﻣ,MEE-AH,numbers
+1f4b0,two hundred,ﻥﺎﺘﺋﺎﻣ,MEE-AH-TAAN,numbers
+1f4b5,five hundred,ﺔﺋﺎﻤﺴﻤﺧ,KHAM-SOO-MEE-AH,numbers
+1f3c6,thousand,ﻒﻟﺃ,ALF,numbers
+1f947,first,ﻝﻭﺃ,AW-WAL,numbers
+1f948,second,ﻲﻧﺎﺛ,THAA-NEE,numbers
+1f949,third,ﺚﻟﺎﺛ,THAA-LITH,numbers
+1f34a,fourth,ﻊﺑﺍﺭ,RAA-BI,numbers
+1f34b,fifth,ﺲﻣﺎﺧ,KHAA-MIS,numbers
+1f347,sixth,ﺱﺩﺎﺳ,SAA-DIS,numbers
+1f353,seventh,ﻊﺑﺎﺳ,SAA-BI,numbers
+1f345,eighth,ﻦﻣﺎﺛ,THAA-MIN,numbers
+1f955,ninth,ﻊﺳﺎﺗ,TAA-SI,numbers
+1f954,tenth,ﺮﺷﺎﻋ,AA-SHIR,numbers
+1f46b,pair,ﺝﻭﺯ,ZAWJ,numbers
+1f95a,dozen,ﺔﻧﺯﺩ,DAS-TAH,numbers
+1f52a,half,ﻒﺼﻧ,NISF,numbers
+1f370,quarter,ﻊﺑﺭ,RUB,numbers
+270f,double,ﻒﻌﺿ,DI-AF,numbers
+1f3f9,triple,ﻒﻌﺿ ﺙﻼﺛ,THA-LAATH-DI-AF,numbers
+2b1c,nil,ﺮﻔﺻ,SIFR,numbers
+1f30d,million,ﻥﻮﻴﻠﻣ,MIL-YOON,numbers
+1f680,billion,ﺭﺎﻴﻠﻣ,MIL-YAAR,numbers
+2795,plus,ﻊﻤﺟ,JAM,numbers
+2796,minus,ﺢﺑﺭ,TARH,numbers
+1f4ca,equals,ﻱﻭﺎﺴﻳ,YU-SAA-WEE,numbers
+1f4ca,percent,ﺔﺋﺎﻤﻟﺍ ﻲﻓ,FIL-MEE-AH,numbers
+1f4b0,price,ﺮﻌﺳ,SI-IR,numbers
+1f9ee,total,ﻉﻮﻤﺠﻣ,MAJ-MOO,numbers
+1f4dd,count,ﺪﻋ,ADD,numbers
+1f4dd,number,ﻢﻗﺭ,RA-QAM,numbers
+1f4e6,amount,ﺔﻴﻤﻛ,KAM-MEE-YAH,numbers
+231a,hour,ﺔﻋﺎﺳ,SAA-AH,numbers
+23f0,minute,ﺔﻘﻴﻗﺩ,DA-QEE-QAH,numbers
+1f4c5,second (time),ﺔﻴﻧﺎﺛ,THAA-NEE-YAH,numbers
+1f550,once,ﺓﺮﻣ,MAR-RAH,numbers
+1f551,twice,ﻦﻴﺗﺮﻣ,MAR-RA-TAYN,numbers
+1f4c5,time,ﺖﻗﻭ,WAQT,numbers
+1f3c6,score,ﺔﺠﻴﺘﻧ,NA-TEE-JAH,numbers
+1f9ee,sum,ﻉﻮﻤﺠﻣ,MAJ-MOO,numbers
+1f4b3,value,ﺔﻤﻴﻗ,QEE-MAH,numbers
+1fa99,coin,ﺔﻠﻤﻋ,UM-LAH,numbers
+1f4b5,bill,ﺔﻗﺭﻭ,WA-RA-QAH,numbers
+1f4b0,cost,ﺔﻔﻠﻜﺗ,TAK-LI-FAH,numbers
+1f4b3,fee,ﻡﻮﺳﺭ,RU-SOOM,numbers
+1f9c0,piece,ﺔﻌﻄﻗ,QIT-AH,numbers
+1f9fa,bundle,ﺔﻣﺰﺣ,HUZ-MAH,numbers

@@ -371,9 +371,9 @@ void SettingsScreen::drawLanguageBrowser(TFT_eSprite& spr, int stripY) {
         }
 
         uint8_t tCount = packMgr::tierCount(_selectedLang);
-        for (uint8_t i = 0; i < tCount && i < 4; i++) {
-            int btnY = 60 + i * 50;
-            Button btn = {20, btnY, 200, 40};
+        for (uint8_t i = 0; i < tCount; i++) {
+            int btnY = 60 + i * 42;
+            Button btn = {20, btnY, 200, 36};
             char label[32];
             const CatalogTier& t = packMgr::tier(_selectedLang, i);
             snprintf(label, sizeof(label), "%s (%u words)", t.name, t.words);
@@ -608,9 +608,9 @@ bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
     } else {
         // Tier list
         uint8_t tCount = packMgr::tierCount(_selectedLang);
-        for (uint8_t i = 0; i < tCount && i < 4; i++) {
-            int btnY = 60 + i * 50;
-            Button btn = {20, btnY, 200, 40};
+        for (uint8_t i = 0; i < tCount; i++) {
+            int btnY = 60 + i * 42;
+            Button btn = {20, btnY, 200, 36};
             if (hitTest(btn, pt)) {
                 // Switch to download progress page
                 _page = SettingsPage::DownloadProgress;

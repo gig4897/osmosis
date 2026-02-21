@@ -1,6 +1,9 @@
 .pio
+packs/
 tools/emoji_png/
 tools/emoji_apple_png/
+tools/emoji_bin/
 tools/__pycache__/
 data/SpanishFont16.vlw
 data/SpanishFont26.vlw
+emoji_vocab_list.csv

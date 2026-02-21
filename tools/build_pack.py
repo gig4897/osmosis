@@ -14,16 +14,17 @@ from pathlib import Path
 
 LANG_DISPLAY = {
     "spanish": "Spanish", "french": "French",
-    "portuguese": "Portuguese", "chinese": "Chinese",
-    "dutch": "Dutch", "hindi": "Hindi",
-    "arabic": "Arabic", "urdu": "Urdu",
+    "portuguese_br": "Portuguese (BR)", "portuguese_pt": "Portuguese (PT)",
+    "chinese": "Chinese", "dutch": "Dutch",
+    "hindi": "Hindi", "arabic": "Arabic", "urdu": "Urdu",
     "japanese": "Japanese", "korean": "Korean",
     "qeqchi": "Q'eqchi'", "tsalagi": "Tsalagi (Cherokee)",
     "mvskoke": "Mvskoke (Creek)"
 }
 TIER_DISPLAY = {
     "beginner": "Beginner", "intermediate": "Intermediate",
-    "advanced": "Advanced", "expert": "Expert"
+    "advanced": "Advanced", "expert": "Expert",
+    "numbers": "Numbers"
 }
 
 

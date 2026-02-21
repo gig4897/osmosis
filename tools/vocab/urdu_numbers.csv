@@ -1,0 +1,76 @@
+emoji,english,translation,phonetic,category
+2b50,zero,ﺮﻔﺻ,SIFR,numbers
+1f522,one,ﮏﯾﺍ,EK,numbers
+1f4dd,two,ﻭﺩ,DOH,numbers
+270f,three,ﻦﯿﺗ,TEEN,numbers
+1f3af,four,ﺭﺎﭼ,CHAAR,numbers
+1f4ca,five,ﭻﻧﺎﭘ,PAANCH,numbers
+1f4c8,six,ﮧﭼ,CHHEH,numbers
+2b50,seven,ﺕﺎﺳ,SAAT,numbers
+1f522,eight,ﮪﭨﺁ,AATH,numbers
+1f4dd,nine,ﻮﻧ,NAU,numbers
+270f,ten,ﺲﺩ,DUS,numbers
+2b50,eleven,ﮦﺭﺎﯿﮔ,GYAA-rah,numbers
+1f319,twelve,ﮦﺭﺎﺑ,BAA-rah,numbers
+1f33a,thirteen,ﮦﺮﯿﺗ,TEH-rah,numbers
+1f340,fourteen,ﮦﺩﻮﭼ,CHAU-dah,numbers
+1f34e,fifteen,ﮦﺭﺪﻨﭘ,PAN-drah,numbers
+1f34c,sixteen,ﮦﻻﻮﺳ,SOH-lah,numbers
+1f420,seventeen,ﮦﺭﺎﺘﺳ,SAT-rah,numbers
+1f41d,eighteen,ﮦﺭﺎﮭﭨﺍ,ATH-aa-rah,numbers
+1f525,nineteen,ﺲﯿﻧﺍ,UN-nees,numbers
+1f4a7,twenty,ﺲﯿﺑ,BEES,numbers
+1f332,thirty,ﺲﯿﺗ,TEES,numbers
+1f436,forty,ﺲﯿﻟﺎﭼ,CHAA-lees,numbers
+1f431,fifty,ﺱﺎﭽﭘ,pah-CHAAS,numbers
+1f42d,sixty,ﮫﭨﺎﺳ,SAATH,numbers
+1f430,seventy,ﺮﺘﺳ,SAT-tar,numbers
+1f437,eighty,ﯽﺳﺍ,AS-see,numbers
+1f42e,ninety,ﮯﺒﻧ,NAB-bay,numbers
+1f4af,hundred,ﻮﺳ,SAU,numbers
+1f4b0,two hundred,ﻮﺳ ﻭﺩ,DOH-SAU,numbers
+1f4b5,five hundred,ﻮﺳ ﭻﻧﺎﭘ,PAANCH-SAU,numbers
+1f3c6,thousand,ﺭﺍﺰﮨ,hah-ZAAR,numbers
+1f947,first,ﻼﮩﭘ,PEH-lah,numbers
+1f948,second,ﺍﺮﺳﻭﺩ,DOO-srah,numbers
+1f949,third,ﺍﺮﺴﯿﺗ,TEE-srah,numbers
+1f34a,fourth,ﺎﮭﺗﻮﭼ,CHAU-thah,numbers
+1f34b,fifth,ﮞﺍﻮﭽﻧﺎﭘ,PAANCH-vaan,numbers
+1f347,sixth,ﺎﭩﮭﭼ,CHHA-tah,numbers
+1f353,seventh,ﮞﺍﻮﺗﺎﺳ,SAAT-vaan,numbers
+1f345,eighth,ﮞﺍﻮﮭﭨﺁ,AATH-vaan,numbers
+1f955,ninth,ﮞﺍﻮﻧ,NAU-vaan,numbers
+1f954,tenth,ﮞﺍﻮﺳﺩ,DUS-vaan,numbers
+1f46b,pair,ﺍﮌﻮﺟ,JOH-rah,numbers
+1f95a,dozen,ﻦﺟﺭﺩ,DAR-jun,numbers
+1f52a,half,ﺎﮪﺩﺁ,AA-dhah,numbers
+1f370,quarter,ﯽﺋﺎﮭﺗﻮﭼ,CHAU-thaa-ee,numbers
+270f,double,ﺎﻧﻮﮔﻭﺩ,DOH-goo-nah,numbers
+1f3f9,triple,ﺎﻧﻮﮔ ﻦﯿﺗ,TEEN-goo-nah,numbers
+2b1c,nil,ﺮﻔﺻ,SIFR,numbers
+1f30d,million,ﮪﻻ ﺲﺩ,DUS-LAAKH,numbers
+1f680,billion,ﺏﺮﻋ,AH-rub,numbers
+2795,plus,ﻊﻤﺟ,JAH-mah,numbers
+2796,minus,ﺎﺼﻘﻧ,GHAH-tah,numbers
+1f4ca,equals,ﺮﺑﺍﺮﺑ,bah-RAA-bar,numbers
+1f4ca,percent,ﺪﺻ ﯽﻓ,FEE-SAD,numbers
+1f4b0,price,ﺖﻤﯿﻗ,KEE-mat,numbers
+1f9ee,total,ﻞﮐ,KOOL,numbers
+1f4dd,count,ﯽﺘﻨﮔ,GIN-tee,numbers
+1f4dd,number,ﺮﺒﻤﻧ,NUM-bar,numbers
+1f4e6,amount,ﺭﺍﺪﻘﻣ,MIQ-daar,numbers
+231a,hour,ﮧﭩﻨﮭﮔ,GHUN-tah,numbers
+23f0,minute,ﭧﻨﻣ,MI-nut,numbers
+1f4c5,second (time),ﮉﻨﮑﯿﺳ,SEH-kund,numbers
+1f550,once,ﺭﺎﺑ ﮏﯾﺍ,EK-BAAR,numbers
+1f551,twice,ﺭﺎﺑ ﻭﺩ,DOH-BAAR,numbers
+1f4c5,time,ﺖﻗﻭ,WAQT,numbers
+1f3c6,score,ﮏﻧﺍ,AHNK,numbers
+1f9ee,sum,ﻊﻤﺟ,JAH-mah,numbers
+1f4b3,value,ﺖﻤﯿﻗ,KEE-mat,numbers
+1fa99,coin,ﮧﮑﺳ,SIK-kah,numbers
+1f4b5,bill,ﭦﻮﻧ,NOHT,numbers
+1f4b0,cost,ﺖﮔﻻ,LAA-gut,numbers
+1f4b3,fee,ﺲﯿﻓ,FEES,numbers
+1f9c0,piece,ﺍﮍﮑﭨ,TUK-rah,numbers
+1f9fa,bundle,ﺍﮍﻨﭨﻮﮔ,GATH-tah,numbers

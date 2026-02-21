@@ -24,7 +24,8 @@ except ImportError:
 LANGUAGE_CHARS = {
     'spanish': list("áéíóúñüÁÉÍÓÚÑÜ¿¡"),
     'french': list("àâæçéèêëîïôœùûüÿÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸ"),
-    'portuguese': list("àáâãçéêíóôõúÀÁÂÃÇÉÊÍÓÔÕÚ"),
+    'portuguese_br': list("àáâãçéêíóôõúÀÁÂÃÇÉÊÍÓÔÕÚ"),
+    'portuguese_pt': list("àáâãçéêíóôõúÀÁÂÃÇÉÊÍÓÔÕÚ"),
     'dutch': list("éëïüÉËÏÜ"),
     'chinese': list("āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ"),
     'hindi': "auto",      # Extract Devanagari chars from CSVs

@@ -125,8 +125,11 @@ def process_hindi():
 
     pua_next = PUA_START
 
-    for tier in ['beginner', 'intermediate', 'advanced', 'expert']:
+    tiers = ['beginner', 'intermediate', 'advanced', 'expert', 'numbers']
+    for tier in tiers:
         csv_path = vocab_dir / f'hindi_{tier}.csv'
+        if not csv_path.exists():
+            continue
         with open(csv_path, encoding='utf-8') as f:
             for row in csv.DictReader(f):
                 text = unicodedata.normalize('NFC', row['translation'])
@@ -151,7 +154,7 @@ def process_hindi():
         print(f"  {cluster:10s} -> U+{pua:04X}  ({codes})")
 
     # Second pass: rewrite CSVs with PUA codepoints
-    for tier in ['beginner', 'intermediate', 'advanced', 'expert']:
+    for tier in tiers:
         csv_path = vocab_dir / f'hindi_{tier}.csv'
         rows = []
         with open(csv_path, encoding='utf-8') as f:

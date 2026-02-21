@@ -15,8 +15,8 @@ static uint8_t _progress = 0;
 static char _statusBuf[48] = "";
 
 // Catalog data
-static const uint8_t MAX_LANGUAGES = 16;
-static const uint8_t MAX_TIERS = 4;
+static const uint8_t MAX_LANGUAGES = 20;
+static const uint8_t MAX_TIERS = 6;
 static CatalogLanguage _languages[MAX_LANGUAGES];
 static CatalogTier _tiers[MAX_LANGUAGES][MAX_TIERS];
 static uint8_t _langCount = 0;

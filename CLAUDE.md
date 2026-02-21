@@ -7,7 +7,7 @@ Osmosis is an ESP32-based handheld language learning device with a 2.8" ILI9341 
 
 | Repo | Path | Remote |
 |------|------|--------|
-| **Firmware** (this repo) | `/Users/kevintomlinson/Coding/Osmosis/` | local only (no remote) |
+| **Firmware** (this repo) | `/Users/kevintomlinson/Coding/Osmosis/` | `https://github.com/gig4897/osmosis.git` |
 | **CDN/Website** | `/Users/kevintomlinson/Coding/vcwebsite/` | `https://github.com/gig4897/vcwebsite.git` |
 
 The CDN is hosted on **Cloudflare Pages** and auto-deploys when you push to `gig4897/vcwebsite`. The live URL is `https://www.vcodeworks.dev/api/osmosis`.
@@ -120,23 +120,24 @@ https://www.vcodeworks.dev/api/osmosis/
 ```
 
 ## Current Language Packs
-| Language | Tiers | Words per Tier |
-|----------|-------|---------------|
-| Spanish | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| French | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| Portuguese | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| Chinese | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| Dutch | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| Hindi | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| Arabic | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| Urdu | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| Japanese | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| Korean | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| Q'eqchi' | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| Tsalagi (Cherokee) | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
-| Mvskoke (Creek) | Beginner, Intermediate, Advanced, Expert | 75 each (300 total) |
+| Language | Flag | Tiers | Words per Tier |
+|----------|------|-------|---------------|
+| Spanish | ES | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| French | FR | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Portuguese (BR) | BR | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Portuguese (PT) | PT | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Chinese | CN | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Dutch | NL | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Hindi | IN | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Arabic | EG | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Urdu | PK | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Japanese | JP | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Korean | KR | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Q'eqchi' | GT | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Tsalagi (Cherokee) | US | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Mvskoke (Creek) | US | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 
-**52 packs total** (13 languages × 4 tiers), **3,900 words**, **343 emoji .bin files** on CDN as of Feb 2026.
+**70 packs total** (14 languages × 5 tiers), **5,250 words**, **343 emoji .bin files** on CDN as of Feb 2026.
 
 **Product website:** https://www.vcodeworks.dev/osmosis/
 **Word lists:** https://www.vcodeworks.dev/osmosis/words.html
@@ -189,11 +190,13 @@ After a successful pack download, the device reboots (`ESP.restart()`) to ensure
 | `src/display_manager.cpp` | TFT_eSprite strip management + backlight |
 | `src/constants.h` | Layout, colors, pins, timing constants |
 | `tools/build_pack.py` | CSV → manifest.json |
-| `tools/build_all_packs.sh` | Build all 7 packs + fonts |
+| `tools/build_all_packs.sh` | Build all 70 packs + 14 fonts |
 | `tools/render_apple_emoji.py` | Apple Color Emoji → PNG (macOS, pyobjc) |
 | `tools/convert_emoji.py` | PNG → ORLE RGB565 .bin |
 | `tools/generate_vlw_font.py` | Create TFT_eSPI VLW font files (supports auto char extraction for non-Latin scripts) |
 | `tools/generate_wordlist_html.py` | Generate browsable word list HTML page from all vocab CSVs |
+| `tools/preshape_hindi.py` | Pre-shape Hindi conjunct clusters to PUA codepoints for TFT rendering |
+| `tools/restore_native_script.py` | One-time tool: restore native scripts + reshape Arabic/Urdu for LTR display |
 
 ## Known Issues / History
 - Cloudflare Pages serves with `Transfer-Encoding: chunked` — must use `writeToStream()` not `getStreamPtr()` or files get corrupted with chunk headers
