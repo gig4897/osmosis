@@ -32,6 +32,7 @@ private:
     static const uint32_t PRESS_FLASH_MS = 200;
 
     bool hitTest(const Button& btn, TouchPoint pt);
+    void flashPress();  // Immediate render to show blue press feedback
     void drawButton(TFT_eSprite& spr, const Button& btn, int stripY,
                     const char* label, bool selected);
 

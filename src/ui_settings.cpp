@@ -87,6 +87,19 @@ bool SettingsScreen::hitTest(const Button& btn, TouchPoint pt) {
 }
 
 // -------------------------------------------------------
+void SettingsScreen::flashPress() {
+    // Immediately render screen to show the blue pressed button
+    TFT_eSprite& spr = display.getStrip();
+    for (int strip = 0; strip < NUM_STRIPS; strip++) {
+        int sy = strip * STRIP_H;
+        spr.fillSprite(CLR_BG_DARK);
+        draw(spr, sy);
+        display.pushStrip(sy);
+    }
+    delay(120);
+}
+
+// -------------------------------------------------------
 void SettingsScreen::drawButton(TFT_eSprite& spr, const Button& btn,
                                 int stripY, const char* label, bool selected) {
     int btnTop    = btn.y;
@@ -521,6 +534,7 @@ bool SettingsScreen::handleMainTap(TouchPoint pt) {
     {
         Button btn = {LANG_X, LANG_Y, LANG_W, LANG_H};
         if (hitTest(btn, pt)) {
+            flashPress();
             // Free font + image buffer to reclaim heap for TLS (~120KB)
             cardScreen::freeFont();
             imageRenderer::freeBuffer();
@@ -548,6 +562,7 @@ bool SettingsScreen::handleMainTap(TouchPoint pt) {
     {
         Button btn = {WIFI_X, BOTTOM_Y, WIFI_W, BOTTOM_H};
         if (hitTest(btn, pt)) {
+            flashPress();
             WiFiState ws = wifiMgr::state();
             if (ws != WiFiState::CaptivePortalActive) {
                 if (wifiMgr::isConnected() || ws == WiFiState::Connecting) {
@@ -563,6 +578,7 @@ bool SettingsScreen::handleMainTap(TouchPoint pt) {
     {
         Button btn = {CLOSE_X, BOTTOM_Y, CLOSE_W, BOTTOM_H};
         if (hitTest(btn, pt)) {
+            flashPress();
             settingsMgr.save();
             hide();
             return true;
@@ -581,12 +597,14 @@ bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
         if (wifiMgr::isConnected()) {
             Button retry = {60, 140, 120, 30};
             if (hitTest(retry, pt)) {
+                flashPress();
                 packMgr::fetchCatalog();
                 return true;
             }
         }
         Button back = {60, 290, 120, 26};
         if (hitTest(back, pt)) {
+            flashPress();
             _page = SettingsPage::Main;
             return true;
         }
@@ -606,6 +624,7 @@ bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
             int btnY = 40 + row * 40;
             Button btn = {20, btnY, 200, 34};
             if (hitTest(btn, pt)) {
+                flashPress();
                 _selectedLang = i;
                 return true;
             }
@@ -614,6 +633,7 @@ bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
         // Back button
         Button back = {10, 290, 105, 26};
         if (hitTest(back, pt)) {
+            flashPress();
             if (_scrollOffset > 0) {
                 _scrollOffset--;
             } else {
@@ -626,6 +646,7 @@ bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
         if (_scrollOffset < totalPages - 1) {
             Button next = {125, 290, 105, 26};
             if (hitTest(next, pt)) {
+                flashPress();
                 _scrollOffset++;
                 return true;
             }
@@ -637,6 +658,7 @@ bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
             int btnY = 60 + i * 42;
             Button btn = {20, btnY, 200, 36};
             if (hitTest(btn, pt)) {
+                flashPress();
                 // Switch to download progress page
                 _page = SettingsPage::DownloadProgress;
 
@@ -703,6 +725,7 @@ bool SettingsScreen::handleBrowserTap(TouchPoint pt) {
         // Back to language list
         Button back = {60, 280, 120, 26};
         if (hitTest(back, pt)) {
+            flashPress();
             _selectedLang = -1;
             return true;
         }
