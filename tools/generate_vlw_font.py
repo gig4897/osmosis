@@ -20,13 +20,40 @@ except ImportError:
 
 
 # Per-language special characters (added to ASCII printable set)
+# For non-Latin scripts, we extract unique chars from the vocab CSVs at build time.
 LANGUAGE_CHARS = {
     'spanish': list("áéíóúñüÁÉÍÓÚÑÜ¿¡"),
     'french': list("àâæçéèêëîïôœùûüÿÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸ"),
     'portuguese': list("àáâãçéêíóôõúÀÁÂÃÇÉÊÍÓÔÕÚ"),
     'dutch': list("éëïüÉËÏÜ"),
     'chinese': list("āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ"),
+    'hindi': "auto",      # Extract Devanagari chars from CSVs
+    'arabic': "auto",     # Extract Arabic script chars from CSVs
+    'urdu': "auto",       # Extract Urdu/Arabic script chars from CSVs
+    'japanese': "auto",   # Extract kanji/kana chars from CSVs
+    'korean': "auto",     # Extract Hangul chars from CSVs
+    'qeqchi': list("'"),  # Q'eqchi' uses Latin + glottal stop apostrophe
+    'tsalagi': "auto",    # Extract Cherokee syllabary from CSVs
+    'mvskoke': list(""),  # Mvskoke uses standard Latin (v is already in ASCII)
 }
+
+
+def extract_chars_from_csv(language):
+    """Extract unique non-ASCII characters from a language's vocab CSVs."""
+    import csv
+    vocab_dir = Path(__file__).parent / "vocab"
+    chars = set()
+    for tier in ['beginner', 'intermediate', 'advanced', 'expert']:
+        csv_path = vocab_dir / f"{language}_{tier}.csv"
+        if not csv_path.exists():
+            continue
+        with open(csv_path, encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                for c in row.get('translation', ''):
+                    if ord(c) > 0x7E:
+                        chars.add(c)
+    return sorted(chars, key=ord)
 
 # ASCII printable characters (0x21 - 0x7E)
 ASCII_CHARS = [chr(c) for c in range(0x21, 0x7F)]
@@ -35,6 +62,11 @@ ASCII_CHARS = [chr(c) for c in range(0x21, 0x7F)]
 def get_char_set(language):
     """Get the full character set for a language."""
     extra = LANGUAGE_CHARS.get(language, [])
+    if extra == "auto":
+        extra = extract_chars_from_csv(language)
+        if not extra:
+            print(f"  Warning: No non-ASCII chars found in CSVs for {language}")
+            extra = []
     # Deduplicate while preserving order
     seen = set()
     chars = []

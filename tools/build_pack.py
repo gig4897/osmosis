@@ -15,7 +15,11 @@ from pathlib import Path
 LANG_DISPLAY = {
     "spanish": "Spanish", "french": "French",
     "portuguese": "Portuguese", "chinese": "Chinese",
-    "dutch": "Dutch"
+    "dutch": "Dutch", "hindi": "Hindi",
+    "arabic": "Arabic", "urdu": "Urdu",
+    "japanese": "Japanese", "korean": "Korean",
+    "qeqchi": "Q'eqchi'", "tsalagi": "Tsalagi (Cherokee)",
+    "mvskoke": "Mvskoke (Creek)"
 }
 TIER_DISPLAY = {
     "beginner": "Beginner", "intermediate": "Intermediate",
