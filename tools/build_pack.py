@@ -19,7 +19,8 @@ LANG_DISPLAY = {
     "hindi": "Hindi", "arabic": "Arabic", "urdu": "Urdu",
     "japanese": "Japanese", "korean": "Korean",
     "qeqchi": "Q'eqchi'", "tsalagi": "Tsalagi (Cherokee)",
-    "mvskoke": "Mvskoke (Creek)"
+    "mvskoke": "Mvskoke (Creek)",
+    "tagalog": "Tagalog"
 }
 TIER_DISPLAY = {
     "beginner": "Beginner", "intermediate": "Intermediate",

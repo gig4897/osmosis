@@ -37,6 +37,7 @@ LANGUAGE_CHARS = {
     'qeqchi': list("'"),  # Q'eqchi' uses Latin + glottal stop apostrophe
     'tsalagi': "auto",    # Extract Cherokee syllabary from CSVs
     'mvskoke': list(""),  # Mvskoke uses standard Latin (v is already in ASCII)
+    'tagalog': list(""),  # Tagalog uses standard Latin alphabet
 }
 
 

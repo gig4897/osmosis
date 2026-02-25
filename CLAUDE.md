@@ -135,10 +135,11 @@ https://www.vcodeworks.dev/api/osmosis/
 | Portuguese (PT) | PT | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 | Q'eqchi' | GT | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 | Spanish | ES | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
+| Tagalog | PH | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 | Tsalagi (Cherokee) | US | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 | Urdu | PK | Beginner, Intermediate, Advanced, Expert, Numbers | 75 each (375 total) |
 
-**75 packs total** (15 languages × 5 tiers), **5,625 words**, **343 emoji .bin files** on CDN as of Feb 2026.
+**80 packs total** (16 languages × 5 tiers), **6,000 words**, **351 emoji .bin files** on CDN as of Feb 2026.
 
 **Product website:** https://www.vcodeworks.dev/osmosis/
 **Word lists:** https://www.vcodeworks.dev/osmosis/words.html

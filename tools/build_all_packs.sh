@@ -5,9 +5,9 @@
 set -e
 cd "$(dirname "$0")/.."
 
-echo "=== Building all language packs (15 languages x 5 tiers = 75 packs) ==="
+echo "=== Building all language packs (16 languages x 5 tiers = 80 packs) ==="
 
-LANGUAGES="arabic chinese dutch french german hindi japanese korean mvskoke portuguese_br portuguese_pt qeqchi spanish tsalagi urdu"
+LANGUAGES="arabic chinese dutch french german hindi japanese korean mvskoke portuguese_br portuguese_pt qeqchi spanish tagalog tsalagi urdu"
 TIERS="beginner intermediate advanced expert numbers"
 
 for lang in $LANGUAGES; do
