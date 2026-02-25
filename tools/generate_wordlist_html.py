@@ -26,6 +26,7 @@ LANGUAGES = [
     ("portuguese_pt", "Portuguese (PT)", "1f1f5_1f1f9", "ltr"),
     ("qeqchi", "Q'eqchi'", "1f1ec_1f1f9", "ltr"),
     ("spanish", "Spanish", "1f1ea_1f1f8", "ltr"),
+    ("tagalog", "Tagalog", "1f1f5_1f1ed", "ltr"),
     ("tsalagi", "Tsalagi (Cherokee)", "None", "ltr"),
     ("urdu", "Urdu", "1f1f5_1f1f0", "rtl"),
 ]
@@ -84,7 +85,7 @@ def generate_html():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Osmosis — Complete Word Lists</title>
-  <meta name="description" content="Browse all 5,625 vocabulary words available in Osmosis language packs. 15 languages, 375 words each, with emoji, translations, and pronunciation guides.">
+  <meta name="description" content="Browse all 6,000 vocabulary words available in Osmosis language packs. 16 languages, 375 words each, with emoji, translations, and pronunciation guides.">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
